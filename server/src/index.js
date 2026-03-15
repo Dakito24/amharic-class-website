@@ -24,6 +24,8 @@ app.use((req, res, next) => {
 
 initDatabase();
 
+app.get('/health', (req, res) => res.sendStatus(200));
+
 app.use('/api/users', usersRouter);
 app.use('/api/lessons', lessonsRouter);
 app.use('/api/vocabulary', vocabularyRouter);

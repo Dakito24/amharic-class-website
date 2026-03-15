@@ -11,7 +11,7 @@ services:
       - NODE_ENV=production
       - DB_PATH=/monorepo/server/data/amharic.db
     healthcheck:
-      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3001/api/lessons', r => { process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"]
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3001/health', r => { process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"]
       interval: 10s
       timeout: 5s
       retries: 3
