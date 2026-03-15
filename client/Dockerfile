@@ -19,5 +19,5 @@ WORKDIR /monorepo/client
 
 EXPOSE 3000
 
-# SvelteKit adapter-auto will use adapter-node in production
+# Run the SvelteKit adapter-node production build
 CMD ["node", "build/index.js"]

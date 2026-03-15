@@ -22,7 +22,7 @@ services:
       - "3000"
     environment:
       - NODE_ENV=production
-      - ORIGIN=http://localhost:8080
+      - ORIGIN=http://localhost:8000
     depends_on:
       - server
     restart: unless-stopped
@@ -31,7 +31,7 @@ services:
     image: nginx:alpine
     container_name: amharic-nginx
     ports:
-      - "8080:80"
+      - "8000:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     depends_on:
