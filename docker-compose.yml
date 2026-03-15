@@ -1,24 +1,22 @@
-version: '3.8'
-
 services:
   server:
     build:
-      context: ./server
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: server/Dockerfile
     container_name: amharic-server
     expose:
       - "3001"
     volumes:
-      - amharic-db:/app/data
+      - amharic-db:/monorepo/server/data
     environment:
       - NODE_ENV=production
-      - DB_PATH=/app/data/amharic.db
+      - DB_PATH=/monorepo/server/data/amharic.db
     restart: unless-stopped
 
   client:
     build:
-      context: ./client
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: client/Dockerfile
     container_name: amharic-client
     expose:
       - "3000"

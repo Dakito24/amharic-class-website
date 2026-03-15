@@ -1,21 +1,24 @@
 FROM node:20-alpine
 
-WORKDIR /app
+WORKDIR /monorepo
 
-# Copy package files
+# Copy root package files for workspace install
 COPY package*.json ./
+COPY server/package*.json ./server/
 
-# Install dependencies (need all for seed script)
+# Install all workspace dependencies
 RUN npm ci
 
 # Copy server code and data
-COPY src ./src
-COPY data ./data
-COPY docker-entrypoint.sh ./
+COPY server/src ./server/src
+COPY server/data ./server/data
+COPY server/docker-entrypoint.sh ./server/
 
-# Create data directory for persistent database
-RUN mkdir -p /app/data && \
-    chmod +x docker-entrypoint.sh
+# Create data directory and make entrypoint executable
+RUN mkdir -p /monorepo/server/data && \
+    chmod +x /monorepo/server/docker-entrypoint.sh
+
+WORKDIR /monorepo/server
 
 EXPOSE 3001
 

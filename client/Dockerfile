@@ -1,21 +1,21 @@
 FROM node:20-alpine
 
-WORKDIR /app
+WORKDIR /monorepo
 
-# Copy package files
+# Copy root package files for workspace install
 COPY package*.json ./
+COPY client/package*.json ./client/
 
-# Install dependencies
+# Install all workspace dependencies
 RUN npm ci
 
-# Copy source code
-COPY . .
+# Copy client source code
+COPY client ./client
 
 # Build the SvelteKit app
-RUN npm run build
+RUN npm run build -w client
 
-# Remove dev dependencies
-RUN npm prune --production
+WORKDIR /monorepo/client
 
 EXPOSE 3000
 
