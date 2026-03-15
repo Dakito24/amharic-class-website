@@ -1,0 +1,717 @@
+[
+  {
+    "id": 1,
+    "title": "Amharic Sounds",
+    "description": "Learn the unique sounds of Amharic including vowels, consonants, and ejectives",
+    "order_num": 1,
+    "unit": 1,
+    "unit_title": "Foundations",
+    "category": "basics",
+    "xp_reward": 20,
+    "content": {
+      "steps": [
+        {"title": "The Amharic Sound System", "body": "Amharic has 7 vowels and about 31 consonants. Many sounds are similar to English, but some are unique. This lesson focuses on pronunciation since we are learning to SPEAK."},
+        {"title": "The 7 Vowels", "body": "Amharic vowels: a (as in 'bar'), u (as in 'boot'), i (as in 'seat'), a (as in 'bar'), e (as in 'way'), \u0259 (the schwa - like 'e' in 'roses', the hardest vowel for English speakers), o (as in 'boat')."},
+        {"title": "Ejective Consonants", "body": "Amharic has 5 ejective consonants with no English equivalent: t' (sharp t), k'/q (sharp k), ch' (sharp ch), ts'/s' (sharp ts), p' (sharp p). These are made by building air pressure in the throat and releasing it sharply."},
+        {"title": "Gemination", "body": "Doubling a consonant changes meaning! 'ale' means 'he said' but 'alle' means 'there is'. 'meta' means 'he came' but 'metta' means 'he hit'. Always listen for doubled consonants."}
+      ],
+      "examples": [
+        {"english": "he said", "romanized": "ale", "amharic": "\u12a0\u1208", "pronunciation_guide": "ah-LEH (single l)"},
+        {"english": "there is", "romanized": "alle", "amharic": "\u12a0\u120d\u1208", "pronunciation_guide": "AL-leh (doubled l)"},
+        {"english": "he came", "romanized": "meta", "amharic": "\u1218\u1323", "pronunciation_guide": "MEH-ta (single t)"},
+        {"english": "he hit", "romanized": "metta", "amharic": "\u1218\u1273", "pronunciation_guide": "MET-ta (doubled t)"}
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Greetings & Farewells",
+    "description": "Essential greetings, farewells, and polite expressions for daily use",
+    "order_num": 2,
+    "unit": 1,
+    "unit_title": "Foundations",
+    "category": "greetings",
+    "xp_reward": 20,
+    "content": {
+      "steps": [
+        {"title": "Saying Hello", "body": "The most common greeting is 'selam' (\u1230\u120b\u121d) - informal hello. For formal situations, use 'tena yistilign' (\u1324\u1293 \u12ed\u1235\u1325\u120d\u129d), which literally means 'may health be given to me'."},
+        {"title": "How Are You?", "body": "In Amharic, you must know if you're speaking to a man or woman. To a man: 'indet neh?' To a woman: 'indet nesh?' The answer: 'dehna negn' (I am fine)."},
+        {"title": "Saying Goodbye", "body": "To a man: 'dehna hun' (stay well). To a woman: 'dehna hugni'. Informally, you can say 'chaw' (borrowed from Italian 'ciao')."},
+        {"title": "Other Essentials", "body": "'Ameseginalehu' means 'thank you'. 'Yiqirta' means 'excuse me/sorry'. 'Awo' means 'yes', 'aye' means 'no', and 'ishi' means 'OK/alright'."}
+      ],
+      "examples": [
+        {"english": "Hello (informal)", "romanized": "selam", "amharic": "\u1230\u120b\u121d", "pronunciation_guide": "seh-LAHM"},
+        {"english": "Hello (formal)", "romanized": "tena yistilign", "amharic": "\u1324\u1293 \u12ed\u1235\u1325\u120d\u129d", "pronunciation_guide": "teh-NA yis-ti-LIGN"},
+        {"english": "How are you? (to man)", "romanized": "indet neh?", "amharic": "\u12a5\u1295\u12f4\u1275 \u1290\u1205?", "pronunciation_guide": "in-DET neh"},
+        {"english": "How are you? (to woman)", "romanized": "indet nesh?", "amharic": "\u12a5\u1295\u12f4\u1275 \u1290\u123d?", "pronunciation_guide": "in-DET nesh"},
+        {"english": "I am fine", "romanized": "dehna negn", "amharic": "\u12f0\u1205\u1293 \u1290\u129d", "pronunciation_guide": "DEH-na negn"},
+        {"english": "Goodbye (to man)", "romanized": "dehna hun", "amharic": "\u12f0\u1205\u1293 \u1201\u1295", "pronunciation_guide": "DEH-na hoon"}
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Pronouns & \"To Be\"",
+    "description": "Learn personal pronouns and the verb 'to be' in all its forms",
+    "order_num": 3,
+    "unit": 1,
+    "unit_title": "Foundations",
+    "category": "basics",
+    "xp_reward": 20,
+    "content": {
+      "steps": [
+        {"title": "Personal Pronouns", "body": "Amharic pronouns: ine (\u12a5\u1294 - I), ante (\u12a0\u1295\u1270 - you m), anchi (\u12a0\u1295\u1272 - you f), irswo (\u12a5\u122d\u1235\u12ce - you formal), issu (\u12a5\u1231 - he), isswa (\u12a5\u1237 - she), igna (\u12a5\u129b - we), innante (\u12a5\u1293\u1295\u1270 - you pl), innessu (\u12a5\u1290\u1231 - they)."},
+        {"title": "The Verb 'To Be'", "body": "The verb 'to be' uses special forms: negn (I am), neh (you are m), nesh (you are f), new (he is), nat (she is), nen (we are), nachihu (you pl are), nachew (they are)."},
+        {"title": "Pro-Drop Language", "body": "Amharic is a pro-drop language, meaning you can drop the pronoun because the verb ending tells you who is speaking. 'Dehna negn' already means 'I am fine' without needing 'ine'."},
+        {"title": "Negative 'To Be'", "body": "To say 'is not', use 'aydelem' (\u12a0\u12ed\u12f0\u1208\u121d). This form is the same for all persons in casual speech. Example: 'Ine memhir aydelem' (I am not a teacher)."}
+      ],
+      "examples": [
+        {"english": "I am", "romanized": "ine negn", "amharic": "\u12a5\u1294 \u1290\u129d", "pronunciation_guide": "ih-NEH negn"},
+        {"english": "You are (m)", "romanized": "ante neh", "amharic": "\u12a0\u1295\u1270 \u1290\u1205", "pronunciation_guide": "AN-teh neh"},
+        {"english": "He is", "romanized": "issu new", "amharic": "\u12a5\u1231 \u1290\u12cd", "pronunciation_guide": "IS-su new"},
+        {"english": "She is", "romanized": "isswa nat", "amharic": "\u12a5\u1237 \u1293\u1275", "pronunciation_guide": "IS-swa naht"},
+        {"english": "We are", "romanized": "igna nen", "amharic": "\u12a5\u129b \u1290\u1295", "pronunciation_guide": "IG-na nen"}
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Numbers 1-10",
+    "description": "Learn to count from one to ten in Amharic",
+    "order_num": 4,
+    "unit": 1,
+    "unit_title": "Foundations",
+    "category": "vocabulary",
+    "xp_reward": 20,
+    "content": {
+      "steps": [
+        {"title": "Numbers 1-5", "body": "The first five numbers: and (\u12a0\u1295\u12f5 - 1), hulet (\u1201\u1208\u1275 - 2), sost (\u1236\u1235\u1275 - 3), arat (\u12a0\u122b\u1275 - 4), amist (\u12a0\u121d\u1235\u1275 - 5). Practice saying each one clearly."},
+        {"title": "Numbers 6-10", "body": "The next five: sidist (\u1235\u12f5\u1235\u1275 - 6), sebat (\u1230\u1263\u1275 - 7), simint (\u1235\u121d\u1295\u1275 - 8), zetegn (\u12d8\u1328\u129d - 9), asir (\u12a0\u1235\u122d - 10)."},
+        {"title": "Practice Counting", "body": "Try counting from 1 to 10 quickly: and, hulet, sost, arat, amist, sidist, sebat, simint, zetegn, asir. Repeat until it flows naturally."}
+      ],
+      "examples": [
+        {"english": "one", "romanized": "and", "amharic": "\u12a0\u1295\u12f5", "pronunciation_guide": "AHND"},
+        {"english": "two", "romanized": "hulet", "amharic": "\u1201\u1208\u1275", "pronunciation_guide": "hoo-LET"},
+        {"english": "three", "romanized": "sost", "amharic": "\u1236\u1235\u1275", "pronunciation_guide": "SOST"},
+        {"english": "four", "romanized": "arat", "amharic": "\u12a0\u122b\u1275", "pronunciation_guide": "ah-RAHT"},
+        {"english": "five", "romanized": "amist", "amharic": "\u12a0\u121d\u1235\u1275", "pronunciation_guide": "ah-MIST"},
+        {"english": "six", "romanized": "sidist", "amharic": "\u1235\u12f5\u1235\u1275", "pronunciation_guide": "si-DIST"},
+        {"english": "seven", "romanized": "sebat", "amharic": "\u1230\u1263\u1275", "pronunciation_guide": "seh-BAHT"},
+        {"english": "eight", "romanized": "simint", "amharic": "\u1235\u121d\u1295\u1275", "pronunciation_guide": "si-MINT"},
+        {"english": "nine", "romanized": "zetegn", "amharic": "\u12d8\u1328\u129d", "pronunciation_guide": "zeh-TEGN"},
+        {"english": "ten", "romanized": "asir", "amharic": "\u12a0\u1235\u122d", "pronunciation_guide": "ah-SIR"}
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "Numbers 11-20",
+    "description": "Expand your counting skills to twenty using the asra pattern",
+    "order_num": 5,
+    "unit": 1,
+    "unit_title": "Foundations",
+    "category": "vocabulary",
+    "xp_reward": 20,
+    "content": {
+      "steps": [
+        {"title": "The Asra Pattern", "body": "Numbers 11-19 follow a simple pattern: asra (\u12a0\u1235\u122b - ten) + the unit digit. So 11 is 'asra and', 12 is 'asra hulet', and so on. This is much simpler than English!"},
+        {"title": "Numbers 11-15", "body": "asra and (11), asra hulet (12), asra sost (13), asra arat (14), asra amist (15). Just combine 'asra' with the numbers you already know."},
+        {"title": "Numbers 16-20", "body": "asra sidist (16), asra sebat (17), asra simint (18), asra zetegn (19). Twenty is a unique word: haya (\u1203\u12eb). It does not follow the asra pattern."}
+      ],
+      "examples": [
+        {"english": "eleven", "romanized": "asra and", "amharic": "\u12a0\u1235\u122b \u12a0\u1295\u12f5", "pronunciation_guide": "AHS-ra ahnd"},
+        {"english": "twelve", "romanized": "asra hulet", "amharic": "\u12a0\u1235\u122b \u1201\u1208\u1275", "pronunciation_guide": "AHS-ra hoo-let"},
+        {"english": "fifteen", "romanized": "asra amist", "amharic": "\u12a0\u1235\u122b \u12a0\u121d\u1235\u1275", "pronunciation_guide": "AHS-ra ah-mist"},
+        {"english": "twenty", "romanized": "haya", "amharic": "\u1203\u12eb", "pronunciation_guide": "HAH-ya"}
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Family Members",
+    "description": "Learn the words for family members and close relatives",
+    "order_num": 6,
+    "unit": 2,
+    "unit_title": "Essential Words",
+    "category": "vocabulary",
+    "xp_reward": 25,
+    "content": {
+      "steps": [
+        {"title": "Parents & Grandparents", "body": "abat (\u12a0\u1263\u1275 - father), inat (\u12a5\u1293\u1275 - mother), ayat (\u12a0\u12eb\u1275 - grandfather), inist (\u12a5\u1295\u1235\u1275 - grandmother). Family is central to Ethiopian culture, and these words are used constantly."},
+        {"title": "Siblings", "body": "wendim (\u12c8\u1295\u12f5\u121d - brother), ihit (\u12a5\u1205\u1275 - sister). For older brother: tiliq wendim. For younger sister: tinish ihit. Birth order matters in Ethiopian families."},
+        {"title": "Spouse & Children", "body": "bal (\u1263\u120d - husband), mist (\u121a\u1235\u1275 - wife), lij (\u120d\u1305 - child), wend lij (\u12c8\u1295\u12f5 \u120d\u1305 - son), set lij (\u1234\u1275 \u120d\u1305 - daughter). 'Beteseb' (\u1264\u1270\u1230\u1265) means family."}
+      ],
+      "examples": [
+        {"english": "father", "romanized": "abat", "amharic": "\u12a0\u1263\u1275", "pronunciation_guide": "ah-BAHT"},
+        {"english": "mother", "romanized": "inat", "amharic": "\u12a5\u1293\u1275", "pronunciation_guide": "ih-NAHT"},
+        {"english": "brother", "romanized": "wendim", "amharic": "\u12c8\u1295\u12f5\u121d", "pronunciation_guide": "wen-DIM"},
+        {"english": "sister", "romanized": "ihit", "amharic": "\u12a5\u1205\u1275", "pronunciation_guide": "ih-HIT"},
+        {"english": "child", "romanized": "lij", "amharic": "\u120d\u1305", "pronunciation_guide": "LIJ"},
+        {"english": "husband", "romanized": "bal", "amharic": "\u1263\u120d", "pronunciation_guide": "BAHL"},
+        {"english": "wife", "romanized": "mist", "amharic": "\u121a\u1235\u1275", "pronunciation_guide": "MIST"}
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "Common Nouns Part 1",
+    "description": "Learn essential everyday nouns and understand noun gender",
+    "order_num": 7,
+    "unit": 2,
+    "unit_title": "Essential Words",
+    "category": "vocabulary",
+    "xp_reward": 25,
+    "content": {
+      "steps": [
+        {"title": "Essential Nouns", "body": "Every language has core nouns you need daily. In Amharic, nouns have grammatical gender (masculine or feminine) which affects articles and adjectives. Most nouns are masculine by default."},
+        {"title": "Places", "body": "bet (\u1264\u1275 - house, m), ketema (\u12a8\u1270\u121b - city, f), menged (\u1218\u1295\u1308\u12f5 - road, m), timhirt bet (\u1275\u121d\u1205\u122d\u1275 \u1264\u1275 - school), gebeya (\u1308\u1260\u12eb - market, m)."},
+        {"title": "Noun Gender", "body": "Masculine nouns take 'u' as a definite article suffix: bet\u2192betu (the house). Feminine nouns take 'wa' or 'itu': mekina\u2192mekinawa (the car). Learning gender with each noun saves confusion later."},
+        {"title": "People & Things", "body": "sew (\u1230\u12cd - person, m), wuha (\u12cd\u1203 - water, m), migib (\u121d\u130d\u1265 - food, m), mekina (\u1218\u12aa\u1293 - car, f). Note that 'mekina' is one of the common feminine nouns."}
+      ],
+      "examples": [
+        {"english": "water", "romanized": "wuha", "amharic": "\u12cd\u1203", "pronunciation_guide": "WOO-ha"},
+        {"english": "food", "romanized": "migib", "amharic": "\u121d\u130d\u1265", "pronunciation_guide": "mi-GIB"},
+        {"english": "house", "romanized": "bet", "amharic": "\u1264\u1275", "pronunciation_guide": "BET"},
+        {"english": "person", "romanized": "sew", "amharic": "\u1230\u12cd", "pronunciation_guide": "SEW"},
+        {"english": "car", "romanized": "mekina", "amharic": "\u1218\u12aa\u1293", "pronunciation_guide": "meh-KEE-na"},
+        {"english": "road", "romanized": "menged", "amharic": "\u1218\u1295\u1308\u12f5", "pronunciation_guide": "men-GED"},
+        {"english": "city", "romanized": "ketema", "amharic": "\u12a8\u1270\u121b", "pronunciation_guide": "keh-teh-MA"}
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Common Nouns Part 2",
+    "description": "Learn nouns for food, drink, time, and everyday concepts",
+    "order_num": 8,
+    "unit": 2,
+    "unit_title": "Essential Words",
+    "category": "vocabulary",
+    "xp_reward": 25,
+    "content": {
+      "steps": [
+        {"title": "Food & Drink", "body": "Ethiopia has a rich food culture. Key words: buna (\u1261\u1293 - coffee, m), shay (\u123B\u12ed - tea, m), dabo (\u12f3\u1266 - bread, m), injera (\u12a5\u1295\u1300\u122b - the staple flatbread), wot (\u12c8\u1325 - stew/sauce)."},
+        {"title": "Time-Related Words", "body": "gize (\u130A\u12DC - time, m), qen (\u1240\u1295 - day, m), lelit (\u120C\u120A\u1275 - night, f), samimt (\u1233\u121d\u1295\u1275 - week, m), wer (\u12C8\u122D - month, m), amet (\u12A0\u1218\u1275 - year, m)."},
+        {"title": "Money & Work", "body": "genzeb (\u1308\u1295\u12D8\u1265 - money, m), sira (\u1232\u122B - work, f), birr (\u1265\u122D - Ethiopian currency). Ethiopia uses the birr, and knowing money vocabulary is essential for markets and shops."}
+      ],
+      "examples": [
+        {"english": "coffee", "romanized": "buna", "amharic": "\u1261\u1293", "pronunciation_guide": "BOO-na"},
+        {"english": "tea", "romanized": "shay", "amharic": "\u123b\u12ed", "pronunciation_guide": "SHAY"},
+        {"english": "bread", "romanized": "dabo", "amharic": "\u12f3\u1266", "pronunciation_guide": "DAH-bo"},
+        {"english": "money", "romanized": "genzeb", "amharic": "\u1308\u1295\u12d8\u1265", "pronunciation_guide": "gen-ZEB"},
+        {"english": "work", "romanized": "sira", "amharic": "\u1232\u122b", "pronunciation_guide": "SIH-ra"},
+        {"english": "time", "romanized": "gize", "amharic": "\u130a\u12dc", "pronunciation_guide": "GIH-zeh"},
+        {"english": "day", "romanized": "qen", "amharic": "\u1240\u1295", "pronunciation_guide": "QEN"}
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Common Adjectives",
+    "description": "Learn adjectives for size, quality, color, and description",
+    "order_num": 9,
+    "unit": 2,
+    "unit_title": "Essential Words",
+    "category": "vocabulary",
+    "xp_reward": 25,
+    "content": {
+      "steps": [
+        {"title": "Size & Quality", "body": "tiliq (\u1275\u120d\u1245 - big), tinish (\u1275\u1295\u123d - small), tiru (\u1325\u1229 - good), metfo (\u1218\u1325\u134e - bad), rejim (\u1228\u1302\u121d - long/tall), achir (\u12a0\u132d\u122d - short)."},
+        {"title": "Descriptive Adjectives", "body": "addis (\u12a0\u12f2\u1235 - new), aroge (\u12a0\u122e\u1308 - old), qonjo (\u1245\u1295\u1306 - beautiful/handsome), feTan (\u1348\u1323\u1295 - fast), zegij (\u12d8\u1308\u1305 - slow), kebad (\u12a8\u1263\u12f5 - heavy)."},
+        {"title": "Colors", "body": "tiqur (\u1325\u1241\u122d - black), nech (\u1290\u132d - white), qey (\u1240\u12ed - red), bicha (\u1262\u127b - yellow), arenguade (\u12a0\u1228\u1295\u1313\u12f4 - green), semayawi (\u1230\u121b\u12eb\u12ca - blue)."}
+      ],
+      "examples": [
+        {"english": "big", "romanized": "tiliq", "amharic": "\u1275\u120d\u1245", "pronunciation_guide": "ti-LIQ"},
+        {"english": "small", "romanized": "tinish", "amharic": "\u1275\u1295\u123d", "pronunciation_guide": "ti-NISH"},
+        {"english": "good", "romanized": "tiru", "amharic": "\u1325\u1229", "pronunciation_guide": "TI-ru"},
+        {"english": "bad", "romanized": "metfo", "amharic": "\u1218\u1325\u134e", "pronunciation_guide": "MET-fo"},
+        {"english": "new", "romanized": "addis", "amharic": "\u12a0\u12f2\u1235", "pronunciation_guide": "ah-DIS"},
+        {"english": "beautiful", "romanized": "qonjo", "amharic": "\u1245\u1295\u1306", "pronunciation_guide": "QON-jo"},
+        {"english": "black", "romanized": "tiqur", "amharic": "\u1325\u1241\u122d", "pronunciation_guide": "ti-QUR"},
+        {"english": "white", "romanized": "nech", "amharic": "\u1290\u132d", "pronunciation_guide": "NECH"}
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Days of the Week",
+    "description": "Learn all seven days of the week in Amharic",
+    "order_num": 10,
+    "unit": 2,
+    "unit_title": "Essential Words",
+    "category": "vocabulary",
+    "xp_reward": 25,
+    "content": {
+      "steps": [
+        {"title": "The Seven Days", "body": "The Ethiopian week starts on Sunday: ihud (\u12a5\u1201\u12f5 - Sunday), segnno (\u1230\u129e - Monday), maksegnno (\u121b\u12ad\u1230\u129e - Tuesday), rebu (\u1228\u1261 - Wednesday), hamus (\u1210\u1219\u1235 - Thursday), arb (\u12a0\u122d\u1265 - Friday), qidame (\u1245\u12f3\u121c - Saturday)."},
+        {"title": "Using Days in Sentences", "body": "To say 'on Monday', say 'segnno'. To say 'today is Monday', say 'zare segnno new'. To ask 'what day is it?', say 'zare min qen new?' Days do not need a preposition like 'on' in English."},
+        {"title": "Practice", "body": "Ethiopian calendars differ from Western ones. The Ethiopian calendar has 13 months and is about 7-8 years behind the Gregorian calendar. But the days of the week are the same cycle of seven."}
+      ],
+      "examples": [
+        {"english": "Sunday", "romanized": "ihud", "amharic": "\u12a5\u1201\u12f5", "pronunciation_guide": "ih-HUD"},
+        {"english": "Monday", "romanized": "segnno", "amharic": "\u1230\u129e", "pronunciation_guide": "SEG-nyo"},
+        {"english": "Tuesday", "romanized": "maksegnno", "amharic": "\u121b\u12ad\u1230\u129e", "pronunciation_guide": "mak-SEG-nyo"},
+        {"english": "Wednesday", "romanized": "rebu", "amharic": "\u1228\u1261", "pronunciation_guide": "REH-bu"},
+        {"english": "Thursday", "romanized": "hamus", "amharic": "\u1210\u1219\u1235", "pronunciation_guide": "ha-MUS"},
+        {"english": "Friday", "romanized": "arb", "amharic": "\u12a0\u122d\u1265", "pronunciation_guide": "AHRB"},
+        {"english": "Saturday", "romanized": "qidame", "amharic": "\u1245\u12f3\u121c", "pronunciation_guide": "qi-DAH-meh"}
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "title": "Sentence Structure (SOV)",
+    "description": "Understand Amharic's Subject-Object-Verb word order",
+    "order_num": 11,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "SOV Word Order", "body": "English uses Subject-Verb-Object (I eat food), but Amharic uses Subject-Object-Verb (I food eat). The verb always comes last. This is the most important grammar rule in Amharic."},
+        {"title": "Adjective Placement", "body": "Adjectives come before the noun they describe, just like English: tiliq bet (big house), tiru sew (good person), addis mekina (new car). This is one area where Amharic and English agree."},
+        {"title": "Building Simple Sentences", "body": "To build a sentence: put the subject first, then the object, then the verb. 'Ine buna itetallehu' = I coffee drink = I drink coffee. 'Issu migib bela' = He food ate = He ate food."},
+        {"title": "Practice Sentences", "body": "Try rearranging English sentences into SOV: 'She reads a book' becomes 'isswa metshaf tanebbalech'. Think of the verb as the period at the end of every Amharic sentence."}
+      ],
+      "examples": [
+        {"english": "I eat food", "romanized": "ine migib belahu", "amharic": "\u12a5\u1294 \u121d\u130d\u1265 \u1260\u120b\u1201", "pronunciation_guide": "ih-NEH mi-gib beh-LA-hu"},
+        {"english": "big house", "romanized": "tiliq bet", "amharic": "\u1275\u120d\u1245 \u1264\u1275", "pronunciation_guide": "ti-LIQ BET"},
+        {"english": "I drink coffee", "romanized": "ine buna itetallehu", "amharic": "\u12a5\u1294 \u1261\u1293 \u12a5\u1320\u1323\u1208\u1201", "pronunciation_guide": "ih-NEH BOO-na ih-teh-TAL-leh-hu"},
+        {"english": "good person", "romanized": "tiru sew", "amharic": "\u1325\u1229 \u1230\u12cd", "pronunciation_guide": "TI-ru SEW"},
+        {"english": "new car", "romanized": "addis mekina", "amharic": "\u12a0\u12f2\u1235 \u1218\u12aa\u1293", "pronunciation_guide": "ah-DIS meh-KEE-na"}
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "title": "Gender in Amharic",
+    "description": "Understand how grammatical gender affects speech and grammar",
+    "order_num": 12,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "Two Genders", "body": "Amharic has masculine and feminine gender. Every noun is either masculine or feminine. Most nouns are masculine by default. Common feminine nouns include: mekina (car), ketema (city), ager (country), iqist (sister)."},
+        {"title": "How Gender Affects Speech", "body": "When speaking TO someone, verb endings and greetings change based on their gender. 'How are you?' to a man: 'indet neh?' To a woman: 'indet nesh?' This distinction is constant and essential."},
+        {"title": "Gender in Verbs", "body": "Verb conjugations differ for 'you' masculine vs feminine. 'You went' (m): 'hedk'. 'You went' (f): 'hedsh'. You must always know your listener's gender to conjugate correctly."},
+        {"title": "Common Feminine Nouns", "body": "While most nouns are masculine, these are feminine: inat (mother), ihit (sister), mist (wife), hager (\u1203\u1308\u122d - country), mekina (car), ketema (city), sira (work), igir (\u12a5\u130d\u122d - foot)."}
+      ],
+      "examples": [
+        {"english": "How are you? (m)", "romanized": "indet neh?", "amharic": "\u12a5\u1295\u12f4\u1275 \u1290\u1205?", "pronunciation_guide": "in-DET NEH"},
+        {"english": "How are you? (f)", "romanized": "indet nesh?", "amharic": "\u12a5\u1295\u12f4\u1275 \u1290\u123d?", "pronunciation_guide": "in-DET NESH"},
+        {"english": "You ate (m)", "romanized": "belak", "amharic": "\u1260\u120b\u12ad", "pronunciation_guide": "beh-LAHK"},
+        {"english": "You ate (f)", "romanized": "belash", "amharic": "\u1260\u120b\u123d", "pronunciation_guide": "beh-LAHSH"},
+        {"english": "country (f)", "romanized": "hager", "amharic": "\u1203\u1308\u122d", "pronunciation_guide": "HAH-ger"}
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": "The Verb \"To Have\"",
+    "description": "Learn to express possession using the alle construction",
+    "order_num": 13,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "The Alle Construction", "body": "Amharic doesn't have a verb 'to have' like English. Instead, it uses 'alle' (\u12a0\u120d\u1208 - there is) with pronoun suffixes. Think of 'I have' as 'there is to me' - this is how many Semitic languages work."},
+        {"title": "All Conjugations", "body": "alleny (\u12a0\u1208\u129d - I have), alleh (\u12a0\u1208\u1205 - you have m), allesh (\u12a0\u1208\u123d - you have f), allew (\u12a0\u1208\u12cd - he has), allat (\u12a0\u120b\u1275 - she has), allen (\u12a0\u1208\u1295 - we have), allachihu (\u12a0\u120b\u1279\u1201 - you pl have), allachew (\u12a0\u120b\u1278\u12cd - they have)."},
+        {"title": "Negative Form", "body": "The negative of 'alle' is 'yellem' (\u12e8\u1208\u121d - there is not). To say 'I don't have': 'yellenyim' (\u12e8\u1208\u129d\u121d). The negative form is built from ye- + l + pronoun + m."},
+        {"title": "Using It in Sentences", "body": "To say what you have, put the object before the verb: 'mekina alleny' (I have a car), 'genzeb yellenyim' (I don't have money). The thing possessed comes first."}
+      ],
+      "examples": [
+        {"english": "I have", "romanized": "alleny", "amharic": "\u12a0\u1208\u129d", "pronunciation_guide": "al-LEH-nyi"},
+        {"english": "you have (m)", "romanized": "alleh", "amharic": "\u12a0\u1208\u1205", "pronunciation_guide": "al-LEH"},
+        {"english": "he has", "romanized": "allew", "amharic": "\u12a0\u1208\u12cd", "pronunciation_guide": "al-LEW"},
+        {"english": "she has", "romanized": "allat", "amharic": "\u12a0\u120b\u1275", "pronunciation_guide": "al-LAHT"},
+        {"english": "there is not", "romanized": "yellem", "amharic": "\u12e8\u1208\u121d", "pronunciation_guide": "yel-LEM"},
+        {"english": "I have a car", "romanized": "mekina alleny", "amharic": "\u1218\u12aa\u1293 \u12a0\u1208\u129d", "pronunciation_guide": "meh-KEE-na al-LEH-nyi"}
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "title": "Definite Articles & Plurals",
+    "description": "Learn how to say 'the', 'a', and form plural nouns",
+    "order_num": 14,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "Definite Article Suffixes", "body": "Amharic has no separate word for 'the'. Instead, add a suffix: -u/-w for masculine nouns (bet\u2192betu = the house), -wa/-itu for feminine nouns (mekina\u2192mekinawa = the car). The suffix attaches directly to the noun."},
+        {"title": "Indefinite Article", "body": "For 'a/an', use 'and' (\u12a0\u1295\u12f5) before the noun: 'and bet' (a house), 'and sew' (a person). Without any article, the noun is generic: 'bet' can mean 'house' in general."},
+        {"title": "Plural Formation", "body": "Add '-ochch' (-\u12ee\u127d) to make nouns plural: bet\u2192betochch (houses), sew\u2192sewochch (people), lij\u2192lijochch (children). This suffix works for nearly all nouns."},
+        {"title": "Definite Plurals", "body": "To say 'the houses', add the definite suffix to the plural: betochch\u2192betochchu. The pattern is: noun + ochch + u (masculine definite). This combines both plural and definite."}
+      ],
+      "examples": [
+        {"english": "the house", "romanized": "betu", "amharic": "\u1264\u1271", "pronunciation_guide": "BEH-tu"},
+        {"english": "a house", "romanized": "and bet", "amharic": "\u12a0\u1295\u12f5 \u1264\u1275", "pronunciation_guide": "ahnd BET"},
+        {"english": "houses", "romanized": "betochch", "amharic": "\u1264\u1276\u127d", "pronunciation_guide": "beh-TOCHCH"},
+        {"english": "the car", "romanized": "mekinawa", "amharic": "\u1218\u12aa\u1293\u12cb", "pronunciation_guide": "meh-kee-NAH-wa"},
+        {"english": "children", "romanized": "lijochch", "amharic": "\u120d\u1306\u127d", "pronunciation_guide": "li-JOCHCH"}
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "title": "Possessives",
+    "description": "Learn to express ownership with possessive pronouns and suffixes",
+    "order_num": 15,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "The Ye- Strategy", "body": "One way to show possession is 'ye-' + pronoun: yene (\u12e8\u1294 - mine/my), yante (\u12e8\u12a0\u1295\u1270 - yours m), yanchi (\u12e8\u12a0\u1295\u1272 - yours f), yessu (\u12e8\u12a5\u1231 - his), yesswa (\u12e8\u12a5\u1237 - her), yegna (\u12e8\u12a5\u129b - our)."},
+        {"title": "Possessive Suffixes", "body": "You can also attach suffixes directly to the noun: bete (\u1264\u1274 - my house), betih (\u1264\u1275\u1205 - your house m), betish (\u1264\u1275\u123d - your house f), betu (\u1264\u1271 - his house), betwa (\u1264\u1277 - her house)."},
+        {"title": "Using Ye- with Names", "body": "To say someone's possession by name, use 'ye-' + name: 'ye-Abebe bet' (Abebe's house), 'ye-Sara mekina' (Sara's car). This is like English 's but comes before the name."}
+      ],
+      "examples": [
+        {"english": "mine / my", "romanized": "yene", "amharic": "\u12e8\u1294", "pronunciation_guide": "yeh-NEH"},
+        {"english": "my house", "romanized": "bete", "amharic": "\u1264\u1274", "pronunciation_guide": "BEH-teh"},
+        {"english": "your house (m)", "romanized": "betih", "amharic": "\u1264\u1275\u1205", "pronunciation_guide": "beh-TIH"},
+        {"english": "his house", "romanized": "betu", "amharic": "\u1264\u1271", "pronunciation_guide": "BEH-tu"},
+        {"english": "her house", "romanized": "betwa", "amharic": "\u1264\u1277", "pronunciation_guide": "BEH-twa"},
+        {"english": "Abebe's house", "romanized": "ye-Abebe bet", "amharic": "\u12e8\u12a0\u1260\u1260 \u1264\u1275", "pronunciation_guide": "yeh-ah-BEH-beh BET"}
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "title": "Question Words",
+    "description": "Learn all essential question words and how to form questions",
+    "order_num": 16,
+    "unit": 3,
+    "unit_title": "Core Grammar",
+    "category": "grammar",
+    "xp_reward": 30,
+    "content": {
+      "steps": [
+        {"title": "Essential Question Words", "body": "man (\u121b\u1295 - who), min (\u121d\u1295 - what), yet (\u12e8\u1275 - where), meche (\u1218\u127c - when), lemin (\u1208\u121d\u1295 - why), indet (\u12a5\u1295\u12f4\u1275 - how), sint (\u1235\u1295\u1275 - how many/how much)."},
+        {"title": "Question Word Placement", "body": "Question words typically go where the answer would be in the sentence, usually before the verb. 'Yet hedeh?' (Where did you go?). 'Min tifelligaleh?' (What do you want?). The word order stays SOV."},
+        {"title": "Yes/No Questions", "body": "For yes/no questions, just raise your intonation at the end - no extra words needed. 'Hedeh?' (Did you go?) with rising tone. Answer with 'awo' (\u12a0\u12ce - yes) or 'aye/ayleh' (\u12a0\u12ed - no)."},
+        {"title": "Combining Questions", "body": "'Sint new?' (How much is it?). 'Man new?' (Who is it?). 'Min new?' (What is it?). Adding 'new' after a question word is a very common pattern for simple questions."}
+      ],
+      "examples": [
+        {"english": "who?", "romanized": "man?", "amharic": "\u121b\u1295?", "pronunciation_guide": "MAHN"},
+        {"english": "what?", "romanized": "min?", "amharic": "\u121d\u1295?", "pronunciation_guide": "MIN"},
+        {"english": "where?", "romanized": "yet?", "amharic": "\u12e8\u1275?", "pronunciation_guide": "YET"},
+        {"english": "how much?", "romanized": "sint?", "amharic": "\u1235\u1295\u1275?", "pronunciation_guide": "SINT"},
+        {"english": "how?", "romanized": "indet?", "amharic": "\u12a5\u1295\u12f4\u1275?", "pronunciation_guide": "in-DET"},
+        {"english": "when?", "romanized": "meche?", "amharic": "\u1218\u127c?", "pronunciation_guide": "MEH-cheh"}
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "title": "Common Verbs Part 1",
+    "description": "Learn essential everyday verbs in their infinitive forms",
+    "order_num": 17,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Infinitive Forms", "body": "Amharic infinitives start with 'me-' (\u1218-). This is like 'to...' in English. mehed (\u1218\u1204\u12f5 - to go), memtat (\u1218\u121d\u1323\u1275 - to come), meblat (\u1218\u1265\u120b\u1275 - to eat). Always learn verbs in their infinitive form first."},
+        {"title": "Movement Verbs", "body": "mehed (\u1218\u1204\u12f5 - to go), memtat (\u1218\u121d\u1323\u1275 - to come), meqemet (\u1218\u1240\u1218\u1325 - to stand/stop), mequt (\u1218\u1241\u1325 - to sit), merotch (\u1218\u122e\u1325 - to run)."},
+        {"title": "Essential Daily Verbs", "body": "meblat (\u1218\u1265\u120b\u1275 - to eat), metetat (\u1218\u1320\u1323\u1275 - to drink), mayet (\u121b\u12e8\u1275 - to see), mefeleg (\u1218\u1348\u1208\u130d - to want), maseb (\u121b\u1230\u1265 - to think), meten (\u1218\u1270\u129b\u1275 - to sleep)."},
+        {"title": "Using Infinitives", "body": "You can use infinitives with 'ifelligallehu' (I want): 'mehed ifelligallehu' (I want to go), 'meblat ifelligallehu' (I want to eat). The infinitive comes before the conjugated verb."}
+      ],
+      "examples": [
+        {"english": "to go", "romanized": "mehed", "amharic": "\u1218\u1204\u12f5", "pronunciation_guide": "meh-HED"},
+        {"english": "to come", "romanized": "memtat", "amharic": "\u1218\u121d\u1323\u1275", "pronunciation_guide": "mem-TAHT"},
+        {"english": "to eat", "romanized": "meblat", "amharic": "\u1218\u1265\u120b\u1275", "pronunciation_guide": "meb-LAHT"},
+        {"english": "to drink", "romanized": "metetat", "amharic": "\u1218\u1320\u1323\u1275", "pronunciation_guide": "meh-teh-TAHT"},
+        {"english": "to see", "romanized": "mayet", "amharic": "\u121b\u12e8\u1275", "pronunciation_guide": "MAH-yet"},
+        {"english": "to want", "romanized": "mefeleg", "amharic": "\u1218\u1348\u1208\u130d", "pronunciation_guide": "meh-feh-LEG"}
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "title": "Past Tense",
+    "description": "Learn to conjugate verbs in the past tense using suffix patterns",
+    "order_num": 18,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Past Tense Pattern", "body": "Amharic past tense uses suffixes on the verb stem. Take the infinitive, remove 'me-', and add the appropriate suffix for each person. This is the simplest tense in Amharic."},
+        {"title": "Conjugating Mehed (to go)", "body": "hedhu (\u1204\u12f5\u1201 - I went), hedk (\u1204\u12f5\u12ad - you went m), hedsh (\u1204\u12f5\u123d - you went f), hede (\u1204\u12f0 - he went), hedech (\u1204\u12f0\u127d - she went), hedn (\u1204\u12f5\u1295 - we went), hedachihu (\u1204\u12f3\u1279\u1201 - you pl went), hedu (\u1204\u12f1 - they went)."},
+        {"title": "Practice with Meblat (to eat)", "body": "belahu (I ate), belak (you ate m), belash (you ate f), bela (he ate), belach (she ate), belan (we ate), belu (they ate). The same suffix pattern works for most verbs."},
+        {"title": "Key Suffixes Summary", "body": "I: -hu, you(m): -k, you(f): -sh, he: -e/-a, she: -ech/-ach, we: -n, you(pl): -achihu, they: -u. Memorize these suffixes and you can conjugate any regular verb."}
+      ],
+      "examples": [
+        {"english": "I went", "romanized": "hedhu", "amharic": "\u1204\u12f5\u1201", "pronunciation_guide": "HED-hu"},
+        {"english": "you went (m)", "romanized": "hedk", "amharic": "\u1204\u12f5\u12ad", "pronunciation_guide": "HED-k"},
+        {"english": "he went", "romanized": "hede", "amharic": "\u1204\u12f0", "pronunciation_guide": "HEH-deh"},
+        {"english": "she went", "romanized": "hedech", "amharic": "\u1204\u12f0\u127d", "pronunciation_guide": "heh-DECH"},
+        {"english": "we went", "romanized": "hedn", "amharic": "\u1204\u12f5\u1295", "pronunciation_guide": "HED-n"}
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "title": "Present/Future Tense",
+    "description": "Learn the compound imperfect and present progressive forms",
+    "order_num": 19,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Compound Imperfect", "body": "The present/future tense uses a prefix+suffix pattern plus an auxiliary. For 'I go/will go': i- + hed + -allehu = ihedallehu. The prefix changes per person and the auxiliary 'alle' conjugates too."},
+        {"title": "Full Conjugation of Mehed", "body": "ihedallehu (I go), tihedaleh (you go m), tihediyalesh (you go f), yihedal (he goes), tihedalechi (she goes), inhedaln (we go), tihedalachihu (you pl go), yihedalu (they go)."},
+        {"title": "Present Progressive", "body": "To say 'I am going right now', use the progressive: iyyehedhu new (\u12a5\u12e8\u1204\u12f5\u1201 \u1290\u12cd). This is formed with iyye- + verb stem + pronoun suffix + new/nat. Use this for actions happening at this moment."},
+        {"title": "Present vs Future", "body": "The compound imperfect covers both present habit and future. Context and time words clarify: 'nege ihedallehu' (tomorrow I will go) vs 'hulqen ihedallehu' (I go every day)."}
+      ],
+      "examples": [
+        {"english": "I go / I will go", "romanized": "ihedallehu", "amharic": "\u12a5\u1204\u12f3\u1208\u1201", "pronunciation_guide": "ih-heh-DAL-leh-hu"},
+        {"english": "he goes / he will go", "romanized": "yihedal", "amharic": "\u12ed\u1204\u12f3\u120d", "pronunciation_guide": "yih-heh-DAHL"},
+        {"english": "I am going", "romanized": "iyyehedhu new", "amharic": "\u12a5\u12e8\u1204\u12f5\u1201 \u1290\u12cd", "pronunciation_guide": "iy-yeh-HED-hu NEW"},
+        {"english": "she goes", "romanized": "tihedalechi", "amharic": "\u1275\u1204\u12f3\u1208\u127d", "pronunciation_guide": "ti-heh-dah-LEH-chi"},
+        {"english": "we go", "romanized": "inhedaln", "amharic": "\u12a5\u1295\u1204\u12f3\u120d\u1295", "pronunciation_guide": "in-heh-DAHL-n"}
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "title": "Negative Forms",
+    "description": "Learn to negate verbs in past, present, and other constructions",
+    "order_num": 20,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Past Negative (al-...-m)", "body": "To negate the past, wrap the verb with al- and -m: hede (he went) becomes alhede-m (he didn't go). belahu (I ate) becomes albelahu-m (I didn't eat). The 'al...m' frame is the key pattern."},
+        {"title": "Present Negative (ay-...-m)", "body": "To negate present/future, use ay- and -m: yihedal (he goes) becomes ayhedam (he doesn't go). ibetallehu (I eat) becomes albelam (I don't eat). The prefix changes from al- to ay-."},
+        {"title": "Other Negatives", "body": "For 'to be': aydelem (\u12a0\u12ed\u12f0\u1208\u121d - is not). For 'to have': yellem (\u12e8\u1208\u121d - there is not). For 'don't!' (imperative): athed (don't go m), athedyi (don't go f)."},
+        {"title": "Double Negative Warning", "body": "Unlike English, Amharic does NOT use double negatives. One negation frame is enough. 'Menim albelahum' means 'I didn't eat anything' - 'menim' means 'anything' (not 'nothing')."}
+      ],
+      "examples": [
+        {"english": "he didn't go", "romanized": "alhedem", "amharic": "\u12a0\u120d\u1204\u12f0\u121d", "pronunciation_guide": "al-HEH-dem"},
+        {"english": "he doesn't go", "romanized": "ayhedam", "amharic": "\u12a0\u12ed\u1204\u12f3\u121d", "pronunciation_guide": "ay-heh-DAHM"},
+        {"english": "he is not", "romanized": "aydelem", "amharic": "\u12a0\u12ed\u12f0\u1208\u121d", "pronunciation_guide": "ay-DEH-lem"},
+        {"english": "there is not", "romanized": "yellem", "amharic": "\u12e8\u1208\u121d", "pronunciation_guide": "yel-LEM"},
+        {"english": "don't go! (m)", "romanized": "athed", "amharic": "\u12a0\u1275\u1202\u12f5", "pronunciation_guide": "at-HED"}
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "title": "Common Verbs Part 2",
+    "description": "Expand your verb vocabulary with communication and action verbs",
+    "order_num": 21,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Communication Verbs", "body": "menager (\u1218\u1293\u1308\u122d - to speak/tell), memar (\u1218\u121b\u122d - to learn), maswered (\u121b\u1235\u12c8\u1228\u12f5 - to teach), manbeb (\u121b\u1295\u1260\u1265 - to read), meshaf (\u1218\u133b\u134d - to write)."},
+        {"title": "Action Verbs", "body": "madreg (\u121b\u12f5\u1228\u130d - to do/make), mewded (\u1218\u12cd\u12f0\u12f5 - to love/like), mawqe (\u121b\u12c8\u1245 - to know), mesmat (\u1218\u1235\u121b\u1275 - to hear/listen), megzat (\u1218\u130d\u12db\u1275 - to buy)."},
+        {"title": "Emotional Verbs", "body": "medeset (\u1218\u12f0\u1230\u1275 - to be happy), mazzen (\u121b\u12dd\u1295 - to be sad), mefrat (\u1218\u134D\u122b\u1275 - to fear), memerr (\u1218\u121D\u1228\u1325 - to choose/prefer)."},
+        {"title": "Practice Combinations", "body": "Combine these verbs with past and present tenses you learned: 'amarigna imerallehu' (I am learning Amharic), 'metshaf anebebhu' (I read a book), 'buna gezahu' (I bought coffee)."}
+      ],
+      "examples": [
+        {"english": "to speak", "romanized": "menager", "amharic": "\u1218\u1293\u1308\u122d", "pronunciation_guide": "meh-NAH-ger"},
+        {"english": "to learn", "romanized": "memar", "amharic": "\u1218\u121b\u122d", "pronunciation_guide": "meh-MAHR"},
+        {"english": "to do / to make", "romanized": "madreg", "amharic": "\u121b\u12f5\u1228\u130d", "pronunciation_guide": "MAH-dreg"},
+        {"english": "to love", "romanized": "mewded", "amharic": "\u1218\u12cd\u12f0\u12f5", "pronunciation_guide": "mew-DED"},
+        {"english": "to know", "romanized": "mawqe", "amharic": "\u121b\u12c8\u1245", "pronunciation_guide": "MAH-wqeh"},
+        {"english": "to buy", "romanized": "megzat", "amharic": "\u1218\u130d\u12db\u1275", "pronunciation_guide": "meg-ZAHT"}
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "title": "Imperative & Requests",
+    "description": "Learn to give commands, make requests, and say please",
+    "order_num": 22,
+    "unit": 4,
+    "unit_title": "Verbs & Action",
+    "category": "grammar",
+    "xp_reward": 35,
+    "content": {
+      "steps": [
+        {"title": "Commands (Gender-Specific)", "body": "Commands differ by gender. To a man: hid (\u1202\u12f5 - go!), bla (\u1265\u120b - eat!), ta (\u1323 - come!). To a woman: hiji (\u1202\u1302 - go!), biyi (\u1262\u12ed - eat!), neyi (\u1290\u12ed - come!). Plural: hidu, bilu, nu."},
+        {"title": "Saying Please", "body": "To a man: ibakih (\u12a5\u1263\u12ad\u1205 - please). To a woman: ibakish (\u12a5\u1263\u12ad\u123d - please). Formal: ibakwo (\u12a5\u1263\u12ad\u12ce - please). Always use 'ibak-' forms to be polite."},
+        {"title": "Polite Requests", "body": "Combine 'ibak-' with commands for polite requests: 'ibakih na' (please come, to a man), 'ibakish hinji' (please go, to a woman). You can also use 'ichlaleh?' (can you m?) or 'ichiyalesh?' (can you f?)."},
+        {"title": "Negative Commands", "body": "To say 'don't', add 'at-' before the verb: athid (don't go m), athedyi (don't go f), atbla (don't eat m). These are direct and can sound harsh, so add 'ibak-' for politeness."}
+      ],
+      "examples": [
+        {"english": "Go! (to man)", "romanized": "hid", "amharic": "\u1202\u12f5", "pronunciation_guide": "HID"},
+        {"english": "Go! (to woman)", "romanized": "hiji", "amharic": "\u1202\u1302", "pronunciation_guide": "HI-ji"},
+        {"english": "Come! (to man)", "romanized": "na", "amharic": "\u1293", "pronunciation_guide": "NAH"},
+        {"english": "please (to man)", "romanized": "ibakih", "amharic": "\u12a5\u1263\u12ad\u1205", "pronunciation_guide": "ib-BAH-kih"},
+        {"english": "please (to woman)", "romanized": "ibakish", "amharic": "\u12a5\u1263\u12ad\u123d", "pronunciation_guide": "ib-BAH-kish"}
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "title": "Introducing Yourself",
+    "description": "Learn to introduce yourself, share your name, origin, and interests",
+    "order_num": 23,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "Sharing Your Name", "body": "To say your name: 'sime ___ yibalal' (my name is called ___). To ask someone's name: 'simih man new?' (what is your name? to m) or 'simish man new?' (to f)."},
+        {"title": "Where You're From", "body": "To share your origin: 'ine ke-Amerika negn' (I am from America). The pattern is 'ke-' + country + 'negn'. To ask: 'ke-yet neh/nesh?' (where are you from?)."},
+        {"title": "What You Do", "body": "To say what you're learning: 'amarigna imerallehu' (I am learning Amharic). To say your job: 'ine memhir negn' (I am a teacher), 'ine temaryi negn' (I am a student)."},
+        {"title": "Putting It Together", "body": "A full introduction: 'Selam! Sime David yibalal. Ine ke-Amerika negn. Amarigna imerallehu.' (Hello! My name is David. I am from America. I am learning Amharic.)"}
+      ],
+      "examples": [
+        {"english": "My name is ___", "romanized": "sime ___ yibalal", "amharic": "\u1235\u121c ___ \u12ed\u1263\u120b\u120d", "pronunciation_guide": "si-MEH ___ yib-BAH-lal"},
+        {"english": "What is your name? (m)", "romanized": "simih man new?", "amharic": "\u1235\u121d\u1205 \u121b\u1295 \u1290\u12cd?", "pronunciation_guide": "si-MIH MAHN new"},
+        {"english": "I am from America", "romanized": "ine ke-Amerika negn", "amharic": "\u12a5\u1294 \u12a8\u12a0\u121c\u122a\u12ab \u1290\u129d", "pronunciation_guide": "ih-NEH keh-ah-MEH-ri-ka NEGN"},
+        {"english": "I am learning Amharic", "romanized": "amarigna imerallehu", "amharic": "\u12a0\u121b\u122d\u129b \u12a5\u1218\u122b\u1208\u1201", "pronunciation_guide": "ah-mah-RI-nya ih-meh-RAL-leh-hu"}
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "title": "At the Market",
+    "description": "Learn essential phrases for shopping and bargaining at the market",
+    "order_num": 24,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "Asking Prices", "body": "To ask 'how much?': 'sint new?' (\u1235\u1295\u1275 \u1290\u12cd?). The seller will respond with a number + birr: 'asir birr' (10 birr). You can also ask 'yih sint new?' (how much is this?)."},
+        {"title": "Expressing What You Want", "body": "'ifelligallehu' (\u12a5\u1348\u120d\u130b\u1208\u1201 - I want). Point and say 'yihin ifelligallehu' (I want this one). 'Alle?' (is there? / do you have?). 'Buna alleh?' (do you have coffee?)."},
+        {"title": "Negotiating", "body": "'wid new' (\u12cd\u12f5 \u1290\u12cd - it's expensive). 'Tinish qennis?' (a little less?). 'Mekakelenya zega?' (middle price?). Bargaining is expected in Ethiopian markets - always negotiate!"},
+        {"title": "Completing the Purchase", "body": "'Ishi, igezallehu' (OK, I'll buy it). 'Ameseginalehu' (thank you). 'Meles alfelligim' (I don't want change). Being polite goes a long way in Ethiopian markets."}
+      ],
+      "examples": [
+        {"english": "How much is it?", "romanized": "sint new?", "amharic": "\u1235\u1295\u1275 \u1290\u12cd?", "pronunciation_guide": "SINT NEW"},
+        {"english": "I want", "romanized": "ifelligallehu", "amharic": "\u12a5\u1348\u120d\u130b\u1208\u1201", "pronunciation_guide": "ih-fell-ih-GAL-leh-hu"},
+        {"english": "It's expensive", "romanized": "wid new", "amharic": "\u12cd\u12f5 \u1290\u12cd", "pronunciation_guide": "WID NEW"},
+        {"english": "I want this one", "romanized": "yihin ifelligallehu", "amharic": "\u12ed\u1202\u1295 \u12a5\u1348\u120d\u130b\u1208\u1201", "pronunciation_guide": "yih-HIN ih-fell-ih-GAL-leh-hu"},
+        {"english": "Is there? / Do you have?", "romanized": "alle?", "amharic": "\u12a0\u120d\u1208?", "pronunciation_guide": "AL-leh"}
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "title": "Asking for Directions",
+    "description": "Learn to ask where things are and understand directional words",
+    "order_num": 25,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "Asking Where", "body": "'yet new?' (\u12e8\u1275 \u1290\u12cd? - where is it?). To ask about a specific place: 'hotel yet new?' (where is the hotel?). 'Yiqirta, bank yet new?' (excuse me, where is the bank?)."},
+        {"title": "Directional Words", "body": "qetita hid (\u1240\u1325\u1273 \u1202\u12f5 - go straight), wede qegn (\u12c8\u12f0 \u1240\u129d - to the right), wede gra (\u12c8\u12f0 \u130d\u122b - to the left), ke- ... birr (\u12a8 - near/from), riqqu (\u1229\u1245 - far)."},
+        {"title": "Distance & Location", "body": "'qirb new' (\u1245\u122d\u1265 \u1290\u12cd - it's near). 'ruq new' (\u1229\u1245 \u1290\u12cd - it's far). 'kezih qirb' (near here). 'kebetih fitfit' (in front of your house). Amharic uses postpositions like 'lay' (on), 'wist' (inside)."},
+        {"title": "Useful Phrases", "body": "'Ameseginalehu, gebahu' (thank you, I found it). 'Algebanyim' (I didn't find it). 'Andegna indigegn' (please help me / show me). Always start with 'yiqirta' to be polite."}
+      ],
+      "examples": [
+        {"english": "Where is it?", "romanized": "yet new?", "amharic": "\u12e8\u1275 \u1290\u12cd?", "pronunciation_guide": "YET NEW"},
+        {"english": "Go straight", "romanized": "qetita hid", "amharic": "\u1240\u1325\u1273 \u1202\u12f5", "pronunciation_guide": "qeh-TI-ta HID"},
+        {"english": "To the right", "romanized": "wede qegn", "amharic": "\u12c8\u12f0 \u1240\u129d", "pronunciation_guide": "WEH-deh QENY"},
+        {"english": "To the left", "romanized": "wede gra", "amharic": "\u12c8\u12f0 \u130d\u122b", "pronunciation_guide": "WEH-deh GRAH"},
+        {"english": "It's near", "romanized": "qirb new", "amharic": "\u1245\u122d\u1265 \u1290\u12cd", "pronunciation_guide": "QIRB NEW"},
+        {"english": "It's far", "romanized": "ruq new", "amharic": "\u1229\u1245 \u1290\u12cd", "pronunciation_guide": "RUQ NEW"}
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "title": "At a Restaurant",
+    "description": "Learn to order food and drinks, compliment the food, and pay the bill",
+    "order_num": 26,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "Ordering Food & Drinks", "body": "'migib ifelligallehu' (I want food). 'buna ifelligallehu' (I want coffee). 'menu alleh?' (is there a menu?). 'injera be-wot' (injera with stew - the national dish). Specify: 'doro wot' (chicken stew), 'shiro wot' (chickpea stew)."},
+        {"title": "Complimenting the Food", "body": "'tiru new!' (\u1325\u1229 \u1290\u12cd - it's good!). 'betam tiru new!' (it's very good!). 'yeteshetegn' (I'm full). Ethiopians love when guests enjoy the food, so always compliment the meal."},
+        {"title": "Getting the Bill", "body": "'hisabu' (\u1202\u1233\u1261 - the bill). 'hisabu ibakih' (the bill please, to m). 'sint new?' (how much is it?). Tipping is appreciated but not mandatory - around 10% is customary."},
+        {"title": "Coffee Ceremony", "body": "Ethiopian coffee ceremony is a cultural treasure. 'Buna tetchetwalech' (coffee has been brewed). You typically drink 3 cups: abol (first), tona (second), bereka (third - the blessing). Never refuse coffee - it's a sign of respect."}
+      ],
+      "examples": [
+        {"english": "I want food", "romanized": "migib ifelligallehu", "amharic": "\u121d\u130d\u1265 \u12a5\u1348\u120d\u130b\u1208\u1201", "pronunciation_guide": "mi-GIB ih-fell-ih-GAL-leh-hu"},
+        {"english": "I want coffee", "romanized": "buna ifelligallehu", "amharic": "\u1261\u1293 \u12a5\u1348\u120d\u130b\u1208\u1201", "pronunciation_guide": "BOO-na ih-fell-ih-GAL-leh-hu"},
+        {"english": "It's good!", "romanized": "tiru new!", "amharic": "\u1325\u1229 \u1290\u12cd!", "pronunciation_guide": "TI-ru NEW"},
+        {"english": "The bill", "romanized": "hisabu", "amharic": "\u1202\u1233\u1261", "pronunciation_guide": "hi-SAH-bu"},
+        {"english": "It's very good!", "romanized": "betam tiru new!", "amharic": "\u1260\u1323\u121d \u1325\u1229 \u1290\u12cd!", "pronunciation_guide": "beh-TAHM TI-ru NEW"}
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "title": "Formal vs Informal",
+    "description": "Learn when and how to switch between formal and informal speech",
+    "order_num": 27,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "When to Use Formal", "body": "Use formal speech with: elders, strangers, people in authority, in-laws, religious leaders. Use informal with: friends, peers, children, close family. When in doubt, go formal - it's always safer and more respectful."},
+        {"title": "Formal Pronouns & Titles", "body": "'irswo' (\u12a5\u122d\u1235\u12ce) replaces 'ante/anchi' in formal speech. Titles: 'Ato' (\u12a0\u1276 - Mr.), 'Weyzero' (\u12c8\u12ed\u12d8\u122e - Mrs.), 'Weyzerit' (\u12c8\u12ed\u12d8\u122a\u1275 - Miss). Always use titles with elders."},
+        {"title": "Polite Verb Forms", "body": "Formal conjugations use the 'irswo' form: 'indet nachiw?' (how are you? formal), 'yimtu' (come, formal command). Adding 'ibakih/ibakish/ibakwo' (please) makes any request more polite."},
+        {"title": "Polite Expressions", "body": "'minem aydelem' (\u121d\u1290\u121d \u12a0\u12ed\u12f0\u1208\u121d - you're welcome / it's nothing). 'yiqirta' (\u12ed\u1245\u122d\u1273 - excuse me/sorry). 'abet!' (\u12a0\u1264\u1275 - an exclamation to get attention politely)."}
+      ],
+      "examples": [
+        {"english": "you (formal)", "romanized": "irswo", "amharic": "\u12a5\u122d\u1235\u12ce", "pronunciation_guide": "IRS-wo"},
+        {"english": "you (informal m)", "romanized": "ante", "amharic": "\u12a0\u1295\u1270", "pronunciation_guide": "AN-teh"},
+        {"english": "Mr.", "romanized": "Ato", "amharic": "\u12a0\u1276", "pronunciation_guide": "AH-to"},
+        {"english": "Mrs.", "romanized": "Weyzero", "amharic": "\u12c8\u12ed\u12d8\u122e", "pronunciation_guide": "way-ZEH-ro"},
+        {"english": "please (formal)", "romanized": "ibakwo", "amharic": "\u12a5\u1263\u12ad\u12ce", "pronunciation_guide": "ib-BAH-kwo"},
+        {"english": "you're welcome", "romanized": "minem aydelem", "amharic": "\u121d\u1290\u121d \u12a0\u12ed\u12f0\u1208\u121d", "pronunciation_guide": "mi-NEM ay-DEH-lem"}
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "title": "Daily Conversation Practice",
+    "description": "Practice complete dialogues combining everything you've learned",
+    "order_num": 28,
+    "unit": 5,
+    "unit_title": "Conversation",
+    "category": "conversation",
+    "xp_reward": 40,
+    "content": {
+      "steps": [
+        {"title": "Review Key Patterns", "body": "By now you know: greetings, pronouns, SOV order, past/present tenses, questions, and polite forms. Real conversation combines all of these. Practice flowing between patterns naturally."},
+        {"title": "Sample Greeting Dialogue", "body": "A: 'Selam! Indet neh?' B: 'Dehna negn, ameseginalehu. Ante indet neh?' A: 'Ine dehna. Zare min tiseraleh?' B: 'Sira ihedallehu.' This covers greeting, asking how someone is, and saying where you're going."},
+        {"title": "Sample Market Dialogue", "body": "You: 'Yiqirta, yih sint new?' Seller: 'Hamsa birr.' You: 'Wid new! Selasa birr?' Seller: 'Arba birr, yimeTash.' You: 'Ishi, igezallehu.' This covers asking price, negotiating, and buying."},
+        {"title": "Tips for Fluency", "body": "Speak slowly at first, Ethiopians will appreciate the effort. Use 'yiqirta' often. Don't fear mistakes - people love that you're trying. Listen to Amharic music and shows. Practice greetings with every interaction."}
+      ],
+      "examples": [
+        {"english": "Hello! How are you? (m)", "romanized": "Selam! Indet neh?", "amharic": "\u1230\u120b\u121d! \u12a5\u1295\u12f4\u1275 \u1290\u1205?", "pronunciation_guide": "seh-LAHM in-DET NEH"},
+        {"english": "I'm fine, thank you", "romanized": "Dehna negn, ameseginalehu", "amharic": "\u12f0\u1205\u1293 \u1290\u129d\u1363 \u12a0\u1218\u1230\u130d\u1293\u1208\u1201", "pronunciation_guide": "DEH-na NEGN ah-meh-seh-gi-NAH-leh-hu"},
+        {"english": "What are you doing today?", "romanized": "Zare min tiseraleh?", "amharic": "\u12db\u122c \u121d\u1295 \u1275\u1230\u122b\u1208\u1205?", "pronunciation_guide": "ZAH-reh MIN ti-seh-RAH-leh"},
+        {"english": "I'm going to work", "romanized": "Sira ihedallehu", "amharic": "\u1232\u122b \u12a5\u1204\u12f3\u1208\u1201", "pronunciation_guide": "SIH-ra ih-heh-DAL-leh-hu"},
+        {"english": "How much is this?", "romanized": "Yih sint new?", "amharic": "\u12ed\u1205 \u1235\u1295\u1275 \u1290\u12cd?", "pronunciation_guide": "YIH SINT NEW"},
+        {"english": "OK, I'll buy it", "romanized": "Ishi, igezallehu", "amharic": "\u12a5\u123d\u1363 \u12a5\u1308\u12db\u1208\u1201", "pronunciation_guide": "IH-shi ih-geh-ZAL-leh-hu"}
+      ]
+    }
+  }
+]

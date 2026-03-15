@@ -1,0 +1,2831 @@
+[
+  {
+    "english": "hello (informal)",
+    "amharic": "ሰላም",
+    "romanized": "selam",
+    "pronunciation_guide": "seh-LAHM",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "hello (formal)",
+    "amharic": "ጤና ይስጥልኝ",
+    "romanized": "tena yistilign",
+    "pronunciation_guide": "teh-NA yis-ti-LIGN",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "good morning (to man)",
+    "amharic": "እንደምን አደርክ",
+    "romanized": "indemin aderk",
+    "pronunciation_guide": "in-deh-MIN ah-DERK",
+    "category": "greeting",
+    "gender": "masculine",
+    "lesson_id": 2
+  },
+  {
+    "english": "good morning (to woman)",
+    "amharic": "እንደምን አደርሽ",
+    "romanized": "indemin adersh",
+    "pronunciation_guide": "in-deh-MIN ah-DERSH",
+    "category": "greeting",
+    "gender": "feminine",
+    "lesson_id": 2
+  },
+  {
+    "english": "how are you (to man)",
+    "amharic": "እንዴት ነህ",
+    "romanized": "indet neh",
+    "pronunciation_guide": "in-DET neh",
+    "category": "greeting",
+    "gender": "masculine",
+    "lesson_id": 2
+  },
+  {
+    "english": "how are you (to woman)",
+    "amharic": "እንዴት ነሽ",
+    "romanized": "indet nesh",
+    "pronunciation_guide": "in-DET nesh",
+    "category": "greeting",
+    "gender": "feminine",
+    "lesson_id": 2
+  },
+  {
+    "english": "I am fine",
+    "amharic": "ደህና ነኝ",
+    "romanized": "dehna negn",
+    "pronunciation_guide": "DEH-na negn",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "goodbye (to man)",
+    "amharic": "ደህና ሁን",
+    "romanized": "dehna hun",
+    "pronunciation_guide": "DEH-na hoon",
+    "category": "greeting",
+    "gender": "masculine",
+    "lesson_id": 2
+  },
+  {
+    "english": "goodbye (to woman)",
+    "amharic": "ደህና ሁኚ",
+    "romanized": "dehna hugni",
+    "pronunciation_guide": "DEH-na HOON-yi",
+    "category": "greeting",
+    "gender": "feminine",
+    "lesson_id": 2
+  },
+  {
+    "english": "bye (informal)",
+    "amharic": "ቻው",
+    "romanized": "chaw",
+    "pronunciation_guide": "chow",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "welcome (to man)",
+    "amharic": "እንኳን ደህና መጣህ",
+    "romanized": "inkwan dehna metah",
+    "pronunciation_guide": "in-KWAN DEH-na meh-TAH",
+    "category": "greeting",
+    "gender": "masculine",
+    "lesson_id": 2
+  },
+  {
+    "english": "thank you",
+    "amharic": "አመሰግናለሁ",
+    "romanized": "ameseginalehu",
+    "pronunciation_guide": "ah-meh-seg-nah-LEH-hu",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "excuse me, sorry",
+    "amharic": "ይቅርታ",
+    "romanized": "yiqirta",
+    "pronunciation_guide": "yi-KIR-ta",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "yes",
+    "amharic": "አዎ",
+    "romanized": "awo",
+    "pronunciation_guide": "AH-wo",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "no",
+    "amharic": "አይ",
+    "romanized": "aye",
+    "pronunciation_guide": "EYE",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "OK, alright",
+    "amharic": "እሺ",
+    "romanized": "ishi",
+    "pronunciation_guide": "IH-shi",
+    "category": "greeting",
+    "gender": null,
+    "lesson_id": 2
+  },
+  {
+    "english": "I",
+    "amharic": "እኔ",
+    "romanized": "ine",
+    "pronunciation_guide": "ih-NEH",
+    "category": "pronoun",
+    "gender": null,
+    "lesson_id": 3
+  },
+  {
+    "english": "you (masculine)",
+    "amharic": "አንተ",
+    "romanized": "ante",
+    "pronunciation_guide": "AHN-teh",
+    "category": "pronoun",
+    "gender": "masculine",
+    "lesson_id": 3
+  },
+  {
+    "english": "you (feminine)",
+    "amharic": "አንቺ",
+    "romanized": "anchi",
+    "pronunciation_guide": "AHN-chi",
+    "category": "pronoun",
+    "gender": "feminine",
+    "lesson_id": 3
+  },
+  {
+    "english": "you (formal)",
+    "amharic": "እርስዎ",
+    "romanized": "irswo",
+    "pronunciation_guide": "ir-SWO",
+    "category": "pronoun",
+    "gender": null,
+    "lesson_id": 3
+  },
+  {
+    "english": "he",
+    "amharic": "እሱ",
+    "romanized": "issu",
+    "pronunciation_guide": "IS-su",
+    "category": "pronoun",
+    "gender": "masculine",
+    "lesson_id": 3
+  },
+  {
+    "english": "she",
+    "amharic": "እሷ",
+    "romanized": "isswa",
+    "pronunciation_guide": "IS-swa",
+    "category": "pronoun",
+    "gender": "feminine",
+    "lesson_id": 3
+  },
+  {
+    "english": "we",
+    "amharic": "እኛ",
+    "romanized": "igna",
+    "pronunciation_guide": "IG-na",
+    "category": "pronoun",
+    "gender": null,
+    "lesson_id": 3
+  },
+  {
+    "english": "you (plural)",
+    "amharic": "እናንተ",
+    "romanized": "innante",
+    "pronunciation_guide": "in-NAN-teh",
+    "category": "pronoun",
+    "gender": null,
+    "lesson_id": 3
+  },
+  {
+    "english": "they",
+    "amharic": "እነሱ",
+    "romanized": "innessu",
+    "pronunciation_guide": "in-NES-su",
+    "category": "pronoun",
+    "gender": null,
+    "lesson_id": 3
+  },
+  {
+    "english": "one",
+    "amharic": "አንድ",
+    "romanized": "and",
+    "pronunciation_guide": "AND",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "two",
+    "amharic": "ሁለት",
+    "romanized": "hulet",
+    "pronunciation_guide": "HOO-let",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "three",
+    "amharic": "ሦስት",
+    "romanized": "sost",
+    "pronunciation_guide": "SOST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "four",
+    "amharic": "አራት",
+    "romanized": "arat",
+    "pronunciation_guide": "ah-RAT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "five",
+    "amharic": "አምስት",
+    "romanized": "amist",
+    "pronunciation_guide": "ah-MIST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "six",
+    "amharic": "ስድስት",
+    "romanized": "sidist",
+    "pronunciation_guide": "si-DIST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "seven",
+    "amharic": "ሰባት",
+    "romanized": "sebat",
+    "pronunciation_guide": "seh-BAT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "eight",
+    "amharic": "ስምንት",
+    "romanized": "simint",
+    "pronunciation_guide": "si-MINT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "nine",
+    "amharic": "ዘጠኝ",
+    "romanized": "zetegn",
+    "pronunciation_guide": "zeh-TEGN",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "ten",
+    "amharic": "አስር",
+    "romanized": "asir",
+    "pronunciation_guide": "ah-SIR",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 4
+  },
+  {
+    "english": "eleven",
+    "amharic": "አስራ አንድ",
+    "romanized": "asra and",
+    "pronunciation_guide": "AS-ra AND",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "twelve",
+    "amharic": "አስራ ሁለት",
+    "romanized": "asra hulet",
+    "pronunciation_guide": "AS-ra HOO-let",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "thirteen",
+    "amharic": "አስራ ሦስት",
+    "romanized": "asra sost",
+    "pronunciation_guide": "AS-ra SOST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "fourteen",
+    "amharic": "አስራ አራት",
+    "romanized": "asra arat",
+    "pronunciation_guide": "AS-ra ah-RAT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "fifteen",
+    "amharic": "አስራ አምስት",
+    "romanized": "asra amist",
+    "pronunciation_guide": "AS-ra ah-MIST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "sixteen",
+    "amharic": "አስራ ስድስት",
+    "romanized": "asra sidist",
+    "pronunciation_guide": "AS-ra si-DIST",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "seventeen",
+    "amharic": "አስራ ሰባት",
+    "romanized": "asra sebat",
+    "pronunciation_guide": "AS-ra seh-BAT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "eighteen",
+    "amharic": "አስራ ስምንት",
+    "romanized": "asra simint",
+    "pronunciation_guide": "AS-ra si-MINT",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "nineteen",
+    "amharic": "አስራ ዘጠኝ",
+    "romanized": "asra zetegn",
+    "pronunciation_guide": "AS-ra zeh-TEGN",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "twenty",
+    "amharic": "ሃያ",
+    "romanized": "haya",
+    "pronunciation_guide": "HA-ya",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "father",
+    "amharic": "አባት",
+    "romanized": "abat",
+    "pronunciation_guide": "ah-BAT",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "mother",
+    "amharic": "እናት",
+    "romanized": "inat",
+    "pronunciation_guide": "ih-NAT",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "brother",
+    "amharic": "ወንድም",
+    "romanized": "wendim",
+    "pronunciation_guide": "wen-DIM",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "sister",
+    "amharic": "እህት",
+    "romanized": "ihit",
+    "pronunciation_guide": "ih-HIT",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "child",
+    "amharic": "ልጅ",
+    "romanized": "lij",
+    "pronunciation_guide": "lij",
+    "category": "family",
+    "gender": null,
+    "lesson_id": 6
+  },
+  {
+    "english": "son, boy",
+    "amharic": "ወንድ ልጅ",
+    "romanized": "wend lij",
+    "pronunciation_guide": "wend lij",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "daughter, girl",
+    "amharic": "ሴት ልጅ",
+    "romanized": "set lij",
+    "pronunciation_guide": "set lij",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "husband",
+    "amharic": "ባል",
+    "romanized": "bal",
+    "pronunciation_guide": "bal",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "wife",
+    "amharic": "ሚስት",
+    "romanized": "mist",
+    "pronunciation_guide": "mist",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "grandfather",
+    "amharic": "ወንድ አያት",
+    "romanized": "wend ayat",
+    "pronunciation_guide": "wend ah-YAT",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "grandmother",
+    "amharic": "ሴት አያት",
+    "romanized": "set ayat",
+    "pronunciation_guide": "set ah-YAT",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "uncle",
+    "amharic": "አጎት",
+    "romanized": "agot",
+    "pronunciation_guide": "ah-GOT",
+    "category": "family",
+    "gender": "masculine",
+    "lesson_id": 6
+  },
+  {
+    "english": "aunt",
+    "amharic": "አክስት",
+    "romanized": "akist",
+    "pronunciation_guide": "ah-KIST",
+    "category": "family",
+    "gender": "feminine",
+    "lesson_id": 6
+  },
+  {
+    "english": "water",
+    "amharic": "ውሃ",
+    "romanized": "wuha",
+    "pronunciation_guide": "WOO-ha",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "food",
+    "amharic": "ምግብ",
+    "romanized": "migib",
+    "pronunciation_guide": "mi-GIB",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "house, home",
+    "amharic": "ቤት",
+    "romanized": "bet",
+    "pronunciation_guide": "bet",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "person, human",
+    "amharic": "ሰው",
+    "romanized": "sew",
+    "pronunciation_guide": "sew",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "friend",
+    "amharic": "ጓደኛ",
+    "romanized": "gwadegna",
+    "pronunciation_guide": "gwa-DEG-na",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 7
+  },
+  {
+    "english": "car",
+    "amharic": "መኪና",
+    "romanized": "mekina",
+    "pronunciation_guide": "meh-KI-na",
+    "category": "noun",
+    "gender": "feminine",
+    "lesson_id": 7
+  },
+  {
+    "english": "road, way",
+    "amharic": "መንገድ",
+    "romanized": "menged",
+    "pronunciation_guide": "men-GED",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "city, town",
+    "amharic": "ከተማ",
+    "romanized": "ketema",
+    "pronunciation_guide": "keh-teh-MA",
+    "category": "noun",
+    "gender": "feminine",
+    "lesson_id": 7
+  },
+  {
+    "english": "country",
+    "amharic": "አገር",
+    "romanized": "ager",
+    "pronunciation_guide": "ah-GER",
+    "category": "noun",
+    "gender": "feminine",
+    "lesson_id": 7
+  },
+  {
+    "english": "school",
+    "amharic": "ትምህርት ቤት",
+    "romanized": "timhirt bet",
+    "pronunciation_guide": "tim-HIRT bet",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 7
+  },
+  {
+    "english": "coffee",
+    "amharic": "ቡና",
+    "romanized": "buna",
+    "pronunciation_guide": "BOO-na",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "tea",
+    "amharic": "ሻይ",
+    "romanized": "shay",
+    "pronunciation_guide": "shay",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "bread",
+    "amharic": "ዳቦ",
+    "romanized": "dabo",
+    "pronunciation_guide": "DA-bo",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "meat",
+    "amharic": "ስጋ",
+    "romanized": "siga",
+    "pronunciation_guide": "SI-ga",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "money",
+    "amharic": "ገንዘብ",
+    "romanized": "genzeb",
+    "pronunciation_guide": "gen-ZEB",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "work, job",
+    "amharic": "ስራ",
+    "romanized": "sira",
+    "pronunciation_guide": "SI-ra",
+    "category": "noun",
+    "gender": "feminine",
+    "lesson_id": 8
+  },
+  {
+    "english": "time",
+    "amharic": "ጊዜ",
+    "romanized": "gize",
+    "pronunciation_guide": "gi-ZE",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "day",
+    "amharic": "ቀን",
+    "romanized": "qen",
+    "pronunciation_guide": "ken",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "night",
+    "amharic": "ሌሊት",
+    "romanized": "lelit",
+    "pronunciation_guide": "leh-LIT",
+    "category": "noun",
+    "gender": "feminine",
+    "lesson_id": 8
+  },
+  {
+    "english": "week",
+    "amharic": "ሳምንት",
+    "romanized": "samint",
+    "pronunciation_guide": "SA-mint",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "month",
+    "amharic": "ወር",
+    "romanized": "wer",
+    "pronunciation_guide": "wer",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "year",
+    "amharic": "ዓመት",
+    "romanized": "amet",
+    "pronunciation_guide": "ah-MET",
+    "category": "noun",
+    "gender": "masculine",
+    "lesson_id": 8
+  },
+  {
+    "english": "big",
+    "amharic": "ትልቅ",
+    "romanized": "tiliq",
+    "pronunciation_guide": "ti-LIK",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "small, little",
+    "amharic": "ትንሽ",
+    "romanized": "tinish",
+    "pronunciation_guide": "ti-NISH",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "good",
+    "amharic": "ጥሩ",
+    "romanized": "tiru",
+    "pronunciation_guide": "TI-ru",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "bad",
+    "amharic": "መጥፎ",
+    "romanized": "metfo",
+    "pronunciation_guide": "MET-fo",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "hot",
+    "amharic": "ሙቅ",
+    "romanized": "muq",
+    "pronunciation_guide": "mook",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "cold",
+    "amharic": "ቀዝቃዛ",
+    "romanized": "qezqaza",
+    "pronunciation_guide": "kez-KA-za",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "new",
+    "amharic": "አዲስ",
+    "romanized": "addis",
+    "pronunciation_guide": "ad-DIS",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "tall, long",
+    "amharic": "ረጅም",
+    "romanized": "rejim",
+    "pronunciation_guide": "reh-JIM",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "short",
+    "amharic": "አጭር",
+    "romanized": "achir",
+    "pronunciation_guide": "ah-CHIR",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "pretty, beautiful",
+    "amharic": "ቆንጆ",
+    "romanized": "qonjo",
+    "pronunciation_guide": "KON-jo",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "beautiful",
+    "amharic": "ውብ",
+    "romanized": "wub",
+    "pronunciation_guide": "woob",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "hard, difficult",
+    "amharic": "ከባድ",
+    "romanized": "kebad",
+    "pronunciation_guide": "keh-BAD",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "easy",
+    "amharic": "ቀላል",
+    "romanized": "qelal",
+    "pronunciation_guide": "keh-LAL",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "fast",
+    "amharic": "ፈጣን",
+    "romanized": "fetan",
+    "pronunciation_guide": "feh-TAN",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "expensive",
+    "amharic": "ውድ",
+    "romanized": "wid",
+    "pronunciation_guide": "wid",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "happy",
+    "amharic": "ደስተኛ",
+    "romanized": "destenya",
+    "pronunciation_guide": "des-TEG-na",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "black",
+    "amharic": "ጥቁር",
+    "romanized": "tiqur",
+    "pronunciation_guide": "ti-KUR",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "white",
+    "amharic": "ነጭ",
+    "romanized": "nech",
+    "pronunciation_guide": "nech",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "red",
+    "amharic": "ቀይ",
+    "romanized": "qey",
+    "pronunciation_guide": "key",
+    "category": "adjective",
+    "gender": null,
+    "lesson_id": 9
+  },
+  {
+    "english": "Sunday",
+    "amharic": "እሑድ",
+    "romanized": "ihud",
+    "pronunciation_guide": "ih-HUD",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Monday",
+    "amharic": "ሰኞ",
+    "romanized": "segnno",
+    "pronunciation_guide": "SEG-nyo",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Tuesday",
+    "amharic": "ማክሰኞ",
+    "romanized": "maksegnno",
+    "pronunciation_guide": "mak-SEG-nyo",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Wednesday",
+    "amharic": "ረቡዕ",
+    "romanized": "rebu",
+    "pronunciation_guide": "REH-bu",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Thursday",
+    "amharic": "ሐሙስ",
+    "romanized": "hamus",
+    "pronunciation_guide": "ha-MOOS",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Friday",
+    "amharic": "ዓርብ",
+    "romanized": "arb",
+    "pronunciation_guide": "arb",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "Saturday",
+    "amharic": "ቅዳሜ",
+    "romanized": "qidame",
+    "pronunciation_guide": "ki-DA-meh",
+    "category": "day",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "to go",
+    "amharic": "መሄድ",
+    "romanized": "mehed",
+    "pronunciation_guide": "meh-HED",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to come",
+    "amharic": "መምጣት",
+    "romanized": "memtat",
+    "pronunciation_guide": "mem-TAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to eat",
+    "amharic": "መብላት",
+    "romanized": "meblat",
+    "pronunciation_guide": "meb-LAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to drink",
+    "amharic": "መጠጣት",
+    "romanized": "metetat",
+    "pronunciation_guide": "meh-teh-TAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to see",
+    "amharic": "ማየት",
+    "romanized": "mayet",
+    "pronunciation_guide": "MA-yet",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to want, to look for",
+    "amharic": "መፈለግ",
+    "romanized": "mefeleg",
+    "pronunciation_guide": "meh-feh-LEG",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to know",
+    "amharic": "ማወቅ",
+    "romanized": "mawek'",
+    "pronunciation_guide": "ma-WEK",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to speak",
+    "amharic": "መናገር",
+    "romanized": "menager",
+    "pronunciation_guide": "meh-NA-ger",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to learn",
+    "amharic": "መማር",
+    "romanized": "memar",
+    "pronunciation_guide": "meh-MAR",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to give",
+    "amharic": "መስጠት",
+    "romanized": "mestet",
+    "pronunciation_guide": "mes-TET",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to take",
+    "amharic": "መውሰድ",
+    "romanized": "mewsed",
+    "pronunciation_guide": "mew-SED",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to do, to make",
+    "amharic": "ማድረግ",
+    "romanized": "madreg",
+    "pronunciation_guide": "mad-REG",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to say, to tell",
+    "amharic": "ማለት",
+    "romanized": "malet",
+    "pronunciation_guide": "MA-let",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to ask",
+    "amharic": "መጠየቅ",
+    "romanized": "meteyeq",
+    "pronunciation_guide": "meh-teh-YEK",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to help",
+    "amharic": "መርዳት",
+    "romanized": "merdat",
+    "pronunciation_guide": "mer-DAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to like, to love",
+    "amharic": "መውደድ",
+    "romanized": "mewded",
+    "pronunciation_guide": "mew-DED",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "to work",
+    "amharic": "መስራት",
+    "romanized": "mesrat",
+    "pronunciation_guide": "mes-RAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 21
+  },
+  {
+    "english": "my name is ___",
+    "amharic": "ስሜ ___ ይባላል",
+    "romanized": "sime ___ yibalal",
+    "pronunciation_guide": "si-ME ___ yi-ba-LAL",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "what is your name? (to man)",
+    "amharic": "ስምህ ማን ነው?",
+    "romanized": "simeh man new?",
+    "pronunciation_guide": "si-MEH man new?",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 23
+  },
+  {
+    "english": "what is your name? (to woman)",
+    "amharic": "ስምሽ ማን ነው?",
+    "romanized": "simish man new?",
+    "pronunciation_guide": "si-MISH man new?",
+    "category": "phrase",
+    "gender": "feminine",
+    "lesson_id": 23
+  },
+  {
+    "english": "I am learning Amharic",
+    "amharic": "አማርኛ እማራለሁ",
+    "romanized": "amarigna imerallehu",
+    "pronunciation_guide": "ah-ma-RI-nya i-meh-ral-LEH-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "how much is it?",
+    "amharic": "ስንት ነው?",
+    "romanized": "sint new?",
+    "pronunciation_guide": "sint new?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "I want (it)",
+    "amharic": "እፈልጋለሁ",
+    "romanized": "ifelligallehu",
+    "pronunciation_guide": "i-fel-li-gal-LEH-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "it's expensive",
+    "amharic": "ውድ ነው",
+    "romanized": "wid new",
+    "pronunciation_guide": "wid new",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "where is it?",
+    "amharic": "የት ነው?",
+    "romanized": "yet new?",
+    "pronunciation_guide": "yet new?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "go straight",
+    "amharic": "ቀጥታ ሂድ",
+    "romanized": "qetita hid",
+    "pronunciation_guide": "ke-TI-ta hid",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "to the right",
+    "amharic": "ወደ ቀኝ",
+    "romanized": "wede qegn",
+    "pronunciation_guide": "WEH-deh keny",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "to the left",
+    "amharic": "ወደ ግራ",
+    "romanized": "wede gra",
+    "pronunciation_guide": "WEH-deh gra",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "I want food",
+    "amharic": "ምግብ እፈልጋለሁ",
+    "romanized": "migib ifelligallehu",
+    "pronunciation_guide": "mi-GIB i-fel-li-gal-LEH-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "I want coffee",
+    "amharic": "ቡና እፈልጋለሁ",
+    "romanized": "buna ifelligallehu",
+    "pronunciation_guide": "BOO-na i-fel-li-gal-LEH-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "it's good/delicious",
+    "amharic": "ጥሩ ነው",
+    "romanized": "tiru new",
+    "pronunciation_guide": "TI-ru new",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "the bill",
+    "amharic": "ሂሳቡ",
+    "romanized": "hisabu",
+    "pronunciation_guide": "hi-SA-bu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "please (to man)",
+    "amharic": "እባክህ",
+    "romanized": "ibakih",
+    "pronunciation_guide": "i-BA-kih",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 27
+  },
+  {
+    "english": "please (to woman)",
+    "amharic": "እባክሽ",
+    "romanized": "ibakish",
+    "pronunciation_guide": "i-BA-kish",
+    "category": "phrase",
+    "gender": "feminine",
+    "lesson_id": 27
+  },
+  {
+    "english": "you're welcome (it's nothing)",
+    "amharic": "ምንም አይደለም",
+    "romanized": "minem aydelem",
+    "pronunciation_guide": "mi-NEM eye-DEL-em",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 27
+  },
+  {
+    "english": "I'm sorry",
+    "amharic": "አዝናለሁ",
+    "romanized": "azinalehu",
+    "pronunciation_guide": "az-na-LEH-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 27
+  },
+
+  {
+    "english": "he said (ale)",
+    "amharic": "አለ",
+    "romanized": "ale",
+    "pronunciation_guide": "AH-leh",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "there is (alle, geminated)",
+    "amharic": "አለ",
+    "romanized": "alle",
+    "pronunciation_guide": "AL-leh",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "he came (meta)",
+    "amharic": "መጣ",
+    "romanized": "meta",
+    "pronunciation_guide": "MEH-ta",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "he hit (metta)",
+    "amharic": "መታ",
+    "romanized": "metta",
+    "pronunciation_guide": "MET-ta",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "house (bet)",
+    "amharic": "ቤት",
+    "romanized": "bet",
+    "pronunciation_guide": "BET",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "door (bier - sound contrast)",
+    "amharic": "በር",
+    "romanized": "ber",
+    "pronunciation_guide": "BER",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "word (qal)",
+    "amharic": "ቃል",
+    "romanized": "qal",
+    "pronunciation_guide": "KAL",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+  {
+    "english": "husband (bal)",
+    "amharic": "ባል",
+    "romanized": "bal",
+    "pronunciation_guide": "BAL",
+    "category": "basics",
+    "gender": null,
+    "lesson_id": 1
+  },
+
+  {
+    "english": "thirty",
+    "amharic": "ሰላሳ",
+    "romanized": "selasa",
+    "pronunciation_guide": "seh-LA-sa",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "forty",
+    "amharic": "አርባ",
+    "romanized": "arba",
+    "pronunciation_guide": "AR-ba",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "fifty",
+    "amharic": "ሃምሳ",
+    "romanized": "hamsa",
+    "pronunciation_guide": "HAM-sa",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "sixty",
+    "amharic": "ስድሳ",
+    "romanized": "sidsa",
+    "pronunciation_guide": "SID-sa",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "seventy",
+    "amharic": "ሰባ",
+    "romanized": "seba",
+    "pronunciation_guide": "SEH-ba",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "eighty",
+    "amharic": "ሰማንያ",
+    "romanized": "semania",
+    "pronunciation_guide": "seh-MAN-ya",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "ninety",
+    "amharic": "ዘጠና",
+    "romanized": "zetena",
+    "pronunciation_guide": "zeh-TEH-na",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "one hundred",
+    "amharic": "መቶ",
+    "romanized": "meto",
+    "pronunciation_guide": "MEH-to",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "one thousand",
+    "amharic": "ሺ",
+    "romanized": "shi",
+    "pronunciation_guide": "SHI",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+  {
+    "english": "zero",
+    "amharic": "ባዶ",
+    "romanized": "bado",
+    "pronunciation_guide": "BA-do",
+    "category": "number",
+    "gender": null,
+    "lesson_id": 5
+  },
+
+  {
+    "english": "today",
+    "amharic": "ዛሬ",
+    "romanized": "zare",
+    "pronunciation_guide": "ZA-reh",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "tomorrow",
+    "amharic": "ነገ",
+    "romanized": "nege",
+    "pronunciation_guide": "NEH-geh",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "yesterday",
+    "amharic": "ትላንት",
+    "romanized": "tilant",
+    "pronunciation_guide": "ti-LANT",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "morning",
+    "amharic": "ጠዋት",
+    "romanized": "tewat",
+    "pronunciation_guide": "teh-WAT",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "evening",
+    "amharic": "ማታ",
+    "romanized": "mata",
+    "pronunciation_guide": "MA-ta",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "afternoon",
+    "amharic": "ከሰዓት",
+    "romanized": "keseat",
+    "pronunciation_guide": "keh-seh-AT",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "now",
+    "amharic": "አሁን",
+    "romanized": "ahun",
+    "pronunciation_guide": "ah-HOON",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+  {
+    "english": "later",
+    "amharic": "በኋላ",
+    "romanized": "behwala",
+    "pronunciation_guide": "beh-HWA-la",
+    "category": "noun",
+    "gender": null,
+    "lesson_id": 10
+  },
+
+  {
+    "english": "book",
+    "amharic": "መጽሐፍ",
+    "romanized": "metshaf",
+    "pronunciation_guide": "mets-HAF",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 11
+  },
+  {
+    "english": "teacher",
+    "amharic": "መምህር",
+    "romanized": "memhir",
+    "pronunciation_guide": "mem-HIR",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 11
+  },
+  {
+    "english": "student",
+    "amharic": "ተማሪ",
+    "romanized": "temari",
+    "pronunciation_guide": "teh-MA-ri",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 11
+  },
+  {
+    "english": "to read",
+    "amharic": "ማንበብ",
+    "romanized": "maneb",
+    "pronunciation_guide": "ma-NEB",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 11
+  },
+  {
+    "english": "to write",
+    "amharic": "መጻፍ",
+    "romanized": "meshaf",
+    "pronunciation_guide": "meh-TSAF",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 11
+  },
+  {
+    "english": "dog",
+    "amharic": "ውሻ",
+    "romanized": "wusha",
+    "pronunciation_guide": "WOO-sha",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 11
+  },
+  {
+    "english": "cat",
+    "amharic": "ድመት",
+    "romanized": "dimit",
+    "pronunciation_guide": "di-MIT",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 11
+  },
+  {
+    "english": "market",
+    "amharic": "ገበያ",
+    "romanized": "gebeya",
+    "pronunciation_guide": "geh-BEH-ya",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 11
+  },
+  {
+    "english": "church",
+    "amharic": "ቤተ ክርስቲያን",
+    "romanized": "beta kristian",
+    "pronunciation_guide": "BEH-teh kris-ti-YAN",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 11
+  },
+  {
+    "english": "name",
+    "amharic": "ስም",
+    "romanized": "sim",
+    "pronunciation_guide": "SIM",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 11
+  },
+
+  {
+    "english": "man",
+    "amharic": "ወንድ",
+    "romanized": "wend",
+    "pronunciation_guide": "WEND",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 12
+  },
+  {
+    "english": "woman",
+    "amharic": "ሴት",
+    "romanized": "set",
+    "pronunciation_guide": "SET",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 12
+  },
+  {
+    "english": "king",
+    "amharic": "ንጉሥ",
+    "romanized": "nigus",
+    "pronunciation_guide": "ni-GUS",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 12
+  },
+  {
+    "english": "queen",
+    "amharic": "ንግሥት",
+    "romanized": "nigist",
+    "pronunciation_guide": "ni-GIST",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 12
+  },
+  {
+    "english": "rooster",
+    "amharic": "አውራ ዶሮ",
+    "romanized": "awra doro",
+    "pronunciation_guide": "AW-ra DO-ro",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 12
+  },
+  {
+    "english": "hen, chicken",
+    "amharic": "ዶሮ",
+    "romanized": "doro",
+    "pronunciation_guide": "DO-ro",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 12
+  },
+  {
+    "english": "bull, ox",
+    "amharic": "በሬ",
+    "romanized": "bere",
+    "pronunciation_guide": "beh-REH",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 12
+  },
+  {
+    "english": "cow",
+    "amharic": "ላም",
+    "romanized": "lam",
+    "pronunciation_guide": "LAM",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 12
+  },
+  {
+    "english": "boy",
+    "amharic": "ወንድ ልጅ",
+    "romanized": "wend lij",
+    "pronunciation_guide": "WEND lij",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 12
+  },
+  {
+    "english": "girl",
+    "amharic": "ሴት ልጅ",
+    "romanized": "set lij",
+    "pronunciation_guide": "SET lij",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 12
+  },
+
+  {
+    "english": "I have",
+    "amharic": "አለኝ",
+    "romanized": "allegn",
+    "pronunciation_guide": "al-LEGN",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 13
+  },
+  {
+    "english": "you have (to man)",
+    "amharic": "አለህ",
+    "romanized": "alleh",
+    "pronunciation_guide": "al-LEH",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 13
+  },
+  {
+    "english": "you have (to woman)",
+    "amharic": "አለሽ",
+    "romanized": "allesh",
+    "pronunciation_guide": "al-LESH",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 13
+  },
+  {
+    "english": "he has",
+    "amharic": "አለው",
+    "romanized": "allew",
+    "pronunciation_guide": "al-LEW",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 13
+  },
+  {
+    "english": "she has",
+    "amharic": "አላት",
+    "romanized": "allat",
+    "pronunciation_guide": "al-LAT",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 13
+  },
+  {
+    "english": "there is",
+    "amharic": "አለ",
+    "romanized": "alle",
+    "pronunciation_guide": "AL-leh",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 13
+  },
+  {
+    "english": "there is not",
+    "amharic": "የለም",
+    "romanized": "yelem",
+    "pronunciation_guide": "YEH-lem",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 13
+  },
+  {
+    "english": "I don't have",
+    "amharic": "የለኝም",
+    "romanized": "yelegnym",
+    "pronunciation_guide": "yeh-LEG-nym",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 13
+  },
+
+  {
+    "english": "the house",
+    "amharic": "ቤቱ",
+    "romanized": "betu",
+    "pronunciation_guide": "BEH-tu",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "the car",
+    "amharic": "መኪናዋ",
+    "romanized": "mekinaw",
+    "pronunciation_guide": "meh-ki-NA-wa",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "houses",
+    "amharic": "ቤቶች",
+    "romanized": "betoch",
+    "pronunciation_guide": "BEH-toch",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "children",
+    "amharic": "ልጆች",
+    "romanized": "lijoch",
+    "pronunciation_guide": "li-JOCH",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "people",
+    "amharic": "ሰዎች",
+    "romanized": "sewoch",
+    "pronunciation_guide": "SEH-woch",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "books",
+    "amharic": "መጻሕፍት",
+    "romanized": "metshafoch",
+    "pronunciation_guide": "mets-ha-FOCH",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "dogs",
+    "amharic": "ውሾች",
+    "romanized": "wushoch",
+    "pronunciation_guide": "woo-SHOCH",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "the water",
+    "amharic": "ውሃው",
+    "romanized": "wuhaw",
+    "pronunciation_guide": "woo-HAW",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "trees",
+    "amharic": "ዛፎች",
+    "romanized": "zafoch",
+    "pronunciation_guide": "ZA-foch",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 14
+  },
+  {
+    "english": "tree",
+    "amharic": "ዛፍ",
+    "romanized": "zaf",
+    "pronunciation_guide": "ZAF",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 14
+  },
+
+  {
+    "english": "my",
+    "amharic": "የኔ",
+    "romanized": "yene",
+    "pronunciation_guide": "yeh-NEH",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 15
+  },
+  {
+    "english": "your (masculine)",
+    "amharic": "ያንተ",
+    "romanized": "yaante",
+    "pronunciation_guide": "ya-AN-teh",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 15
+  },
+  {
+    "english": "your (feminine)",
+    "amharic": "ያንቺ",
+    "romanized": "yaanchi",
+    "pronunciation_guide": "ya-AN-chi",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 15
+  },
+  {
+    "english": "his",
+    "amharic": "የሱ",
+    "romanized": "yessu",
+    "pronunciation_guide": "YES-su",
+    "category": "grammar",
+    "gender": "masculine",
+    "lesson_id": 15
+  },
+  {
+    "english": "her",
+    "amharic": "የሷ",
+    "romanized": "yesswa",
+    "pronunciation_guide": "YES-swa",
+    "category": "grammar",
+    "gender": "feminine",
+    "lesson_id": 15
+  },
+  {
+    "english": "our",
+    "amharic": "የኛ",
+    "romanized": "yegna",
+    "pronunciation_guide": "YEG-na",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 15
+  },
+  {
+    "english": "their",
+    "amharic": "የነሱ",
+    "romanized": "yennessu",
+    "pronunciation_guide": "yen-NES-su",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 15
+  },
+  {
+    "english": "my house",
+    "amharic": "የኔ ቤት",
+    "romanized": "yene bet",
+    "pronunciation_guide": "yeh-NEH BET",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 15
+  },
+
+  {
+    "english": "who",
+    "amharic": "ማን",
+    "romanized": "man",
+    "pronunciation_guide": "MAN",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "what",
+    "amharic": "ምን",
+    "romanized": "min",
+    "pronunciation_guide": "MIN",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "where",
+    "amharic": "የት",
+    "romanized": "yet",
+    "pronunciation_guide": "YET",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "when",
+    "amharic": "መቼ",
+    "romanized": "meche",
+    "pronunciation_guide": "meh-CHEH",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "how many",
+    "amharic": "ስንት",
+    "romanized": "sint",
+    "pronunciation_guide": "SINT",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "why",
+    "amharic": "ለምን",
+    "romanized": "lemen",
+    "pronunciation_guide": "leh-MIN",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "how",
+    "amharic": "እንዴት",
+    "romanized": "indet",
+    "pronunciation_guide": "in-DET",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "which",
+    "amharic": "የትኛው",
+    "romanized": "yetignaw",
+    "pronunciation_guide": "yeh-ti-NYAW",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "what kind",
+    "amharic": "ምን ዓይነት",
+    "romanized": "min aynet",
+    "pronunciation_guide": "MIN AY-net",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+  {
+    "english": "whose",
+    "amharic": "የማን",
+    "romanized": "yeman",
+    "pronunciation_guide": "yeh-MAN",
+    "category": "grammar",
+    "gender": null,
+    "lesson_id": 16
+  },
+
+  {
+    "english": "to sleep",
+    "amharic": "መተኛት",
+    "romanized": "metegnat",
+    "pronunciation_guide": "meh-teh-NYAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to wake up",
+    "amharic": "መንሳት",
+    "romanized": "mensat",
+    "pronunciation_guide": "men-SAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to buy",
+    "amharic": "መግዛት",
+    "romanized": "megzat",
+    "pronunciation_guide": "meg-ZAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to sell",
+    "amharic": "መሸጥ",
+    "romanized": "meshet",
+    "pronunciation_guide": "meh-SHET",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to write",
+    "amharic": "መጻፍ",
+    "romanized": "meshaf",
+    "pronunciation_guide": "meh-TSAF",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to read",
+    "amharic": "ማንበብ",
+    "romanized": "maneb",
+    "pronunciation_guide": "ma-NEB",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to open",
+    "amharic": "መክፈት",
+    "romanized": "mekfet",
+    "pronunciation_guide": "mek-FET",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+  {
+    "english": "to close",
+    "amharic": "መዝጋት",
+    "romanized": "mezgat",
+    "pronunciation_guide": "mez-GAT",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 17
+  },
+
+  {
+    "english": "I went",
+    "amharic": "ሄድኩ",
+    "romanized": "hedku",
+    "pronunciation_guide": "HED-ku",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I came",
+    "amharic": "መጣሁ",
+    "romanized": "metahu",
+    "pronunciation_guide": "meh-TA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I ate",
+    "amharic": "በላሁ",
+    "romanized": "belahu",
+    "pronunciation_guide": "beh-LA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I drank",
+    "amharic": "ጠጣሁ",
+    "romanized": "tettahu",
+    "pronunciation_guide": "tet-TA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I saw",
+    "amharic": "አየሁ",
+    "romanized": "ayehu",
+    "pronunciation_guide": "ah-YEH-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I said",
+    "amharic": "አልኩ",
+    "romanized": "alku",
+    "pronunciation_guide": "AL-ku",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I did",
+    "amharic": "አደረግኩ",
+    "romanized": "adregku",
+    "pronunciation_guide": "ad-REG-ku",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I bought",
+    "amharic": "ገዛሁ",
+    "romanized": "gezahu",
+    "pronunciation_guide": "geh-ZA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I slept",
+    "amharic": "ተኛሁ",
+    "romanized": "tegnahu",
+    "pronunciation_guide": "teg-NA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+  {
+    "english": "I worked",
+    "amharic": "ሰራሁ",
+    "romanized": "serahu",
+    "pronunciation_guide": "seh-RA-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 18
+  },
+
+  {
+    "english": "I go",
+    "amharic": "እሄዳለሁ",
+    "romanized": "ihedallehu",
+    "pronunciation_guide": "i-hed-AL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I eat",
+    "amharic": "እበላለሁ",
+    "romanized": "ibledallehu",
+    "pronunciation_guide": "ib-leh-DAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I drink",
+    "amharic": "እጠጣለሁ",
+    "romanized": "itettallehu",
+    "pronunciation_guide": "i-tet-TAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I work",
+    "amharic": "እሰራለሁ",
+    "romanized": "iserallehu",
+    "pronunciation_guide": "i-seh-RAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I speak",
+    "amharic": "እናገራለሁ",
+    "romanized": "inagerallehu",
+    "pronunciation_guide": "i-na-geh-RAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I learn",
+    "amharic": "እማራለሁ",
+    "romanized": "imerallehu",
+    "pronunciation_guide": "i-meh-RAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I see",
+    "amharic": "አያለሁ",
+    "romanized": "iyallehu",
+    "pronunciation_guide": "ah-YAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I know",
+    "amharic": "አውቃለሁ",
+    "romanized": "awallehu",
+    "pronunciation_guide": "aw-KAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I write",
+    "amharic": "እጽፋለሁ",
+    "romanized": "ishfallehu",
+    "pronunciation_guide": "ish-FAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+  {
+    "english": "I read",
+    "amharic": "አነባለሁ",
+    "romanized": "aneballehu",
+    "pronunciation_guide": "ah-neh-BAL-leh-hu",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 19
+  },
+
+  {
+    "english": "I don't go",
+    "amharic": "አልሄድም",
+    "romanized": "alhedim",
+    "pronunciation_guide": "al-HE-dim",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "I don't eat",
+    "amharic": "አልበላም",
+    "romanized": "albelam",
+    "pronunciation_guide": "al-beh-LAM",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "I don't know",
+    "amharic": "አላውቅም",
+    "romanized": "alawkim",
+    "pronunciation_guide": "al-aw-KIM",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "I don't want",
+    "amharic": "አልፈልግም",
+    "romanized": "alfelligim",
+    "pronunciation_guide": "al-fel-LI-gim",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "it is not",
+    "amharic": "አይደለም",
+    "romanized": "aydelem",
+    "pronunciation_guide": "eye-DEL-em",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "he didn't come",
+    "amharic": "አልመጣም",
+    "romanized": "almetam",
+    "pronunciation_guide": "al-meh-TAM",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "I can't",
+    "amharic": "አልችልም",
+    "romanized": "alchilim",
+    "pronunciation_guide": "al-CHI-lim",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+  {
+    "english": "there is no",
+    "amharic": "የለም",
+    "romanized": "yelem",
+    "pronunciation_guide": "YEH-lem",
+    "category": "verb",
+    "gender": null,
+    "lesson_id": 20
+  },
+
+  {
+    "english": "go! (to man)",
+    "amharic": "ሂድ",
+    "romanized": "hid",
+    "pronunciation_guide": "HID",
+    "category": "verb",
+    "gender": "masculine",
+    "lesson_id": 21
+  },
+  {
+    "english": "come! (to man)",
+    "amharic": "ና",
+    "romanized": "na",
+    "pronunciation_guide": "NA",
+    "category": "verb",
+    "gender": "masculine",
+    "lesson_id": 21
+  },
+  {
+    "english": "eat! (to man)",
+    "amharic": "ብላ",
+    "romanized": "bila",
+    "pronunciation_guide": "BI-la",
+    "category": "verb",
+    "gender": "masculine",
+    "lesson_id": 21
+  },
+  {
+    "english": "look! (to man)",
+    "amharic": "እይ",
+    "romanized": "iy",
+    "pronunciation_guide": "IY",
+    "category": "verb",
+    "gender": "masculine",
+    "lesson_id": 21
+  },
+  {
+    "english": "sit! (to man)",
+    "amharic": "ተቀመጥ",
+    "romanized": "teqemet",
+    "pronunciation_guide": "teh-keh-MET",
+    "category": "verb",
+    "gender": "masculine",
+    "lesson_id": 21
+  },
+
+  {
+    "english": "I don't understand",
+    "amharic": "አልገባኝም",
+    "romanized": "algebagnim",
+    "pronunciation_guide": "al-geh-BA-nyim",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "I understand",
+    "amharic": "ገባኝ",
+    "romanized": "gebanignal",
+    "pronunciation_guide": "geh-BA-nyi",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "slowly please",
+    "amharic": "ቀስ በል",
+    "romanized": "qes bel",
+    "pronunciation_guide": "KES bel",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "repeat please (to man)",
+    "amharic": "ደግመህ ንገረኝ",
+    "romanized": "degmeh nigeregn",
+    "pronunciation_guide": "DEG-meh ni-geh-REGN",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 22
+  },
+  {
+    "english": "I don't speak Amharic",
+    "amharic": "አማርኛ አልናገርም",
+    "romanized": "amarigna alinagerim",
+    "pronunciation_guide": "ah-ma-RI-nya al-na-GE-rim",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "do you speak English? (to man)",
+    "amharic": "እንግሊዝኛ ትናገራለህ?",
+    "romanized": "ingilizigna tinageraleh?",
+    "pronunciation_guide": "in-gli-ZI-nya ti-na-geh-RA-leh?",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 22
+  },
+  {
+    "english": "where is the bathroom?",
+    "amharic": "ሽንት ቤት የት ነው?",
+    "romanized": "shint bet yet new?",
+    "pronunciation_guide": "SHINT bet YET new?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "help me",
+    "amharic": "እርዳኝ",
+    "romanized": "irdagn",
+    "pronunciation_guide": "ir-DAGN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+  {
+    "english": "wait (to man)",
+    "amharic": "ጠብቅ",
+    "romanized": "tebeq",
+    "pronunciation_guide": "teh-BEK",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 22
+  },
+  {
+    "english": "let's go",
+    "amharic": "እንሂድ",
+    "romanized": "inhid",
+    "pronunciation_guide": "in-HID",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 22
+  },
+
+  {
+    "english": "I am from ___",
+    "amharic": "ከ___ ነኝ",
+    "romanized": "ke ___ negn",
+    "pronunciation_guide": "keh ___ NEGN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "nice to meet you",
+    "amharic": "ደስ ብሎኛል",
+    "romanized": "des bilonyal",
+    "pronunciation_guide": "des bi-LO-nyal",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "I am Ethiopian",
+    "amharic": "ኢትዮጵያዊ ነኝ",
+    "romanized": "ityopyawi negn",
+    "pronunciation_guide": "it-yo-PYA-wi NEGN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "I am American",
+    "amharic": "አሜሪካዊ ነኝ",
+    "romanized": "amerikawi negn",
+    "pronunciation_guide": "ah-meh-ri-KA-wi NEGN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+  {
+    "english": "how old are you? (to man)",
+    "amharic": "እድሜህ ስንት ነው?",
+    "romanized": "idmeh sint new?",
+    "pronunciation_guide": "id-MEH SINT new?",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 23
+  },
+  {
+    "english": "I am ___ years old",
+    "amharic": "እድሜዬ ___ ዓመት ነው",
+    "romanized": "idmeye ___ amet new",
+    "pronunciation_guide": "id-MEH-yeh ___ ah-MET new",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 23
+  },
+
+  {
+    "english": "make it cheaper",
+    "amharic": "ያቅርቡልኝ",
+    "romanized": "yaqirbulign",
+    "pronunciation_guide": "ya-kir-BU-lign",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "how much total?",
+    "amharic": "በሙሉ ስንት ነው?",
+    "romanized": "bemulu sint new?",
+    "pronunciation_guide": "beh-MU-lu SINT new?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "give me (to man)",
+    "amharic": "ስጠኝ",
+    "romanized": "sitegn",
+    "pronunciation_guide": "si-TEGN",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 24
+  },
+  {
+    "english": "I will buy it",
+    "amharic": "እገዛዋለሁ",
+    "romanized": "igezewallehu",
+    "pronunciation_guide": "i-geh-zeh-WAL-leh-hu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "it's cheap",
+    "amharic": "ርካሽ ነው",
+    "romanized": "rikash new",
+    "pronunciation_guide": "ri-KASH new",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+  {
+    "english": "do you have? (formal)",
+    "amharic": "አለዎ?",
+    "romanized": "allewo?",
+    "pronunciation_guide": "al-LEH-wo?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 24
+  },
+
+  {
+    "english": "near",
+    "amharic": "ቅርብ",
+    "romanized": "qirb",
+    "pronunciation_guide": "KIRB",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "far",
+    "amharic": "ሩቅ",
+    "romanized": "ruq",
+    "pronunciation_guide": "ROOK",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "next to",
+    "amharic": "አጠገብ",
+    "romanized": "ategeb",
+    "pronunciation_guide": "ah-teh-GEB",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "in front of",
+    "amharic": "ፊት ለፊት",
+    "romanized": "fit lefit",
+    "pronunciation_guide": "FIT leh-FIT",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+  {
+    "english": "behind",
+    "amharic": "ከኋላ",
+    "romanized": "kehwala",
+    "pronunciation_guide": "keh-HWA-la",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 25
+  },
+
+  {
+    "english": "menu",
+    "amharic": "ሜኑ",
+    "romanized": "menu",
+    "pronunciation_guide": "MEH-nu",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "injera",
+    "amharic": "እንጀራ",
+    "romanized": "injera",
+    "pronunciation_guide": "in-JEH-ra",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "tibs (sauteed meat)",
+    "amharic": "ጥብስ",
+    "romanized": "tibs",
+    "pronunciation_guide": "TIBS",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "I am hungry",
+    "amharic": "ራበኝ",
+    "romanized": "rabegn",
+    "pronunciation_guide": "ra-BEGN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+  {
+    "english": "I am full",
+    "amharic": "ጠገብኩ",
+    "romanized": "tegebku",
+    "pronunciation_guide": "teh-GEB-ku",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 26
+  },
+
+  {
+    "english": "with respect",
+    "amharic": "በክብር",
+    "romanized": "bekibir",
+    "pronunciation_guide": "beh-ki-BIR",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 27
+  },
+  {
+    "english": "sir, mr.",
+    "amharic": "አቶ",
+    "romanized": "ato",
+    "pronunciation_guide": "AH-to",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 27
+  },
+  {
+    "english": "madam",
+    "amharic": "ወይዘሮ",
+    "romanized": "weyzero",
+    "pronunciation_guide": "wey-ZEH-ro",
+    "category": "phrase",
+    "gender": "feminine",
+    "lesson_id": 27
+  },
+  {
+    "english": "miss",
+    "amharic": "ወይዘሪት",
+    "romanized": "weyzerit",
+    "pronunciation_guide": "wey-ZEH-rit",
+    "category": "phrase",
+    "gender": "feminine",
+    "lesson_id": 27
+  },
+  {
+    "english": "congratulations (to man)",
+    "amharic": "እንኳን ደስ አለህ",
+    "romanized": "inkwan des aleh",
+    "pronunciation_guide": "in-KWAN des AH-leh",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 27
+  },
+
+  {
+    "english": "good night (to man)",
+    "amharic": "ደህና እደር",
+    "romanized": "dehna ider",
+    "pronunciation_guide": "DEH-na i-DER",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 28
+  },
+  {
+    "english": "see you tomorrow",
+    "amharic": "ነገ እንገናኝ",
+    "romanized": "nege innigegnalegn",
+    "pronunciation_guide": "NEH-geh in-ni-geh-NA-nyeh",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "have a good day",
+    "amharic": "መልካም ቀን",
+    "romanized": "melkam qen",
+    "pronunciation_guide": "mel-KAM KEN",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "how is work?",
+    "amharic": "ስራ እንዴት ነው?",
+    "romanized": "sira indet new?",
+    "pronunciation_guide": "SI-ra in-DET new?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "I'm tired",
+    "amharic": "ደክሞኛል",
+    "romanized": "dekmognal",
+    "pronunciation_guide": "dek-MO-nyal",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "I'm happy",
+    "amharic": "ደስ ብሎኛል",
+    "romanized": "des bilonyal",
+    "pronunciation_guide": "des bi-LO-nyal",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "what's new?",
+    "amharic": "ምን አዲስ ነገር አለ?",
+    "romanized": "min addis neger alle?",
+    "pronunciation_guide": "MIN ad-DIS neh-GER AL-leh?",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "nothing much",
+    "amharic": "ምንም የለም",
+    "romanized": "minem yelem",
+    "pronunciation_guide": "mi-NEM YEH-lem",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  },
+  {
+    "english": "take care (to man)",
+    "amharic": "ተጠንቀቅ",
+    "romanized": "tetenqeq",
+    "pronunciation_guide": "teh-ten-KEK",
+    "category": "phrase",
+    "gender": "masculine",
+    "lesson_id": 28
+  },
+  {
+    "english": "God willing",
+    "amharic": "እግዚአብሔር ከፈቀደ",
+    "romanized": "igziabher kefeqede",
+    "pronunciation_guide": "ig-zi-ab-HER keh-feh-KEH-deh",
+    "category": "phrase",
+    "gender": null,
+    "lesson_id": 28
+  }
+]

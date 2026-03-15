@@ -1,0 +1,3512 @@
+[
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'hello' informally in Amharic?",
+    "options": "[\"selam\", \"chaw\", \"dehna\", \"awo\"]",
+    "correct_answer": "selam",
+    "explanation": "Selam (ሰላም) is the informal way to say hello in Amharic, literally meaning 'peace'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "To greet a man and ask 'how are you?', you say:",
+    "options": "[\"indet neh\", \"indet nesh\", \"dehna negn\", \"selam new\"]",
+    "correct_answer": "indet neh",
+    "explanation": "'Indet neh' (እንዴት ነህ) is 'how are you?' addressed to a male. 'Neh' is masculine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "To greet a woman and ask 'how are you?', you say:",
+    "options": "[\"indet nesh\", \"indet neh\", \"dehna negn\", \"selam nat\"]",
+    "correct_answer": "indet nesh",
+    "explanation": "'Indet nesh' (እንዴት ነሽ) is 'how are you?' addressed to a female. 'Nesh' is feminine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "fill_blank",
+    "question": "To say 'I am fine' in Amharic, you say: dehna ____",
+    "options": null,
+    "correct_answer": "negn",
+    "explanation": "'Dehna negn' (ደህና ነኝ) means 'I am fine.' 'Negn' is the 'to be' form for 'I'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "match_pairs",
+    "question": "Match each Amharic greeting to its English meaning.",
+    "options": "{\"left\": [\"Hello\", \"How are you? (m)\", \"How are you? (f)\", \"I am fine\"], \"right\": [\"dehna negn\", \"indet neh\", \"selam\", \"indet nesh\"]}",
+    "correct_answer": "{\"Hello\": \"selam\", \"How are you? (m)\": \"indet neh\", \"How are you? (f)\": \"indet nesh\", \"I am fine\": \"dehna negn\"}",
+    "explanation": "These are the core Amharic greetings: selam=hello, indet neh/nesh=how are you (m/f), dehna negn=I am fine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "What does 'dehna wal' mean?",
+    "options": "[\"Good morning\", \"Goodbye\", \"Good night\", \"Thank you\"]",
+    "correct_answer": "Goodbye",
+    "explanation": "'Dehna wal' (ደህና ዋል) means 'goodbye', literally 'stay well'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "fill_blank",
+    "question": "To say 'good morning' in Amharic: ____ aderk",
+    "options": null,
+    "correct_answer": "dehna",
+    "explanation": "'Dehna aderk' (ደህና አደርክ) means 'good morning' (to a male), literally 'did you spend the night well?'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic pronoun for 'I'?",
+    "options": "[\"ine\", \"ante\", \"issu\", \"igna\"]",
+    "correct_answer": "ine",
+    "explanation": "'Ine' (እኔ) is the first person singular pronoun meaning 'I' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "What is 'you' (masculine) in Amharic?",
+    "options": "[\"ante\", \"anchi\", \"ine\", \"issu\"]",
+    "correct_answer": "ante",
+    "explanation": "'Ante' (አንተ) means 'you' when speaking to a male. For a female, it is 'anchi'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "'She is' in Amharic is:",
+    "options": "[\"nat\", \"new\", \"negn\", \"neh\"]",
+    "correct_answer": "nat",
+    "explanation": "'Nat' (ናት) is the feminine third person form of 'to be.' 'Isswa ... nat' means 'she is...'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "fill_blank",
+    "question": "To say 'he is' in Amharic, you use the verb: ____",
+    "options": null,
+    "correct_answer": "new",
+    "explanation": "'New' (ነው) is the masculine third person form of 'to be.' 'Issu ... new' means 'he is...'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "match_pairs",
+    "question": "Match each pronoun to its Amharic equivalent.",
+    "options": "{\"left\": [\"I\", \"You (m)\", \"He\", \"She\"], \"right\": [\"issu\", \"ine\", \"isswa\", \"ante\"]}",
+    "correct_answer": "{\"I\": \"ine\", \"You (m)\": \"ante\", \"He\": \"issu\", \"She\": \"isswa\"}",
+    "explanation": "The basic Amharic pronouns: ine=I, ante=you(m), issu=he, isswa=she.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "'We' in Amharic is:",
+    "options": "[\"igna\", \"innante\", \"innessu\", \"ine\"]",
+    "correct_answer": "igna",
+    "explanation": "'Igna' (እኛ) is the first person plural pronoun meaning 'we' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "fill_blank",
+    "question": "To say 'you are' (to a female), you say: ____ nesh",
+    "options": null,
+    "correct_answer": "anchi",
+    "explanation": "'Anchi nesh' (አንቺ ነሽ) means 'you are' when addressing a female.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What is 'one' in Amharic?",
+    "options": "[\"and\", \"hulet\", \"sost\", \"arat\"]",
+    "correct_answer": "and",
+    "explanation": "'And' (አንድ) means 'one' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What is 'five' in Amharic?",
+    "options": "[\"amist\", \"arat\", \"sost\", \"sidist\"]",
+    "correct_answer": "amist",
+    "explanation": "'Amist' (አምስት) means 'five' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What number is 'asir' in Amharic?",
+    "options": "[\"10\", \"8\", \"7\", \"9\"]",
+    "correct_answer": "10",
+    "explanation": "'Asir' (አስር) means 'ten' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "match_pairs",
+    "question": "Match the numbers to their Amharic equivalents.",
+    "options": "{\"left\": [\"1\", \"3\", \"5\", \"7\"], \"right\": [\"amist\", \"sebat\", \"and\", \"sost\"]}",
+    "correct_answer": "{\"1\": \"and\", \"3\": \"sost\", \"5\": \"amist\", \"7\": \"sebat\"}",
+    "explanation": "Amharic numbers 1-10: and(1), hulet(2), sost(3), arat(4), amist(5), sidist(6), sebat(7), siment(8), zetegn(9), asir(10).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "fill_blank",
+    "question": "The number 'four' in Amharic is: ____",
+    "options": null,
+    "correct_answer": "arat",
+    "explanation": "'Arat' (አራት) means 'four' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What is 'eight' in Amharic?",
+    "options": "[\"siment\", \"sebat\", \"zetegn\", \"sidist\"]",
+    "correct_answer": "siment",
+    "explanation": "'Siment' (ስምንት) means 'eight' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "What is 'red' in Amharic?",
+    "options": "[\"qey\", \"bича\", \"arenguade\", \"semai\"]",
+    "correct_answer": "qey",
+    "explanation": "'Qey' (ቀይ) means 'red' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'big' in Amharic?",
+    "options": "[\"tiliq\", \"tinish\", \"qonjo\", \"areq\"]",
+    "correct_answer": "tiliq",
+    "explanation": "'Tiliq' (ትልቅ) means 'big' or 'large' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "What does 'tinish' mean?",
+    "options": "[\"Small\", \"Big\", \"Good\", \"Bad\"]",
+    "correct_answer": "Small",
+    "explanation": "'Tinish' (ትንሽ) means 'small' or 'little' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "match_pairs",
+    "question": "Match the colors to their Amharic equivalents.",
+    "options": "{\"left\": [\"Red\", \"White\", \"Black\", \"Green\"], \"right\": [\"tikur\", \"arenguade\", \"qey\", \"nech\"]}",
+    "correct_answer": "{\"Red\": \"qey\", \"White\": \"nech\", \"Black\": \"tikur\", \"Green\": \"arenguade\"}",
+    "explanation": "Amharic colors: qey=red, nech=white, tikur=black, arenguade=green.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'beautiful' or 'pretty' is: ____",
+    "options": null,
+    "correct_answer": "qonjo",
+    "explanation": "'Qonjo' (ቆንጆ) means 'beautiful' or 'pretty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "What color is 'semayawi' in Amharic?",
+    "options": "[\"Blue\", \"Yellow\", \"Green\", \"Purple\"]",
+    "correct_answer": "Blue",
+    "explanation": "'Semayawi' (ሰማያዊ) means 'blue' in Amharic, derived from 'semay' (sky).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'mother' in Amharic?",
+    "options": "[\"inat\", \"abat\", \"ihit\", \"wondim\"]",
+    "correct_answer": "inat",
+    "explanation": "'Inat' (እናት) means 'mother' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'father' in Amharic?",
+    "options": "[\"abat\", \"inat\", \"wondim\", \"ihit\"]",
+    "correct_answer": "abat",
+    "explanation": "'Abat' (አባት) means 'father' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "What does 'wondim' mean?",
+    "options": "[\"Brother\", \"Sister\", \"Father\", \"Uncle\"]",
+    "correct_answer": "Brother",
+    "explanation": "'Wondim' (ወንድም) means 'brother' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "match_pairs",
+    "question": "Match the family members to their Amharic equivalents.",
+    "options": "{\"left\": [\"Mother\", \"Father\", \"Sister\", \"Brother\"], \"right\": [\"wondim\", \"abat\", \"ihit\", \"inat\"]}",
+    "correct_answer": "{\"Mother\": \"inat\", \"Father\": \"abat\", \"Sister\": \"ihit\", \"Brother\": \"wondim\"}",
+    "explanation": "Key family terms: inat=mother, abat=father, ihit=sister, wondim=brother.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "fill_blank",
+    "question": "To say 'my family' in Amharic: ____ beteseb",
+    "options": null,
+    "correct_answer": "ye ine",
+    "explanation": "'Ye ine beteseb' (የእኔ ቤተሰብ) means 'my family'. 'Beteseb' means 'family'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "What is 'child' in Amharic?",
+    "options": "[\"lij\", \"set\", \"wond\", \"sew\"]",
+    "correct_answer": "lij",
+    "explanation": "'Lij' (ልጅ) means 'child' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'water' in Amharic?",
+    "options": "[\"wuha\", \"dabo\", \"buna\", \"wetet\"]",
+    "correct_answer": "wuha",
+    "explanation": "'Wuha' (ውሃ) means 'water' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "What is 'bread' in Amharic?",
+    "options": "[\"dabo\", \"injera\", \"wot\", \"buna\"]",
+    "correct_answer": "dabo",
+    "explanation": "'Dabo' (ዳቦ) means 'bread' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "What does 'buna' mean in Amharic?",
+    "options": "[\"Coffee\", \"Tea\", \"Milk\", \"Juice\"]",
+    "correct_answer": "Coffee",
+    "explanation": "'Buna' (ቡና) means 'coffee' in Amharic. Ethiopia is the birthplace of coffee.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "match_pairs",
+    "question": "Match the food and drink items to their Amharic equivalents.",
+    "options": "{\"left\": [\"Water\", \"Coffee\", \"Bread\", \"Milk\"], \"right\": [\"buna\", \"wuha\", \"wetet\", \"dabo\"]}",
+    "correct_answer": "{\"Water\": \"wuha\", \"Coffee\": \"buna\", \"Bread\": \"dabo\", \"Milk\": \"wetet\"}",
+    "explanation": "Common food vocabulary: wuha=water, buna=coffee, dabo=bread, wetet=milk.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "fill_blank",
+    "question": "The traditional Ethiopian flatbread is called: ____",
+    "options": null,
+    "correct_answer": "injera",
+    "explanation": "'Injera' (እንጀራ) is the spongy fermented flatbread that is a staple of Ethiopian cuisine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'food' or 'meal' in Amharic?",
+    "options": "[\"migib\", \"wot\", \"dabo\", \"firfir\"]",
+    "correct_answer": "migib",
+    "explanation": "'Migib' (ምግብ) means 'food' or 'meal' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'house' in Amharic?",
+    "options": "[\"bet\", \"medina\", \"ketema\", \"mender\"]",
+    "correct_answer": "bet",
+    "explanation": "'Bet' (ቤት) means 'house' or 'home' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "What is 'school' in Amharic?",
+    "options": "[\"timhirt bet\", \"migib bet\", \"buna bet\", \"bet\"]",
+    "correct_answer": "timhirt bet",
+    "explanation": "'Timhirt bet' (ትምህርት ቤት) means 'school', literally 'house of learning'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "match_pairs",
+    "question": "Match the places to their Amharic equivalents.",
+    "options": "{\"left\": [\"House\", \"School\", \"Restaurant\", \"Church\"], \"right\": [\"migib bet\", \"bet\", \"beta kristiyan\", \"timhirt bet\"]}",
+    "correct_answer": "{\"House\": \"bet\", \"School\": \"timhirt bet\", \"Restaurant\": \"migib bet\", \"Church\": \"beta kristiyan\"}",
+    "explanation": "Many Amharic place names use 'bet' (house): timhirt bet=school, migib bet=restaurant.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "fill_blank",
+    "question": "'Coffee house' or 'cafe' in Amharic is: buna ____",
+    "options": null,
+    "correct_answer": "bet",
+    "explanation": "'Buna bet' (ቡና ቤት) means 'coffee house' or 'cafe'. 'Bet' means 'house'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "What does 'ketema' mean?",
+    "options": "[\"City\", \"Village\", \"House\", \"Road\"]",
+    "correct_answer": "City",
+    "explanation": "'Ketema' (ከተማ) means 'city' or 'town' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "fill_blank",
+    "question": "To say 'hospital' in Amharic: ____ bet",
+    "options": null,
+    "correct_answer": "hakim",
+    "explanation": "'Hakim bet' (ሐኪም ቤት) means 'hospital', literally 'doctor house'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'please' in Amharic?",
+    "options": "[\"ibakih\", \"ameseginalehu\", \"yiqirta\", \"awo\"]",
+    "correct_answer": "ibakih",
+    "explanation": "'Ibakih' (እባክህ) means 'please' (to a male). For a female, it is 'ibakish'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'thank you' in Amharic?",
+    "options": "[\"ameseginalehu\", \"ibakih\", \"yiqirta\", \"dehna wal\"]",
+    "correct_answer": "ameseginalehu",
+    "explanation": "'Ameseginalehu' (አመሰግናለሁ) means 'thank you' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "What does 'yiqirta' mean?",
+    "options": "[\"Sorry / Excuse me\", \"Thank you\", \"Please\", \"Goodbye\"]",
+    "correct_answer": "Sorry / Excuse me",
+    "explanation": "'Yiqirta' (ይቅርታ) means 'sorry' or 'excuse me' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "fill_blank",
+    "question": "To say 'yes' in Amharic: ____",
+    "options": null,
+    "correct_answer": "awo",
+    "explanation": "'Awo' (አዎ) means 'yes' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "fill_blank",
+    "question": "To say 'no' in Amharic: ____",
+    "options": null,
+    "correct_answer": "aye",
+    "explanation": "'Aye' (አይ) means 'no' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "match_pairs",
+    "question": "Match these polite expressions to their Amharic equivalents.",
+    "options": "{\"left\": [\"Please (m)\", \"Thank you\", \"Sorry\", \"Yes\"], \"right\": [\"awo\", \"yiqirta\", \"ibakih\", \"ameseginalehu\"]}",
+    "correct_answer": "{\"Please (m)\": \"ibakih\", \"Thank you\": \"ameseginalehu\", \"Sorry\": \"yiqirta\", \"Yes\": \"awo\"}",
+    "explanation": "Essential polite expressions: ibakih=please, ameseginalehu=thank you, yiqirta=sorry, awo=yes.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I want' in Amharic?",
+    "options": "[\"ifelligalehu\", \"iwedalehu\", \"ihedalehu\", \"ibelalehu\"]",
+    "correct_answer": "ifelligalehu",
+    "explanation": "'Ifelligalehu' (እፈልጋለሁ) means 'I want' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I like' in Amharic?",
+    "options": "[\"iwedalehu\", \"ifelligalehu\", \"ihedalehu\", \"isebalehu\"]",
+    "correct_answer": "iwedalehu",
+    "explanation": "'Iwedalehu' (እወዳለሁ) means 'I like' or 'I love' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "fill_blank",
+    "question": "To say 'I eat' in Amharic: ____",
+    "options": null,
+    "correct_answer": "ibelalehu",
+    "explanation": "'Ibelalehu' (እበላለሁ) means 'I eat' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "'I drink' in Amharic is:",
+    "options": "[\"itetalehu\", \"ibelalehu\", \"iwedalehu\", \"ihedalehu\"]",
+    "correct_answer": "itetalehu",
+    "explanation": "'Itetalehu' (እጠጣለሁ) means 'I drink' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "match_pairs",
+    "question": "Match the verbs to their Amharic equivalents.",
+    "options": "{\"left\": [\"I want\", \"I like\", \"I eat\", \"I drink\"], \"right\": [\"ibelalehu\", \"iwedalehu\", \"itetalehu\", \"ifelligalehu\"]}",
+    "correct_answer": "{\"I want\": \"ifelligalehu\", \"I like\": \"iwedalehu\", \"I eat\": \"ibelalehu\", \"I drink\": \"itetalehu\"}",
+    "explanation": "Key daily verbs: ifelligalehu=I want, iwedalehu=I like, ibelalehu=I eat, itetalehu=I drink.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "fill_blank",
+    "question": "To say 'I go' in Amharic: ____",
+    "options": null,
+    "correct_answer": "ihedalehu",
+    "explanation": "'Ihedalehu' (እሄዳለሁ) means 'I go' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "What is the standard word order in Amharic?",
+    "options": "[\"Subject-Object-Verb (SOV)\", \"Subject-Verb-Object (SVO)\", \"Verb-Subject-Object (VSO)\", \"Object-Subject-Verb (OSV)\"]",
+    "correct_answer": "Subject-Object-Verb (SOV)",
+    "explanation": "Amharic follows SOV word order. The verb always comes at the end of the sentence.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I eat food' in Amharic.",
+    "options": "[\"ibelalehu\", \"migib\", \"ine\"]",
+    "correct_answer": "ine migib ibelalehu",
+    "explanation": "SOV order: ine (I) + migib (food) + ibelalehu (eat). The verb comes last.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'She drinks coffee' in Amharic.",
+    "options": "[\"titetalechi\", \"isswa\", \"buna\"]",
+    "correct_answer": "isswa buna titetalechi",
+    "explanation": "SOV order: isswa (she) + buna (coffee) + titetalechi (drinks). Verb at the end.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'He likes injera' in Amharic.",
+    "options": "[\"injera\", \"yiwedal\", \"issu\"]",
+    "correct_answer": "issu injera yiwedal",
+    "explanation": "SOV order: issu (he) + injera (injera) + yiwedal (likes). Verb at the end.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "In Amharic, where does the verb go in a sentence?",
+    "options": "[\"At the end\", \"At the beginning\", \"In the middle\", \"Anywhere\"]",
+    "correct_answer": "At the end",
+    "explanation": "In Amharic's SOV structure, the verb always appears at the end of the sentence.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'We want water' in Amharic.",
+    "options": "[\"wuha\", \"innifeligalen\", \"igna\"]",
+    "correct_answer": "igna wuha innifeligalen",
+    "explanation": "SOV order: igna (we) + wuha (water) + innifeligalen (want). Verb at the end.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'my' as a possessive in Amharic?",
+    "options": "[\"ye ine\", \"ye ante\", \"ye issu\", \"ye igna\"]",
+    "correct_answer": "ye ine",
+    "explanation": "'Ye ine' (የእኔ) means 'my' in Amharic. The possessive uses 'ye' + pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "'This' in Amharic (for nearby objects) is:",
+    "options": "[\"yihe\", \"ya\", \"yinnin\", \"yizzih\"]",
+    "correct_answer": "yihe",
+    "explanation": "'Yihe' (ይሄ) means 'this' in Amharic, used for something nearby (masculine).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "'That' in Amharic (for distant objects) is:",
+    "options": "[\"ya\", \"yihe\", \"yichi\", \"yinnin\"]",
+    "correct_answer": "ya",
+    "explanation": "'Ya' (ያ) means 'that' in Amharic, used for something farther away.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "fill_blank",
+    "question": "To say 'his book' in Amharic: ye issu ____",
+    "options": null,
+    "correct_answer": "metshaf",
+    "explanation": "'Ye issu metshaf' (የእሱ መጽሐፍ) means 'his book'. 'Metshaf' means 'book'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "match_pairs",
+    "question": "Match the possessives to their Amharic equivalents.",
+    "options": "{\"left\": [\"My\", \"Your (m)\", \"His\", \"Her\"], \"right\": [\"ye issu\", \"ye ine\", \"ye isswa\", \"ye ante\"]}",
+    "correct_answer": "{\"My\": \"ye ine\", \"Your (m)\": \"ye ante\", \"His\": \"ye issu\", \"Her\": \"ye isswa\"}",
+    "explanation": "Possessives use 'ye' + pronoun: ye ine=my, ye ante=your(m), ye issu=his, ye isswa=her.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "fill_blank",
+    "question": "To say 'your (f) house' in Amharic: ye anchi ____",
+    "options": null,
+    "correct_answer": "bet",
+    "explanation": "'Ye anchi bet' (የአንቺ ቤት) means 'your (female) house'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "'I have' in Amharic is:",
+    "options": "[\"alleny\", \"alleh\", \"allen\", \"allew\"]",
+    "correct_answer": "alleny",
+    "explanation": "'Alleny' (አለኝ) means 'I have' in Amharic. It literally means 'there is to me'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "'He has' in Amharic is:",
+    "options": "[\"allew\", \"alleny\", \"allat\", \"allesh\"]",
+    "correct_answer": "allew",
+    "explanation": "'Allew' (አለው) means 'he has' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "fill_blank",
+    "question": "To say 'she has' in Amharic: ____",
+    "options": null,
+    "correct_answer": "allat",
+    "explanation": "'Allat' (አላት) means 'she has' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "fill_blank",
+    "question": "To say 'you have' (to a male) in Amharic: ____",
+    "options": null,
+    "correct_answer": "alleh",
+    "explanation": "'Alleh' (አለህ) means 'you (m) have' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "match_pairs",
+    "question": "Match the 'to have' forms to their Amharic equivalents.",
+    "options": "{\"left\": [\"I have\", \"You (m) have\", \"He has\", \"She has\"], \"right\": [\"allew\", \"alleh\", \"allat\", \"alleny\"]}",
+    "correct_answer": "{\"I have\": \"alleny\", \"You (m) have\": \"alleh\", \"He has\": \"allew\", \"She has\": \"allat\"}",
+    "explanation": "The 'to have' construction: alleny=I have, alleh=you(m) have, allew=he has, allat=she has.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I have a book' in Amharic.",
+    "options": "[\"alleny\", \"metshaf\"]",
+    "correct_answer": "metshaf alleny",
+    "explanation": "'Metshaf alleny' - the object comes before the 'have' verb form.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'today' in Amharic?",
+    "options": "[\"zare\", \"nege\", \"tilant\", \"samon\"]",
+    "correct_answer": "zare",
+    "explanation": "'Zare' (ዛሬ) means 'today' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'tomorrow' in Amharic?",
+    "options": "[\"nege\", \"zare\", \"tilant\", \"huala\"]",
+    "correct_answer": "nege",
+    "explanation": "'Nege' (ነገ) means 'tomorrow' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "What does 'tilant' mean?",
+    "options": "[\"Yesterday\", \"Today\", \"Tomorrow\", \"Now\"]",
+    "correct_answer": "Yesterday",
+    "explanation": "'Tilant' (ትላንት) means 'yesterday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "fill_blank",
+    "question": "To say 'now' in Amharic: ____",
+    "options": null,
+    "correct_answer": "ahun",
+    "explanation": "'Ahun' (አሁን) means 'now' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "match_pairs",
+    "question": "Match the time words to their Amharic equivalents.",
+    "options": "{\"left\": [\"Today\", \"Tomorrow\", \"Yesterday\", \"Now\"], \"right\": [\"tilant\", \"ahun\", \"nege\", \"zare\"]}",
+    "correct_answer": "{\"Today\": \"zare\", \"Tomorrow\": \"nege\", \"Yesterday\": \"tilant\", \"Now\": \"ahun\"}",
+    "explanation": "Time words: zare=today, nege=tomorrow, tilant=yesterday, ahun=now.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "What is 'morning' in Amharic?",
+    "options": "[\"tiwat\", \"misit\", \"mata\", \"lelit\"]",
+    "correct_answer": "tiwat",
+    "explanation": "'Tiwat' (ጥዋት) means 'morning' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "What is 'twenty' in Amharic?",
+    "options": "[\"haya\", \"selasa\", \"arba\", \"hamsa\"]",
+    "correct_answer": "haya",
+    "explanation": "'Haya' (ሀያ) means 'twenty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'one hundred' in Amharic?",
+    "options": "[\"meto\", \"shi\", \"haya\", \"selasa\"]",
+    "correct_answer": "meto",
+    "explanation": "'Meto' (መቶ) means 'one hundred' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "fill_blank",
+    "question": "The number 'fifty' in Amharic is: ____",
+    "options": null,
+    "correct_answer": "hamsa",
+    "explanation": "'Hamsa' (ሀምሳ) means 'fifty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "match_pairs",
+    "question": "Match the larger numbers to their Amharic equivalents.",
+    "options": "{\"left\": [\"20\", \"30\", \"50\", \"100\"], \"right\": [\"meto\", \"selasa\", \"haya\", \"hamsa\"]}",
+    "correct_answer": "{\"20\": \"haya\", \"30\": \"selasa\", \"50\": \"hamsa\", \"100\": \"meto\"}",
+    "explanation": "Larger numbers: haya=20, selasa=30, hamsa=50, meto=100.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "What is 'one thousand' in Amharic?",
+    "options": "[\"shi\", \"meto\", \"milion\", \"arba\"]",
+    "correct_answer": "shi",
+    "explanation": "'Shi' (ሺ) means 'one thousand' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "fill_blank",
+    "question": "How do you say 'forty' in Amharic? ____",
+    "options": null,
+    "correct_answer": "arba",
+    "explanation": "'Arba' (አርባ) means 'forty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'where?' in Amharic?",
+    "options": "[\"yet\", \"man\", \"min\", \"mechie\"]",
+    "correct_answer": "yet",
+    "explanation": "'Yet' (የት) means 'where?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'what?' in Amharic?",
+    "options": "[\"min\", \"yet\", \"man\", \"lemen\"]",
+    "correct_answer": "min",
+    "explanation": "'Min' (ምን) means 'what?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'who?' in Amharic?",
+    "options": "[\"man\", \"min\", \"yet\", \"sint\"]",
+    "correct_answer": "man",
+    "explanation": "'Man' (ማን) means 'who?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "match_pairs",
+    "question": "Match the question words to their Amharic equivalents.",
+    "options": "{\"left\": [\"Where?\", \"What?\", \"Who?\", \"When?\"], \"right\": [\"man\", \"mechie\", \"yet\", \"min\"]}",
+    "correct_answer": "{\"Where?\": \"yet\", \"What?\": \"min\", \"Who?\": \"man\", \"When?\": \"mechie\"}",
+    "explanation": "Question words: yet=where, min=what, man=who, mechie=when.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "fill_blank",
+    "question": "To ask 'why?' in Amharic, you say: ____",
+    "options": null,
+    "correct_answer": "lemen",
+    "explanation": "'Lemen' (ለምን) means 'why?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'how much?' in Amharic?",
+    "options": "[\"sint\", \"min\", \"yet\", \"man\"]",
+    "correct_answer": "sint",
+    "explanation": "'Sint' (ስንት) means 'how much?' or 'how many?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "word_order",
+    "question": "Arrange these words to ask 'Where is the house?' in Amharic.",
+    "options": "[\"new\", \"bet\", \"yet\"]",
+    "correct_answer": "bet yet new",
+    "explanation": "'Bet yet new?' - Subject + question word + verb. 'Where is the house?'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I am going' (present continuous) in Amharic?",
+    "options": "[\"iyehedku new\", \"hedku\", \"ihedalehu\", \"alhedkum\"]",
+    "correct_answer": "iyehedku new",
+    "explanation": "'Iyehedku new' (እየሄድኩ ነው) means 'I am going' - present continuous uses 'iye-' prefix + 'new'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "The present continuous in Amharic is formed by:",
+    "options": "[\"iye- prefix + verb stem + new\", \"al- prefix + verb stem\", \"verb stem + -wal suffix\", \"verb stem alone\"]",
+    "correct_answer": "iye- prefix + verb stem + new",
+    "explanation": "Present continuous uses 'iye-' (እየ) prefix on the verb stem followed by a form of 'new' (to be).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "fill_blank",
+    "question": "To say 'she is eating' in Amharic: iyebelach ____",
+    "options": null,
+    "correct_answer": "new",
+    "explanation": "'Iyebelach new' (እየበላች ነው) means 'she is eating'. The auxiliary 'new' completes the continuous.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "'He is drinking' in Amharic is:",
+    "options": "[\"iyeteta new\", \"itetalehu\", \"teta\", \"alteta\"]",
+    "correct_answer": "iyeteta new",
+    "explanation": "'Iyeteta new' (እየጠጣ ነው) means 'he is drinking' using the continuous form.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I am eating food' in Amharic.",
+    "options": "[\"iyebelahu\", \"migib\", \"new\", \"ine\"]",
+    "correct_answer": "ine migib iyebelahu new",
+    "explanation": "SOV with continuous: ine (I) + migib (food) + iyebelahu new (am eating).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "'I went' in Amharic is:",
+    "options": "[\"hedku\", \"hede\", \"hedk\", \"hedn\"]",
+    "correct_answer": "hedku",
+    "explanation": "'Hedku' (ሄድኩ) means 'I went' in Amharic past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "fill_blank",
+    "question": "'She went' in Amharic: ____",
+    "options": null,
+    "correct_answer": "hedech",
+    "explanation": "'Hedech' (ሄደች) means 'she went' in Amharic past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "'He ate' in Amharic is:",
+    "options": "[\"bela\", \"belahu\", \"belach\", \"belan\"]",
+    "correct_answer": "bela",
+    "explanation": "'Bela' (በላ) means 'he ate' in Amharic past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "'I ate' in Amharic is:",
+    "options": "[\"belahu\", \"bela\", \"belach\", \"belan\"]",
+    "correct_answer": "belahu",
+    "explanation": "'Belahu' (በላሁ) means 'I ate' in Amharic past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "match_pairs",
+    "question": "Match the past tense forms of 'to go' (mehied).",
+    "options": "{\"left\": [\"I went\", \"You (m) went\", \"He went\", \"She went\"], \"right\": [\"hede\", \"hedech\", \"hedk\", \"hedku\"]}",
+    "correct_answer": "{\"I went\": \"hedku\", \"You (m) went\": \"hedk\", \"He went\": \"hede\", \"She went\": \"hedech\"}",
+    "explanation": "Past tense conjugation of 'mehied' (to go): hedku, hedk, hede, hedech.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I ate injera' in Amharic.",
+    "options": "[\"belahu\", \"injera\", \"ine\"]",
+    "correct_answer": "ine injera belahu",
+    "explanation": "SOV past tense: ine (I) + injera (injera) + belahu (ate).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I will go' in Amharic?",
+    "options": "[\"ihedalehu\", \"hedku\", \"iyehedku new\", \"alhedkum\"]",
+    "correct_answer": "ihedalehu",
+    "explanation": "'Ihedalehu' (እሄዳለሁ) means 'I will go' in Amharic future/habitual tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "'She will eat' in Amharic is:",
+    "options": "[\"tbelalechi\", \"belach\", \"iyebelach\", \"albelachim\"]",
+    "correct_answer": "tbelalechi",
+    "explanation": "'Tbelalechi' (ትበላለች) means 'she will eat' in Amharic future tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "fill_blank",
+    "question": "To say 'he will drink' in Amharic: ____",
+    "options": null,
+    "correct_answer": "yitetalal",
+    "explanation": "'Yitetalal' (ይጠጣል) means 'he will drink' in Amharic future tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "match_pairs",
+    "question": "Match the future tense forms of 'to go' (mehied).",
+    "options": "{\"left\": [\"I will go\", \"You (m) will go\", \"He will go\", \"She will go\"], \"right\": [\"tihedalesh\", \"yihedal\", \"thedalehi\", \"ihedalehu\"]}",
+    "correct_answer": "{\"I will go\": \"ihedalehu\", \"You (m) will go\": \"thedalehi\", \"He will go\": \"yihedal\", \"She will go\": \"tihedalesh\"}",
+    "explanation": "Future tense of 'mehied': ihedalehu, thedalehi, yihedal, tihedalesh.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'We will eat food' in Amharic.",
+    "options": "[\"innibelaleni\", \"migib\", \"igna\"]",
+    "correct_answer": "igna migib innibelaleni",
+    "explanation": "SOV future: igna (we) + migib (food) + innibelaleni (will eat).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "fill_blank",
+    "question": "To say 'I will come' in Amharic: ____",
+    "options": null,
+    "correct_answer": "immetallehu",
+    "explanation": "'Immetallehu' (እመጣለሁ) means 'I will come' in Amharic future tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "'He did not go' in Amharic is:",
+    "options": "[\"alhedem\", \"ayhedem\", \"hedem\", \"athedem\"]",
+    "correct_answer": "alhedem",
+    "explanation": "'Alhedem' (አልሄደም) means 'he did not go.' Past negation uses 'al-' prefix and '-m' suffix.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "How is the past tense negated in Amharic?",
+    "options": "[\"al- prefix and -m suffix\", \"ayi- prefix only\", \"-yelem suffix only\", \"le- prefix only\"]",
+    "correct_answer": "al- prefix and -m suffix",
+    "explanation": "Past tense negation in Amharic uses 'al-' before the verb and '-m' at the end.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "fill_blank",
+    "question": "To say 'I did not eat' in Amharic: ____",
+    "options": null,
+    "correct_answer": "albelahum",
+    "explanation": "'Albelahum' (አልበላሁም) means 'I did not eat.' Al- + belahu + -m.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "'She does not want' in Amharic is:",
+    "options": "[\"atfelligim\", \"alfelligim\", \"felligim\", \"ayfelligim\"]",
+    "correct_answer": "atfelligim",
+    "explanation": "'Atfelligim' (አትፈልግም) means 'she does not want.' Present negation for feminine third person.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "'There is not' or 'does not exist' in Amharic is:",
+    "options": "[\"yelem\", \"alle\", \"new\", \"aydelem\"]",
+    "correct_answer": "yelem",
+    "explanation": "'Yelem' (የለም) means 'there is not' or 'does not exist' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "fill_blank",
+    "question": "'It is not' or 'he is not' in Amharic: ____",
+    "options": null,
+    "correct_answer": "aydelem",
+    "explanation": "'Aydelem' (አይደለም) means 'it is not' or 'he is not' - the negation of 'new' (is).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'Monday' in Amharic?",
+    "options": "[\"segno\", \"maksegno\", \"rob\", \"hamus\"]",
+    "correct_answer": "segno",
+    "explanation": "'Segno' (ሰኞ) means 'Monday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "What day is 'ihud' in Amharic?",
+    "options": "[\"Sunday\", \"Saturday\", \"Friday\", \"Monday\"]",
+    "correct_answer": "Sunday",
+    "explanation": "'Ihud' (እሑድ) means 'Sunday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "match_pairs",
+    "question": "Match the days of the week to their Amharic equivalents.",
+    "options": "{\"left\": [\"Monday\", \"Wednesday\", \"Friday\", \"Sunday\"], \"right\": [\"arb\", \"ihud\", \"segno\", \"rob\"]}",
+    "correct_answer": "{\"Monday\": \"segno\", \"Wednesday\": \"rob\", \"Friday\": \"arb\", \"Sunday\": \"ihud\"}",
+    "explanation": "Days of the week: segno=Monday, rob=Wednesday, arb=Friday, ihud=Sunday.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "fill_blank",
+    "question": "'Saturday' in Amharic is: ____",
+    "options": null,
+    "correct_answer": "qidame",
+    "explanation": "'Qidame' (ቅዳሜ) means 'Saturday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "What day is 'hamus' in Amharic?",
+    "options": "[\"Thursday\", \"Tuesday\", \"Wednesday\", \"Friday\"]",
+    "correct_answer": "Thursday",
+    "explanation": "'Hamus' (ሐሙስ) means 'Thursday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "fill_blank",
+    "question": "'Tuesday' in Amharic is: ____",
+    "options": null,
+    "correct_answer": "maksegno",
+    "explanation": "'Maksegno' (ማክሰኞ) means 'Tuesday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I can' or 'I am able to' in Amharic?",
+    "options": "[\"ichilalehu\", \"ifelligalehu\", \"ihedalehu\", \"alleny\"]",
+    "correct_answer": "ichilalehu",
+    "explanation": "'Ichilalehu' (እችላለሁ) means 'I can' or 'I am able to' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "'I must' or 'I have to' in Amharic is:",
+    "options": "[\"allebbiny\", \"ichilalehu\", \"ifelligalehu\", \"alleny\"]",
+    "correct_answer": "allebbiny",
+    "explanation": "'Allebbiny' (አለብኝ) means 'I must' or 'I have to' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "fill_blank",
+    "question": "To say 'he can' in Amharic: ____",
+    "options": null,
+    "correct_answer": "yichilal",
+    "explanation": "'Yichilal' (ይችላል) means 'he can' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "'I cannot' in Amharic is:",
+    "options": "[\"alichilim\", \"ichilalehu\", \"alchilim\", \"ayichilim\"]",
+    "correct_answer": "alichilim",
+    "explanation": "'Alichilim' (አልችልም) means 'I cannot' in Amharic. Uses the al-...-m negation pattern.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I can speak Amharic' in Amharic.",
+    "options": "[\"ichilalehu\", \"amarigna\", \"ine\", \"menaGer\"]",
+    "correct_answer": "ine amarigna menaGer ichilalehu",
+    "explanation": "SOV: ine (I) + amarigna (Amharic) + menaGer (to speak) + ichilalehu (can).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "fill_blank",
+    "question": "To say 'she must' in Amharic: ____",
+    "options": null,
+    "correct_answer": "allebbat",
+    "explanation": "'Allebbat' (አለባት) means 'she must' or 'she has to' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'My name is...' in Amharic?",
+    "options": "[\"sime ... yibalal\", \"ine ... negn\", \"ye ine ... new\", \"ismu ... new\"]",
+    "correct_answer": "sime ... yibalal",
+    "explanation": "'Sime ... yibalal' (ስሜ ... ይባላል) means 'My name is...', literally 'my name is called...'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "fill_blank",
+    "question": "To say 'My name is...', start with: ____ ... yibalal",
+    "options": null,
+    "correct_answer": "sime",
+    "explanation": "'Sime' (ስሜ) means 'my name'. 'Sime ... yibalal' = 'My name is called...'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'My name is John' in Amharic.",
+    "options": "[\"yibalal\", \"John\", \"sime\"]",
+    "correct_answer": "sime John yibalal",
+    "explanation": "'Sime John yibalal' means 'My name is John.' Literally 'my name John is called.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "To ask 'What is your name?' (to a male) you say:",
+    "options": "[\"simih man new\", \"sime man new\", \"simish man new\", \"ismu man new\"]",
+    "correct_answer": "simih man new",
+    "explanation": "'Simih man new?' (ስምህ ማን ነው?) means 'What is your name?' to a male.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "fill_blank",
+    "question": "To ask a woman 'What is your name?': ____ man new?",
+    "options": null,
+    "correct_answer": "simish",
+    "explanation": "'Simish' (ስምሽ) means 'your name' (feminine). 'Simish man new?' asks a female her name.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I am from Ethiopia' in Amharic?",
+    "options": "[\"ine ke Ityopia negn\", \"ine Ityopia ihedalehu\", \"ye ine Ityopia new\", \"Ityopia negn\"]",
+    "correct_answer": "ine ke Ityopia negn",
+    "explanation": "'Ine ke Ityopia negn' (እኔ ከኢትዮጵያ ነኝ) means 'I am from Ethiopia.' 'Ke' means 'from'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I am from America' in Amharic.",
+    "options": "[\"negn\", \"ine\", \"America\", \"ke\"]",
+    "correct_answer": "ine ke America negn",
+    "explanation": "'Ine ke America negn' - I + from + America + am.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I want to buy' in Amharic?",
+    "options": "[\"megzat ifelligalehu\", \"meshtet ifelligalehu\", \"mebilat ifelligalehu\", \"mehied ifelligalehu\"]",
+    "correct_answer": "megzat ifelligalehu",
+    "explanation": "'Megzat ifelligalehu' (መግዛት እፈልጋለሁ) means 'I want to buy.' 'Megzat' is 'to buy'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'How much is it?' in Amharic?",
+    "options": "[\"sint new\", \"min new\", \"yet new\", \"man new\"]",
+    "correct_answer": "sint new",
+    "explanation": "'Sint new?' (ስንት ነው?) means 'How much is it?' Used when shopping.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "fill_blank",
+    "question": "To say 'it is expensive' in Amharic: wid ____",
+    "options": null,
+    "correct_answer": "new",
+    "explanation": "'Wid new' (ውድ ነው) means 'it is expensive.' 'Wid' means 'expensive'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "What does 'rikash' mean?",
+    "options": "[\"Cheap\", \"Expensive\", \"Beautiful\", \"Big\"]",
+    "correct_answer": "Cheap",
+    "explanation": "'Rikash' (ርካሽ) means 'cheap' or 'inexpensive' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "match_pairs",
+    "question": "Match the shopping words to their Amharic equivalents.",
+    "options": "{\"left\": [\"To buy\", \"Expensive\", \"Cheap\", \"How much?\"], \"right\": [\"rikash\", \"sint\", \"megzat\", \"wid\"]}",
+    "correct_answer": "{\"To buy\": \"megzat\", \"Expensive\": \"wid\", \"Cheap\": \"rikash\", \"How much?\": \"sint\"}",
+    "explanation": "Shopping vocabulary: megzat=to buy, wid=expensive, rikash=cheap, sint=how much.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "word_order",
+    "question": "Arrange these words to ask 'How much is this?' in Amharic.",
+    "options": "[\"new\", \"yihe\", \"sint\"]",
+    "correct_answer": "yihe sint new",
+    "explanation": "'Yihe sint new?' - this + how much + is? Standard question structure.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "'Go straight' in Amharic is:",
+    "options": "[\"qetita hid\", \"wede qegn\", \"wede gra\", \"yet new\"]",
+    "correct_answer": "qetita hid",
+    "explanation": "'Qetita hid' (ቀጥታ ሂድ) means 'go straight' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'turn right' in Amharic?",
+    "options": "[\"wede qegn\", \"wede gra\", \"qetita hid\", \"qum bel\"]",
+    "correct_answer": "wede qegn",
+    "explanation": "'Wede qegn' (ወደ ቀኝ) means 'to the right' or 'turn right' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'turn left' in Amharic?",
+    "options": "[\"wede gra\", \"wede qegn\", \"qetita hid\", \"wede fit\"]",
+    "correct_answer": "wede gra",
+    "explanation": "'Wede gra' (ወደ ግራ) means 'to the left' or 'turn left' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "match_pairs",
+    "question": "Match the directions to their Amharic equivalents.",
+    "options": "{\"left\": [\"Go straight\", \"Turn right\", \"Turn left\", \"Stop\"], \"right\": [\"wede gra\", \"qum bel\", \"qetita hid\", \"wede qegn\"]}",
+    "correct_answer": "{\"Go straight\": \"qetita hid\", \"Turn right\": \"wede qegn\", \"Turn left\": \"wede gra\", \"Stop\": \"qum bel\"}",
+    "explanation": "Directions: qetita hid=go straight, wede qegn=turn right, wede gra=turn left, qum bel=stop.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "fill_blank",
+    "question": "To ask 'Where is it?' in Amharic: ____ new?",
+    "options": null,
+    "correct_answer": "yet",
+    "explanation": "'Yet new?' (የት ነው?) means 'Where is it?' 'Yet' means 'where'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "word_order",
+    "question": "Arrange these words to ask 'Where is the restaurant?' in Amharic.",
+    "options": "[\"yet\", \"new\", \"migib bet\"]",
+    "correct_answer": "migib bet yet new",
+    "explanation": "'Migib bet yet new?' - restaurant + where + is?",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'if' in Amharic?",
+    "options": "[\"ke...be\", \"ke\", \"gin\", \"ina\"]",
+    "correct_answer": "ke...be",
+    "explanation": "Conditional 'if' in Amharic is formed with the prefix 'ke-' and suffix '-be' pattern on the verb.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'and' in Amharic?",
+    "options": "[\"ina\", \"gin\", \"ke\", \"wede\"]",
+    "correct_answer": "ina",
+    "explanation": "'Ina' (እና) means 'and' in Amharic, used to connect words or clauses.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'but' in Amharic?",
+    "options": "[\"gin\", \"ina\", \"ke\", \"sile\"]",
+    "correct_answer": "gin",
+    "explanation": "'Gin' (ግን) means 'but' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "fill_blank",
+    "question": "To say 'because' in Amharic: ____",
+    "options": null,
+    "correct_answer": "sile",
+    "explanation": "'Sile' (ስለ) means 'because' or 'about' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "match_pairs",
+    "question": "Match the conjunctions to their Amharic equivalents.",
+    "options": "{\"left\": [\"And\", \"But\", \"Because\", \"Or\"], \"right\": [\"weyim\", \"sile\", \"ina\", \"gin\"]}",
+    "correct_answer": "{\"And\": \"ina\", \"But\": \"gin\", \"Because\": \"sile\", \"Or\": \"weyim\"}",
+    "explanation": "Conjunctions: ina=and, gin=but, sile=because, weyim=or.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "word_order",
+    "question": "Arrange these words to say 'I eat and drink' in Amharic.",
+    "options": "[\"itetalehu\", \"ina\", \"ibelalehu\"]",
+    "correct_answer": "ibelalehu ina itetalehu",
+    "explanation": "'Ibelalehu ina itetalehu' - I eat + and + I drink.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "How do you politely say 'Could you please...' (to a male) in Amharic?",
+    "options": "[\"ibakih ... tichilalehi\", \"ibakish ... tichiyaleshi\", \"ifelligalehu\", \"allebbiny\"]",
+    "correct_answer": "ibakih ... tichilalehi",
+    "explanation": "'Ibakih ... tichilalehi?' (እባክህ ... ትችላለህ?) is a polite request to a male, meaning 'please, can you...?'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'Help me' in Amharic?",
+    "options": "[\"irduny\", \"ngeriny\", \"amtany\", \"siminy\"]",
+    "correct_answer": "irduny",
+    "explanation": "'Irduny' (እርዱኝ) means 'help me' in Amharic (polite/plural form).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "fill_blank",
+    "question": "To say 'I don't understand' in Amharic: ____",
+    "options": null,
+    "correct_answer": "algebanyim",
+    "explanation": "'Algebanyim' (አልገባኝም) means 'I don't understand' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'Please speak slowly' in Amharic?",
+    "options": "[\"ibakih qes bil naGer\", \"ibakih tolo naGer\", \"ibakih dimts aqnin\", \"ibakih dekimo naGer\"]",
+    "correct_answer": "ibakih qes bil naGer",
+    "explanation": "'Ibakih qes bil naGer' (እባክህ ቀስ ብል ናገር) means 'please speak slowly' (to a male). 'Qes bil' means 'slowly'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "fill_blank",
+    "question": "To say 'Do you speak English?' (to a male): inglizigna ____?",
+    "options": null,
+    "correct_answer": "tinaGeralehi",
+    "explanation": "'Inglizigna tinaGeralehi?' (እንግሊዝኛ ትናገራለህ?) means 'Do you speak English?' to a male.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "match_pairs",
+    "question": "Match the useful phrases to their Amharic equivalents.",
+    "options": "{\"left\": [\"Help me\", \"I don't understand\", \"Slowly\", \"Repeat\"], \"right\": [\"qes bil\", \"algebanyim\", \"idegimew\", \"irduny\"]}",
+    "correct_answer": "{\"Help me\": \"irduny\", \"I don't understand\": \"algebanyim\", \"Slowly\": \"qes bil\", \"Repeat\": \"idegimew\"}",
+    "explanation": "Survival phrases: irduny=help me, algebanyim=I don't understand, qes bil=slowly, idegimew=repeat.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'Happy holiday!' in Amharic?",
+    "options": "[\"melkam beal\", \"melkam gena\", \"melkam amet\", \"inkuan aderseh\"]",
+    "correct_answer": "melkam beal",
+    "explanation": "'Melkam beal' (መልካም በዓል) means 'Happy holiday!' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'Happy New Year' in Amharic?",
+    "options": "[\"melkam addis amet\", \"melkam beal\", \"melkam gena\", \"inkuan aderseh\"]",
+    "correct_answer": "melkam addis amet",
+    "explanation": "'Melkam addis amet' (መልካም አዲስ ዓመት) means 'Happy New Year' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "What is 'Meskel' in Ethiopian culture?",
+    "options": "[\"Finding of the True Cross\", \"New Year\", \"Christmas\", \"Easter\"]",
+    "correct_answer": "Finding of the True Cross",
+    "explanation": "'Meskel' (መስቀል) is the Ethiopian holiday celebrating the finding of the True Cross, marked by bonfires.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "fill_blank",
+    "question": "The Ethiopian New Year is called: ____",
+    "options": null,
+    "correct_answer": "inkutatash",
+    "explanation": "'Inkutatash' (እንቁጣጣሽ) is the Ethiopian New Year, celebrated on September 11 (or 12 in leap year).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "match_pairs",
+    "question": "Match the Ethiopian celebrations to their descriptions.",
+    "options": "{\"left\": [\"Inkutatash\", \"Meskel\", \"Genna\", \"Timket\"], \"right\": [\"Epiphany\", \"New Year\", \"Christmas\", \"Finding of the Cross\"]}",
+    "correct_answer": "{\"Inkutatash\": \"New Year\", \"Meskel\": \"Finding of the Cross\", \"Genna\": \"Christmas\", \"Timket\": \"Epiphany\"}",
+    "explanation": "Major Ethiopian holidays: Inkutatash=New Year, Meskel=Finding of the Cross, Genna=Christmas, Timket=Epiphany.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "fill_blank",
+    "question": "To wish someone 'Congratulations' in Amharic: ____",
+    "options": null,
+    "correct_answer": "inkuan des aleh",
+    "explanation": "'Inkuan des aleh' (እንኳን ደስ አለህ) means 'Congratulations' (to a male) in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "What does 'melkam' mean?",
+    "options": "[\"Good / Happy\", \"Big\", \"Beautiful\", \"New\"]",
+    "correct_answer": "Good / Happy",
+    "explanation": "'Melkam' (መልካም) means 'good' or 'happy', used in greetings and well-wishes.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "How many vowels does Amharic have?",
+    "options": "[\"5\", \"7\", \"12\", \"26\"]",
+    "correct_answer": "7",
+    "explanation": "Amharic has 7 vowel sounds: a, u, i, aa, e, ih, o. Each consonant can combine with any of these 7 vowels.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "Which of these is an ejective consonant in Amharic?",
+    "options": "[\"b\", \"m\", \"t'\", \"l\"]",
+    "correct_answer": "t'",
+    "explanation": "T' (ጥ) is an ejective consonant produced with a burst of air from the glottis. Ejectives don't exist in English.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "'Ale' means 'he said'. What does 'alle' (with doubled l) mean?",
+    "options": "[\"he went\", \"there is\", \"he ate\", \"he saw\"]",
+    "correct_answer": "there is",
+    "explanation": "'Ale' (አለ) means 'he said', but 'alle' (አለ with geminated l) means 'there is.' Doubling the consonant changes meaning entirely.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "fill_blank",
+    "question": "Amharic has ___ ejective consonants that don't exist in English.",
+    "options": null,
+    "correct_answer": "5",
+    "explanation": "Amharic has 5 ejective consonants: t' (ጥ), k'/q (ቅ), ch' (ጭ), ts' (ጽ), and p' (ጵ). They are produced with a glottalic airstream.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "'Meta' means 'he came'. What does 'metta' (doubled t) mean?",
+    "options": "[\"he hit\", \"he ate\", \"he ran\", \"he said\"]",
+    "correct_answer": "he hit",
+    "explanation": "'Meta' (መጣ) means 'he came', while 'metta' (መታ with geminated t) means 'he hit.' This demonstrates gemination changing word meaning.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "What is the term for doubling a consonant to change meaning in Amharic?",
+    "options": "[\"Ejection\", \"Gemination\", \"Aspiration\", \"Palatalization\"]",
+    "correct_answer": "Gemination",
+    "explanation": "Gemination is the linguistic term for doubling (lengthening) a consonant sound. In Amharic, gemination is contrastive - it changes word meanings.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "fill_blank",
+    "question": "The schwa vowel (ə) sounds like the 'e' in the English word ____.",
+    "options": null,
+    "correct_answer": "roses",
+    "explanation": "The Amharic schwa vowel (ə), the first-order vowel, sounds like the unstressed 'e' in 'roses' or 'the.' It is the most common vowel in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 1,
+    "question_type": "multiple_choice",
+    "question": "Which feature makes Amharic pronunciation unique compared to English?",
+    "options": "[\"Ejective consonants\", \"Silent letters\", \"Nasal vowels\", \"Tonal pitch\"]",
+    "correct_answer": "Ejective consonants",
+    "explanation": "Ejective consonants (like t', k'/q, ch', ts', p') are the most distinctive feature of Amharic pronunciation. They are produced with a sharp burst of air from the closed glottis.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "What does 'ameseginalehu' mean?",
+    "options": "[\"hello\", \"goodbye\", \"thank you\", \"sorry\"]",
+    "correct_answer": "thank you",
+    "explanation": "'Ameseginalehu' (አመሰግናለሁ) means 'thank you' in Amharic. It is used in both formal and informal contexts.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "fill_blank",
+    "question": "The informal way to say 'goodbye' in Amharic (borrowed from Italian) is ____.",
+    "options": null,
+    "correct_answer": "chaw",
+    "explanation": "'Chaw' (ቻው) is borrowed from the Italian 'ciao' and is used as an informal goodbye in Amharic, reflecting Italy's historical influence in the region.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'good morning' to a woman?",
+    "options": "[\"indemin adersh\", \"indemin aderk\", \"indemin aderachihu\", \"indemin adersh?\"]",
+    "correct_answer": "indemin adersh",
+    "explanation": "'Indemin adersh' (እንደምን አደርሽ) is 'good morning' / 'how did you spend the night?' addressed to a female. The '-sh' ending is feminine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "'Yiqirta' means:",
+    "options": "[\"hello\", \"thank you\", \"excuse me, sorry\", \"goodbye\"]",
+    "correct_answer": "excuse me, sorry",
+    "explanation": "'Yiqirta' (ይቅርታ) means 'excuse me' or 'sorry' in Amharic. It is used to apologize or get someone's attention politely.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "fill_blank",
+    "question": "'Awo' means 'yes'. The word for 'no' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "aye",
+    "explanation": "'Aye' (አይ) means 'no' in Amharic. These two words - 'awo' (yes) and 'aye' (no) - are among the first words every learner should know.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "What does 'ishi' mean?",
+    "options": "[\"hello\", \"OK/alright\", \"sorry\", \"no\"]",
+    "correct_answer": "OK/alright",
+    "explanation": "'Ishi' (እሺ) means 'OK' or 'alright' in Amharic. It is one of the most commonly used words in everyday conversation.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "fill_blank",
+    "question": "The formal way to say hello is 'tena ____'.",
+    "options": null,
+    "correct_answer": "yistilign",
+    "explanation": "'Tena yistilign' (ጤና ይስጥልኝ) is the formal greeting meaning 'may God give you health.' It is used in respectful or formal situations.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 2,
+    "question_type": "multiple_choice",
+    "question": "To say 'goodbye' to a man, you say:",
+    "options": "[\"dehna hun\", \"dehna hugni\", \"dehna hunu\", \"dehna wal\"]",
+    "correct_answer": "dehna hun",
+    "explanation": "'Dehna hun' (ደህና ሁን) means 'goodbye' to a man, literally 'be well.' For a woman, it is 'dehna hugni.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'we'?",
+    "options": "[\"igna\", \"innante\", \"innessu\", \"ine\"]",
+    "correct_answer": "igna",
+    "explanation": "'Igna' (እኛ) means 'we' in Amharic. It is the first person plural pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "fill_blank",
+    "question": "The formal 'you' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "irswo",
+    "explanation": "'Irswo' (እርስዎ) is the formal/respectful form of 'you' in Amharic. It is used when addressing elders, strangers, or people of authority.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "'Issu' means:",
+    "options": "[\"I\", \"he\", \"she\", \"they\"]",
+    "correct_answer": "he",
+    "explanation": "'Issu' (እሱ) means 'he' in Amharic. It is the third person masculine singular pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'they' in Amharic?",
+    "options": "[\"igna\", \"innante\", \"innessu\", \"issu\"]",
+    "correct_answer": "innessu",
+    "explanation": "'Innessu' (እነሱ) means 'they' in Amharic. It is the third person plural pronoun, used for all genders.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "fill_blank",
+    "question": "The word for 'I' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "ine",
+    "explanation": "'Ine' (እኔ) means 'I' in Amharic. It is the first person singular pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "'Anchi' is the word for 'you' when speaking to a:",
+    "options": "[\"man\", \"woman\", \"group\", \"elder\"]",
+    "correct_answer": "woman",
+    "explanation": "'Anchi' (አንቺ) is the informal second person feminine pronoun. 'Ante' is used for a man, and 'irswo' for formal address.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "multiple_choice",
+    "question": "What is the plural form of 'you' in Amharic?",
+    "options": "[\"innante\", \"innessu\", \"igna\", \"ante\"]",
+    "correct_answer": "innante",
+    "explanation": "'Innante' (እናንተ) means 'you' (plural), used when addressing more than one person.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 3,
+    "question_type": "fill_blank",
+    "question": "'She' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "isswa",
+    "explanation": "'Isswa' (እሷ) means 'she' in Amharic. It is the third person feminine singular pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What is 'amist' in English?",
+    "options": "[\"three\", \"five\", \"seven\", \"nine\"]",
+    "correct_answer": "five",
+    "explanation": "'Amist' (አምስት) means 'five' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "fill_blank",
+    "question": "The number 'seven' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "sebat",
+    "explanation": "'Sebat' (ሰባት) means 'seven' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'three' in Amharic?",
+    "options": "[\"hulet\", \"sost\", \"arat\", \"amist\"]",
+    "correct_answer": "sost",
+    "explanation": "'Sost' (ሶስት) means 'three' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "'Zetegn' is the Amharic word for:",
+    "options": "[\"seven\", \"eight\", \"nine\", \"ten\"]",
+    "correct_answer": "nine",
+    "explanation": "'Zetegn' (ዘጠኝ) means 'nine' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'one' is ____.",
+    "options": null,
+    "correct_answer": "and",
+    "explanation": "'And' (አንድ) means 'one' in Amharic. It is also used as the indefinite article 'a/an'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "What number is 'sidist'?",
+    "options": "[\"four\", \"five\", \"six\", \"seven\"]",
+    "correct_answer": "six",
+    "explanation": "'Sidist' (ስድስት) means 'six' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "fill_blank",
+    "question": "'Ten' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "asir",
+    "explanation": "'Asir' (አስር) means 'ten' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 4,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'eight' in Amharic?",
+    "options": "[\"sebat\", \"simint\", \"zetegn\", \"asir\"]",
+    "correct_answer": "simint",
+    "explanation": "'Simint' (ስምንት) means 'eight' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'twenty' in Amharic?",
+    "options": "[\"asir\", \"haya\", \"selasa\", \"arba\"]",
+    "correct_answer": "haya",
+    "explanation": "'Haya' (ሃያ) means 'twenty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "fill_blank",
+    "question": "'Asra sost' means ____.",
+    "options": null,
+    "correct_answer": "thirteen",
+    "explanation": "'Asra sost' (አስራ ሶስት) literally means 'ten-three,' which is 'thirteen' in Amharic. Numbers 11-19 follow the pattern 'asra + digit'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "What is 'one hundred' in Amharic?",
+    "options": "[\"shi\", \"meto\", \"haya\", \"hamsa\"]",
+    "correct_answer": "meto",
+    "explanation": "'Meto' (መቶ) means 'one hundred' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "'Selasa' is the Amharic word for:",
+    "options": "[\"twenty\", \"thirty\", \"forty\", \"fifty\"]",
+    "correct_answer": "thirty",
+    "explanation": "'Selasa' (ሰላሳ) means 'thirty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'forty' is ____.",
+    "options": null,
+    "correct_answer": "arba",
+    "explanation": "'Arba' (አርባ) means 'forty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'fifty' in Amharic?",
+    "options": "[\"arba\", \"hamsa\", \"selasa\", \"haya\"]",
+    "correct_answer": "hamsa",
+    "explanation": "'Hamsa' (ሃምሳ) means 'fifty' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "fill_blank",
+    "question": "'Asra hulet' translates to ____.",
+    "options": null,
+    "correct_answer": "twelve",
+    "explanation": "'Asra hulet' (አስራ ሁለት) means 'twelve' in Amharic. Literally 'ten-two'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 5,
+    "question_type": "multiple_choice",
+    "question": "What is 'one thousand' in Amharic?",
+    "options": "[\"meto\", \"shi\", \"milion\", \"arba\"]",
+    "correct_answer": "shi",
+    "explanation": "'Shi' (ሺ) means 'one thousand' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "What is 'abat' in English?",
+    "options": "[\"mother\", \"father\", \"brother\", \"sister\"]",
+    "correct_answer": "father",
+    "explanation": "'Abat' (አባት) means 'father' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'sister' is ____.",
+    "options": null,
+    "correct_answer": "ihit",
+    "explanation": "'Ihit' (እህት) means 'sister' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "'Mist' in Amharic means:",
+    "options": "[\"husband\", \"wife\", \"daughter\", \"mother\"]",
+    "correct_answer": "wife",
+    "explanation": "'Mist' (ሚስት) means 'wife' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "fill_blank",
+    "question": "'Brother' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "wendim",
+    "explanation": "'Wendim' (ወንድም) means 'brother' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'child' in Amharic?",
+    "options": "[\"sew\", \"lij\", \"set\", \"wend\"]",
+    "correct_answer": "lij",
+    "explanation": "'Lij' (ልጅ) means 'child' in Amharic. It can refer to both boys and girls.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "'Agot' means:",
+    "options": "[\"aunt\", \"uncle\", \"cousin\", \"nephew\"]",
+    "correct_answer": "uncle",
+    "explanation": "'Agot' (አጎት) means 'uncle' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "fill_blank",
+    "question": "The word for 'grandmother' in Amharic is 'set ____'.",
+    "options": null,
+    "correct_answer": "ayat",
+    "explanation": "'Set ayat' (ሴት አያት) means 'grandmother' in Amharic, literally 'female grandparent.' 'Ayat' means 'grandparent.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 6,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'husband' in Amharic?",
+    "options": "[\"bal\", \"mist\", \"abat\", \"wendim\"]",
+    "correct_answer": "bal",
+    "explanation": "'Bal' (ባል) means 'husband' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "What is 'bet' in English?",
+    "options": "[\"car\", \"house, home\", \"road\", \"school\"]",
+    "correct_answer": "house, home",
+    "explanation": "'Bet' (ቤት) means 'house' or 'home' in Amharic. It is also used as a suffix in compound nouns like 'timhirt bet' (school).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'car' is ____.",
+    "options": null,
+    "correct_answer": "mekina",
+    "explanation": "'Mekina' (መኪና) means 'car' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "'Menged' means:",
+    "options": "[\"house\", \"car\", \"road, way\", \"water\"]",
+    "correct_answer": "road, way",
+    "explanation": "'Menged' (መንገድ) means 'road' or 'way' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "fill_blank",
+    "question": "'School' in Amharic is 'timhirt ____'.",
+    "options": null,
+    "correct_answer": "bet",
+    "explanation": "'Timhirt bet' (ትምህርት ቤት) means 'school,' literally 'learning house.' Many Amharic institutions use 'bet' (house) as a suffix.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'water'?",
+    "options": "[\"buna\", \"wuha\", \"wetet\", \"dabo\"]",
+    "correct_answer": "wuha",
+    "explanation": "'Wuha' (ውሃ) means 'water' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "'Ketema' means:",
+    "options": "[\"village\", \"country\", \"city, town\", \"road\"]",
+    "correct_answer": "city, town",
+    "explanation": "'Ketema' (ከተማ) means 'city' or 'town' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "fill_blank",
+    "question": "The word for 'friend' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "gwadegna",
+    "explanation": "'Gwadegna' (ጓደኛ) means 'friend' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 7,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'country' in Amharic?",
+    "options": "[\"ketema\", \"ager\", \"menged\", \"bet\"]",
+    "correct_answer": "ager",
+    "explanation": "'Ager' (አገር) means 'country' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "What is 'buna' in English?",
+    "options": "[\"tea\", \"coffee\", \"milk\", \"water\"]",
+    "correct_answer": "coffee",
+    "explanation": "'Buna' (ቡና) means 'coffee' in Amharic. Ethiopia is the birthplace of coffee, and the coffee ceremony is central to Ethiopian culture.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'bread' is ____.",
+    "options": null,
+    "correct_answer": "dabo",
+    "explanation": "'Dabo' (ዳቦ) means 'bread' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "'Genzeb' means:",
+    "options": "[\"food\", \"money\", \"time\", \"work\"]",
+    "correct_answer": "money",
+    "explanation": "'Genzeb' (ገንዘብ) means 'money' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'night' in Amharic?",
+    "options": "[\"tiwat\", \"lelit\", \"qen\", \"amet\"]",
+    "correct_answer": "lelit",
+    "explanation": "'Lelit' (ሌሊት) means 'night' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'meat' is ____.",
+    "options": null,
+    "correct_answer": "siga",
+    "explanation": "'Siga' (ስጋ) means 'meat' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "'Samint' in Amharic means:",
+    "options": "[\"day\", \"month\", \"week\", \"year\"]",
+    "correct_answer": "week",
+    "explanation": "'Samint' (ሳምንት) means 'week' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "fill_blank",
+    "question": "'Year' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "amet",
+    "explanation": "'Amet' (ዓመት) means 'year' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 8,
+    "question_type": "multiple_choice",
+    "question": "What does 'sira' mean?",
+    "options": "[\"food\", \"house\", \"work, job\", \"money\"]",
+    "correct_answer": "work, job",
+    "explanation": "'Sira' (ስራ) means 'work' or 'job' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "What does 'tiliq' mean?",
+    "options": "[\"small\", \"big\", \"tall\", \"short\"]",
+    "correct_answer": "big",
+    "explanation": "'Tiliq' (ትልቅ) means 'big' or 'large' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'beautiful' is ____.",
+    "options": null,
+    "correct_answer": "qonjo",
+    "explanation": "'Qonjo' (ቆንጆ) means 'beautiful' or 'pretty' in Amharic. It can be used for people and things.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "'Addis' means:",
+    "options": "[\"old\", \"new\", \"big\", \"small\"]",
+    "correct_answer": "new",
+    "explanation": "'Addis' (አዲስ) means 'new' in Amharic. It appears in the capital city name 'Addis Ababa' (new flower).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'easy' in Amharic?",
+    "options": "[\"kebad\", \"qelal\", \"rejim\", \"achir\"]",
+    "correct_answer": "qelal",
+    "explanation": "'Qelal' (ቀላል) means 'easy' or 'light' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "fill_blank",
+    "question": "The word for 'black' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "tiqur",
+    "explanation": "'Tiqur' (ጥቁር) means 'black' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "'Rejim' means:",
+    "options": "[\"short\", \"tall, long\", \"wide\", \"narrow\"]",
+    "correct_answer": "tall, long",
+    "explanation": "'Rejim' (ረጅም) means 'tall' or 'long' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "fill_blank",
+    "question": "'Red' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "qey",
+    "explanation": "'Qey' (ቀይ) means 'red' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 9,
+    "question_type": "multiple_choice",
+    "question": "What does 'wid' mean?",
+    "options": "[\"cheap\", \"expensive\", \"free\", \"valuable\"]",
+    "correct_answer": "expensive",
+    "explanation": "'Wid' (ውድ) means 'expensive' or 'dear' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "What day is 'segnno'?",
+    "options": "[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\"]",
+    "correct_answer": "Monday",
+    "explanation": "'Segnno' (ሰኞ) means 'Monday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "fill_blank",
+    "question": "Friday in Amharic is ____.",
+    "options": null,
+    "correct_answer": "arb",
+    "explanation": "'Arb' (ዓርብ) means 'Friday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "'Ihud' is which day?",
+    "options": "[\"Saturday\", \"Sunday\", \"Monday\", \"Friday\"]",
+    "correct_answer": "Sunday",
+    "explanation": "'Ihud' (እሑድ) means 'Sunday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'today' in Amharic?",
+    "options": "[\"nege\", \"zare\", \"tilant\", \"ahun\"]",
+    "correct_answer": "zare",
+    "explanation": "'Zare' (ዛሬ) means 'today' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "fill_blank",
+    "question": "The word for 'tomorrow' is ____.",
+    "options": null,
+    "correct_answer": "nege",
+    "explanation": "'Nege' (ነገ) means 'tomorrow' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "'Rebu' is:",
+    "options": "[\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\"]",
+    "correct_answer": "Wednesday",
+    "explanation": "'Rebu' (ረቡዕ) means 'Wednesday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "fill_blank",
+    "question": "'Now' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "ahun",
+    "explanation": "'Ahun' (አሁን) means 'now' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 10,
+    "question_type": "multiple_choice",
+    "question": "What does 'tilant' mean?",
+    "options": "[\"today\", \"tomorrow\", \"yesterday\", \"now\"]",
+    "correct_answer": "yesterday",
+    "explanation": "'Tilant' (ትላንት) means 'yesterday' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "Amharic sentence order is:",
+    "options": "[\"Subject-Verb-Object\", \"Subject-Object-Verb\", \"Verb-Subject-Object\", \"Object-Verb-Subject\"]",
+    "correct_answer": "Subject-Object-Verb",
+    "explanation": "Amharic follows Subject-Object-Verb (SOV) word order, meaning the verb always comes at the end of the sentence.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "fill_blank",
+    "question": "In Amharic, the verb comes at the ____ of the sentence.",
+    "options": null,
+    "correct_answer": "end",
+    "explanation": "Amharic is an SOV (Subject-Object-Verb) language, so the verb always appears at the end of the sentence.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "How would you arrange 'I food eat' in Amharic word order?",
+    "options": "[\"ine migib ibelalehu\", \"ibelalehu ine migib\", \"migib ine ibelalehu\", \"ine ibelalehu migib\"]",
+    "correct_answer": "ine migib ibelalehu",
+    "explanation": "In Amharic SOV order: 'ine' (I) + 'migib' (food) + 'ibelalehu' (eat). The subject comes first, then the object, then the verb.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "'Metshaf' means:",
+    "options": "[\"teacher\", \"student\", \"book\", \"school\"]",
+    "correct_answer": "book",
+    "explanation": "'Metshaf' (መጽሐፍ) means 'book' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'teacher' is ____.",
+    "options": null,
+    "correct_answer": "memhir",
+    "explanation": "'Memhir' (መምህር) means 'teacher' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "What is 'temari' in English?",
+    "options": "[\"teacher\", \"student\", \"school\", \"book\"]",
+    "correct_answer": "student",
+    "explanation": "'Temari' (ተማሪ) means 'student' in Amharic, derived from the verb 'memar' (to learn).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "fill_blank",
+    "question": "The word for 'dog' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "wusha",
+    "explanation": "'Wusha' (ውሻ) means 'dog' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 11,
+    "question_type": "multiple_choice",
+    "question": "'Gebeya' means:",
+    "options": "[\"school\", \"church\", \"market\", \"hospital\"]",
+    "correct_answer": "market",
+    "explanation": "'Gebeya' (ገበያ) means 'market' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "In Amharic, 'wend' means:",
+    "options": "[\"woman/female\", \"man/male\", \"child\", \"person\"]",
+    "correct_answer": "man/male",
+    "explanation": "'Wend' (ወንድ) means 'man' or 'male' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "fill_blank",
+    "question": "The feminine word for 'queen' is ____.",
+    "options": null,
+    "correct_answer": "nigist",
+    "explanation": "'Nigist' (ንግስት) means 'queen' in Amharic. The famous Queen of Sheba is called 'Nigist Saba' in Ethiopian tradition.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "'Set' in Amharic means:",
+    "options": "[\"man/male\", \"woman/female\", \"child\", \"person\"]",
+    "correct_answer": "woman/female",
+    "explanation": "'Set' (ሴት) means 'woman' or 'female' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "Which is the correct gender for 'mekina' (car)?",
+    "options": "[\"masculine\", \"feminine\", \"neuter\", \"both\"]",
+    "correct_answer": "feminine",
+    "explanation": "In Amharic, 'mekina' (car) is grammatically feminine. Amharic nouns have grammatical gender that affects verb conjugation and adjective agreement.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "fill_blank",
+    "question": "The word for 'king' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "nigus",
+    "explanation": "'Nigus' (ንጉስ) means 'king' in Amharic. The title 'Neguse Negest' means 'King of Kings.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "'Lam' (cow) is which gender in Amharic?",
+    "options": "[\"masculine\", \"feminine\", \"neuter\", \"both\"]",
+    "correct_answer": "feminine",
+    "explanation": "'Lam' (ላም) meaning 'cow' is grammatically feminine in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "fill_blank",
+    "question": "The masculine word for 'bull' is ____.",
+    "options": null,
+    "correct_answer": "bere",
+    "explanation": "'Bere' (በሬ) means 'bull' or 'ox' in Amharic. It is the masculine counterpart of 'lam' (cow).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 12,
+    "question_type": "multiple_choice",
+    "question": "How does Amharic indicate gender in 'you' (informal)?",
+    "options": "[\"'ante' for male, 'anchi' for female\", \"'anchi' for male, 'ante' for female\", \"Same word for both\", \"Different verb forms only\"]",
+    "correct_answer": "'ante' for male, 'anchi' for female",
+    "explanation": "Amharic distinguishes gender in the second person: 'ante' (አንተ) for male and 'anchi' (አንቺ) for female.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I have' in Amharic?",
+    "options": "[\"allew\", \"allegn\", \"alleh\", \"allat\"]",
+    "correct_answer": "allegn",
+    "explanation": "'Allegn' (አለኝ) means 'I have' in Amharic, literally 'there is to me.' Possession is expressed through the verb 'alle' with pronoun suffixes.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "fill_blank",
+    "question": "'There is not' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "yelem",
+    "explanation": "'Yelem' (የለም) means 'there is not' or 'does not exist' in Amharic. It is the negative form of 'alle' (there is).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "'Allew' means:",
+    "options": "[\"I have\", \"he has\", \"she has\", \"they have\"]",
+    "correct_answer": "he has",
+    "explanation": "'Allew' (አለው) means 'he has' in Amharic, literally 'there is to him.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "fill_blank",
+    "question": "To say 'she has', you say ____.",
+    "options": null,
+    "correct_answer": "allat",
+    "explanation": "'Allat' (አላት) means 'she has' in Amharic, literally 'there is to her.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "The Amharic word 'alle' is used to express:",
+    "options": "[\"negation\", \"existence/having\", \"questioning\", \"past tense\"]",
+    "correct_answer": "existence/having",
+    "explanation": "'Alle' (አለ) expresses existence ('there is') and is the base for expressing possession in Amharic by adding pronoun suffixes.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "fill_blank",
+    "question": "'I don't have' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "yelegnym",
+    "explanation": "'Yelegnym' (የለኝም) means 'I don't have' in Amharic. It combines 'yelem' (there is not) with the first person suffix.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'you have' to a man?",
+    "options": "[\"allegn\", \"alleh\", \"allew\", \"allat\"]",
+    "correct_answer": "alleh",
+    "explanation": "'Alleh' (አለህ) means 'you (masculine) have' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 13,
+    "question_type": "multiple_choice",
+    "question": "'Yelem' is the negative of:",
+    "options": "[\"new (is)\", \"alle (there is)\", \"negn (I am)\", \"hedku (I went)\"]",
+    "correct_answer": "alle (there is)",
+    "explanation": "'Yelem' (የለም) is the negative form of 'alle' (አለ), meaning 'there is not' or 'does not exist.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "What is the plural of 'bet' (house)?",
+    "options": "[\"betoch\", \"betoch\", \"betach\", \"betu\"]",
+    "correct_answer": "betoch",
+    "explanation": "'Betoch' (ቤቶች) is the plural of 'bet' (house). The suffix '-och' is the standard plural marker in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "fill_blank",
+    "question": "The definite article for masculine nouns is the suffix ____.",
+    "options": null,
+    "correct_answer": "u",
+    "explanation": "The suffix '-u' (ኡ) is the masculine definite article in Amharic. For example, 'bet' (house) becomes 'betu' (the house).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "'Lijoch' means:",
+    "options": "[\"the child\", \"children\", \"my child\", \"a child\"]",
+    "correct_answer": "children",
+    "explanation": "'Lijoch' (ልጆች) means 'children,' the plural of 'lij' (child). The '-och' suffix marks plurality.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "How do you make 'sew' (person) plural?",
+    "options": "[\"sewu\", \"sewa\", \"sewoch\", \"sewat\"]",
+    "correct_answer": "sewoch",
+    "explanation": "'Sewoch' (ሰዎች) means 'people,' the plural of 'sew' (person). Add '-och' to make most nouns plural.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "fill_blank",
+    "question": "The plural suffix in Amharic is ____.",
+    "options": null,
+    "correct_answer": "och",
+    "explanation": "The suffix '-och' (ኦች) is the standard plural marker in Amharic, added to nouns to indicate more than one.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "'Betu' means:",
+    "options": "[\"houses\", \"the house\", \"my house\", \"a house\"]",
+    "correct_answer": "the house",
+    "explanation": "'Betu' (ቤቱ) means 'the house.' The '-u' suffix is the masculine definite article in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "fill_blank",
+    "question": "The definite article for feminine nouns is ____.",
+    "options": null,
+    "correct_answer": "wa",
+    "explanation": "The suffix '-wa' (ዋ) is the feminine definite article in Amharic. For example, 'mekina' (car, feminine) becomes 'mekinawa' (the car).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 14,
+    "question_type": "multiple_choice",
+    "question": "What does 'wushoch' mean?",
+    "options": "[\"the dog\", \"dogs\", \"my dog\", \"a dog\"]",
+    "correct_answer": "dogs",
+    "explanation": "'Wushoch' (ውሾች) means 'dogs,' the plural of 'wusha' (dog).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'my' in Amharic?",
+    "options": "[\"yaante\", \"yene\", \"yessu\", \"yesswa\"]",
+    "correct_answer": "yene",
+    "explanation": "'Yene' (የኔ) means 'my' or 'mine' in Amharic. Possessives are formed with 'ye-' prefix + pronoun.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "fill_blank",
+    "question": "'Your' (to a man) in Amharic is ____.",
+    "options": null,
+    "correct_answer": "yaante",
+    "explanation": "'Yaante' (ያንተ) means 'your/yours' when speaking to a man in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "'Yesswa' means:",
+    "options": "[\"his\", \"her/hers\", \"my\", \"our\"]",
+    "correct_answer": "her/hers",
+    "explanation": "'Yesswa' (የሷ) means 'her' or 'hers' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'our house'?",
+    "options": "[\"yene bet\", \"yaante bet\", \"yegna bet\", \"yennessu bet\"]",
+    "correct_answer": "yegna bet",
+    "explanation": "'Yegna bet' (የኛ ቤት) means 'our house.' 'Yegna' is the possessive form of 'igna' (we).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "fill_blank",
+    "question": "'His' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "yessu",
+    "explanation": "'Yessu' (የሱ) means 'his' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "'Yene bet' means:",
+    "options": "[\"your house\", \"my house\", \"his house\", \"our house\"]",
+    "correct_answer": "my house",
+    "explanation": "'Yene bet' (የኔ ቤት) means 'my house.' 'Yene' means 'my' and 'bet' means 'house.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "fill_blank",
+    "question": "The possessive for 'their' is ____.",
+    "options": null,
+    "correct_answer": "yennessu",
+    "explanation": "'Yennessu' (የነሱ) means 'their/theirs' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 15,
+    "question_type": "multiple_choice",
+    "question": "Amharic possessives come ____ the noun.",
+    "options": "[\"before\", \"after\", \"around\", \"inside\"]",
+    "correct_answer": "before",
+    "explanation": "In Amharic, possessive words come before the noun they modify, similar to English: 'yene bet' = 'my house.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'who?' in Amharic?",
+    "options": "[\"min\", \"man\", \"yet\", \"meche\"]",
+    "correct_answer": "man",
+    "explanation": "'Man' (ማን) means 'who?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "fill_blank",
+    "question": "The question word for 'where' is ____.",
+    "options": null,
+    "correct_answer": "yet",
+    "explanation": "'Yet' (የት) means 'where?' in Amharic. Used in questions like 'yet new?' (where is it?).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "'Meche' asks about:",
+    "options": "[\"place\", \"time/when\", \"person\", \"reason\"]",
+    "correct_answer": "time/when",
+    "explanation": "'Meche' (መቼ) means 'when?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'why?' in Amharic?",
+    "options": "[\"min\", \"lemen\", \"indet\", \"man\"]",
+    "correct_answer": "lemen",
+    "explanation": "'Lemen' (ለምን) means 'why?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "fill_blank",
+    "question": "'What' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "min",
+    "explanation": "'Min' (ምን) means 'what?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "'Sint' is used to ask:",
+    "options": "[\"where\", \"when\", \"how many/how much\", \"why\"]",
+    "correct_answer": "how many/how much",
+    "explanation": "'Sint' (ስንት) means 'how many?' or 'how much?' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "fill_blank",
+    "question": "To ask 'how' in Amharic, you say ____.",
+    "options": null,
+    "correct_answer": "indet",
+    "explanation": "'Indet' (እንዴት) means 'how?' in Amharic. It also appears in the greeting 'indet neh?' (how are you?).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 16,
+    "question_type": "multiple_choice",
+    "question": "'Yeman' means:",
+    "options": "[\"where\", \"when\", \"whose\", \"which\"]",
+    "correct_answer": "whose",
+    "explanation": "'Yeman' (የማን) means 'whose?' in Amharic. It combines 'ye-' (of) with 'man' (who).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "What is 'mehed' in English?",
+    "options": "[\"to eat\", \"to go\", \"to see\", \"to buy\"]",
+    "correct_answer": "to go",
+    "explanation": "'Mehed' (መሄድ) means 'to go' in Amharic. It is one of the most commonly used verbs.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "fill_blank",
+    "question": "The infinitive for 'to eat' is ____.",
+    "options": null,
+    "correct_answer": "meblat",
+    "explanation": "'Meblat' (መብላት) means 'to eat' in Amharic. Amharic infinitives typically begin with 'me-'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "'Mayet' means:",
+    "options": "[\"to hear\", \"to see\", \"to say\", \"to know\"]",
+    "correct_answer": "to see",
+    "explanation": "'Mayet' (ማየት) means 'to see' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to buy' in Amharic?",
+    "options": "[\"mesrat\", \"megzat\", \"meblat\", \"mehed\"]",
+    "correct_answer": "megzat",
+    "explanation": "'Megzat' (መግዛት) means 'to buy' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "fill_blank",
+    "question": "'To sleep' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "metegnat",
+    "explanation": "'Metegnat' (መተኛት) means 'to sleep' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "'Meshaf' means:",
+    "options": "[\"to read\", \"to write\", \"to learn\", \"to teach\"]",
+    "correct_answer": "to write",
+    "explanation": "'Meshaf' (መጻፍ) means 'to write' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "fill_blank",
+    "question": "The word for 'to read' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "maneb",
+    "explanation": "'Maneb' (ማንበብ) means 'to read' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 17,
+    "question_type": "multiple_choice",
+    "question": "What does 'mefeleg' mean?",
+    "options": "[\"to eat\", \"to go\", \"to want, to look for\", \"to sleep\"]",
+    "correct_answer": "to want, to look for",
+    "explanation": "'Mefeleg' (መፈለግ) means 'to want' or 'to look for' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I went' in Amharic?",
+    "options": "[\"hedku\", \"hede\", \"hedech\", \"hedn\"]",
+    "correct_answer": "hedku",
+    "explanation": "'Hedku' (ሄድኩ) means 'I went' in Amharic. The '-ku' suffix marks first person past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "fill_blank",
+    "question": "'I ate' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "belahu",
+    "explanation": "'Belahu' (በላሁ) means 'I ate' in Amharic past tense.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "'Metahu' means:",
+    "options": "[\"I went\", \"I came\", \"I ate\", \"I saw\"]",
+    "correct_answer": "I came",
+    "explanation": "'Metahu' (መጣሁ) means 'I came' in Amharic past tense, from the verb 'memtat' (to come).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I saw' in Amharic?",
+    "options": "[\"belahu\", \"ayehu\", \"hedku\", \"serahu\"]",
+    "correct_answer": "ayehu",
+    "explanation": "'Ayehu' (አየሁ) means 'I saw' in Amharic past tense, from 'mayet' (to see).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "fill_blank",
+    "question": "'I bought' in the past tense is ____.",
+    "options": null,
+    "correct_answer": "gezahu",
+    "explanation": "'Gezahu' (ገዛሁ) means 'I bought' in Amharic past tense, from 'megzat' (to buy).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "'Serahu' means:",
+    "options": "[\"I ate\", \"I worked\", \"I went\", \"I saw\"]",
+    "correct_answer": "I worked",
+    "explanation": "'Serahu' (ሰራሁ) means 'I worked' in Amharic past tense, from 'mesrat' (to work).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "fill_blank",
+    "question": "'I said' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "alku",
+    "explanation": "'Alku' (አልኩ) means 'I said' in Amharic past tense, from 'maletl' (to say).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 18,
+    "question_type": "multiple_choice",
+    "question": "Past tense in Amharic is formed by adding:",
+    "options": "[\"prefixes to the verb stem\", \"suffixes to the verb stem\", \"a separate word before the verb\", \"nothing - context only\"]",
+    "correct_answer": "suffixes to the verb stem",
+    "explanation": "Amharic past tense is formed by adding personal suffixes to the verb stem: -ku (I), -k (you m), -sh (you f), -e (he), -ech (she), etc.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I eat' (present) in Amharic?",
+    "options": "[\"belahu\", \"ibledallehu\", \"albelam\", \"bela\"]",
+    "correct_answer": "ibledallehu",
+    "explanation": "'Ibledallehu' (እበላለሁ) means 'I eat' in the present/habitual tense in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "fill_blank",
+    "question": "'I go' in the present tense is ____.",
+    "options": null,
+    "correct_answer": "ihedallehu",
+    "explanation": "'Ihedallehu' (እሄዳለሁ) means 'I go' in the present/future tense in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "'Iserallehu' means:",
+    "options": "[\"I went\", \"I work\", \"I see\", \"I ate\"]",
+    "correct_answer": "I work",
+    "explanation": "'Iserallehu' (እሰራለሁ) means 'I work' in the present/habitual tense in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "The Amharic present tense uses which prefix for 'I'?",
+    "options": "[\"a-\", \"i-\", \"ti-\", \"yi-\"]",
+    "correct_answer": "i-",
+    "explanation": "The first person present tense in Amharic uses the prefix 'i-' (እ). For example: 'i-hed-allehu' (I go), 'i-bel-allehu' (I eat).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "fill_blank",
+    "question": "'I learn' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "imerallehu",
+    "explanation": "'Imerallehu' (እማራለሁ) means 'I learn' in Amharic, from 'memar' (to learn).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "'Inagerallehu' means:",
+    "options": "[\"I write\", \"I speak\", \"I read\", \"I listen\"]",
+    "correct_answer": "I speak",
+    "explanation": "'Inagerallehu' (እናገራለሁ) means 'I speak' in the present/habitual tense, from 'menager' (to speak).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "fill_blank",
+    "question": "'I write' in present tense is ____.",
+    "options": null,
+    "correct_answer": "ishfallehu",
+    "explanation": "'Ishfallehu' (እጽፋለሁ) means 'I write' in the present tense in Amharic, from 'meshaf' (to write).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 19,
+    "question_type": "multiple_choice",
+    "question": "Present/future tense verbs end with the suffix:",
+    "options": "[\"-ku (for I)\", \"-allehu (for I)\", \"-wal (for I)\", \"-negn (for I)\"]",
+    "correct_answer": "-allehu (for I)",
+    "explanation": "The present/future tense first person form ends with '-allehu' (አለሁ). For example: 'ihedallehu' (I go), 'ibledallehu' (I eat).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "How do you make a verb negative in Amharic?",
+    "options": "[\"Add suffix -yelem\", \"Add al- prefix and -m suffix\", \"Add ayi- prefix only\", \"Change the vowel\"]",
+    "correct_answer": "Add al- prefix and -m suffix",
+    "explanation": "Amharic negation uses a circumfix: 'al-' prefix + verb stem + '-m' suffix. For example: 'al-hed-im' (I don't go).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "fill_blank",
+    "question": "'I don't go' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "alhedim",
+    "explanation": "'Alhedim' (አልሄድም) means 'I don't go' in Amharic. The 'al-...-m' pattern wraps around the verb stem.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "'Albelam' means:",
+    "options": "[\"I ate\", \"I don't eat\", \"I will eat\", \"I am eating\"]",
+    "correct_answer": "I don't eat",
+    "explanation": "'Albelam' (አልበላም) means 'I don't eat' in Amharic, using the negative pattern 'al-bela-m'.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "What does 'aydelem' mean?",
+    "options": "[\"it is\", \"it was\", \"it is not\", \"it will be\"]",
+    "correct_answer": "it is not",
+    "explanation": "'Aydelem' (አይደለም) means 'it is not' in Amharic. It is the negation of 'new' (is).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "fill_blank",
+    "question": "'I don't know' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "alawkim",
+    "explanation": "'Alawkim' (አላውቅም) means 'I don't know' in Amharic, from 'maweq' (to know).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "'Yelem' is the negative of:",
+    "options": "[\"new (is)\", \"alle (there is)\", \"negn (I am)\", \"allew (he has)\"]",
+    "correct_answer": "alle (there is)",
+    "explanation": "'Yelem' (የለም) means 'there is not,' the negation of 'alle' (there is/exists).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "fill_blank",
+    "question": "'I can't' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "alchilim",
+    "explanation": "'Alchilim' (አልችልም) means 'I can't' in Amharic, the negative of 'ichilalehu' (I can).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 20,
+    "question_type": "multiple_choice",
+    "question": "The negative pattern in Amharic is:",
+    "options": "[\"verb + yelem\", \"al- + verb stem + -m\", \"ayi- + verb\", \"le- + verb + -im\"]",
+    "correct_answer": "al- + verb stem + -m",
+    "explanation": "The standard Amharic negation pattern is 'al-' prefix + verb stem + '-m' suffix. This applies to most tenses.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "What is 'menager' in English?",
+    "options": "[\"to eat\", \"to go\", \"to speak\", \"to write\"]",
+    "correct_answer": "to speak",
+    "explanation": "'Menager' (መናገር) means 'to speak' or 'to talk' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "fill_blank",
+    "question": "The imperative 'go!' (to a man) is ____.",
+    "options": null,
+    "correct_answer": "hid",
+    "explanation": "'Hid' (ሂድ) means 'go!' as a command to a man in Amharic. The imperative is the simplest verb form.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "'Memar' means:",
+    "options": "[\"to teach\", \"to learn\", \"to read\", \"to write\"]",
+    "correct_answer": "to learn",
+    "explanation": "'Memar' (መማር) means 'to learn' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'come!' (to a man)?",
+    "options": "[\"hid\", \"na\", \"bel\", \"qum\"]",
+    "correct_answer": "na",
+    "explanation": "'Na' (ና) means 'come!' as a command to a man in Amharic. For a woman, it is 'ney.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "fill_blank",
+    "question": "The word for 'to help' is ____.",
+    "options": null,
+    "correct_answer": "merdat",
+    "explanation": "'Merdat' (መርዳት) means 'to help' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "'Mewded' means:",
+    "options": "[\"to hate\", \"to like, to love\", \"to know\", \"to forget\"]",
+    "correct_answer": "to like, to love",
+    "explanation": "'Mewded' (መውደድ) means 'to like' or 'to love' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "fill_blank",
+    "question": "'To work' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "mesrat",
+    "explanation": "'Mesrat' (መስራት) means 'to work' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 21,
+    "question_type": "multiple_choice",
+    "question": "'Na!' is the imperative of:",
+    "options": "[\"to go\", \"to come\", \"to eat\", \"to see\"]",
+    "correct_answer": "to come",
+    "explanation": "'Na!' (ና) is the imperative (command) form of 'memtat' (to come), addressed to a man.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I don't understand'?",
+    "options": "[\"algebagnim\", \"alawkim\", \"albelam\", \"alchilim\"]",
+    "correct_answer": "algebagnim",
+    "explanation": "'Algebagnim' (አልገባኝም) means 'I don't understand' in Amharic. Literally 'it did not enter me.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "fill_blank",
+    "question": "'Let's go' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "inhid",
+    "explanation": "'Inhid' (እንሂድ) means 'let's go' in Amharic. The 'in-' prefix creates the 'let's' (first person plural imperative) form.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "'Irdegn' means:",
+    "options": "[\"help me\", \"tell me\", \"show me\", \"give me\"]",
+    "correct_answer": "help me",
+    "explanation": "'Irdegn' (እርዳኝ) means 'help me' in Amharic (informal, to a man). The polite plural form is 'irduny.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'where is the bathroom?'",
+    "options": "[\"shint bet yet new?\", \"migib bet yet new?\", \"bet yet new?\", \"hakim bet yet new?\"]",
+    "correct_answer": "shint bet yet new?",
+    "explanation": "'Shint bet yet new?' (ሽንት ቤት የት ነው?) means 'where is the bathroom?' Literally 'urine house where is?'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "fill_blank",
+    "question": "To say 'slowly please' (to a man), say 'kes ____'.",
+    "options": null,
+    "correct_answer": "bel",
+    "explanation": "'Kes bel' (ቀስ በል) means 'slowly' or 'take it easy' (to a man). 'Kes' means 'slow/gently.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "'Amarigna alinagerim' means:",
+    "options": "[\"I speak Amharic\", \"I don't speak Amharic\", \"I am learning Amharic\", \"I understand Amharic\"]",
+    "correct_answer": "I don't speak Amharic",
+    "explanation": "'Amarigna alinagerim' (አማርኛ አልናገርም) means 'I don't speak Amharic.' Useful for beginners in Ethiopia.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "fill_blank",
+    "question": "'Wait' (command to a man) in Amharic is ____.",
+    "options": null,
+    "correct_answer": "tebeq",
+    "explanation": "'Tebeq' (ጠብቅ) means 'wait!' as a command to a man in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 22,
+    "question_type": "multiple_choice",
+    "question": "How would you ask 'do you speak English?'",
+    "options": "[\"ingilizigna tinageraleh?\", \"ingilizigna tichilaleh?\", \"ingilizigna tifelligaleh?\", \"ingilizigna tawqaleh?\"]",
+    "correct_answer": "ingilizigna tinageraleh?",
+    "explanation": "'Ingilizigna tinageraleh?' (እንግሊዝኛ ትናገራለህ?) means 'Do you speak English?' addressed to a man.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'my name is ___'?",
+    "options": "[\"sime ___ yibalal\", \"ine ___ negn\", \"ye ine sim ___ new\", \"___ ibledallehu\"]",
+    "correct_answer": "sime ___ yibalal",
+    "explanation": "'Sime ___ yibalal' (ስሜ ___ ይባላል) means 'my name is ___,' literally 'my name is called ___.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "fill_blank",
+    "question": "To ask a man his name, say 'simeh ____ new?'",
+    "options": null,
+    "correct_answer": "man",
+    "explanation": "'Simeh man new?' (ስምህ ማን ነው?) means 'What is your name?' to a man. 'Man' means 'who/what' in this context.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "'Ityopyawi negn' means:",
+    "options": "[\"I am Ethiopian\", \"I am American\", \"I am a student\", \"I am a teacher\"]",
+    "correct_answer": "I am Ethiopian",
+    "explanation": "'Ityopyawi negn' (ኢትዮጵያዊ ነኝ) means 'I am Ethiopian.' 'Ityopyawi' is the nationality adjective.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'nice to meet you'?",
+    "options": "[\"destenyal\", \"ameseginalehu\", \"dehna negn\", \"melkam qen\"]",
+    "correct_answer": "destenyal",
+    "explanation": "'Destenyal' (ደስተኛል) means 'nice to meet you' or 'I am pleased' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "fill_blank",
+    "question": "To say 'I am from ___', start with 'ke ___ ____'.",
+    "options": null,
+    "correct_answer": "negn",
+    "explanation": "'Ke ___ negn' (ከ ___ ነኝ) means 'I am from ___.' 'Ke' means 'from' and 'negn' means 'I am.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "'Idme sint new' asks about:",
+    "options": "[\"name\", \"age\", \"nationality\", \"occupation\"]",
+    "correct_answer": "age",
+    "explanation": "'Idme sint new?' (እድሜ ስንት ነው?) means 'How old are you?' literally 'age how much is?'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "fill_blank",
+    "question": "'I am learning Amharic' is 'amarigna ____'.",
+    "options": null,
+    "correct_answer": "imerallehu",
+    "explanation": "'Amarigna imerallehu' (አማርኛ እማራለሁ) means 'I am learning Amharic.' 'Imerallehu' means 'I learn/am learning.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 23,
+    "question_type": "multiple_choice",
+    "question": "How do you ask a woman her name?",
+    "options": "[\"simeh man new?\", \"simish man new?\", \"sime man new?\", \"simu man new?\"]",
+    "correct_answer": "simish man new?",
+    "explanation": "'Simish man new?' (ስምሽ ማን ነው?) means 'What is your name?' to a woman. 'Simish' uses the feminine '-sh' suffix.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "'Sint new?' means:",
+    "options": "[\"what is it?\", \"how much is it?\", \"where is it?\", \"who is it?\"]",
+    "correct_answer": "how much is it?",
+    "explanation": "'Sint new?' (ስንት ነው?) means 'how much is it?' Essential for shopping at markets in Ethiopia.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "fill_blank",
+    "question": "To say 'I want (it)', say ____.",
+    "options": null,
+    "correct_answer": "ifelligallehu",
+    "explanation": "'Ifelligallehu' (እፈልጋለሁ) means 'I want (it)' in Amharic. From 'mefeleg' (to want).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "'Wid new' means:",
+    "options": "[\"it's cheap\", \"it's expensive\", \"it's good\", \"it's bad\"]",
+    "correct_answer": "it's expensive",
+    "explanation": "'Wid new' (ውድ ነው) means 'it's expensive.' 'Wid' means expensive/dear.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'it's cheap'?",
+    "options": "[\"wid new\", \"rikash new\", \"tiru new\", \"tinish new\"]",
+    "correct_answer": "rikash new",
+    "explanation": "'Rikash new' (ርካሽ ነው) means 'it's cheap.' 'Rikash' means cheap/inexpensive.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "fill_blank",
+    "question": "'Give me' (to a man) is ____.",
+    "options": null,
+    "correct_answer": "sitegn",
+    "explanation": "'Sitegn' (ስጠኝ) means 'give me' as a command to a man in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "'Igezewallehu' means:",
+    "options": "[\"I will sell it\", \"I will buy it\", \"I want it\", \"I don't want it\"]",
+    "correct_answer": "I will buy it",
+    "explanation": "'Igezewallehu' (እገዛዋለሁ) means 'I will buy it' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "fill_blank",
+    "question": "To ask 'how much total?', say 'bemulubet ____ new?'",
+    "options": null,
+    "correct_answer": "sint",
+    "explanation": "'Bemulubet sint new?' (በሙሉበት ስንት ነው?) means 'how much total?' or 'how much altogether?'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 24,
+    "question_type": "multiple_choice",
+    "question": "How do you ask 'do you have (it)?'",
+    "options": "[\"allewo?\", \"sint new?\", \"yet new?\", \"min new?\"]",
+    "correct_answer": "allewo?",
+    "explanation": "'Allewo?' (አለዎ?) means 'do you have (it)?' using the formal/polite form. Useful when shopping.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'where is it?'",
+    "options": "[\"min new?\", \"yet new?\", \"man new?\", \"sint new?\"]",
+    "correct_answer": "yet new?",
+    "explanation": "'Yet new?' (የት ነው?) means 'where is it?' A fundamental phrase for asking directions.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "fill_blank",
+    "question": "To say 'go straight', say 'qetita ____'.",
+    "options": null,
+    "correct_answer": "hid",
+    "explanation": "'Qetita hid' (ቀጥታ ሂድ) means 'go straight.' 'Qetita' means 'straight' and 'hid' means 'go' (to a man).",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "'Wede qegn' means:",
+    "options": "[\"to the left\", \"to the right\", \"go straight\", \"go back\"]",
+    "correct_answer": "to the right",
+    "explanation": "'Wede qegn' (ወደ ቀኝ) means 'to the right.' 'Wede' means 'toward' and 'qegn' means 'right.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'near' in Amharic?",
+    "options": "[\"ruq\", \"qirb\", \"fit\", \"hwala\"]",
+    "correct_answer": "qirb",
+    "explanation": "'Qirb' (ቅርብ) means 'near' or 'close' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "fill_blank",
+    "question": "'Far' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "ruq",
+    "explanation": "'Ruq' (ሩቅ) means 'far' or 'distant' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "'Wede gra' means:",
+    "options": "[\"to the right\", \"to the left\", \"go back\", \"go straight\"]",
+    "correct_answer": "to the left",
+    "explanation": "'Wede gra' (ወደ ግራ) means 'to the left.' 'Gra' means 'left.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "fill_blank",
+    "question": "'Behind' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "kehwala",
+    "explanation": "'Kehwala' (ከኋላ) means 'behind' or 'in back of' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 25,
+    "question_type": "multiple_choice",
+    "question": "'Ategebabi' means:",
+    "options": "[\"in front of\", \"next to\", \"behind\", \"above\"]",
+    "correct_answer": "next to",
+    "explanation": "'Ategebabi' (አጠገባቢ) means 'next to' or 'nearby' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'I want food'?",
+    "options": "[\"migib ifelligallehu\", \"migib belahu\", \"migib ibledallehu\", \"migib allegn\"]",
+    "correct_answer": "migib ifelligallehu",
+    "explanation": "'Migib ifelligallehu' (ምግብ እፈልጋለሁ) means 'I want food.' 'Migib' means food and 'ifelligallehu' means I want.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "fill_blank",
+    "question": "'I am hungry' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "rabegn",
+    "explanation": "'Rabegn' (ራበኝ) means 'I am hungry' in Amharic, literally 'hunger has struck me.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "'Tiru new' at a restaurant means:",
+    "options": "[\"it's expensive\", \"it's good/delicious\", \"it's spicy\", \"it's cold\"]",
+    "correct_answer": "it's good/delicious",
+    "explanation": "'Tiru new' (ጥሩ ነው) means 'it's good' or 'it's delicious.' A useful compliment for the food.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "What is 'injera'?",
+    "options": "[\"a meat dish\", \"traditional Ethiopian flatbread\", \"a spice\", \"a drink\"]",
+    "correct_answer": "traditional Ethiopian flatbread",
+    "explanation": "'Injera' (እንጀራ) is the spongy, fermented flatbread that is a staple of Ethiopian cuisine, made from teff flour.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "fill_blank",
+    "question": "To ask for the bill, say ____.",
+    "options": null,
+    "correct_answer": "hisabu",
+    "explanation": "'Hisabu' (ሂሳቡ) means 'the bill' or 'the check.' You can say 'hisabu ibakih' (the bill please) at a restaurant.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "'Buna ifelligallehu' means:",
+    "options": "[\"I want tea\", \"I want coffee\", \"I want water\", \"I want food\"]",
+    "correct_answer": "I want coffee",
+    "explanation": "'Buna ifelligallehu' (ቡና እፈልጋለሁ) means 'I want coffee.' Ethiopia is famous for its coffee culture.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "fill_blank",
+    "question": "'I am full' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "tegebahu",
+    "explanation": "'Tegebahu' (ጠገብሁ) means 'I am full' in Amharic, said after eating enough food.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 26,
+    "question_type": "multiple_choice",
+    "question": "'Tibs' is:",
+    "options": "[\"a soup\", \"fried/grilled meat dish\", \"a salad\", \"a dessert\"]",
+    "correct_answer": "fried/grilled meat dish",
+    "explanation": "'Tibs' (ጥብስ) is a popular Ethiopian dish of fried or grilled meat, often served with vegetables and injera.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'please' to a man?",
+    "options": "[\"ibakish\", \"ibakih\", \"ibakachihu\", \"irswo\"]",
+    "correct_answer": "ibakih",
+    "explanation": "'Ibakih' (እባክህ) means 'please' when speaking to a man. The '-h' ending is masculine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "fill_blank",
+    "question": "'You're welcome' (it's nothing) is 'minem ____'.",
+    "options": null,
+    "correct_answer": "aydelem",
+    "explanation": "'Minem aydelem' (ምንም አይደለም) means 'you're welcome' or 'it's nothing.' Literally 'nothing it is not.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "'Azinalehu' means:",
+    "options": "[\"I'm happy\", \"I'm sorry\", \"I'm tired\", \"I'm fine\"]",
+    "correct_answer": "I'm sorry",
+    "explanation": "'Azinalehu' (አዝናለሁ) means 'I'm sorry' or 'I'm sad' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "What is the formal title for 'Mr.' in Amharic?",
+    "options": "[\"ato\", \"weyzero\", \"weyzerit\", \"abba\"]",
+    "correct_answer": "ato",
+    "explanation": "'Ato' (አቶ) is the Amharic equivalent of 'Mr.' It is placed before a man's name as a sign of respect.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "fill_blank",
+    "question": "'Madam' in Amharic is ____.",
+    "options": null,
+    "correct_answer": "weyzero",
+    "explanation": "'Weyzero' (ወይዘሮ) is the Amharic title for 'Mrs.' or 'Madam,' used for married women.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "'Weyzerit' is the title for:",
+    "options": "[\"Mr.\", \"Mrs.\", \"Miss\", \"Doctor\"]",
+    "correct_answer": "Miss",
+    "explanation": "'Weyzerit' (ወይዘሪት) is the Amharic title for 'Miss,' used for unmarried women.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "fill_blank",
+    "question": "To say 'please' to a woman, say ____.",
+    "options": null,
+    "correct_answer": "ibakish",
+    "explanation": "'Ibakish' (እባክሽ) means 'please' when speaking to a woman. The '-sh' ending is feminine.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 27,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'congratulations' (to a man)?",
+    "options": "[\"melkam qen\", \"inkwan des aleh\", \"dehna hun\", \"ameseginalehu\"]",
+    "correct_answer": "inkwan des aleh",
+    "explanation": "'Inkwan des aleh' (እንኳን ደስ አለህ) means 'congratulations' to a man, literally 'may it please you.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'good night'?",
+    "options": "[\"dehna ider\", \"dehna hun\", \"melkam qen\", \"dehna wal\"]",
+    "correct_answer": "dehna ider",
+    "explanation": "'Dehna ider' (ደህና እደር) means 'good night,' literally 'spend the night well.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "fill_blank",
+    "question": "'Have a good day' is 'melkam ____'.",
+    "options": null,
+    "correct_answer": "qen",
+    "explanation": "'Melkam qen' (መልካም ቀን) means 'have a good day.' 'Melkam' means 'good' and 'qen' means 'day.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "'Dekmognal' means:",
+    "options": "[\"I'm happy\", \"I'm tired\", \"I'm hungry\", \"I'm fine\"]",
+    "correct_answer": "I'm tired",
+    "explanation": "'Dekmognal' (ደክሞኛል) means 'I'm tired' in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'see you tomorrow'?",
+    "options": "[\"nege innigegnalegn\", \"dehna hun\", \"melkam qen\", \"chaw\"]",
+    "correct_answer": "nege innigegnalegn",
+    "explanation": "'Nege innigegnalegn' (ነገ እንገናኛለን) means 'see you tomorrow.' 'Nege' means tomorrow and 'innigegnalegn' means we will meet.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "fill_blank",
+    "question": "'What's new?' is 'min addis ____ alle?'",
+    "options": null,
+    "correct_answer": "neger",
+    "explanation": "'Min addis neger alle?' (ምን አዲስ ነገር አለ?) means 'what's new?' or 'any news?' 'Neger' means 'thing/matter.'",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "'Minem yelem' means:",
+    "options": "[\"everything is fine\", \"nothing much / it's nothing\", \"I don't know\", \"what happened?\"]",
+    "correct_answer": "nothing much / it's nothing",
+    "explanation": "'Minem yelem' (ምንም የለም) means 'nothing much' or 'it's nothing.' A common casual response.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "fill_blank",
+    "question": "'Take care' (to a man) in Amharic is ____.",
+    "options": null,
+    "correct_answer": "tetenqeq",
+    "explanation": "'Tetenqeq' (ተጠንቀቅ) means 'take care' or 'be careful' as a command to a man in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "lesson_id": 28,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'God willing'?",
+    "options": "[\"ameseginalehu\", \"egziabher kefeleqe\", \"inkwan des aleh\", \"melkam beal\"]",
+    "correct_answer": "egziabher kefeleqe",
+    "explanation": "'Egziabher kefeleqe' (እግዚአብሔር ከፈለቀ) means 'God willing' or 'if God permits.' It reflects the deep religious culture of Ethiopia.",
+    "xp_reward": 5
+  }
+]
