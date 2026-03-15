@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: server/Dockerfile
-    container_name: amharic-server
     expose:
       - "3001"
     volumes:
@@ -11,32 +10,47 @@ services:
     environment:
       - NODE_ENV=production
       - DB_PATH=/monorepo/server/data/amharic.db
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3001/api/lessons', r => { process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
     restart: unless-stopped
 
   client:
     build:
       context: .
       dockerfile: client/Dockerfile
-    container_name: amharic-client
     expose:
       - "3000"
     environment:
       - NODE_ENV=production
       - ORIGIN=http://localhost:9000
+      - HOST=0.0.0.0
+      - PORT=3000
     depends_on:
-      - server
+      server:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000', r => { process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
     restart: unless-stopped
 
   nginx:
     image: nginx:alpine
-    container_name: amharic-nginx
     ports:
       - "9000:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     depends_on:
-      - client
-      - server
+      client:
+        condition: service_healthy
+      server:
+        condition: service_healthy
     restart: unless-stopped
 
 volumes:

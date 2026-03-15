@@ -2,7 +2,7 @@
 set -e
 
 # Check if database exists, if not seed it
-if [ ! -f "${DB_PATH:-/app/data/amharic.db}" ]; then
+if [ ! -f "${DB_PATH:-/monorepo/server/data/amharic.db}" ]; then
   echo "Database not found, seeding..."
   npm run seed
 else

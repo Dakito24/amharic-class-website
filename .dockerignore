@@ -2,13 +2,9 @@ node_modules
 npm-debug.log
 .env
 .DS_Store
-**/*.db
 *.md
 .git
 .gitignore
 client/.svelte-kit
 client/build
 server/amharic.db
-nginx
-DOCKER.md
-README.md

@@ -9,7 +9,7 @@ COPY server/package*.json ./server/
 # Install all workspace dependencies
 RUN npm ci
 
-# Copy server code and data
+# Copy server source code
 COPY server/src ./server/src
 COPY server/data ./server/data
 COPY server/docker-entrypoint.sh ./server/
@@ -22,4 +22,4 @@ WORKDIR /monorepo/server
 
 EXPOSE 3001
 
-CMD ["./docker-entrypoint.sh"]
+CMD ["/monorepo/server/docker-entrypoint.sh"]

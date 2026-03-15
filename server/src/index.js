@@ -30,6 +30,8 @@ app.use('/api/vocabulary', vocabularyRouter);
 app.use('/api/quizzes', quizzesRouter);
 app.use('/api/progress', progressRouter);
 
-app.listen(PORT, () => {
-  console.log(`Amharic API server running on http://localhost:${PORT}`);
+const HOST = process.env.HOST || '0.0.0.0';
+
+app.listen(PORT, HOST, () => {
+  console.log(`Amharic API server running on http://${HOST}:${PORT}`);
 });
