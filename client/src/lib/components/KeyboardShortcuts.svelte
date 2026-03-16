@@ -42,7 +42,10 @@
 <svelte:window onkeydown={handleKeydown} />
 
 {#if showHelp}
+  <!-- svelte-ignore a11y_no_static_element_interactions -->
   <div class="help-overlay" onclick={() => showHelp = false} onkeydown={(e) => e.key === 'Escape' && (showHelp = false)} role="dialog" aria-label="Keyboard shortcuts">
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
     <div class="help-modal" onclick={(e) => e.stopPropagation()}>
       <div class="help-header">
         <h2>Keyboard Shortcuts</h2>

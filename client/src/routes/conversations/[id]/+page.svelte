@@ -91,15 +91,20 @@
             <div class="turn-prompt">{turn.prompt}</div>
             <div class="turn-options">
               {#each turn.options as option, oi}
-                <button
-                  class="option-btn"
-                  class:selected={selectedOptions[i]?.romanized === option.romanized}
-                  onclick={() => selectOption(option)}
-                  disabled={!!selectedOptions[i]}
-                >
-                  <div class="opt-romanized">{option.romanized}</div>
-                  <div class="opt-english">{option.english}</div>
-                </button>
+                <div class="option-row">
+                  <button
+                    class="option-btn"
+                    class:selected={selectedOptions[i]?.romanized === option.romanized}
+                    onclick={() => selectOption(option)}
+                    disabled={!!selectedOptions[i]}
+                  >
+                    <div class="opt-romanized">{option.romanized}</div>
+                    <div class="opt-english">{option.english}</div>
+                  </button>
+                  {#if option.audio_url}
+                    <AudioButton src={option.audio_url} />
+                  {/if}
+                </div>
               {/each}
             </div>
 
@@ -242,7 +247,14 @@
     gap: 0.4rem;
   }
 
+  .option-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .option-btn {
+    flex: 1;
     padding: 0.75rem 1rem;
     background: var(--color-bg-elevated);
     border: 2px solid var(--color-border);

@@ -10,7 +10,7 @@
         "type": "npc",
         "speaker": "Abebe",
         "romanized": "Selam! Endemin neh?",
-        "amharic": "\u1230\u120b\u121d! \u12a5\u1295\u12f0\u121d\u1295 \u1290\u1205?",
+        "amharic": "ሰላም! እንደምን ነህ?",
         "english": "Hello! How are you?",
         "audio_url": "/audio/conversations/convo-1-0.mp3"
       },
@@ -20,15 +20,17 @@
         "options": [
           {
             "romanized": "Selam! Dehna negn, ameseginalehu.",
-            "amharic": "\u1230\u120b\u121d! \u12f0\u1205\u1293 \u1290\u129d\u1363 \u12a0\u1218\u1230\u130d\u1293\u1208\u1201\u1362",
+            "amharic": "ሰላም! ደህና ነኝ፣ አመሰግናለሁ።",
             "english": "Hello! I'm fine, thank you.",
-            "feedback": "Perfect! A polite and complete greeting response."
+            "feedback": "Perfect! A polite and complete greeting response.",
+            "audio_url": "/audio/conversations/convo-1-user-1-0.mp3"
           },
           {
             "romanized": "Dehna negn.",
-            "amharic": "\u12f0\u1205\u1293 \u1290\u129d\u1362",
+            "amharic": "ደህና ነኝ።",
             "english": "I'm fine.",
-            "feedback": "Good, but adding 'selam' and 'ameseginalehu' would be more polite."
+            "feedback": "Good, but adding 'selam' and 'ameseginalehu' would be more polite.",
+            "audio_url": "/audio/conversations/convo-1-user-1-1.mp3"
           }
         ]
       },
@@ -36,7 +38,7 @@
         "type": "npc",
         "speaker": "Abebe",
         "romanized": "Simih man new?",
-        "amharic": "\u1235\u121d\u1205 \u121b\u1295 \u1290\u12cd?",
+        "amharic": "ስምህ ማን ነው?",
         "english": "What is your name?",
         "audio_url": "/audio/conversations/convo-1-1.mp3"
       },
@@ -46,15 +48,17 @@
         "options": [
           {
             "romanized": "Sime [your name] new. Yante sine man new?",
-            "amharic": "\u1235\u121c [\u1235\u121d\u1205] \u1290\u12cd\u1362 \u12e8\u12a0\u1295\u1270 \u1235\u121d \u121b\u1295 \u1290\u12cd?",
+            "amharic": "ስሜ [ስምህ] ነው። የአንተ ስም ማን ነው?",
             "english": "My name is [your name]. What is your name?",
-            "feedback": "Excellent! Introducing yourself and asking their name back shows good conversation skills."
+            "feedback": "Excellent! Introducing yourself and asking their name back shows good conversation skills.",
+            "audio_url": "/audio/conversations/convo-1-user-3-0.mp3"
           },
           {
             "romanized": "Sime [your name] new.",
-            "amharic": "\u1235\u121c [\u1235\u121d\u1205] \u1290\u12cd\u1362",
+            "amharic": "ስሜ [ስምህ] ነው።",
             "english": "My name is [your name].",
-            "feedback": "Good! You can also ask 'Yante sine man new?' to keep the conversation going."
+            "feedback": "Good! You can also ask 'Yante sine man new?' to keep the conversation going.",
+            "audio_url": "/audio/conversations/convo-1-user-3-1.mp3"
           }
         ]
       },
@@ -62,7 +66,7 @@
         "type": "npc",
         "speaker": "Abebe",
         "romanized": "Destachihu! Ke yet ager neh?",
-        "amharic": "\u12f0\u1235\u1273\u127a\u1201! \u12a8\u12e8\u1275 \u12a0\u1308\u122d \u1290\u1205?",
+        "amharic": "ደስታቺሁ! ከየት አገር ነህ?",
         "english": "Nice to meet you! Where are you from?",
         "audio_url": "/audio/conversations/convo-1-2.mp3"
       },
@@ -72,15 +76,17 @@
         "options": [
           {
             "romanized": "Ke Amerika negn. Ante ke yet neh?",
-            "amharic": "\u12a8\u12a0\u121c\u122a\u12ab \u1290\u129d\u1362 \u12a0\u1295\u1270 \u12a8\u12e8\u1275 \u1290\u1205?",
+            "amharic": "ከአሜሪካ ነኝ። አንተ ከየት ነህ?",
             "english": "I'm from America. Where are you from?",
-            "feedback": "Great! Sharing your origin and asking about theirs builds rapport."
+            "feedback": "Great! Sharing your origin and asking about theirs builds rapport.",
+            "audio_url": "/audio/conversations/convo-1-user-5-0.mp3"
           },
           {
             "romanized": "Ke Amerika negn.",
-            "amharic": "\u12a8\u12a0\u121c\u122a\u12ab \u1290\u129d\u1362",
+            "amharic": "ከአሜሪካ ነኝ።",
             "english": "I'm from America.",
-            "feedback": "Good answer! Try asking about their background too."
+            "feedback": "Good answer! Try asking about their background too.",
+            "audio_url": "/audio/conversations/convo-1-user-5-1.mp3"
           }
         ]
       },
@@ -88,7 +94,7 @@
         "type": "npc",
         "speaker": "Abebe",
         "romanized": "Ishi, melkam ken! Dehna hunu.",
-        "amharic": "\u12a5\u123d\u1363 \u1218\u120d\u12ab\u121d \u1240\u1295! \u12f0\u1205\u1293 \u1201\u1291\u1362",
+        "amharic": "እሽ፣ መልካም ቀን! ደህና ሁኑ።",
         "english": "Okay, have a nice day! Goodbye.",
         "audio_url": "/audio/conversations/convo-1-3.mp3"
       },
@@ -98,15 +104,17 @@
         "options": [
           {
             "romanized": "Dehna hunu! Ke melkam ken.",
-            "amharic": "\u12f0\u1205\u1293 \u1201\u1291! \u12a8\u1218\u120d\u12ab\u121d \u1240\u1295\u1362",
+            "amharic": "ደህና ሁኑ! ከመልካም ቀን።",
             "english": "Goodbye! Have a nice day.",
-            "feedback": "A warm and proper farewell!"
+            "feedback": "A warm and proper farewell!",
+            "audio_url": "/audio/conversations/convo-1-user-7-0.mp3"
           },
           {
             "romanized": "Ciao!",
-            "amharic": "\u1327\u12ce!",
+            "amharic": "ጧዎ!",
             "english": "Bye!",
-            "feedback": "Ciao is widely used in Ethiopia (from Italian influence), but 'Dehna hunu' is more traditional."
+            "feedback": "Ciao is widely used in Ethiopia (from Italian influence), but 'Dehna hunu' is more traditional.",
+            "audio_url": "/audio/conversations/convo-1-user-7-1.mp3"
           }
         ]
       }
@@ -123,7 +131,7 @@
         "type": "npc",
         "speaker": "Barista",
         "romanized": "Selam! Min liteTu?",
-        "amharic": "\u1230\u120b\u121d! \u121d\u1295 \u120a\u1320\u1321?",
+        "amharic": "ሰላም! ምን ሊጠጡ?",
         "english": "Hello! What would you like to drink?",
         "audio_url": "/audio/conversations/convo-2-0.mp3"
       },
@@ -133,15 +141,17 @@
         "options": [
           {
             "romanized": "Buna ifeligalehu, ibakish.",
-            "amharic": "\u1261\u1293 \u12a5\u1348\u120d\u130b\u1208\u1201\u1363 \u12a5\u1263\u12ad\u123d\u1362",
+            "amharic": "ቡና እፈልጋለሁ፣ እባክሽ።",
             "english": "I'd like coffee, please.",
-            "feedback": "Perfect! Polite and clear. 'Ibakish' (please, to a female) shows good manners."
+            "feedback": "Perfect! Polite and clear. 'Ibakish' (please, to a female) shows good manners.",
+            "audio_url": "/audio/conversations/convo-2-user-1-0.mp3"
           },
           {
             "romanized": "And buna isT'ign.",
-            "amharic": "\u12a0\u1295\u12f5 \u1261\u1293 \u12a5\u1235\u1325\u129d\u1362",
+            "amharic": "አንድ ቡና እስጥኝ።",
             "english": "Give me one coffee.",
-            "feedback": "Direct but works! Adding 'ibakish/ibakih' (please) makes it friendlier."
+            "feedback": "Direct but works! Adding 'ibakish/ibakih' (please) makes it friendlier.",
+            "audio_url": "/audio/conversations/convo-2-user-1-1.mp3"
           }
         ]
       },
@@ -149,7 +159,7 @@
         "type": "npc",
         "speaker": "Barista",
         "romanized": "Ishi! Ke shukor gar?",
-        "amharic": "\u12a5\u123d! \u12a8\u123d\u12a9\u122d \u130b\u122d?",
+        "amharic": "እሽ! ከሽኩር ጋር?",
         "english": "Okay! With sugar?",
         "audio_url": "/audio/conversations/convo-2-1.mp3"
       },
@@ -159,15 +169,17 @@
         "options": [
           {
             "romanized": "Awo, tinnish shukor.",
-            "amharic": "\u12a0\u12ce\u1363 \u1275\u1295\u123d \u123d\u12a9\u122d\u1362",
+            "amharic": "አዎ፣ ትንሽ ሽኩር።",
             "english": "Yes, a little sugar.",
-            "feedback": "Good! 'Tinnish' (a little) is very useful for modifying requests."
+            "feedback": "Good! 'Tinnish' (a little) is very useful for modifying requests.",
+            "audio_url": "/audio/conversations/convo-2-user-3-0.mp3"
           },
           {
             "romanized": "Yelam, yalem shukor.",
-            "amharic": "\u12e8\u1208\u121d\u1363 \u12eb\u1208\u121d \u123d\u12a9\u122d\u1362",
+            "amharic": "የለም፣ ያለም ሽኩር።",
             "english": "No, without sugar.",
-            "feedback": "Clear preference! 'Yalem' means 'without' - very handy vocabulary."
+            "feedback": "Clear preference! 'Yalem' means 'without' - very handy vocabulary.",
+            "audio_url": "/audio/conversations/convo-2-user-3-1.mp3"
           }
         ]
       },
@@ -175,7 +187,7 @@
         "type": "npc",
         "speaker": "Barista",
         "romanized": "Ishi, betam t'iru buna new. Sint birr yihonal?",
-        "amharic": "\u12a5\u123d\u1363 \u1260\u1323\u121d \u1325\u1229 \u1261\u1293 \u1290\u12cd\u1362 \u1235\u1295\u1275 \u1265\u122d \u12ed\u1206\u1293\u120d?",
+        "amharic": "እሽ፣ በጣም ጥሩ ቡና ነው። ስንት ብር ይሆናል?",
         "english": "Okay, it's very good coffee. How much birr will it be?",
         "audio_url": "/audio/conversations/convo-2-2.mp3"
       },
@@ -185,15 +197,17 @@
         "options": [
           {
             "romanized": "Sint new? Ibakish.",
-            "amharic": "\u1235\u1295\u1275 \u1290\u12cd? \u12a5\u1263\u12ad\u123d\u1362",
+            "amharic": "ስንት ነው? እባክሽ።",
             "english": "How much is it? Please.",
-            "feedback": "Smart! Always good to confirm the price before paying."
+            "feedback": "Smart! Always good to confirm the price before paying.",
+            "audio_url": "/audio/conversations/convo-2-user-5-0.mp3"
           },
           {
             "romanized": "Ishi, ameseginalehu!",
-            "amharic": "\u12a5\u123d\u1363 \u12a0\u1218\u1230\u130d\u1293\u1208\u1201!",
+            "amharic": "እሽ፣ አመሰግናለሁ!",
             "english": "Okay, thank you!",
-            "feedback": "Friendly response! 'Ameseginalehu' is an important phrase to know."
+            "feedback": "Friendly response! 'Ameseginalehu' is an important phrase to know.",
+            "audio_url": "/audio/conversations/convo-2-user-5-1.mp3"
           }
         ]
       }
@@ -210,7 +224,7 @@
         "type": "npc",
         "speaker": "Vendor",
         "romanized": "Na! Na! Betam t'iru neger alle!",
-        "amharic": "\u1293! \u1293! \u1260\u1323\u121d \u1325\u1229 \u1290\u1308\u122d \u12a0\u1208!",
+        "amharic": "ና! ና! በጣም ጥሩ ነገር አለ!",
         "english": "Come! Come! There are very nice things!",
         "audio_url": "/audio/conversations/convo-3-0.mp3"
       },
@@ -220,15 +234,17 @@
         "options": [
           {
             "romanized": "Yihe sint new?",
-            "amharic": "\u12ed\u1204 \u1235\u1295\u1275 \u1290\u12cd?",
+            "amharic": "ይሄ ስንት ነው?",
             "english": "How much is this?",
-            "feedback": "The essential market phrase! 'Yihe' (this) + 'sint' (how much) + 'new' (is)."
+            "feedback": "The essential market phrase! 'Yihe' (this) + 'sint' (how much) + 'new' (is).",
+            "audio_url": "/audio/conversations/convo-3-user-1-0.mp3"
           },
           {
             "romanized": "Min min aleh?",
-            "amharic": "\u121d\u1295 \u121d\u1295 \u12a0\u1208\u1205?",
+            "amharic": "ምን ምን አለህ?",
             "english": "What do you have?",
-            "feedback": "A good opener to browse what's available."
+            "feedback": "A good opener to browse what's available.",
+            "audio_url": "/audio/conversations/convo-3-user-1-1.mp3"
           }
         ]
       },
@@ -236,7 +252,7 @@
         "type": "npc",
         "speaker": "Vendor",
         "romanized": "Yihe meato birr new.",
-        "amharic": "\u12ed\u1204 \u121c\u12a0\u1276 \u1265\u122d \u1290\u12cd\u1362",
+        "amharic": "ይሄ ሜአቶ ብር ነው።",
         "english": "This is 100 birr.",
         "audio_url": "/audio/conversations/convo-3-1.mp3"
       },
@@ -246,15 +262,17 @@
         "options": [
           {
             "romanized": "Betam wid new! Hamsa birr yihonal?",
-            "amharic": "\u1260\u1323\u121d \u12cd\u12f5 \u1290\u12cd! \u1210\u121d\u1233 \u1265\u122d \u12ed\u1206\u1293\u120d?",
+            "amharic": "በጣም ውድ ነው! ሐምሳ ብር ይሆናል?",
             "english": "It's too expensive! Would 50 birr work?",
-            "feedback": "Classic bargaining! Starting at half price is a common strategy. 'Wid' (expensive) is essential market vocabulary."
+            "feedback": "Classic bargaining! Starting at half price is a common strategy. 'Wid' (expensive) is essential market vocabulary.",
+            "audio_url": "/audio/conversations/convo-3-user-3-0.mp3"
           },
           {
             "romanized": "Ishi, meato birr.",
-            "amharic": "\u12a5\u123d\u1363 \u121c\u12a0\u1276 \u1265\u122d\u1362",
+            "amharic": "እሽ፣ ሜአቶ ብር።",
             "english": "Okay, 100 birr.",
-            "feedback": "Accepting the first price is very unusual in Ethiopian markets! Try bargaining next time."
+            "feedback": "Accepting the first price is very unusual in Ethiopian markets! Try bargaining next time.",
+            "audio_url": "/audio/conversations/convo-3-user-3-1.mp3"
           }
         ]
       },
@@ -262,7 +280,7 @@
         "type": "npc",
         "speaker": "Vendor",
         "romanized": "Ayi! Sebat birr yibelu, yihe t'iru neger new!",
-        "amharic": "\u12a0\u12ed! \u1230\u1263 \u1265\u122d \u12ed\u1260\u1209\u1363 \u12ed\u1204 \u1325\u1229 \u1290\u1308\u122d \u1290\u12cd!",
+        "amharic": "አይ! ሰባ ብር ይበሉ፣ ይሄ ጥሩ ነገር ነው!",
         "english": "No! They say 70 birr, this is a quality item!",
         "audio_url": "/audio/conversations/convo-3-2.mp3"
       },
@@ -272,15 +290,17 @@
         "options": [
           {
             "romanized": "Silsa birr, yihe yemecher'esha zega new.",
-            "amharic": "\u1235\u120d\u1233 \u1265\u122d\u1363 \u12ed\u1204 \u12e8\u1218\u1328\u1228\u123b \u12d8\u130b \u1290\u12cd\u1362",
+            "amharic": "ስልሳ ብር፣ ይሄ የመጨረሻ ዘጋ ነው።",
             "english": "60 birr, this is my final offer.",
-            "feedback": "Well negotiated! Meeting in the middle is the art of Ethiopian bargaining."
+            "feedback": "Well negotiated! Meeting in the middle is the art of Ethiopian bargaining.",
+            "audio_url": "/audio/conversations/convo-3-user-5-0.mp3"
           },
           {
             "romanized": "Ishi, sebat birr.",
-            "amharic": "\u12a5\u123d\u1363 \u1230\u1263 \u1265\u122d\u1362",
+            "amharic": "እሽ፣ ሰባ ብር።",
             "english": "Okay, 70 birr.",
-            "feedback": "Fair enough! You got a decent price down from 100."
+            "feedback": "Fair enough! You got a decent price down from 100.",
+            "audio_url": "/audio/conversations/convo-3-user-5-1.mp3"
           }
         ]
       }
@@ -297,7 +317,7 @@
         "type": "npc",
         "speaker": "You (thinking)",
         "romanized": "Yihe bet migib yet new?",
-        "amharic": "\u12ed\u1204 \u1260\u1275 \u121d\u130d\u1265 \u12e8\u1275 \u1290\u12cd?",
+        "amharic": "ይሄ በት ምግብ የት ነው?",
         "english": "(You're looking for a restaurant...)",
         "audio_url": "/audio/conversations/convo-4-0.mp3"
       },
@@ -307,15 +327,17 @@
         "options": [
           {
             "romanized": "Yikerta, bet migib yet endemaign yinegerugn?",
-            "amharic": "\u12ed\u1240\u122d\u1273\u1363 \u1260\u1275 \u121d\u130d\u1265 \u12e8\u1275 \u12a5\u1295\u12f0\u121b\u129d \u12ed\u1290\u1308\u1229\u129d?",
+            "amharic": "ይቀርታ፣ በት ምግብ የት እንደማኝ ይነገሩኝ?",
             "english": "Excuse me, could you tell me where a restaurant is?",
-            "feedback": "Very polite! 'Yikerta' (excuse me) is the perfect way to approach a stranger for help."
+            "feedback": "Very polite! 'Yikerta' (excuse me) is the perfect way to approach a stranger for help.",
+            "audio_url": "/audio/conversations/convo-4-user-1-0.mp3"
           },
           {
             "romanized": "Bet migib yetegnyaleh?",
-            "amharic": "\u1260\u1275 \u121d\u130d\u1265 \u12e8\u1270\u129b\u1208\u1205?",
+            "amharic": "በት ምግብ የተኛለህ?",
             "english": "Do you know where a restaurant is?",
-            "feedback": "Direct but works. Adding 'yikerta' at the start would be more polite."
+            "feedback": "Direct but works. Adding 'yikerta' at the start would be more polite.",
+            "audio_url": "/audio/conversations/convo-4-user-1-1.mp3"
           }
         ]
       },
@@ -323,7 +345,7 @@
         "type": "npc",
         "speaker": "Passerby",
         "romanized": "Awo! Ke'zzih bequt'a wede feqad hid, kezia wede gra tikelefaleh.",
-        "amharic": "\u12a0\u12ce! \u12a8\u12d5\u12da\u1205 \u1260\u1241\u1325\u12a0 \u12c8\u12f0 \u1348\u1243\u12f5 \u1202\u12f5\u1363 \u12a8\u12da\u12eb \u12c8\u12f0 \u130d\u122b \u1275\u12a8\u1208\u134b\u1208\u1205\u1362",
+        "amharic": "አዎ! ከዕዚህ በቁጥአ ወደ ፈቃድ ሂድ፣ ከዚያ ወደ ግራ ትከለፋለህ።",
         "english": "Yes! Go straight ahead from here, then you'll turn left.",
         "audio_url": "/audio/conversations/convo-4-1.mp3"
       },
@@ -333,15 +355,17 @@
         "options": [
           {
             "romanized": "Ameseginalehu! Ruk new?",
-            "amharic": "\u12a0\u1218\u1230\u130d\u1293\u1208\u1201! \u1229\u1245 \u1290\u12cd?",
+            "amharic": "አመሰግናለሁ! ሩቅ ነው?",
             "english": "Thank you! Is it far?",
-            "feedback": "Great follow-up question! 'Ruk' (far) is a very practical word."
+            "feedback": "Great follow-up question! 'Ruk' (far) is a very practical word.",
+            "audio_url": "/audio/conversations/convo-4-user-3-0.mp3"
           },
           {
             "romanized": "Ameseginalehu betam!",
-            "amharic": "\u12a0\u1218\u1230\u130d\u1293\u1208\u1201 \u1260\u1323\u121d!",
+            "amharic": "አመሰግናለሁ በጣም!",
             "english": "Thank you very much!",
-            "feedback": "Polite and warm! 'Betam' (very much) adds emphasis to your gratitude."
+            "feedback": "Polite and warm! 'Betam' (very much) adds emphasis to your gratitude.",
+            "audio_url": "/audio/conversations/convo-4-user-3-1.mp3"
           }
         ]
       },
@@ -349,7 +373,7 @@
         "type": "npc",
         "speaker": "Passerby",
         "romanized": "Ayrukm, amist deqiqa yihedal. Melkam megib!",
-        "amharic": "\u12a0\u12ed\u1229\u1245\u121d\u1363 \u12a0\u121d\u1235\u1275 \u12f0\u1242\u1243 \u12ed\u1204\u12f3\u120d\u1362 \u1218\u120d\u12ab\u121d \u1218\u130d\u1265!",
+        "amharic": "አይሩቅም፣ አምስት ደቂቃ ይሄዳል። መልካም መግብ!",
         "english": "It's not far, about 5 minutes. Enjoy your meal!",
         "audio_url": "/audio/conversations/convo-4-2.mp3"
       },
@@ -359,15 +383,17 @@
         "options": [
           {
             "romanized": "Ameseginalehu! Dehna hunu.",
-            "amharic": "\u12a0\u1218\u1230\u130d\u1293\u1208\u1201! \u12f0\u1205\u1293 \u1201\u1291\u1362",
+            "amharic": "አመሰግናለሁ! ደህና ሁኑ።",
             "english": "Thank you! Goodbye.",
-            "feedback": "A warm and proper farewell. Well done!"
+            "feedback": "A warm and proper farewell. Well done!",
+            "audio_url": "/audio/conversations/convo-4-user-5-0.mp3"
           },
           {
             "romanized": "Igziabher yistilign.",
-            "amharic": "\u12a5\u130d\u12da\u12a0\u1265\u1204\u122d \u12ed\u1235\u1325\u120d\u129d\u1362",
+            "amharic": "እግዚአብሄር ይስጥልኝ።",
             "english": "May God reward you.",
-            "feedback": "A beautiful traditional blessing often said to thank someone for their help."
+            "feedback": "A beautiful traditional blessing often said to thank someone for their help.",
+            "audio_url": "/audio/conversations/convo-4-user-5-1.mp3"
           }
         ]
       }
@@ -384,7 +410,7 @@
         "type": "npc",
         "speaker": "Waiter",
         "romanized": "Enkhwan dehna meT'u! Min yagebual?",
-        "amharic": "\u12a5\u1295\u12c9\u1295 \u12f0\u1205\u1293 \u1218\u1321! \u121d\u1295 \u12eb\u1308\u1261\u12a0\u120d?",
+        "amharic": "እንዉን ደህና መጡ! ምን ያገቡአል?",
         "english": "Welcome! What can I serve you?",
         "audio_url": "/audio/conversations/convo-5-0.mp3"
       },
@@ -394,15 +420,17 @@
         "options": [
           {
             "romanized": "Menu aleh? Min tmelkitaleh?",
-            "amharic": "\u121c\u1291 \u12a0\u1208\u1205? \u121d\u1295 \u1275\u1218\u120d\u12ad\u1273\u1208\u1205?",
+            "amharic": "ሜኑ አለህ? ምን ትመልክታለህ?",
             "english": "Do you have a menu? What do you recommend?",
-            "feedback": "Smart approach! Asking for recommendations shows cultural openness."
+            "feedback": "Smart approach! Asking for recommendations shows cultural openness.",
+            "audio_url": "/audio/conversations/convo-5-user-1-0.mp3"
           },
           {
             "romanized": "Doro wot aleh?",
-            "amharic": "\u12f6\u122e \u12c8\u1325 \u12a0\u1208\u1205?",
+            "amharic": "ዶሮ ወጥ አለህ?",
             "english": "Do you have chicken stew?",
-            "feedback": "Going straight for the national dish! Doro wot is always a great choice."
+            "feedback": "Going straight for the national dish! Doro wot is always a great choice.",
+            "audio_url": "/audio/conversations/convo-5-user-1-1.mp3"
           }
         ]
       },
@@ -410,7 +438,7 @@
         "type": "npc",
         "speaker": "Waiter",
         "romanized": "Awo! Doro wot, tibs, shiro, kitfo... hulu alle.",
-        "amharic": "\u12a0\u12ce! \u12f6\u122e \u12c8\u1325\u1363 \u1325\u1265\u1235\u1363 \u123d\u122e\u1363 \u12ad\u1275\u134e... \u1201\u1209 \u12a0\u1208\u1362",
+        "amharic": "አዎ! ዶሮ ወጥ፣ ጥብስ፣ ሽሮ፣ ክትፎ... ሁሉ አለ።",
         "english": "Yes! Chicken stew, sauteed meat, chickpea stew, raw beef... we have everything.",
         "audio_url": "/audio/conversations/convo-5-1.mp3"
       },
@@ -420,15 +448,17 @@
         "options": [
           {
             "romanized": "Doro wot ke injera ibakih.",
-            "amharic": "\u12f6\u122e \u12c8\u1325 \u12a8\u12a5\u1295\u1300\u122b \u12a5\u1263\u12ad\u1205\u1362",
+            "amharic": "ዶሮ ወጥ ከእንጀራ እባክህ።",
             "english": "Chicken stew with injera, please.",
-            "feedback": "Classic order! Injera is always served alongside the wot."
+            "feedback": "Classic order! Injera is always served alongside the wot.",
+            "audio_url": "/audio/conversations/convo-5-user-3-0.mp3"
           },
           {
             "romanized": "Beyaynetu ibakih, yetsom.",
-            "amharic": "\u1260\u12eb\u12ed\u1290\u1271 \u12a5\u1263\u12ad\u1205\u1363 \u12e8\u1356\u121d\u1362",
+            "amharic": "በያይነቱ እባክህ፣ የፖም።",
             "english": "A combination plate please, fasting food.",
-            "feedback": "The fasting combo (beyaynetu) is a fantastic vegan option with many different dishes. Great choice!"
+            "feedback": "The fasting combo (beyaynetu) is a fantastic vegan option with many different dishes. Great choice!",
+            "audio_url": "/audio/conversations/convo-5-user-3-1.mp3"
           }
         ]
       },
@@ -436,7 +466,7 @@
         "type": "npc",
         "speaker": "Waiter",
         "romanized": "T'iru mirch'a! Metut' yifeligalu?",
-        "amharic": "\u1325\u1229 \u121d\u122d\u132b! \u1218\u1321\u1325 \u12ed\u1348\u120d\u130b\u1209?",
+        "amharic": "ጥሩ ምርጫ! መጡጥ ይፈልጋሉ?",
         "english": "Great choice! Would you like a drink?",
         "audio_url": "/audio/conversations/convo-5-2.mp3"
       },
@@ -446,15 +476,17 @@
         "options": [
           {
             "romanized": "Awo, and birra ibakih.",
-            "amharic": "\u12a0\u12ce\u1363 \u12a0\u1295\u12f5 \u1262\u122b \u12a5\u1263\u12ad\u1205\u1362",
+            "amharic": "አዎ፣ አንድ ቢራ እባክህ።",
             "english": "Yes, one beer please.",
-            "feedback": "Ethiopian beer (like St. George or Habesha) goes great with food!"
+            "feedback": "Ethiopian beer (like St. George or Habesha) goes great with food!",
+            "audio_url": "/audio/conversations/convo-5-user-5-0.mp3"
           },
           {
             "romanized": "Wuha bitcha ibakih.",
-            "amharic": "\u12cd\u1210 \u1265\u127b \u12a5\u1263\u12ad\u1205\u1362",
+            "amharic": "ውሐ ብቻ እባክህ።",
             "english": "Just water please.",
-            "feedback": "'Wuha' (water) is one of the most important words to know. 'Bitcha' means 'only/just'."
+            "feedback": "'Wuha' (water) is one of the most important words to know. 'Bitcha' means 'only/just'.",
+            "audio_url": "/audio/conversations/convo-5-user-5-1.mp3"
           }
         ]
       }
@@ -471,7 +503,7 @@
         "type": "npc",
         "speaker": "Taxi Driver",
         "romanized": "Yet tihedaleh?",
-        "amharic": "\u12e8\u1275 \u1275\u1204\u12f3\u1208\u1205?",
+        "amharic": "የት ትሄዳለህ?",
         "english": "Where are you going?",
         "audio_url": "/audio/conversations/convo-6-0.mp3"
       },
@@ -481,15 +513,17 @@
         "options": [
           {
             "romanized": "Bole wede airport ibakih.",
-            "amharic": "\u1266\u120c \u12c8\u12f0 \u12a4\u122d\u1356\u122d\u1275 \u12a5\u1263\u12ad\u1205\u1362",
+            "amharic": "ቦሌ ወደ ኤርፖርት እባክህ።",
             "english": "To Bole airport, please.",
-            "feedback": "Clear and polite! 'Wede' means 'to/towards' - an essential direction word."
+            "feedback": "Clear and polite! 'Wede' means 'to/towards' - an essential direction word.",
+            "audio_url": "/audio/conversations/convo-6-user-1-0.mp3"
           },
           {
             "romanized": "Merkato wuseduny.",
-            "amharic": "\u1218\u122d\u12ab\u1276 \u12cd\u1230\u12f1\u129d\u1362",
+            "amharic": "መርካቶ ውሰዱኝ።",
             "english": "Take me to Merkato.",
-            "feedback": "Direct but functional. Adding 'ibakih' (please) would be more polite."
+            "feedback": "Direct but functional. Adding 'ibakih' (please) would be more polite.",
+            "audio_url": "/audio/conversations/convo-6-user-1-1.mp3"
           }
         ]
       },
@@ -497,7 +531,7 @@
         "type": "npc",
         "speaker": "Taxi Driver",
         "romanized": "Ishi. Meato hamsa birr yihonal.",
-        "amharic": "\u12a5\u123d\u1362 \u121c\u12a0\u1276 \u1210\u121d\u1233 \u1265\u122d \u12ed\u1206\u1293\u120d\u1362",
+        "amharic": "እሽ። ሜአቶ ሐምሳ ብር ይሆናል።",
         "english": "Okay. It will be 150 birr.",
         "audio_url": "/audio/conversations/convo-6-1.mp3"
       },
@@ -507,15 +541,17 @@
         "options": [
           {
             "romanized": "Betam wid new! Meato birr yibelu?",
-            "amharic": "\u1260\u1323\u121d \u12cd\u12f5 \u1290\u12cd! \u121c\u12a0\u1276 \u1265\u122d \u12ed\u1260\u1209?",
+            "amharic": "በጣም ውድ ነው! ሜአቶ ብር ይበሉ?",
             "english": "That's too expensive! How about 100 birr?",
-            "feedback": "Good negotiation! In Addis Ababa, always negotiate taxi prices before getting in."
+            "feedback": "Good negotiation! In Addis Ababa, always negotiate taxi prices before getting in.",
+            "audio_url": "/audio/conversations/convo-6-user-3-0.mp3"
           },
           {
             "romanized": "Ishi, ihed'alehu.",
-            "amharic": "\u12a5\u123d\u1363 \u12a5\u1204\u12f3\u1208\u1201\u1362",
+            "amharic": "እሽ፣ እሄዳለሁ።",
             "english": "Okay, let's go.",
-            "feedback": "Accepting works too, though most locals would negotiate a bit!"
+            "feedback": "Accepting works too, though most locals would negotiate a bit!",
+            "audio_url": "/audio/conversations/convo-6-user-3-1.mp3"
           }
         ]
       },
@@ -523,7 +559,7 @@
         "type": "npc",
         "speaker": "Taxi Driver",
         "romanized": "Ishi, meato birr. Geba!",
-        "amharic": "\u12a5\u123d\u1363 \u121c\u12a0\u1276 \u1265\u122d\u1362 \u1308\u1263!",
+        "amharic": "እሽ፣ ሜአቶ ብር። ገባ!",
         "english": "Okay, 100 birr. Get in!",
         "audio_url": "/audio/conversations/convo-6-2.mp3"
       },
@@ -533,15 +569,17 @@
         "options": [
           {
             "romanized": "Ameseginalehu! Ezzih awurdeugn.",
-            "amharic": "\u12a0\u1218\u1230\u130d\u1293\u1208\u1201! \u12a5\u12d5\u12da\u1205 \u12a0\u12cd\u122d\u12f0\u129d\u1362",
+            "amharic": "አመሰግናለሁ! እዕዚህ አውርደኝ።",
             "english": "Thank you! Drop me off here.",
-            "feedback": "'Ezzih awurdeugn' (drop me off here) is very practical for taxi rides."
+            "feedback": "'Ezzih awurdeugn' (drop me off here) is very practical for taxi rides.",
+            "audio_url": "/audio/conversations/convo-6-user-5-0.mp3"
           },
           {
             "romanized": "Ameseginalehu, dehna hunu.",
-            "amharic": "\u12a0\u1218\u1230\u130d\u1293\u1208\u1201\u1363 \u12f0\u1205\u1293 \u1201\u1291\u1362",
+            "amharic": "አመሰግናለሁ፣ ደህና ሁኑ።",
             "english": "Thank you, goodbye.",
-            "feedback": "Polite and proper. Well done navigating a taxi conversation!"
+            "feedback": "Polite and proper. Well done navigating a taxi conversation!",
+            "audio_url": "/audio/conversations/convo-6-user-5-1.mp3"
           }
         ]
       }

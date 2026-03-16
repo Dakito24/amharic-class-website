@@ -185,7 +185,11 @@
 
       <!-- Delete confirmation modal -->
       {#if deletingId}
+        <!-- svelte-ignore a11y_no_static_element_interactions -->
+        <!-- svelte-ignore a11y_click_events_have_key_events -->
         <div class="confirm-backdrop" onclick={() => deletingId = null}>
+          <!-- svelte-ignore a11y_no_static_element_interactions -->
+          <!-- svelte-ignore a11y_click_events_have_key_events -->
           <div class="confirm-modal" onclick={(e) => e.stopPropagation()}>
             <h3>Delete Profile?</h3>
             <p>This will permanently delete all progress for "<strong>{deletingName}</strong>". This cannot be undone.</p>
