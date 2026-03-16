@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "english": "hello (informal)",
     "amharic": "ሰላም",
     "romanized": "selam",
@@ -9,6 +10,7 @@
     "lesson_id": 2
   },
   {
+    "id": 2,
     "english": "hello (formal)",
     "amharic": "ጤና ይስጥልኝ",
     "romanized": "tena yistilign",
@@ -18,6 +20,7 @@
     "lesson_id": 2
   },
   {
+    "id": 3,
     "english": "good morning (to man)",
     "amharic": "እንደምን አደርክ",
     "romanized": "indemin aderk",
@@ -27,6 +30,7 @@
     "lesson_id": 2
   },
   {
+    "id": 4,
     "english": "good morning (to woman)",
     "amharic": "እንደምን አደርሽ",
     "romanized": "indemin adersh",
@@ -36,6 +40,7 @@
     "lesson_id": 2
   },
   {
+    "id": 5,
     "english": "how are you (to man)",
     "amharic": "እንዴት ነህ",
     "romanized": "indet neh",
@@ -45,6 +50,7 @@
     "lesson_id": 2
   },
   {
+    "id": 6,
     "english": "how are you (to woman)",
     "amharic": "እንዴት ነሽ",
     "romanized": "indet nesh",
@@ -54,6 +60,7 @@
     "lesson_id": 2
   },
   {
+    "id": 7,
     "english": "I am fine",
     "amharic": "ደህና ነኝ",
     "romanized": "dehna negn",
@@ -63,6 +70,7 @@
     "lesson_id": 2
   },
   {
+    "id": 8,
     "english": "goodbye (to man)",
     "amharic": "ደህና ሁን",
     "romanized": "dehna hun",
@@ -72,6 +80,7 @@
     "lesson_id": 2
   },
   {
+    "id": 9,
     "english": "goodbye (to woman)",
     "amharic": "ደህና ሁኚ",
     "romanized": "dehna hugni",
@@ -81,6 +90,7 @@
     "lesson_id": 2
   },
   {
+    "id": 10,
     "english": "bye (informal)",
     "amharic": "ቻው",
     "romanized": "chaw",
@@ -90,6 +100,7 @@
     "lesson_id": 2
   },
   {
+    "id": 11,
     "english": "welcome (to man)",
     "amharic": "እንኳን ደህና መጣህ",
     "romanized": "inkwan dehna metah",
@@ -99,6 +110,7 @@
     "lesson_id": 2
   },
   {
+    "id": 12,
     "english": "thank you",
     "amharic": "አመሰግናለሁ",
     "romanized": "ameseginalehu",
@@ -108,6 +120,7 @@
     "lesson_id": 2
   },
   {
+    "id": 13,
     "english": "excuse me, sorry",
     "amharic": "ይቅርታ",
     "romanized": "yiqirta",
@@ -117,6 +130,7 @@
     "lesson_id": 2
   },
   {
+    "id": 14,
     "english": "yes",
     "amharic": "አዎ",
     "romanized": "awo",
@@ -126,6 +140,7 @@
     "lesson_id": 2
   },
   {
+    "id": 15,
     "english": "no",
     "amharic": "አይ",
     "romanized": "aye",
@@ -135,6 +150,7 @@
     "lesson_id": 2
   },
   {
+    "id": 16,
     "english": "OK, alright",
     "amharic": "እሺ",
     "romanized": "ishi",
@@ -144,6 +160,7 @@
     "lesson_id": 2
   },
   {
+    "id": 17,
     "english": "I",
     "amharic": "እኔ",
     "romanized": "ine",
@@ -153,6 +170,7 @@
     "lesson_id": 3
   },
   {
+    "id": 18,
     "english": "you (masculine)",
     "amharic": "አንተ",
     "romanized": "ante",
@@ -162,6 +180,7 @@
     "lesson_id": 3
   },
   {
+    "id": 19,
     "english": "you (feminine)",
     "amharic": "አንቺ",
     "romanized": "anchi",
@@ -171,6 +190,7 @@
     "lesson_id": 3
   },
   {
+    "id": 20,
     "english": "you (formal)",
     "amharic": "እርስዎ",
     "romanized": "irswo",
@@ -180,6 +200,7 @@
     "lesson_id": 3
   },
   {
+    "id": 21,
     "english": "he",
     "amharic": "እሱ",
     "romanized": "issu",
@@ -189,6 +210,7 @@
     "lesson_id": 3
   },
   {
+    "id": 22,
     "english": "she",
     "amharic": "እሷ",
     "romanized": "isswa",
@@ -198,6 +220,7 @@
     "lesson_id": 3
   },
   {
+    "id": 23,
     "english": "we",
     "amharic": "እኛ",
     "romanized": "igna",
@@ -207,6 +230,7 @@
     "lesson_id": 3
   },
   {
+    "id": 24,
     "english": "you (plural)",
     "amharic": "እናንተ",
     "romanized": "innante",
@@ -216,6 +240,7 @@
     "lesson_id": 3
   },
   {
+    "id": 25,
     "english": "they",
     "amharic": "እነሱ",
     "romanized": "innessu",
@@ -225,6 +250,7 @@
     "lesson_id": 3
   },
   {
+    "id": 26,
     "english": "one",
     "amharic": "አንድ",
     "romanized": "and",
@@ -234,6 +260,7 @@
     "lesson_id": 4
   },
   {
+    "id": 27,
     "english": "two",
     "amharic": "ሁለት",
     "romanized": "hulet",
@@ -243,6 +270,7 @@
     "lesson_id": 4
   },
   {
+    "id": 28,
     "english": "three",
     "amharic": "ሦስት",
     "romanized": "sost",
@@ -252,6 +280,7 @@
     "lesson_id": 4
   },
   {
+    "id": 29,
     "english": "four",
     "amharic": "አራት",
     "romanized": "arat",
@@ -261,6 +290,7 @@
     "lesson_id": 4
   },
   {
+    "id": 30,
     "english": "five",
     "amharic": "አምስት",
     "romanized": "amist",
@@ -270,6 +300,7 @@
     "lesson_id": 4
   },
   {
+    "id": 31,
     "english": "six",
     "amharic": "ስድስት",
     "romanized": "sidist",
@@ -279,6 +310,7 @@
     "lesson_id": 4
   },
   {
+    "id": 32,
     "english": "seven",
     "amharic": "ሰባት",
     "romanized": "sebat",
@@ -288,6 +320,7 @@
     "lesson_id": 4
   },
   {
+    "id": 33,
     "english": "eight",
     "amharic": "ስምንት",
     "romanized": "simint",
@@ -297,6 +330,7 @@
     "lesson_id": 4
   },
   {
+    "id": 34,
     "english": "nine",
     "amharic": "ዘጠኝ",
     "romanized": "zetegn",
@@ -306,6 +340,7 @@
     "lesson_id": 4
   },
   {
+    "id": 35,
     "english": "ten",
     "amharic": "አስር",
     "romanized": "asir",
@@ -315,6 +350,7 @@
     "lesson_id": 4
   },
   {
+    "id": 36,
     "english": "eleven",
     "amharic": "አስራ አንድ",
     "romanized": "asra and",
@@ -324,6 +360,7 @@
     "lesson_id": 5
   },
   {
+    "id": 37,
     "english": "twelve",
     "amharic": "አስራ ሁለት",
     "romanized": "asra hulet",
@@ -333,6 +370,7 @@
     "lesson_id": 5
   },
   {
+    "id": 38,
     "english": "thirteen",
     "amharic": "አስራ ሦስት",
     "romanized": "asra sost",
@@ -342,6 +380,7 @@
     "lesson_id": 5
   },
   {
+    "id": 39,
     "english": "fourteen",
     "amharic": "አስራ አራት",
     "romanized": "asra arat",
@@ -351,6 +390,7 @@
     "lesson_id": 5
   },
   {
+    "id": 40,
     "english": "fifteen",
     "amharic": "አስራ አምስት",
     "romanized": "asra amist",
@@ -360,6 +400,7 @@
     "lesson_id": 5
   },
   {
+    "id": 41,
     "english": "sixteen",
     "amharic": "አስራ ስድስት",
     "romanized": "asra sidist",
@@ -369,6 +410,7 @@
     "lesson_id": 5
   },
   {
+    "id": 42,
     "english": "seventeen",
     "amharic": "አስራ ሰባት",
     "romanized": "asra sebat",
@@ -378,6 +420,7 @@
     "lesson_id": 5
   },
   {
+    "id": 43,
     "english": "eighteen",
     "amharic": "አስራ ስምንት",
     "romanized": "asra simint",
@@ -387,6 +430,7 @@
     "lesson_id": 5
   },
   {
+    "id": 44,
     "english": "nineteen",
     "amharic": "አስራ ዘጠኝ",
     "romanized": "asra zetegn",
@@ -396,6 +440,7 @@
     "lesson_id": 5
   },
   {
+    "id": 45,
     "english": "twenty",
     "amharic": "ሃያ",
     "romanized": "haya",
@@ -405,6 +450,7 @@
     "lesson_id": 5
   },
   {
+    "id": 46,
     "english": "father",
     "amharic": "አባት",
     "romanized": "abat",
@@ -414,6 +460,7 @@
     "lesson_id": 6
   },
   {
+    "id": 47,
     "english": "mother",
     "amharic": "እናት",
     "romanized": "inat",
@@ -423,6 +470,7 @@
     "lesson_id": 6
   },
   {
+    "id": 48,
     "english": "brother",
     "amharic": "ወንድም",
     "romanized": "wendim",
@@ -432,6 +480,7 @@
     "lesson_id": 6
   },
   {
+    "id": 49,
     "english": "sister",
     "amharic": "እህት",
     "romanized": "ihit",
@@ -441,6 +490,7 @@
     "lesson_id": 6
   },
   {
+    "id": 50,
     "english": "child",
     "amharic": "ልጅ",
     "romanized": "lij",
@@ -450,6 +500,7 @@
     "lesson_id": 6
   },
   {
+    "id": 51,
     "english": "son, boy",
     "amharic": "ወንድ ልጅ",
     "romanized": "wend lij",
@@ -459,6 +510,7 @@
     "lesson_id": 6
   },
   {
+    "id": 52,
     "english": "daughter, girl",
     "amharic": "ሴት ልጅ",
     "romanized": "set lij",
@@ -468,6 +520,7 @@
     "lesson_id": 6
   },
   {
+    "id": 53,
     "english": "husband",
     "amharic": "ባል",
     "romanized": "bal",
@@ -477,6 +530,7 @@
     "lesson_id": 6
   },
   {
+    "id": 54,
     "english": "wife",
     "amharic": "ሚስት",
     "romanized": "mist",
@@ -486,6 +540,7 @@
     "lesson_id": 6
   },
   {
+    "id": 55,
     "english": "grandfather",
     "amharic": "ወንድ አያት",
     "romanized": "wend ayat",
@@ -495,6 +550,7 @@
     "lesson_id": 6
   },
   {
+    "id": 56,
     "english": "grandmother",
     "amharic": "ሴት አያት",
     "romanized": "set ayat",
@@ -504,6 +560,7 @@
     "lesson_id": 6
   },
   {
+    "id": 57,
     "english": "uncle",
     "amharic": "አጎት",
     "romanized": "agot",
@@ -513,6 +570,7 @@
     "lesson_id": 6
   },
   {
+    "id": 58,
     "english": "aunt",
     "amharic": "አክስት",
     "romanized": "akist",
@@ -522,6 +580,7 @@
     "lesson_id": 6
   },
   {
+    "id": 59,
     "english": "water",
     "amharic": "ውሃ",
     "romanized": "wuha",
@@ -531,6 +590,7 @@
     "lesson_id": 7
   },
   {
+    "id": 60,
     "english": "food",
     "amharic": "ምግብ",
     "romanized": "migib",
@@ -540,6 +600,7 @@
     "lesson_id": 7
   },
   {
+    "id": 61,
     "english": "house, home",
     "amharic": "ቤት",
     "romanized": "bet",
@@ -549,6 +610,7 @@
     "lesson_id": 7
   },
   {
+    "id": 62,
     "english": "person, human",
     "amharic": "ሰው",
     "romanized": "sew",
@@ -558,6 +620,7 @@
     "lesson_id": 7
   },
   {
+    "id": 63,
     "english": "friend",
     "amharic": "ጓደኛ",
     "romanized": "gwadegna",
@@ -567,6 +630,7 @@
     "lesson_id": 7
   },
   {
+    "id": 64,
     "english": "car",
     "amharic": "መኪና",
     "romanized": "mekina",
@@ -576,6 +640,7 @@
     "lesson_id": 7
   },
   {
+    "id": 65,
     "english": "road, way",
     "amharic": "መንገድ",
     "romanized": "menged",
@@ -585,6 +650,7 @@
     "lesson_id": 7
   },
   {
+    "id": 66,
     "english": "city, town",
     "amharic": "ከተማ",
     "romanized": "ketema",
@@ -594,6 +660,7 @@
     "lesson_id": 7
   },
   {
+    "id": 67,
     "english": "country",
     "amharic": "አገር",
     "romanized": "ager",
@@ -603,6 +670,7 @@
     "lesson_id": 7
   },
   {
+    "id": 68,
     "english": "school",
     "amharic": "ትምህርት ቤት",
     "romanized": "timhirt bet",
@@ -612,6 +680,7 @@
     "lesson_id": 7
   },
   {
+    "id": 69,
     "english": "coffee",
     "amharic": "ቡና",
     "romanized": "buna",
@@ -621,6 +690,7 @@
     "lesson_id": 8
   },
   {
+    "id": 70,
     "english": "tea",
     "amharic": "ሻይ",
     "romanized": "shay",
@@ -630,6 +700,7 @@
     "lesson_id": 8
   },
   {
+    "id": 71,
     "english": "bread",
     "amharic": "ዳቦ",
     "romanized": "dabo",
@@ -639,6 +710,7 @@
     "lesson_id": 8
   },
   {
+    "id": 72,
     "english": "meat",
     "amharic": "ስጋ",
     "romanized": "siga",
@@ -648,6 +720,7 @@
     "lesson_id": 8
   },
   {
+    "id": 73,
     "english": "money",
     "amharic": "ገንዘብ",
     "romanized": "genzeb",
@@ -657,6 +730,7 @@
     "lesson_id": 8
   },
   {
+    "id": 74,
     "english": "work, job",
     "amharic": "ስራ",
     "romanized": "sira",
@@ -666,6 +740,7 @@
     "lesson_id": 8
   },
   {
+    "id": 75,
     "english": "time",
     "amharic": "ጊዜ",
     "romanized": "gize",
@@ -675,6 +750,7 @@
     "lesson_id": 8
   },
   {
+    "id": 76,
     "english": "day",
     "amharic": "ቀን",
     "romanized": "qen",
@@ -684,6 +760,7 @@
     "lesson_id": 8
   },
   {
+    "id": 77,
     "english": "night",
     "amharic": "ሌሊት",
     "romanized": "lelit",
@@ -693,6 +770,7 @@
     "lesson_id": 8
   },
   {
+    "id": 78,
     "english": "week",
     "amharic": "ሳምንት",
     "romanized": "samint",
@@ -702,6 +780,7 @@
     "lesson_id": 8
   },
   {
+    "id": 79,
     "english": "month",
     "amharic": "ወር",
     "romanized": "wer",
@@ -711,6 +790,7 @@
     "lesson_id": 8
   },
   {
+    "id": 80,
     "english": "year",
     "amharic": "ዓመት",
     "romanized": "amet",
@@ -720,6 +800,7 @@
     "lesson_id": 8
   },
   {
+    "id": 81,
     "english": "big",
     "amharic": "ትልቅ",
     "romanized": "tiliq",
@@ -729,6 +810,7 @@
     "lesson_id": 9
   },
   {
+    "id": 82,
     "english": "small, little",
     "amharic": "ትንሽ",
     "romanized": "tinish",
@@ -738,6 +820,7 @@
     "lesson_id": 9
   },
   {
+    "id": 83,
     "english": "good",
     "amharic": "ጥሩ",
     "romanized": "tiru",
@@ -747,6 +830,7 @@
     "lesson_id": 9
   },
   {
+    "id": 84,
     "english": "bad",
     "amharic": "መጥፎ",
     "romanized": "metfo",
@@ -756,6 +840,7 @@
     "lesson_id": 9
   },
   {
+    "id": 85,
     "english": "hot",
     "amharic": "ሙቅ",
     "romanized": "muq",
@@ -765,6 +850,7 @@
     "lesson_id": 9
   },
   {
+    "id": 86,
     "english": "cold",
     "amharic": "ቀዝቃዛ",
     "romanized": "qezqaza",
@@ -774,6 +860,7 @@
     "lesson_id": 9
   },
   {
+    "id": 87,
     "english": "new",
     "amharic": "አዲስ",
     "romanized": "addis",
@@ -783,6 +870,7 @@
     "lesson_id": 9
   },
   {
+    "id": 88,
     "english": "tall, long",
     "amharic": "ረጅም",
     "romanized": "rejim",
@@ -792,6 +880,7 @@
     "lesson_id": 9
   },
   {
+    "id": 89,
     "english": "short",
     "amharic": "አጭር",
     "romanized": "achir",
@@ -801,6 +890,7 @@
     "lesson_id": 9
   },
   {
+    "id": 90,
     "english": "pretty, beautiful",
     "amharic": "ቆንጆ",
     "romanized": "qonjo",
@@ -810,6 +900,7 @@
     "lesson_id": 9
   },
   {
+    "id": 91,
     "english": "beautiful",
     "amharic": "ውብ",
     "romanized": "wub",
@@ -819,6 +910,7 @@
     "lesson_id": 9
   },
   {
+    "id": 92,
     "english": "hard, difficult",
     "amharic": "ከባድ",
     "romanized": "kebad",
@@ -828,6 +920,7 @@
     "lesson_id": 9
   },
   {
+    "id": 93,
     "english": "easy",
     "amharic": "ቀላል",
     "romanized": "qelal",
@@ -837,6 +930,7 @@
     "lesson_id": 9
   },
   {
+    "id": 94,
     "english": "fast",
     "amharic": "ፈጣን",
     "romanized": "fetan",
@@ -846,6 +940,7 @@
     "lesson_id": 9
   },
   {
+    "id": 95,
     "english": "expensive",
     "amharic": "ውድ",
     "romanized": "wid",
@@ -855,6 +950,7 @@
     "lesson_id": 9
   },
   {
+    "id": 96,
     "english": "happy",
     "amharic": "ደስተኛ",
     "romanized": "destenya",
@@ -864,6 +960,7 @@
     "lesson_id": 9
   },
   {
+    "id": 97,
     "english": "black",
     "amharic": "ጥቁር",
     "romanized": "tiqur",
@@ -873,6 +970,7 @@
     "lesson_id": 9
   },
   {
+    "id": 98,
     "english": "white",
     "amharic": "ነጭ",
     "romanized": "nech",
@@ -882,6 +980,7 @@
     "lesson_id": 9
   },
   {
+    "id": 99,
     "english": "red",
     "amharic": "ቀይ",
     "romanized": "qey",
@@ -891,6 +990,7 @@
     "lesson_id": 9
   },
   {
+    "id": 100,
     "english": "Sunday",
     "amharic": "እሑድ",
     "romanized": "ihud",
@@ -900,6 +1000,7 @@
     "lesson_id": 10
   },
   {
+    "id": 101,
     "english": "Monday",
     "amharic": "ሰኞ",
     "romanized": "segnno",
@@ -909,6 +1010,7 @@
     "lesson_id": 10
   },
   {
+    "id": 102,
     "english": "Tuesday",
     "amharic": "ማክሰኞ",
     "romanized": "maksegnno",
@@ -918,6 +1020,7 @@
     "lesson_id": 10
   },
   {
+    "id": 103,
     "english": "Wednesday",
     "amharic": "ረቡዕ",
     "romanized": "rebu",
@@ -927,6 +1030,7 @@
     "lesson_id": 10
   },
   {
+    "id": 104,
     "english": "Thursday",
     "amharic": "ሐሙስ",
     "romanized": "hamus",
@@ -936,6 +1040,7 @@
     "lesson_id": 10
   },
   {
+    "id": 105,
     "english": "Friday",
     "amharic": "ዓርብ",
     "romanized": "arb",
@@ -945,6 +1050,7 @@
     "lesson_id": 10
   },
   {
+    "id": 106,
     "english": "Saturday",
     "amharic": "ቅዳሜ",
     "romanized": "qidame",
@@ -954,6 +1060,7 @@
     "lesson_id": 10
   },
   {
+    "id": 107,
     "english": "to go",
     "amharic": "መሄድ",
     "romanized": "mehed",
@@ -963,6 +1070,7 @@
     "lesson_id": 17
   },
   {
+    "id": 108,
     "english": "to come",
     "amharic": "መምጣት",
     "romanized": "memtat",
@@ -972,6 +1080,7 @@
     "lesson_id": 17
   },
   {
+    "id": 109,
     "english": "to eat",
     "amharic": "መብላት",
     "romanized": "meblat",
@@ -981,6 +1090,7 @@
     "lesson_id": 17
   },
   {
+    "id": 110,
     "english": "to drink",
     "amharic": "መጠጣት",
     "romanized": "metetat",
@@ -990,6 +1100,7 @@
     "lesson_id": 17
   },
   {
+    "id": 111,
     "english": "to see",
     "amharic": "ማየት",
     "romanized": "mayet",
@@ -999,6 +1110,7 @@
     "lesson_id": 17
   },
   {
+    "id": 112,
     "english": "to want, to look for",
     "amharic": "መፈለግ",
     "romanized": "mefeleg",
@@ -1008,6 +1120,7 @@
     "lesson_id": 17
   },
   {
+    "id": 113,
     "english": "to know",
     "amharic": "ማወቅ",
     "romanized": "mawek'",
@@ -1017,6 +1130,7 @@
     "lesson_id": 17
   },
   {
+    "id": 114,
     "english": "to speak",
     "amharic": "መናገር",
     "romanized": "menager",
@@ -1026,6 +1140,7 @@
     "lesson_id": 21
   },
   {
+    "id": 115,
     "english": "to learn",
     "amharic": "መማር",
     "romanized": "memar",
@@ -1035,6 +1150,7 @@
     "lesson_id": 21
   },
   {
+    "id": 116,
     "english": "to give",
     "amharic": "መስጠት",
     "romanized": "mestet",
@@ -1044,6 +1160,7 @@
     "lesson_id": 21
   },
   {
+    "id": 117,
     "english": "to take",
     "amharic": "መውሰድ",
     "romanized": "mewsed",
@@ -1053,6 +1170,7 @@
     "lesson_id": 21
   },
   {
+    "id": 118,
     "english": "to do, to make",
     "amharic": "ማድረግ",
     "romanized": "madreg",
@@ -1062,6 +1180,7 @@
     "lesson_id": 21
   },
   {
+    "id": 119,
     "english": "to say, to tell",
     "amharic": "ማለት",
     "romanized": "malet",
@@ -1071,6 +1190,7 @@
     "lesson_id": 21
   },
   {
+    "id": 120,
     "english": "to ask",
     "amharic": "መጠየቅ",
     "romanized": "meteyeq",
@@ -1080,6 +1200,7 @@
     "lesson_id": 21
   },
   {
+    "id": 121,
     "english": "to help",
     "amharic": "መርዳት",
     "romanized": "merdat",
@@ -1089,6 +1210,7 @@
     "lesson_id": 21
   },
   {
+    "id": 122,
     "english": "to like, to love",
     "amharic": "መውደድ",
     "romanized": "mewded",
@@ -1098,6 +1220,7 @@
     "lesson_id": 21
   },
   {
+    "id": 123,
     "english": "to work",
     "amharic": "መስራት",
     "romanized": "mesrat",
@@ -1107,6 +1230,7 @@
     "lesson_id": 21
   },
   {
+    "id": 124,
     "english": "my name is ___",
     "amharic": "ስሜ ___ ይባላል",
     "romanized": "sime ___ yibalal",
@@ -1116,6 +1240,7 @@
     "lesson_id": 23
   },
   {
+    "id": 125,
     "english": "what is your name? (to man)",
     "amharic": "ስምህ ማን ነው?",
     "romanized": "simeh man new?",
@@ -1125,6 +1250,7 @@
     "lesson_id": 23
   },
   {
+    "id": 126,
     "english": "what is your name? (to woman)",
     "amharic": "ስምሽ ማን ነው?",
     "romanized": "simish man new?",
@@ -1134,6 +1260,7 @@
     "lesson_id": 23
   },
   {
+    "id": 127,
     "english": "I am learning Amharic",
     "amharic": "አማርኛ እማራለሁ",
     "romanized": "amarigna imerallehu",
@@ -1143,6 +1270,7 @@
     "lesson_id": 23
   },
   {
+    "id": 128,
     "english": "how much is it?",
     "amharic": "ስንት ነው?",
     "romanized": "sint new?",
@@ -1152,6 +1280,7 @@
     "lesson_id": 24
   },
   {
+    "id": 129,
     "english": "I want (it)",
     "amharic": "እፈልጋለሁ",
     "romanized": "ifelligallehu",
@@ -1161,6 +1290,7 @@
     "lesson_id": 24
   },
   {
+    "id": 130,
     "english": "it's expensive",
     "amharic": "ውድ ነው",
     "romanized": "wid new",
@@ -1170,6 +1300,7 @@
     "lesson_id": 24
   },
   {
+    "id": 131,
     "english": "where is it?",
     "amharic": "የት ነው?",
     "romanized": "yet new?",
@@ -1179,6 +1310,7 @@
     "lesson_id": 25
   },
   {
+    "id": 132,
     "english": "go straight",
     "amharic": "ቀጥታ ሂድ",
     "romanized": "qetita hid",
@@ -1188,6 +1320,7 @@
     "lesson_id": 25
   },
   {
+    "id": 133,
     "english": "to the right",
     "amharic": "ወደ ቀኝ",
     "romanized": "wede qegn",
@@ -1197,6 +1330,7 @@
     "lesson_id": 25
   },
   {
+    "id": 134,
     "english": "to the left",
     "amharic": "ወደ ግራ",
     "romanized": "wede gra",
@@ -1206,6 +1340,7 @@
     "lesson_id": 25
   },
   {
+    "id": 135,
     "english": "I want food",
     "amharic": "ምግብ እፈልጋለሁ",
     "romanized": "migib ifelligallehu",
@@ -1215,6 +1350,7 @@
     "lesson_id": 26
   },
   {
+    "id": 136,
     "english": "I want coffee",
     "amharic": "ቡና እፈልጋለሁ",
     "romanized": "buna ifelligallehu",
@@ -1224,6 +1360,7 @@
     "lesson_id": 26
   },
   {
+    "id": 137,
     "english": "it's good/delicious",
     "amharic": "ጥሩ ነው",
     "romanized": "tiru new",
@@ -1233,6 +1370,7 @@
     "lesson_id": 26
   },
   {
+    "id": 138,
     "english": "the bill",
     "amharic": "ሂሳቡ",
     "romanized": "hisabu",
@@ -1242,6 +1380,7 @@
     "lesson_id": 26
   },
   {
+    "id": 139,
     "english": "please (to man)",
     "amharic": "እባክህ",
     "romanized": "ibakih",
@@ -1251,6 +1390,7 @@
     "lesson_id": 27
   },
   {
+    "id": 140,
     "english": "please (to woman)",
     "amharic": "እባክሽ",
     "romanized": "ibakish",
@@ -1260,6 +1400,7 @@
     "lesson_id": 27
   },
   {
+    "id": 141,
     "english": "you're welcome (it's nothing)",
     "amharic": "ምንም አይደለም",
     "romanized": "minem aydelem",
@@ -1269,6 +1410,7 @@
     "lesson_id": 27
   },
   {
+    "id": 142,
     "english": "I'm sorry",
     "amharic": "አዝናለሁ",
     "romanized": "azinalehu",
@@ -1277,8 +1419,8 @@
     "gender": null,
     "lesson_id": 27
   },
-
   {
+    "id": 143,
     "english": "he said (ale)",
     "amharic": "አለ",
     "romanized": "ale",
@@ -1288,6 +1430,7 @@
     "lesson_id": 1
   },
   {
+    "id": 144,
     "english": "there is (alle, geminated)",
     "amharic": "አለ",
     "romanized": "alle",
@@ -1297,6 +1440,7 @@
     "lesson_id": 1
   },
   {
+    "id": 145,
     "english": "he came (meta)",
     "amharic": "መጣ",
     "romanized": "meta",
@@ -1306,6 +1450,7 @@
     "lesson_id": 1
   },
   {
+    "id": 146,
     "english": "he hit (metta)",
     "amharic": "መታ",
     "romanized": "metta",
@@ -1315,6 +1460,7 @@
     "lesson_id": 1
   },
   {
+    "id": 147,
     "english": "house (bet)",
     "amharic": "ቤት",
     "romanized": "bet",
@@ -1324,6 +1470,7 @@
     "lesson_id": 1
   },
   {
+    "id": 148,
     "english": "door (bier - sound contrast)",
     "amharic": "በር",
     "romanized": "ber",
@@ -1333,6 +1480,7 @@
     "lesson_id": 1
   },
   {
+    "id": 149,
     "english": "word (qal)",
     "amharic": "ቃል",
     "romanized": "qal",
@@ -1342,6 +1490,7 @@
     "lesson_id": 1
   },
   {
+    "id": 150,
     "english": "husband (bal)",
     "amharic": "ባል",
     "romanized": "bal",
@@ -1350,8 +1499,8 @@
     "gender": null,
     "lesson_id": 1
   },
-
   {
+    "id": 151,
     "english": "thirty",
     "amharic": "ሰላሳ",
     "romanized": "selasa",
@@ -1361,6 +1510,7 @@
     "lesson_id": 5
   },
   {
+    "id": 152,
     "english": "forty",
     "amharic": "አርባ",
     "romanized": "arba",
@@ -1370,6 +1520,7 @@
     "lesson_id": 5
   },
   {
+    "id": 153,
     "english": "fifty",
     "amharic": "ሃምሳ",
     "romanized": "hamsa",
@@ -1379,6 +1530,7 @@
     "lesson_id": 5
   },
   {
+    "id": 154,
     "english": "sixty",
     "amharic": "ስድሳ",
     "romanized": "sidsa",
@@ -1388,6 +1540,7 @@
     "lesson_id": 5
   },
   {
+    "id": 155,
     "english": "seventy",
     "amharic": "ሰባ",
     "romanized": "seba",
@@ -1397,6 +1550,7 @@
     "lesson_id": 5
   },
   {
+    "id": 156,
     "english": "eighty",
     "amharic": "ሰማንያ",
     "romanized": "semania",
@@ -1406,6 +1560,7 @@
     "lesson_id": 5
   },
   {
+    "id": 157,
     "english": "ninety",
     "amharic": "ዘጠና",
     "romanized": "zetena",
@@ -1415,6 +1570,7 @@
     "lesson_id": 5
   },
   {
+    "id": 158,
     "english": "one hundred",
     "amharic": "መቶ",
     "romanized": "meto",
@@ -1424,6 +1580,7 @@
     "lesson_id": 5
   },
   {
+    "id": 159,
     "english": "one thousand",
     "amharic": "ሺ",
     "romanized": "shi",
@@ -1433,6 +1590,7 @@
     "lesson_id": 5
   },
   {
+    "id": 160,
     "english": "zero",
     "amharic": "ባዶ",
     "romanized": "bado",
@@ -1441,8 +1599,8 @@
     "gender": null,
     "lesson_id": 5
   },
-
   {
+    "id": 161,
     "english": "today",
     "amharic": "ዛሬ",
     "romanized": "zare",
@@ -1452,6 +1610,7 @@
     "lesson_id": 10
   },
   {
+    "id": 162,
     "english": "tomorrow",
     "amharic": "ነገ",
     "romanized": "nege",
@@ -1461,6 +1620,7 @@
     "lesson_id": 10
   },
   {
+    "id": 163,
     "english": "yesterday",
     "amharic": "ትላንት",
     "romanized": "tilant",
@@ -1470,6 +1630,7 @@
     "lesson_id": 10
   },
   {
+    "id": 164,
     "english": "morning",
     "amharic": "ጠዋት",
     "romanized": "tewat",
@@ -1479,6 +1640,7 @@
     "lesson_id": 10
   },
   {
+    "id": 165,
     "english": "evening",
     "amharic": "ማታ",
     "romanized": "mata",
@@ -1488,6 +1650,7 @@
     "lesson_id": 10
   },
   {
+    "id": 166,
     "english": "afternoon",
     "amharic": "ከሰዓት",
     "romanized": "keseat",
@@ -1497,6 +1660,7 @@
     "lesson_id": 10
   },
   {
+    "id": 167,
     "english": "now",
     "amharic": "አሁን",
     "romanized": "ahun",
@@ -1506,6 +1670,7 @@
     "lesson_id": 10
   },
   {
+    "id": 168,
     "english": "later",
     "amharic": "በኋላ",
     "romanized": "behwala",
@@ -1514,8 +1679,8 @@
     "gender": null,
     "lesson_id": 10
   },
-
   {
+    "id": 169,
     "english": "book",
     "amharic": "መጽሐፍ",
     "romanized": "metshaf",
@@ -1525,6 +1690,7 @@
     "lesson_id": 11
   },
   {
+    "id": 170,
     "english": "teacher",
     "amharic": "መምህር",
     "romanized": "memhir",
@@ -1534,6 +1700,7 @@
     "lesson_id": 11
   },
   {
+    "id": 171,
     "english": "student",
     "amharic": "ተማሪ",
     "romanized": "temari",
@@ -1543,6 +1710,7 @@
     "lesson_id": 11
   },
   {
+    "id": 172,
     "english": "to read",
     "amharic": "ማንበብ",
     "romanized": "maneb",
@@ -1552,6 +1720,7 @@
     "lesson_id": 11
   },
   {
+    "id": 173,
     "english": "to write",
     "amharic": "መጻፍ",
     "romanized": "meshaf",
@@ -1561,6 +1730,7 @@
     "lesson_id": 11
   },
   {
+    "id": 174,
     "english": "dog",
     "amharic": "ውሻ",
     "romanized": "wusha",
@@ -1570,6 +1740,7 @@
     "lesson_id": 11
   },
   {
+    "id": 175,
     "english": "cat",
     "amharic": "ድመት",
     "romanized": "dimit",
@@ -1579,6 +1750,7 @@
     "lesson_id": 11
   },
   {
+    "id": 176,
     "english": "market",
     "amharic": "ገበያ",
     "romanized": "gebeya",
@@ -1588,6 +1760,7 @@
     "lesson_id": 11
   },
   {
+    "id": 177,
     "english": "church",
     "amharic": "ቤተ ክርስቲያን",
     "romanized": "beta kristian",
@@ -1597,6 +1770,7 @@
     "lesson_id": 11
   },
   {
+    "id": 178,
     "english": "name",
     "amharic": "ስም",
     "romanized": "sim",
@@ -1605,8 +1779,8 @@
     "gender": "masculine",
     "lesson_id": 11
   },
-
   {
+    "id": 179,
     "english": "man",
     "amharic": "ወንድ",
     "romanized": "wend",
@@ -1616,6 +1790,7 @@
     "lesson_id": 12
   },
   {
+    "id": 180,
     "english": "woman",
     "amharic": "ሴት",
     "romanized": "set",
@@ -1625,6 +1800,7 @@
     "lesson_id": 12
   },
   {
+    "id": 181,
     "english": "king",
     "amharic": "ንጉሥ",
     "romanized": "nigus",
@@ -1634,6 +1810,7 @@
     "lesson_id": 12
   },
   {
+    "id": 182,
     "english": "queen",
     "amharic": "ንግሥት",
     "romanized": "nigist",
@@ -1643,6 +1820,7 @@
     "lesson_id": 12
   },
   {
+    "id": 183,
     "english": "rooster",
     "amharic": "አውራ ዶሮ",
     "romanized": "awra doro",
@@ -1652,6 +1830,7 @@
     "lesson_id": 12
   },
   {
+    "id": 184,
     "english": "hen, chicken",
     "amharic": "ዶሮ",
     "romanized": "doro",
@@ -1661,6 +1840,7 @@
     "lesson_id": 12
   },
   {
+    "id": 185,
     "english": "bull, ox",
     "amharic": "በሬ",
     "romanized": "bere",
@@ -1670,6 +1850,7 @@
     "lesson_id": 12
   },
   {
+    "id": 186,
     "english": "cow",
     "amharic": "ላም",
     "romanized": "lam",
@@ -1679,6 +1860,7 @@
     "lesson_id": 12
   },
   {
+    "id": 187,
     "english": "boy",
     "amharic": "ወንድ ልጅ",
     "romanized": "wend lij",
@@ -1688,6 +1870,7 @@
     "lesson_id": 12
   },
   {
+    "id": 188,
     "english": "girl",
     "amharic": "ሴት ልጅ",
     "romanized": "set lij",
@@ -1696,8 +1879,8 @@
     "gender": "feminine",
     "lesson_id": 12
   },
-
   {
+    "id": 189,
     "english": "I have",
     "amharic": "አለኝ",
     "romanized": "allegn",
@@ -1707,6 +1890,7 @@
     "lesson_id": 13
   },
   {
+    "id": 190,
     "english": "you have (to man)",
     "amharic": "አለህ",
     "romanized": "alleh",
@@ -1716,6 +1900,7 @@
     "lesson_id": 13
   },
   {
+    "id": 191,
     "english": "you have (to woman)",
     "amharic": "አለሽ",
     "romanized": "allesh",
@@ -1725,6 +1910,7 @@
     "lesson_id": 13
   },
   {
+    "id": 192,
     "english": "he has",
     "amharic": "አለው",
     "romanized": "allew",
@@ -1734,6 +1920,7 @@
     "lesson_id": 13
   },
   {
+    "id": 193,
     "english": "she has",
     "amharic": "አላት",
     "romanized": "allat",
@@ -1743,6 +1930,7 @@
     "lesson_id": 13
   },
   {
+    "id": 194,
     "english": "there is",
     "amharic": "አለ",
     "romanized": "alle",
@@ -1752,6 +1940,7 @@
     "lesson_id": 13
   },
   {
+    "id": 195,
     "english": "there is not",
     "amharic": "የለም",
     "romanized": "yelem",
@@ -1761,6 +1950,7 @@
     "lesson_id": 13
   },
   {
+    "id": 196,
     "english": "I don't have",
     "amharic": "የለኝም",
     "romanized": "yelegnym",
@@ -1769,8 +1959,8 @@
     "gender": null,
     "lesson_id": 13
   },
-
   {
+    "id": 197,
     "english": "the house",
     "amharic": "ቤቱ",
     "romanized": "betu",
@@ -1780,6 +1970,7 @@
     "lesson_id": 14
   },
   {
+    "id": 198,
     "english": "the car",
     "amharic": "መኪናዋ",
     "romanized": "mekinaw",
@@ -1789,6 +1980,7 @@
     "lesson_id": 14
   },
   {
+    "id": 199,
     "english": "houses",
     "amharic": "ቤቶች",
     "romanized": "betoch",
@@ -1798,6 +1990,7 @@
     "lesson_id": 14
   },
   {
+    "id": 200,
     "english": "children",
     "amharic": "ልጆች",
     "romanized": "lijoch",
@@ -1807,6 +2000,7 @@
     "lesson_id": 14
   },
   {
+    "id": 201,
     "english": "people",
     "amharic": "ሰዎች",
     "romanized": "sewoch",
@@ -1816,6 +2010,7 @@
     "lesson_id": 14
   },
   {
+    "id": 202,
     "english": "books",
     "amharic": "መጻሕፍት",
     "romanized": "metshafoch",
@@ -1825,6 +2020,7 @@
     "lesson_id": 14
   },
   {
+    "id": 203,
     "english": "dogs",
     "amharic": "ውሾች",
     "romanized": "wushoch",
@@ -1834,6 +2030,7 @@
     "lesson_id": 14
   },
   {
+    "id": 204,
     "english": "the water",
     "amharic": "ውሃው",
     "romanized": "wuhaw",
@@ -1843,6 +2040,7 @@
     "lesson_id": 14
   },
   {
+    "id": 205,
     "english": "trees",
     "amharic": "ዛፎች",
     "romanized": "zafoch",
@@ -1852,6 +2050,7 @@
     "lesson_id": 14
   },
   {
+    "id": 206,
     "english": "tree",
     "amharic": "ዛፍ",
     "romanized": "zaf",
@@ -1860,8 +2059,8 @@
     "gender": "masculine",
     "lesson_id": 14
   },
-
   {
+    "id": 207,
     "english": "my",
     "amharic": "የኔ",
     "romanized": "yene",
@@ -1871,6 +2070,7 @@
     "lesson_id": 15
   },
   {
+    "id": 208,
     "english": "your (masculine)",
     "amharic": "ያንተ",
     "romanized": "yaante",
@@ -1880,6 +2080,7 @@
     "lesson_id": 15
   },
   {
+    "id": 209,
     "english": "your (feminine)",
     "amharic": "ያንቺ",
     "romanized": "yaanchi",
@@ -1889,6 +2090,7 @@
     "lesson_id": 15
   },
   {
+    "id": 210,
     "english": "his",
     "amharic": "የሱ",
     "romanized": "yessu",
@@ -1898,6 +2100,7 @@
     "lesson_id": 15
   },
   {
+    "id": 211,
     "english": "her",
     "amharic": "የሷ",
     "romanized": "yesswa",
@@ -1907,6 +2110,7 @@
     "lesson_id": 15
   },
   {
+    "id": 212,
     "english": "our",
     "amharic": "የኛ",
     "romanized": "yegna",
@@ -1916,6 +2120,7 @@
     "lesson_id": 15
   },
   {
+    "id": 213,
     "english": "their",
     "amharic": "የነሱ",
     "romanized": "yennessu",
@@ -1925,6 +2130,7 @@
     "lesson_id": 15
   },
   {
+    "id": 214,
     "english": "my house",
     "amharic": "የኔ ቤት",
     "romanized": "yene bet",
@@ -1933,8 +2139,8 @@
     "gender": null,
     "lesson_id": 15
   },
-
   {
+    "id": 215,
     "english": "who",
     "amharic": "ማን",
     "romanized": "man",
@@ -1944,6 +2150,7 @@
     "lesson_id": 16
   },
   {
+    "id": 216,
     "english": "what",
     "amharic": "ምን",
     "romanized": "min",
@@ -1953,6 +2160,7 @@
     "lesson_id": 16
   },
   {
+    "id": 217,
     "english": "where",
     "amharic": "የት",
     "romanized": "yet",
@@ -1962,6 +2170,7 @@
     "lesson_id": 16
   },
   {
+    "id": 218,
     "english": "when",
     "amharic": "መቼ",
     "romanized": "meche",
@@ -1971,6 +2180,7 @@
     "lesson_id": 16
   },
   {
+    "id": 219,
     "english": "how many",
     "amharic": "ስንት",
     "romanized": "sint",
@@ -1980,6 +2190,7 @@
     "lesson_id": 16
   },
   {
+    "id": 220,
     "english": "why",
     "amharic": "ለምን",
     "romanized": "lemen",
@@ -1989,6 +2200,7 @@
     "lesson_id": 16
   },
   {
+    "id": 221,
     "english": "how",
     "amharic": "እንዴት",
     "romanized": "indet",
@@ -1998,6 +2210,7 @@
     "lesson_id": 16
   },
   {
+    "id": 222,
     "english": "which",
     "amharic": "የትኛው",
     "romanized": "yetignaw",
@@ -2007,6 +2220,7 @@
     "lesson_id": 16
   },
   {
+    "id": 223,
     "english": "what kind",
     "amharic": "ምን ዓይነት",
     "romanized": "min aynet",
@@ -2016,6 +2230,7 @@
     "lesson_id": 16
   },
   {
+    "id": 224,
     "english": "whose",
     "amharic": "የማን",
     "romanized": "yeman",
@@ -2024,8 +2239,8 @@
     "gender": null,
     "lesson_id": 16
   },
-
   {
+    "id": 225,
     "english": "to sleep",
     "amharic": "መተኛት",
     "romanized": "metegnat",
@@ -2035,6 +2250,7 @@
     "lesson_id": 17
   },
   {
+    "id": 226,
     "english": "to wake up",
     "amharic": "መንሳት",
     "romanized": "mensat",
@@ -2044,6 +2260,7 @@
     "lesson_id": 17
   },
   {
+    "id": 227,
     "english": "to buy",
     "amharic": "መግዛት",
     "romanized": "megzat",
@@ -2053,6 +2270,7 @@
     "lesson_id": 17
   },
   {
+    "id": 228,
     "english": "to sell",
     "amharic": "መሸጥ",
     "romanized": "meshet",
@@ -2062,6 +2280,7 @@
     "lesson_id": 17
   },
   {
+    "id": 229,
     "english": "to write",
     "amharic": "መጻፍ",
     "romanized": "meshaf",
@@ -2071,6 +2290,7 @@
     "lesson_id": 17
   },
   {
+    "id": 230,
     "english": "to read",
     "amharic": "ማንበብ",
     "romanized": "maneb",
@@ -2080,6 +2300,7 @@
     "lesson_id": 17
   },
   {
+    "id": 231,
     "english": "to open",
     "amharic": "መክፈት",
     "romanized": "mekfet",
@@ -2089,6 +2310,7 @@
     "lesson_id": 17
   },
   {
+    "id": 232,
     "english": "to close",
     "amharic": "መዝጋት",
     "romanized": "mezgat",
@@ -2097,8 +2319,8 @@
     "gender": null,
     "lesson_id": 17
   },
-
   {
+    "id": 233,
     "english": "I went",
     "amharic": "ሄድኩ",
     "romanized": "hedku",
@@ -2108,6 +2330,7 @@
     "lesson_id": 18
   },
   {
+    "id": 234,
     "english": "I came",
     "amharic": "መጣሁ",
     "romanized": "metahu",
@@ -2117,6 +2340,7 @@
     "lesson_id": 18
   },
   {
+    "id": 235,
     "english": "I ate",
     "amharic": "በላሁ",
     "romanized": "belahu",
@@ -2126,6 +2350,7 @@
     "lesson_id": 18
   },
   {
+    "id": 236,
     "english": "I drank",
     "amharic": "ጠጣሁ",
     "romanized": "tettahu",
@@ -2135,6 +2360,7 @@
     "lesson_id": 18
   },
   {
+    "id": 237,
     "english": "I saw",
     "amharic": "አየሁ",
     "romanized": "ayehu",
@@ -2144,6 +2370,7 @@
     "lesson_id": 18
   },
   {
+    "id": 238,
     "english": "I said",
     "amharic": "አልኩ",
     "romanized": "alku",
@@ -2153,6 +2380,7 @@
     "lesson_id": 18
   },
   {
+    "id": 239,
     "english": "I did",
     "amharic": "አደረግኩ",
     "romanized": "adregku",
@@ -2162,6 +2390,7 @@
     "lesson_id": 18
   },
   {
+    "id": 240,
     "english": "I bought",
     "amharic": "ገዛሁ",
     "romanized": "gezahu",
@@ -2171,6 +2400,7 @@
     "lesson_id": 18
   },
   {
+    "id": 241,
     "english": "I slept",
     "amharic": "ተኛሁ",
     "romanized": "tegnahu",
@@ -2180,6 +2410,7 @@
     "lesson_id": 18
   },
   {
+    "id": 242,
     "english": "I worked",
     "amharic": "ሰራሁ",
     "romanized": "serahu",
@@ -2188,8 +2419,8 @@
     "gender": null,
     "lesson_id": 18
   },
-
   {
+    "id": 243,
     "english": "I go",
     "amharic": "እሄዳለሁ",
     "romanized": "ihedallehu",
@@ -2199,6 +2430,7 @@
     "lesson_id": 19
   },
   {
+    "id": 244,
     "english": "I eat",
     "amharic": "እበላለሁ",
     "romanized": "ibledallehu",
@@ -2208,6 +2440,7 @@
     "lesson_id": 19
   },
   {
+    "id": 245,
     "english": "I drink",
     "amharic": "እጠጣለሁ",
     "romanized": "itettallehu",
@@ -2217,6 +2450,7 @@
     "lesson_id": 19
   },
   {
+    "id": 246,
     "english": "I work",
     "amharic": "እሰራለሁ",
     "romanized": "iserallehu",
@@ -2226,6 +2460,7 @@
     "lesson_id": 19
   },
   {
+    "id": 247,
     "english": "I speak",
     "amharic": "እናገራለሁ",
     "romanized": "inagerallehu",
@@ -2235,6 +2470,7 @@
     "lesson_id": 19
   },
   {
+    "id": 248,
     "english": "I learn",
     "amharic": "እማራለሁ",
     "romanized": "imerallehu",
@@ -2244,6 +2480,7 @@
     "lesson_id": 19
   },
   {
+    "id": 249,
     "english": "I see",
     "amharic": "አያለሁ",
     "romanized": "iyallehu",
@@ -2253,6 +2490,7 @@
     "lesson_id": 19
   },
   {
+    "id": 250,
     "english": "I know",
     "amharic": "አውቃለሁ",
     "romanized": "awallehu",
@@ -2262,6 +2500,7 @@
     "lesson_id": 19
   },
   {
+    "id": 251,
     "english": "I write",
     "amharic": "እጽፋለሁ",
     "romanized": "ishfallehu",
@@ -2271,6 +2510,7 @@
     "lesson_id": 19
   },
   {
+    "id": 252,
     "english": "I read",
     "amharic": "አነባለሁ",
     "romanized": "aneballehu",
@@ -2279,8 +2519,8 @@
     "gender": null,
     "lesson_id": 19
   },
-
   {
+    "id": 253,
     "english": "I don't go",
     "amharic": "አልሄድም",
     "romanized": "alhedim",
@@ -2290,6 +2530,7 @@
     "lesson_id": 20
   },
   {
+    "id": 254,
     "english": "I don't eat",
     "amharic": "አልበላም",
     "romanized": "albelam",
@@ -2299,6 +2540,7 @@
     "lesson_id": 20
   },
   {
+    "id": 255,
     "english": "I don't know",
     "amharic": "አላውቅም",
     "romanized": "alawkim",
@@ -2308,6 +2550,7 @@
     "lesson_id": 20
   },
   {
+    "id": 256,
     "english": "I don't want",
     "amharic": "አልፈልግም",
     "romanized": "alfelligim",
@@ -2317,6 +2560,7 @@
     "lesson_id": 20
   },
   {
+    "id": 257,
     "english": "it is not",
     "amharic": "አይደለም",
     "romanized": "aydelem",
@@ -2326,6 +2570,7 @@
     "lesson_id": 20
   },
   {
+    "id": 258,
     "english": "he didn't come",
     "amharic": "አልመጣም",
     "romanized": "almetam",
@@ -2335,6 +2580,7 @@
     "lesson_id": 20
   },
   {
+    "id": 259,
     "english": "I can't",
     "amharic": "አልችልም",
     "romanized": "alchilim",
@@ -2344,6 +2590,7 @@
     "lesson_id": 20
   },
   {
+    "id": 260,
     "english": "there is no",
     "amharic": "የለም",
     "romanized": "yelem",
@@ -2352,8 +2599,8 @@
     "gender": null,
     "lesson_id": 20
   },
-
   {
+    "id": 261,
     "english": "go! (to man)",
     "amharic": "ሂድ",
     "romanized": "hid",
@@ -2363,6 +2610,7 @@
     "lesson_id": 21
   },
   {
+    "id": 262,
     "english": "come! (to man)",
     "amharic": "ና",
     "romanized": "na",
@@ -2372,6 +2620,7 @@
     "lesson_id": 21
   },
   {
+    "id": 263,
     "english": "eat! (to man)",
     "amharic": "ብላ",
     "romanized": "bila",
@@ -2381,6 +2630,7 @@
     "lesson_id": 21
   },
   {
+    "id": 264,
     "english": "look! (to man)",
     "amharic": "እይ",
     "romanized": "iy",
@@ -2390,6 +2640,7 @@
     "lesson_id": 21
   },
   {
+    "id": 265,
     "english": "sit! (to man)",
     "amharic": "ተቀመጥ",
     "romanized": "teqemet",
@@ -2398,8 +2649,8 @@
     "gender": "masculine",
     "lesson_id": 21
   },
-
   {
+    "id": 266,
     "english": "I don't understand",
     "amharic": "አልገባኝም",
     "romanized": "algebagnim",
@@ -2409,6 +2660,7 @@
     "lesson_id": 22
   },
   {
+    "id": 267,
     "english": "I understand",
     "amharic": "ገባኝ",
     "romanized": "gebanignal",
@@ -2418,6 +2670,7 @@
     "lesson_id": 22
   },
   {
+    "id": 268,
     "english": "slowly please",
     "amharic": "ቀስ በል",
     "romanized": "qes bel",
@@ -2427,6 +2680,7 @@
     "lesson_id": 22
   },
   {
+    "id": 269,
     "english": "repeat please (to man)",
     "amharic": "ደግመህ ንገረኝ",
     "romanized": "degmeh nigeregn",
@@ -2436,6 +2690,7 @@
     "lesson_id": 22
   },
   {
+    "id": 270,
     "english": "I don't speak Amharic",
     "amharic": "አማርኛ አልናገርም",
     "romanized": "amarigna alinagerim",
@@ -2445,6 +2700,7 @@
     "lesson_id": 22
   },
   {
+    "id": 271,
     "english": "do you speak English? (to man)",
     "amharic": "እንግሊዝኛ ትናገራለህ?",
     "romanized": "ingilizigna tinageraleh?",
@@ -2454,6 +2710,7 @@
     "lesson_id": 22
   },
   {
+    "id": 272,
     "english": "where is the bathroom?",
     "amharic": "ሽንት ቤት የት ነው?",
     "romanized": "shint bet yet new?",
@@ -2463,6 +2720,7 @@
     "lesson_id": 22
   },
   {
+    "id": 273,
     "english": "help me",
     "amharic": "እርዳኝ",
     "romanized": "irdagn",
@@ -2472,6 +2730,7 @@
     "lesson_id": 22
   },
   {
+    "id": 274,
     "english": "wait (to man)",
     "amharic": "ጠብቅ",
     "romanized": "tebeq",
@@ -2481,6 +2740,7 @@
     "lesson_id": 22
   },
   {
+    "id": 275,
     "english": "let's go",
     "amharic": "እንሂድ",
     "romanized": "inhid",
@@ -2489,8 +2749,8 @@
     "gender": null,
     "lesson_id": 22
   },
-
   {
+    "id": 276,
     "english": "I am from ___",
     "amharic": "ከ___ ነኝ",
     "romanized": "ke ___ negn",
@@ -2500,6 +2760,7 @@
     "lesson_id": 23
   },
   {
+    "id": 277,
     "english": "nice to meet you",
     "amharic": "ደስ ብሎኛል",
     "romanized": "des bilonyal",
@@ -2509,6 +2770,7 @@
     "lesson_id": 23
   },
   {
+    "id": 278,
     "english": "I am Ethiopian",
     "amharic": "ኢትዮጵያዊ ነኝ",
     "romanized": "ityopyawi negn",
@@ -2518,6 +2780,7 @@
     "lesson_id": 23
   },
   {
+    "id": 279,
     "english": "I am American",
     "amharic": "አሜሪካዊ ነኝ",
     "romanized": "amerikawi negn",
@@ -2527,6 +2790,7 @@
     "lesson_id": 23
   },
   {
+    "id": 280,
     "english": "how old are you? (to man)",
     "amharic": "እድሜህ ስንት ነው?",
     "romanized": "idmeh sint new?",
@@ -2536,6 +2800,7 @@
     "lesson_id": 23
   },
   {
+    "id": 281,
     "english": "I am ___ years old",
     "amharic": "እድሜዬ ___ ዓመት ነው",
     "romanized": "idmeye ___ amet new",
@@ -2544,8 +2809,8 @@
     "gender": null,
     "lesson_id": 23
   },
-
   {
+    "id": 282,
     "english": "make it cheaper",
     "amharic": "ያቅርቡልኝ",
     "romanized": "yaqirbulign",
@@ -2555,6 +2820,7 @@
     "lesson_id": 24
   },
   {
+    "id": 283,
     "english": "how much total?",
     "amharic": "በሙሉ ስንት ነው?",
     "romanized": "bemulu sint new?",
@@ -2564,6 +2830,7 @@
     "lesson_id": 24
   },
   {
+    "id": 284,
     "english": "give me (to man)",
     "amharic": "ስጠኝ",
     "romanized": "sitegn",
@@ -2573,6 +2840,7 @@
     "lesson_id": 24
   },
   {
+    "id": 285,
     "english": "I will buy it",
     "amharic": "እገዛዋለሁ",
     "romanized": "igezewallehu",
@@ -2582,6 +2850,7 @@
     "lesson_id": 24
   },
   {
+    "id": 286,
     "english": "it's cheap",
     "amharic": "ርካሽ ነው",
     "romanized": "rikash new",
@@ -2591,6 +2860,7 @@
     "lesson_id": 24
   },
   {
+    "id": 287,
     "english": "do you have? (formal)",
     "amharic": "አለዎ?",
     "romanized": "allewo?",
@@ -2599,8 +2869,8 @@
     "gender": null,
     "lesson_id": 24
   },
-
   {
+    "id": 288,
     "english": "near",
     "amharic": "ቅርብ",
     "romanized": "qirb",
@@ -2610,6 +2880,7 @@
     "lesson_id": 25
   },
   {
+    "id": 289,
     "english": "far",
     "amharic": "ሩቅ",
     "romanized": "ruq",
@@ -2619,6 +2890,7 @@
     "lesson_id": 25
   },
   {
+    "id": 290,
     "english": "next to",
     "amharic": "አጠገብ",
     "romanized": "ategeb",
@@ -2628,6 +2900,7 @@
     "lesson_id": 25
   },
   {
+    "id": 291,
     "english": "in front of",
     "amharic": "ፊት ለፊት",
     "romanized": "fit lefit",
@@ -2637,6 +2910,7 @@
     "lesson_id": 25
   },
   {
+    "id": 292,
     "english": "behind",
     "amharic": "ከኋላ",
     "romanized": "kehwala",
@@ -2645,8 +2919,8 @@
     "gender": null,
     "lesson_id": 25
   },
-
   {
+    "id": 293,
     "english": "menu",
     "amharic": "ሜኑ",
     "romanized": "menu",
@@ -2656,6 +2930,7 @@
     "lesson_id": 26
   },
   {
+    "id": 294,
     "english": "injera",
     "amharic": "እንጀራ",
     "romanized": "injera",
@@ -2665,6 +2940,7 @@
     "lesson_id": 26
   },
   {
+    "id": 295,
     "english": "tibs (sauteed meat)",
     "amharic": "ጥብስ",
     "romanized": "tibs",
@@ -2674,6 +2950,7 @@
     "lesson_id": 26
   },
   {
+    "id": 296,
     "english": "I am hungry",
     "amharic": "ራበኝ",
     "romanized": "rabegn",
@@ -2683,6 +2960,7 @@
     "lesson_id": 26
   },
   {
+    "id": 297,
     "english": "I am full",
     "amharic": "ጠገብኩ",
     "romanized": "tegebku",
@@ -2691,8 +2969,8 @@
     "gender": null,
     "lesson_id": 26
   },
-
   {
+    "id": 298,
     "english": "with respect",
     "amharic": "በክብር",
     "romanized": "bekibir",
@@ -2702,6 +2980,7 @@
     "lesson_id": 27
   },
   {
+    "id": 299,
     "english": "sir, mr.",
     "amharic": "አቶ",
     "romanized": "ato",
@@ -2711,6 +2990,7 @@
     "lesson_id": 27
   },
   {
+    "id": 300,
     "english": "madam",
     "amharic": "ወይዘሮ",
     "romanized": "weyzero",
@@ -2720,6 +3000,7 @@
     "lesson_id": 27
   },
   {
+    "id": 301,
     "english": "miss",
     "amharic": "ወይዘሪት",
     "romanized": "weyzerit",
@@ -2729,6 +3010,7 @@
     "lesson_id": 27
   },
   {
+    "id": 302,
     "english": "congratulations (to man)",
     "amharic": "እንኳን ደስ አለህ",
     "romanized": "inkwan des aleh",
@@ -2737,8 +3019,8 @@
     "gender": "masculine",
     "lesson_id": 27
   },
-
   {
+    "id": 303,
     "english": "good night (to man)",
     "amharic": "ደህና እደር",
     "romanized": "dehna ider",
@@ -2748,6 +3030,7 @@
     "lesson_id": 28
   },
   {
+    "id": 304,
     "english": "see you tomorrow",
     "amharic": "ነገ እንገናኝ",
     "romanized": "nege innigegnalegn",
@@ -2757,6 +3040,7 @@
     "lesson_id": 28
   },
   {
+    "id": 305,
     "english": "have a good day",
     "amharic": "መልካም ቀን",
     "romanized": "melkam qen",
@@ -2766,6 +3050,7 @@
     "lesson_id": 28
   },
   {
+    "id": 306,
     "english": "how is work?",
     "amharic": "ስራ እንዴት ነው?",
     "romanized": "sira indet new?",
@@ -2775,6 +3060,7 @@
     "lesson_id": 28
   },
   {
+    "id": 307,
     "english": "I'm tired",
     "amharic": "ደክሞኛል",
     "romanized": "dekmognal",
@@ -2784,6 +3070,7 @@
     "lesson_id": 28
   },
   {
+    "id": 308,
     "english": "I'm happy",
     "amharic": "ደስ ብሎኛል",
     "romanized": "des bilonyal",
@@ -2793,6 +3080,7 @@
     "lesson_id": 28
   },
   {
+    "id": 309,
     "english": "what's new?",
     "amharic": "ምን አዲስ ነገር አለ?",
     "romanized": "min addis neger alle?",
@@ -2802,6 +3090,7 @@
     "lesson_id": 28
   },
   {
+    "id": 310,
     "english": "nothing much",
     "amharic": "ምንም የለም",
     "romanized": "minem yelem",
@@ -2811,6 +3100,7 @@
     "lesson_id": 28
   },
   {
+    "id": 311,
     "english": "take care (to man)",
     "amharic": "ተጠንቀቅ",
     "romanized": "tetenqeq",
@@ -2820,6 +3110,7 @@
     "lesson_id": 28
   },
   {
+    "id": 312,
     "english": "God willing",
     "amharic": "እግዚአብሔር ከፈቀደ",
     "romanized": "igziabher kefeqede",

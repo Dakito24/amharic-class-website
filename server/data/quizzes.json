@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "How do you say 'hello' informally in Amharic?",
@@ -9,6 +10,7 @@
     "xp_reward": 5
   },
   {
+    "id": 2,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "To greet a man and ask 'how are you?', you say:",
@@ -18,6 +20,7 @@
     "xp_reward": 5
   },
   {
+    "id": 3,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "To greet a woman and ask 'how are you?', you say:",
@@ -27,6 +30,7 @@
     "xp_reward": 5
   },
   {
+    "id": 4,
     "lesson_id": 2,
     "question_type": "fill_blank",
     "question": "To say 'I am fine' in Amharic, you say: dehna ____",
@@ -36,6 +40,7 @@
     "xp_reward": 5
   },
   {
+    "id": 5,
     "lesson_id": 2,
     "question_type": "match_pairs",
     "question": "Match each Amharic greeting to its English meaning.",
@@ -45,6 +50,7 @@
     "xp_reward": 5
   },
   {
+    "id": 6,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "What does 'dehna wal' mean?",
@@ -54,6 +60,7 @@
     "xp_reward": 5
   },
   {
+    "id": 7,
     "lesson_id": 2,
     "question_type": "fill_blank",
     "question": "To say 'good morning' in Amharic: ____ aderk",
@@ -63,6 +70,7 @@
     "xp_reward": 5
   },
   {
+    "id": 8,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "What is the Amharic pronoun for 'I'?",
@@ -72,6 +80,7 @@
     "xp_reward": 5
   },
   {
+    "id": 9,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "What is 'you' (masculine) in Amharic?",
@@ -81,6 +90,7 @@
     "xp_reward": 5
   },
   {
+    "id": 10,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "'She is' in Amharic is:",
@@ -90,6 +100,7 @@
     "xp_reward": 5
   },
   {
+    "id": 11,
     "lesson_id": 3,
     "question_type": "fill_blank",
     "question": "To say 'he is' in Amharic, you use the verb: ____",
@@ -99,6 +110,7 @@
     "xp_reward": 5
   },
   {
+    "id": 12,
     "lesson_id": 3,
     "question_type": "match_pairs",
     "question": "Match each pronoun to its Amharic equivalent.",
@@ -108,6 +120,7 @@
     "xp_reward": 5
   },
   {
+    "id": 13,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "'We' in Amharic is:",
@@ -117,6 +130,7 @@
     "xp_reward": 5
   },
   {
+    "id": 14,
     "lesson_id": 3,
     "question_type": "fill_blank",
     "question": "To say 'you are' (to a female), you say: ____ nesh",
@@ -126,6 +140,7 @@
     "xp_reward": 5
   },
   {
+    "id": 15,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What is 'one' in Amharic?",
@@ -135,6 +150,7 @@
     "xp_reward": 5
   },
   {
+    "id": 16,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What is 'five' in Amharic?",
@@ -144,6 +160,7 @@
     "xp_reward": 5
   },
   {
+    "id": 17,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What number is 'asir' in Amharic?",
@@ -153,6 +170,7 @@
     "xp_reward": 5
   },
   {
+    "id": 18,
     "lesson_id": 4,
     "question_type": "match_pairs",
     "question": "Match the numbers to their Amharic equivalents.",
@@ -162,6 +180,7 @@
     "xp_reward": 5
   },
   {
+    "id": 19,
     "lesson_id": 4,
     "question_type": "fill_blank",
     "question": "The number 'four' in Amharic is: ____",
@@ -171,6 +190,7 @@
     "xp_reward": 5
   },
   {
+    "id": 20,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What is 'eight' in Amharic?",
@@ -180,6 +200,7 @@
     "xp_reward": 5
   },
   {
+    "id": 21,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "What is 'red' in Amharic?",
@@ -189,6 +210,7 @@
     "xp_reward": 5
   },
   {
+    "id": 22,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "How do you say 'big' in Amharic?",
@@ -198,6 +220,7 @@
     "xp_reward": 5
   },
   {
+    "id": 23,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "What does 'tinish' mean?",
@@ -207,6 +230,7 @@
     "xp_reward": 5
   },
   {
+    "id": 24,
     "lesson_id": 5,
     "question_type": "match_pairs",
     "question": "Match the colors to their Amharic equivalents.",
@@ -216,6 +240,7 @@
     "xp_reward": 5
   },
   {
+    "id": 25,
     "lesson_id": 5,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'beautiful' or 'pretty' is: ____",
@@ -225,6 +250,7 @@
     "xp_reward": 5
   },
   {
+    "id": 26,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "What color is 'semayawi' in Amharic?",
@@ -234,6 +260,7 @@
     "xp_reward": 5
   },
   {
+    "id": 27,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "How do you say 'mother' in Amharic?",
@@ -243,6 +270,7 @@
     "xp_reward": 5
   },
   {
+    "id": 28,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "How do you say 'father' in Amharic?",
@@ -252,6 +280,7 @@
     "xp_reward": 5
   },
   {
+    "id": 29,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "What does 'wondim' mean?",
@@ -261,6 +290,7 @@
     "xp_reward": 5
   },
   {
+    "id": 30,
     "lesson_id": 6,
     "question_type": "match_pairs",
     "question": "Match the family members to their Amharic equivalents.",
@@ -270,6 +300,7 @@
     "xp_reward": 5
   },
   {
+    "id": 31,
     "lesson_id": 6,
     "question_type": "fill_blank",
     "question": "To say 'my family' in Amharic: ____ beteseb",
@@ -279,6 +310,7 @@
     "xp_reward": 5
   },
   {
+    "id": 32,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "What is 'child' in Amharic?",
@@ -288,6 +320,7 @@
     "xp_reward": 5
   },
   {
+    "id": 33,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "How do you say 'water' in Amharic?",
@@ -297,6 +330,7 @@
     "xp_reward": 5
   },
   {
+    "id": 34,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "What is 'bread' in Amharic?",
@@ -306,6 +340,7 @@
     "xp_reward": 5
   },
   {
+    "id": 35,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "What does 'buna' mean in Amharic?",
@@ -315,6 +350,7 @@
     "xp_reward": 5
   },
   {
+    "id": 36,
     "lesson_id": 7,
     "question_type": "match_pairs",
     "question": "Match the food and drink items to their Amharic equivalents.",
@@ -324,6 +360,7 @@
     "xp_reward": 5
   },
   {
+    "id": 37,
     "lesson_id": 7,
     "question_type": "fill_blank",
     "question": "The traditional Ethiopian flatbread is called: ____",
@@ -333,6 +370,7 @@
     "xp_reward": 5
   },
   {
+    "id": 38,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "How do you say 'food' or 'meal' in Amharic?",
@@ -342,6 +380,7 @@
     "xp_reward": 5
   },
   {
+    "id": 39,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "How do you say 'house' in Amharic?",
@@ -351,6 +390,7 @@
     "xp_reward": 5
   },
   {
+    "id": 40,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "What is 'school' in Amharic?",
@@ -360,6 +400,7 @@
     "xp_reward": 5
   },
   {
+    "id": 41,
     "lesson_id": 8,
     "question_type": "match_pairs",
     "question": "Match the places to their Amharic equivalents.",
@@ -369,6 +410,7 @@
     "xp_reward": 5
   },
   {
+    "id": 42,
     "lesson_id": 8,
     "question_type": "fill_blank",
     "question": "'Coffee house' or 'cafe' in Amharic is: buna ____",
@@ -378,6 +420,7 @@
     "xp_reward": 5
   },
   {
+    "id": 43,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "What does 'ketema' mean?",
@@ -387,6 +430,7 @@
     "xp_reward": 5
   },
   {
+    "id": 44,
     "lesson_id": 8,
     "question_type": "fill_blank",
     "question": "To say 'hospital' in Amharic: ____ bet",
@@ -396,6 +440,7 @@
     "xp_reward": 5
   },
   {
+    "id": 45,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "How do you say 'please' in Amharic?",
@@ -405,6 +450,7 @@
     "xp_reward": 5
   },
   {
+    "id": 46,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "How do you say 'thank you' in Amharic?",
@@ -414,6 +460,7 @@
     "xp_reward": 5
   },
   {
+    "id": 47,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "What does 'yiqirta' mean?",
@@ -423,6 +470,7 @@
     "xp_reward": 5
   },
   {
+    "id": 48,
     "lesson_id": 9,
     "question_type": "fill_blank",
     "question": "To say 'yes' in Amharic: ____",
@@ -432,6 +480,7 @@
     "xp_reward": 5
   },
   {
+    "id": 49,
     "lesson_id": 9,
     "question_type": "fill_blank",
     "question": "To say 'no' in Amharic: ____",
@@ -441,6 +490,7 @@
     "xp_reward": 5
   },
   {
+    "id": 50,
     "lesson_id": 9,
     "question_type": "match_pairs",
     "question": "Match these polite expressions to their Amharic equivalents.",
@@ -450,6 +500,7 @@
     "xp_reward": 5
   },
   {
+    "id": 51,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "How do you say 'I want' in Amharic?",
@@ -459,6 +510,7 @@
     "xp_reward": 5
   },
   {
+    "id": 52,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "How do you say 'I like' in Amharic?",
@@ -468,6 +520,7 @@
     "xp_reward": 5
   },
   {
+    "id": 53,
     "lesson_id": 10,
     "question_type": "fill_blank",
     "question": "To say 'I eat' in Amharic: ____",
@@ -477,6 +530,7 @@
     "xp_reward": 5
   },
   {
+    "id": 54,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "'I drink' in Amharic is:",
@@ -486,6 +540,7 @@
     "xp_reward": 5
   },
   {
+    "id": 55,
     "lesson_id": 10,
     "question_type": "match_pairs",
     "question": "Match the verbs to their Amharic equivalents.",
@@ -495,6 +550,7 @@
     "xp_reward": 5
   },
   {
+    "id": 56,
     "lesson_id": 10,
     "question_type": "fill_blank",
     "question": "To say 'I go' in Amharic: ____",
@@ -504,6 +560,7 @@
     "xp_reward": 5
   },
   {
+    "id": 57,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "What is the standard word order in Amharic?",
@@ -513,6 +570,7 @@
     "xp_reward": 5
   },
   {
+    "id": 58,
     "lesson_id": 11,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I eat food' in Amharic.",
@@ -522,6 +580,7 @@
     "xp_reward": 5
   },
   {
+    "id": 59,
     "lesson_id": 11,
     "question_type": "word_order",
     "question": "Arrange these words to say 'She drinks coffee' in Amharic.",
@@ -531,6 +590,7 @@
     "xp_reward": 5
   },
   {
+    "id": 60,
     "lesson_id": 11,
     "question_type": "word_order",
     "question": "Arrange these words to say 'He likes injera' in Amharic.",
@@ -540,6 +600,7 @@
     "xp_reward": 5
   },
   {
+    "id": 61,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "In Amharic, where does the verb go in a sentence?",
@@ -549,6 +610,7 @@
     "xp_reward": 5
   },
   {
+    "id": 62,
     "lesson_id": 11,
     "question_type": "word_order",
     "question": "Arrange these words to say 'We want water' in Amharic.",
@@ -558,6 +620,7 @@
     "xp_reward": 5
   },
   {
+    "id": 63,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "How do you say 'my' as a possessive in Amharic?",
@@ -567,6 +630,7 @@
     "xp_reward": 5
   },
   {
+    "id": 64,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "'This' in Amharic (for nearby objects) is:",
@@ -576,6 +640,7 @@
     "xp_reward": 5
   },
   {
+    "id": 65,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "'That' in Amharic (for distant objects) is:",
@@ -585,6 +650,7 @@
     "xp_reward": 5
   },
   {
+    "id": 66,
     "lesson_id": 12,
     "question_type": "fill_blank",
     "question": "To say 'his book' in Amharic: ye issu ____",
@@ -594,6 +660,7 @@
     "xp_reward": 5
   },
   {
+    "id": 67,
     "lesson_id": 12,
     "question_type": "match_pairs",
     "question": "Match the possessives to their Amharic equivalents.",
@@ -603,6 +670,7 @@
     "xp_reward": 5
   },
   {
+    "id": 68,
     "lesson_id": 12,
     "question_type": "fill_blank",
     "question": "To say 'your (f) house' in Amharic: ye anchi ____",
@@ -612,6 +680,7 @@
     "xp_reward": 5
   },
   {
+    "id": 69,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "'I have' in Amharic is:",
@@ -621,6 +690,7 @@
     "xp_reward": 5
   },
   {
+    "id": 70,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "'He has' in Amharic is:",
@@ -630,6 +700,7 @@
     "xp_reward": 5
   },
   {
+    "id": 71,
     "lesson_id": 13,
     "question_type": "fill_blank",
     "question": "To say 'she has' in Amharic: ____",
@@ -639,6 +710,7 @@
     "xp_reward": 5
   },
   {
+    "id": 72,
     "lesson_id": 13,
     "question_type": "fill_blank",
     "question": "To say 'you have' (to a male) in Amharic: ____",
@@ -648,6 +720,7 @@
     "xp_reward": 5
   },
   {
+    "id": 73,
     "lesson_id": 13,
     "question_type": "match_pairs",
     "question": "Match the 'to have' forms to their Amharic equivalents.",
@@ -657,6 +730,7 @@
     "xp_reward": 5
   },
   {
+    "id": 74,
     "lesson_id": 13,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I have a book' in Amharic.",
@@ -666,6 +740,7 @@
     "xp_reward": 5
   },
   {
+    "id": 75,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "How do you say 'today' in Amharic?",
@@ -675,6 +750,7 @@
     "xp_reward": 5
   },
   {
+    "id": 76,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "How do you say 'tomorrow' in Amharic?",
@@ -684,6 +760,7 @@
     "xp_reward": 5
   },
   {
+    "id": 77,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "What does 'tilant' mean?",
@@ -693,6 +770,7 @@
     "xp_reward": 5
   },
   {
+    "id": 78,
     "lesson_id": 14,
     "question_type": "fill_blank",
     "question": "To say 'now' in Amharic: ____",
@@ -702,6 +780,7 @@
     "xp_reward": 5
   },
   {
+    "id": 79,
     "lesson_id": 14,
     "question_type": "match_pairs",
     "question": "Match the time words to their Amharic equivalents.",
@@ -711,6 +790,7 @@
     "xp_reward": 5
   },
   {
+    "id": 80,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "What is 'morning' in Amharic?",
@@ -720,6 +800,7 @@
     "xp_reward": 5
   },
   {
+    "id": 81,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "What is 'twenty' in Amharic?",
@@ -729,6 +810,7 @@
     "xp_reward": 5
   },
   {
+    "id": 82,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "How do you say 'one hundred' in Amharic?",
@@ -738,6 +820,7 @@
     "xp_reward": 5
   },
   {
+    "id": 83,
     "lesson_id": 15,
     "question_type": "fill_blank",
     "question": "The number 'fifty' in Amharic is: ____",
@@ -747,6 +830,7 @@
     "xp_reward": 5
   },
   {
+    "id": 84,
     "lesson_id": 15,
     "question_type": "match_pairs",
     "question": "Match the larger numbers to their Amharic equivalents.",
@@ -756,6 +840,7 @@
     "xp_reward": 5
   },
   {
+    "id": 85,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "What is 'one thousand' in Amharic?",
@@ -765,6 +850,7 @@
     "xp_reward": 5
   },
   {
+    "id": 86,
     "lesson_id": 15,
     "question_type": "fill_blank",
     "question": "How do you say 'forty' in Amharic? ____",
@@ -774,6 +860,7 @@
     "xp_reward": 5
   },
   {
+    "id": 87,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you say 'where?' in Amharic?",
@@ -783,6 +870,7 @@
     "xp_reward": 5
   },
   {
+    "id": 88,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you say 'what?' in Amharic?",
@@ -792,6 +880,7 @@
     "xp_reward": 5
   },
   {
+    "id": 89,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you say 'who?' in Amharic?",
@@ -801,6 +890,7 @@
     "xp_reward": 5
   },
   {
+    "id": 90,
     "lesson_id": 16,
     "question_type": "match_pairs",
     "question": "Match the question words to their Amharic equivalents.",
@@ -810,6 +900,7 @@
     "xp_reward": 5
   },
   {
+    "id": 91,
     "lesson_id": 16,
     "question_type": "fill_blank",
     "question": "To ask 'why?' in Amharic, you say: ____",
@@ -819,6 +910,7 @@
     "xp_reward": 5
   },
   {
+    "id": 92,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you ask 'how much?' in Amharic?",
@@ -828,6 +920,7 @@
     "xp_reward": 5
   },
   {
+    "id": 93,
     "lesson_id": 16,
     "question_type": "word_order",
     "question": "Arrange these words to ask 'Where is the house?' in Amharic.",
@@ -837,6 +930,7 @@
     "xp_reward": 5
   },
   {
+    "id": 94,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "How do you say 'I am going' (present continuous) in Amharic?",
@@ -846,6 +940,7 @@
     "xp_reward": 5
   },
   {
+    "id": 95,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "The present continuous in Amharic is formed by:",
@@ -855,6 +950,7 @@
     "xp_reward": 5
   },
   {
+    "id": 96,
     "lesson_id": 17,
     "question_type": "fill_blank",
     "question": "To say 'she is eating' in Amharic: iyebelach ____",
@@ -864,6 +960,7 @@
     "xp_reward": 5
   },
   {
+    "id": 97,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "'He is drinking' in Amharic is:",
@@ -873,6 +970,7 @@
     "xp_reward": 5
   },
   {
+    "id": 98,
     "lesson_id": 17,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I am eating food' in Amharic.",
@@ -882,6 +980,7 @@
     "xp_reward": 5
   },
   {
+    "id": 99,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "'I went' in Amharic is:",
@@ -891,6 +990,7 @@
     "xp_reward": 5
   },
   {
+    "id": 100,
     "lesson_id": 18,
     "question_type": "fill_blank",
     "question": "'She went' in Amharic: ____",
@@ -900,6 +1000,7 @@
     "xp_reward": 5
   },
   {
+    "id": 101,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "'He ate' in Amharic is:",
@@ -909,6 +1010,7 @@
     "xp_reward": 5
   },
   {
+    "id": 102,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "'I ate' in Amharic is:",
@@ -918,6 +1020,7 @@
     "xp_reward": 5
   },
   {
+    "id": 103,
     "lesson_id": 18,
     "question_type": "match_pairs",
     "question": "Match the past tense forms of 'to go' (mehied).",
@@ -927,6 +1030,7 @@
     "xp_reward": 5
   },
   {
+    "id": 104,
     "lesson_id": 18,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I ate injera' in Amharic.",
@@ -936,6 +1040,7 @@
     "xp_reward": 5
   },
   {
+    "id": 105,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "How do you say 'I will go' in Amharic?",
@@ -945,6 +1050,7 @@
     "xp_reward": 5
   },
   {
+    "id": 106,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "'She will eat' in Amharic is:",
@@ -954,6 +1060,7 @@
     "xp_reward": 5
   },
   {
+    "id": 107,
     "lesson_id": 19,
     "question_type": "fill_blank",
     "question": "To say 'he will drink' in Amharic: ____",
@@ -963,6 +1070,7 @@
     "xp_reward": 5
   },
   {
+    "id": 108,
     "lesson_id": 19,
     "question_type": "match_pairs",
     "question": "Match the future tense forms of 'to go' (mehied).",
@@ -972,6 +1080,7 @@
     "xp_reward": 5
   },
   {
+    "id": 109,
     "lesson_id": 19,
     "question_type": "word_order",
     "question": "Arrange these words to say 'We will eat food' in Amharic.",
@@ -981,6 +1090,7 @@
     "xp_reward": 5
   },
   {
+    "id": 110,
     "lesson_id": 19,
     "question_type": "fill_blank",
     "question": "To say 'I will come' in Amharic: ____",
@@ -990,6 +1100,7 @@
     "xp_reward": 5
   },
   {
+    "id": 111,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "'He did not go' in Amharic is:",
@@ -999,6 +1110,7 @@
     "xp_reward": 5
   },
   {
+    "id": 112,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "How is the past tense negated in Amharic?",
@@ -1008,6 +1120,7 @@
     "xp_reward": 5
   },
   {
+    "id": 113,
     "lesson_id": 20,
     "question_type": "fill_blank",
     "question": "To say 'I did not eat' in Amharic: ____",
@@ -1017,6 +1130,7 @@
     "xp_reward": 5
   },
   {
+    "id": 114,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "'She does not want' in Amharic is:",
@@ -1026,6 +1140,7 @@
     "xp_reward": 5
   },
   {
+    "id": 115,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "'There is not' or 'does not exist' in Amharic is:",
@@ -1035,6 +1150,7 @@
     "xp_reward": 5
   },
   {
+    "id": 116,
     "lesson_id": 20,
     "question_type": "fill_blank",
     "question": "'It is not' or 'he is not' in Amharic: ____",
@@ -1044,6 +1160,7 @@
     "xp_reward": 5
   },
   {
+    "id": 117,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "How do you say 'Monday' in Amharic?",
@@ -1053,6 +1170,7 @@
     "xp_reward": 5
   },
   {
+    "id": 118,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "What day is 'ihud' in Amharic?",
@@ -1062,6 +1180,7 @@
     "xp_reward": 5
   },
   {
+    "id": 119,
     "lesson_id": 21,
     "question_type": "match_pairs",
     "question": "Match the days of the week to their Amharic equivalents.",
@@ -1071,6 +1190,7 @@
     "xp_reward": 5
   },
   {
+    "id": 120,
     "lesson_id": 21,
     "question_type": "fill_blank",
     "question": "'Saturday' in Amharic is: ____",
@@ -1080,6 +1200,7 @@
     "xp_reward": 5
   },
   {
+    "id": 121,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "What day is 'hamus' in Amharic?",
@@ -1089,6 +1210,7 @@
     "xp_reward": 5
   },
   {
+    "id": 122,
     "lesson_id": 21,
     "question_type": "fill_blank",
     "question": "'Tuesday' in Amharic is: ____",
@@ -1098,6 +1220,7 @@
     "xp_reward": 5
   },
   {
+    "id": 123,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "How do you say 'I can' or 'I am able to' in Amharic?",
@@ -1107,6 +1230,7 @@
     "xp_reward": 5
   },
   {
+    "id": 124,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "'I must' or 'I have to' in Amharic is:",
@@ -1116,6 +1240,7 @@
     "xp_reward": 5
   },
   {
+    "id": 125,
     "lesson_id": 22,
     "question_type": "fill_blank",
     "question": "To say 'he can' in Amharic: ____",
@@ -1125,6 +1250,7 @@
     "xp_reward": 5
   },
   {
+    "id": 126,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "'I cannot' in Amharic is:",
@@ -1134,6 +1260,7 @@
     "xp_reward": 5
   },
   {
+    "id": 127,
     "lesson_id": 22,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I can speak Amharic' in Amharic.",
@@ -1143,6 +1270,7 @@
     "xp_reward": 5
   },
   {
+    "id": 128,
     "lesson_id": 22,
     "question_type": "fill_blank",
     "question": "To say 'she must' in Amharic: ____",
@@ -1152,6 +1280,7 @@
     "xp_reward": 5
   },
   {
+    "id": 129,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "How do you say 'My name is...' in Amharic?",
@@ -1161,6 +1290,7 @@
     "xp_reward": 5
   },
   {
+    "id": 130,
     "lesson_id": 23,
     "question_type": "fill_blank",
     "question": "To say 'My name is...', start with: ____ ... yibalal",
@@ -1170,6 +1300,7 @@
     "xp_reward": 5
   },
   {
+    "id": 131,
     "lesson_id": 23,
     "question_type": "word_order",
     "question": "Arrange these words to say 'My name is John' in Amharic.",
@@ -1179,6 +1310,7 @@
     "xp_reward": 5
   },
   {
+    "id": 132,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "To ask 'What is your name?' (to a male) you say:",
@@ -1188,6 +1320,7 @@
     "xp_reward": 5
   },
   {
+    "id": 133,
     "lesson_id": 23,
     "question_type": "fill_blank",
     "question": "To ask a woman 'What is your name?': ____ man new?",
@@ -1197,6 +1330,7 @@
     "xp_reward": 5
   },
   {
+    "id": 134,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "How do you say 'I am from Ethiopia' in Amharic?",
@@ -1206,6 +1340,7 @@
     "xp_reward": 5
   },
   {
+    "id": 135,
     "lesson_id": 23,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I am from America' in Amharic.",
@@ -1215,6 +1350,7 @@
     "xp_reward": 5
   },
   {
+    "id": 136,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "How do you say 'I want to buy' in Amharic?",
@@ -1224,6 +1360,7 @@
     "xp_reward": 5
   },
   {
+    "id": 137,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "How do you ask 'How much is it?' in Amharic?",
@@ -1233,6 +1370,7 @@
     "xp_reward": 5
   },
   {
+    "id": 138,
     "lesson_id": 24,
     "question_type": "fill_blank",
     "question": "To say 'it is expensive' in Amharic: wid ____",
@@ -1242,6 +1380,7 @@
     "xp_reward": 5
   },
   {
+    "id": 139,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "What does 'rikash' mean?",
@@ -1251,6 +1390,7 @@
     "xp_reward": 5
   },
   {
+    "id": 140,
     "lesson_id": 24,
     "question_type": "match_pairs",
     "question": "Match the shopping words to their Amharic equivalents.",
@@ -1260,6 +1400,7 @@
     "xp_reward": 5
   },
   {
+    "id": 141,
     "lesson_id": 24,
     "question_type": "word_order",
     "question": "Arrange these words to ask 'How much is this?' in Amharic.",
@@ -1269,6 +1410,7 @@
     "xp_reward": 5
   },
   {
+    "id": 142,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "'Go straight' in Amharic is:",
@@ -1278,6 +1420,7 @@
     "xp_reward": 5
   },
   {
+    "id": 143,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "How do you say 'turn right' in Amharic?",
@@ -1287,6 +1430,7 @@
     "xp_reward": 5
   },
   {
+    "id": 144,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "How do you say 'turn left' in Amharic?",
@@ -1296,6 +1440,7 @@
     "xp_reward": 5
   },
   {
+    "id": 145,
     "lesson_id": 25,
     "question_type": "match_pairs",
     "question": "Match the directions to their Amharic equivalents.",
@@ -1305,6 +1450,7 @@
     "xp_reward": 5
   },
   {
+    "id": 146,
     "lesson_id": 25,
     "question_type": "fill_blank",
     "question": "To ask 'Where is it?' in Amharic: ____ new?",
@@ -1314,6 +1460,7 @@
     "xp_reward": 5
   },
   {
+    "id": 147,
     "lesson_id": 25,
     "question_type": "word_order",
     "question": "Arrange these words to ask 'Where is the restaurant?' in Amharic.",
@@ -1323,6 +1470,7 @@
     "xp_reward": 5
   },
   {
+    "id": 148,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "How do you say 'if' in Amharic?",
@@ -1332,6 +1480,7 @@
     "xp_reward": 5
   },
   {
+    "id": 149,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "How do you say 'and' in Amharic?",
@@ -1341,6 +1490,7 @@
     "xp_reward": 5
   },
   {
+    "id": 150,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "How do you say 'but' in Amharic?",
@@ -1350,6 +1500,7 @@
     "xp_reward": 5
   },
   {
+    "id": 151,
     "lesson_id": 26,
     "question_type": "fill_blank",
     "question": "To say 'because' in Amharic: ____",
@@ -1359,6 +1510,7 @@
     "xp_reward": 5
   },
   {
+    "id": 152,
     "lesson_id": 26,
     "question_type": "match_pairs",
     "question": "Match the conjunctions to their Amharic equivalents.",
@@ -1368,6 +1520,7 @@
     "xp_reward": 5
   },
   {
+    "id": 153,
     "lesson_id": 26,
     "question_type": "word_order",
     "question": "Arrange these words to say 'I eat and drink' in Amharic.",
@@ -1377,6 +1530,7 @@
     "xp_reward": 5
   },
   {
+    "id": 154,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "How do you politely say 'Could you please...' (to a male) in Amharic?",
@@ -1386,6 +1540,7 @@
     "xp_reward": 5
   },
   {
+    "id": 155,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "How do you say 'Help me' in Amharic?",
@@ -1395,6 +1550,7 @@
     "xp_reward": 5
   },
   {
+    "id": 156,
     "lesson_id": 27,
     "question_type": "fill_blank",
     "question": "To say 'I don't understand' in Amharic: ____",
@@ -1404,6 +1560,7 @@
     "xp_reward": 5
   },
   {
+    "id": 157,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "How do you say 'Please speak slowly' in Amharic?",
@@ -1413,6 +1570,7 @@
     "xp_reward": 5
   },
   {
+    "id": 158,
     "lesson_id": 27,
     "question_type": "fill_blank",
     "question": "To say 'Do you speak English?' (to a male): inglizigna ____?",
@@ -1422,6 +1580,7 @@
     "xp_reward": 5
   },
   {
+    "id": 159,
     "lesson_id": 27,
     "question_type": "match_pairs",
     "question": "Match the useful phrases to their Amharic equivalents.",
@@ -1431,6 +1590,7 @@
     "xp_reward": 5
   },
   {
+    "id": 160,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "How do you say 'Happy holiday!' in Amharic?",
@@ -1440,6 +1600,7 @@
     "xp_reward": 5
   },
   {
+    "id": 161,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "How do you say 'Happy New Year' in Amharic?",
@@ -1449,6 +1610,7 @@
     "xp_reward": 5
   },
   {
+    "id": 162,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "What is 'Meskel' in Ethiopian culture?",
@@ -1458,6 +1620,7 @@
     "xp_reward": 5
   },
   {
+    "id": 163,
     "lesson_id": 28,
     "question_type": "fill_blank",
     "question": "The Ethiopian New Year is called: ____",
@@ -1467,6 +1630,7 @@
     "xp_reward": 5
   },
   {
+    "id": 164,
     "lesson_id": 28,
     "question_type": "match_pairs",
     "question": "Match the Ethiopian celebrations to their descriptions.",
@@ -1476,6 +1640,7 @@
     "xp_reward": 5
   },
   {
+    "id": 165,
     "lesson_id": 28,
     "question_type": "fill_blank",
     "question": "To wish someone 'Congratulations' in Amharic: ____",
@@ -1485,6 +1650,7 @@
     "xp_reward": 5
   },
   {
+    "id": 166,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "What does 'melkam' mean?",
@@ -1494,6 +1660,7 @@
     "xp_reward": 5
   },
   {
+    "id": 167,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "How many vowels does Amharic have?",
@@ -1503,6 +1670,7 @@
     "xp_reward": 5
   },
   {
+    "id": 168,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "Which of these is an ejective consonant in Amharic?",
@@ -1512,6 +1680,7 @@
     "xp_reward": 5
   },
   {
+    "id": 169,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "'Ale' means 'he said'. What does 'alle' (with doubled l) mean?",
@@ -1521,6 +1690,7 @@
     "xp_reward": 5
   },
   {
+    "id": 170,
     "lesson_id": 1,
     "question_type": "fill_blank",
     "question": "Amharic has ___ ejective consonants that don't exist in English.",
@@ -1530,6 +1700,7 @@
     "xp_reward": 5
   },
   {
+    "id": 171,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "'Meta' means 'he came'. What does 'metta' (doubled t) mean?",
@@ -1539,6 +1710,7 @@
     "xp_reward": 5
   },
   {
+    "id": 172,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "What is the term for doubling a consonant to change meaning in Amharic?",
@@ -1548,6 +1720,7 @@
     "xp_reward": 5
   },
   {
+    "id": 173,
     "lesson_id": 1,
     "question_type": "fill_blank",
     "question": "The schwa vowel (ə) sounds like the 'e' in the English word ____.",
@@ -1557,6 +1730,7 @@
     "xp_reward": 5
   },
   {
+    "id": 174,
     "lesson_id": 1,
     "question_type": "multiple_choice",
     "question": "Which feature makes Amharic pronunciation unique compared to English?",
@@ -1566,6 +1740,7 @@
     "xp_reward": 5
   },
   {
+    "id": 175,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "What does 'ameseginalehu' mean?",
@@ -1575,6 +1750,7 @@
     "xp_reward": 5
   },
   {
+    "id": 176,
     "lesson_id": 2,
     "question_type": "fill_blank",
     "question": "The informal way to say 'goodbye' in Amharic (borrowed from Italian) is ____.",
@@ -1584,6 +1760,7 @@
     "xp_reward": 5
   },
   {
+    "id": 177,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "How do you say 'good morning' to a woman?",
@@ -1593,6 +1770,7 @@
     "xp_reward": 5
   },
   {
+    "id": 178,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "'Yiqirta' means:",
@@ -1602,6 +1780,7 @@
     "xp_reward": 5
   },
   {
+    "id": 179,
     "lesson_id": 2,
     "question_type": "fill_blank",
     "question": "'Awo' means 'yes'. The word for 'no' in Amharic is ____.",
@@ -1611,6 +1790,7 @@
     "xp_reward": 5
   },
   {
+    "id": 180,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "What does 'ishi' mean?",
@@ -1620,6 +1800,7 @@
     "xp_reward": 5
   },
   {
+    "id": 181,
     "lesson_id": 2,
     "question_type": "fill_blank",
     "question": "The formal way to say hello is 'tena ____'.",
@@ -1629,6 +1810,7 @@
     "xp_reward": 5
   },
   {
+    "id": 182,
     "lesson_id": 2,
     "question_type": "multiple_choice",
     "question": "To say 'goodbye' to a man, you say:",
@@ -1638,6 +1820,7 @@
     "xp_reward": 5
   },
   {
+    "id": 183,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "What is the Amharic word for 'we'?",
@@ -1647,6 +1830,7 @@
     "xp_reward": 5
   },
   {
+    "id": 184,
     "lesson_id": 3,
     "question_type": "fill_blank",
     "question": "The formal 'you' in Amharic is ____.",
@@ -1656,6 +1840,7 @@
     "xp_reward": 5
   },
   {
+    "id": 185,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "'Issu' means:",
@@ -1665,6 +1850,7 @@
     "xp_reward": 5
   },
   {
+    "id": 186,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "How do you say 'they' in Amharic?",
@@ -1674,6 +1860,7 @@
     "xp_reward": 5
   },
   {
+    "id": 187,
     "lesson_id": 3,
     "question_type": "fill_blank",
     "question": "The word for 'I' in Amharic is ____.",
@@ -1683,6 +1870,7 @@
     "xp_reward": 5
   },
   {
+    "id": 188,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "'Anchi' is the word for 'you' when speaking to a:",
@@ -1692,6 +1880,7 @@
     "xp_reward": 5
   },
   {
+    "id": 189,
     "lesson_id": 3,
     "question_type": "multiple_choice",
     "question": "What is the plural form of 'you' in Amharic?",
@@ -1701,6 +1890,7 @@
     "xp_reward": 5
   },
   {
+    "id": 190,
     "lesson_id": 3,
     "question_type": "fill_blank",
     "question": "'She' in Amharic is ____.",
@@ -1710,6 +1900,7 @@
     "xp_reward": 5
   },
   {
+    "id": 191,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What is 'amist' in English?",
@@ -1719,6 +1910,7 @@
     "xp_reward": 5
   },
   {
+    "id": 192,
     "lesson_id": 4,
     "question_type": "fill_blank",
     "question": "The number 'seven' in Amharic is ____.",
@@ -1728,6 +1920,7 @@
     "xp_reward": 5
   },
   {
+    "id": 193,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "How do you say 'three' in Amharic?",
@@ -1737,6 +1930,7 @@
     "xp_reward": 5
   },
   {
+    "id": 194,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "'Zetegn' is the Amharic word for:",
@@ -1746,6 +1940,7 @@
     "xp_reward": 5
   },
   {
+    "id": 195,
     "lesson_id": 4,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'one' is ____.",
@@ -1755,6 +1950,7 @@
     "xp_reward": 5
   },
   {
+    "id": 196,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "What number is 'sidist'?",
@@ -1764,6 +1960,7 @@
     "xp_reward": 5
   },
   {
+    "id": 197,
     "lesson_id": 4,
     "question_type": "fill_blank",
     "question": "'Ten' in Amharic is ____.",
@@ -1773,6 +1970,7 @@
     "xp_reward": 5
   },
   {
+    "id": 198,
     "lesson_id": 4,
     "question_type": "multiple_choice",
     "question": "How do you say 'eight' in Amharic?",
@@ -1782,6 +1980,7 @@
     "xp_reward": 5
   },
   {
+    "id": 199,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "How do you say 'twenty' in Amharic?",
@@ -1791,6 +1990,7 @@
     "xp_reward": 5
   },
   {
+    "id": 200,
     "lesson_id": 5,
     "question_type": "fill_blank",
     "question": "'Asra sost' means ____.",
@@ -1800,6 +2000,7 @@
     "xp_reward": 5
   },
   {
+    "id": 201,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "What is 'one hundred' in Amharic?",
@@ -1809,6 +2010,7 @@
     "xp_reward": 5
   },
   {
+    "id": 202,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "'Selasa' is the Amharic word for:",
@@ -1818,6 +2020,7 @@
     "xp_reward": 5
   },
   {
+    "id": 203,
     "lesson_id": 5,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'forty' is ____.",
@@ -1827,6 +2030,7 @@
     "xp_reward": 5
   },
   {
+    "id": 204,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "How do you say 'fifty' in Amharic?",
@@ -1836,6 +2040,7 @@
     "xp_reward": 5
   },
   {
+    "id": 205,
     "lesson_id": 5,
     "question_type": "fill_blank",
     "question": "'Asra hulet' translates to ____.",
@@ -1845,6 +2050,7 @@
     "xp_reward": 5
   },
   {
+    "id": 206,
     "lesson_id": 5,
     "question_type": "multiple_choice",
     "question": "What is 'one thousand' in Amharic?",
@@ -1854,6 +2060,7 @@
     "xp_reward": 5
   },
   {
+    "id": 207,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "What is 'abat' in English?",
@@ -1863,6 +2070,7 @@
     "xp_reward": 5
   },
   {
+    "id": 208,
     "lesson_id": 6,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'sister' is ____.",
@@ -1872,6 +2080,7 @@
     "xp_reward": 5
   },
   {
+    "id": 209,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "'Mist' in Amharic means:",
@@ -1881,6 +2090,7 @@
     "xp_reward": 5
   },
   {
+    "id": 210,
     "lesson_id": 6,
     "question_type": "fill_blank",
     "question": "'Brother' in Amharic is ____.",
@@ -1890,6 +2100,7 @@
     "xp_reward": 5
   },
   {
+    "id": 211,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "How do you say 'child' in Amharic?",
@@ -1899,6 +2110,7 @@
     "xp_reward": 5
   },
   {
+    "id": 212,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "'Agot' means:",
@@ -1908,6 +2120,7 @@
     "xp_reward": 5
   },
   {
+    "id": 213,
     "lesson_id": 6,
     "question_type": "fill_blank",
     "question": "The word for 'grandmother' in Amharic is 'set ____'.",
@@ -1917,6 +2130,7 @@
     "xp_reward": 5
   },
   {
+    "id": 214,
     "lesson_id": 6,
     "question_type": "multiple_choice",
     "question": "How do you say 'husband' in Amharic?",
@@ -1926,6 +2140,7 @@
     "xp_reward": 5
   },
   {
+    "id": 215,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "What is 'bet' in English?",
@@ -1935,6 +2150,7 @@
     "xp_reward": 5
   },
   {
+    "id": 216,
     "lesson_id": 7,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'car' is ____.",
@@ -1944,6 +2160,7 @@
     "xp_reward": 5
   },
   {
+    "id": 217,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "'Menged' means:",
@@ -1953,6 +2170,7 @@
     "xp_reward": 5
   },
   {
+    "id": 218,
     "lesson_id": 7,
     "question_type": "fill_blank",
     "question": "'School' in Amharic is 'timhirt ____'.",
@@ -1962,6 +2180,7 @@
     "xp_reward": 5
   },
   {
+    "id": 219,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "What is the Amharic word for 'water'?",
@@ -1971,6 +2190,7 @@
     "xp_reward": 5
   },
   {
+    "id": 220,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "'Ketema' means:",
@@ -1980,6 +2200,7 @@
     "xp_reward": 5
   },
   {
+    "id": 221,
     "lesson_id": 7,
     "question_type": "fill_blank",
     "question": "The word for 'friend' in Amharic is ____.",
@@ -1989,6 +2210,7 @@
     "xp_reward": 5
   },
   {
+    "id": 222,
     "lesson_id": 7,
     "question_type": "multiple_choice",
     "question": "How do you say 'country' in Amharic?",
@@ -1998,6 +2220,7 @@
     "xp_reward": 5
   },
   {
+    "id": 223,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "What is 'buna' in English?",
@@ -2007,6 +2230,7 @@
     "xp_reward": 5
   },
   {
+    "id": 224,
     "lesson_id": 8,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'bread' is ____.",
@@ -2016,6 +2240,7 @@
     "xp_reward": 5
   },
   {
+    "id": 225,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "'Genzeb' means:",
@@ -2025,6 +2250,7 @@
     "xp_reward": 5
   },
   {
+    "id": 226,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "How do you say 'night' in Amharic?",
@@ -2034,6 +2260,7 @@
     "xp_reward": 5
   },
   {
+    "id": 227,
     "lesson_id": 8,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'meat' is ____.",
@@ -2043,6 +2270,7 @@
     "xp_reward": 5
   },
   {
+    "id": 228,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "'Samint' in Amharic means:",
@@ -2052,6 +2280,7 @@
     "xp_reward": 5
   },
   {
+    "id": 229,
     "lesson_id": 8,
     "question_type": "fill_blank",
     "question": "'Year' in Amharic is ____.",
@@ -2061,6 +2290,7 @@
     "xp_reward": 5
   },
   {
+    "id": 230,
     "lesson_id": 8,
     "question_type": "multiple_choice",
     "question": "What does 'sira' mean?",
@@ -2070,6 +2300,7 @@
     "xp_reward": 5
   },
   {
+    "id": 231,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "What does 'tiliq' mean?",
@@ -2079,6 +2310,7 @@
     "xp_reward": 5
   },
   {
+    "id": 232,
     "lesson_id": 9,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'beautiful' is ____.",
@@ -2088,6 +2320,7 @@
     "xp_reward": 5
   },
   {
+    "id": 233,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "'Addis' means:",
@@ -2097,6 +2330,7 @@
     "xp_reward": 5
   },
   {
+    "id": 234,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "How do you say 'easy' in Amharic?",
@@ -2106,6 +2340,7 @@
     "xp_reward": 5
   },
   {
+    "id": 235,
     "lesson_id": 9,
     "question_type": "fill_blank",
     "question": "The word for 'black' in Amharic is ____.",
@@ -2115,6 +2350,7 @@
     "xp_reward": 5
   },
   {
+    "id": 236,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "'Rejim' means:",
@@ -2124,6 +2360,7 @@
     "xp_reward": 5
   },
   {
+    "id": 237,
     "lesson_id": 9,
     "question_type": "fill_blank",
     "question": "'Red' in Amharic is ____.",
@@ -2133,6 +2370,7 @@
     "xp_reward": 5
   },
   {
+    "id": 238,
     "lesson_id": 9,
     "question_type": "multiple_choice",
     "question": "What does 'wid' mean?",
@@ -2142,6 +2380,7 @@
     "xp_reward": 5
   },
   {
+    "id": 239,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "What day is 'segnno'?",
@@ -2151,6 +2390,7 @@
     "xp_reward": 5
   },
   {
+    "id": 240,
     "lesson_id": 10,
     "question_type": "fill_blank",
     "question": "Friday in Amharic is ____.",
@@ -2160,6 +2400,7 @@
     "xp_reward": 5
   },
   {
+    "id": 241,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "'Ihud' is which day?",
@@ -2169,6 +2410,7 @@
     "xp_reward": 5
   },
   {
+    "id": 242,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "How do you say 'today' in Amharic?",
@@ -2178,6 +2420,7 @@
     "xp_reward": 5
   },
   {
+    "id": 243,
     "lesson_id": 10,
     "question_type": "fill_blank",
     "question": "The word for 'tomorrow' is ____.",
@@ -2187,6 +2430,7 @@
     "xp_reward": 5
   },
   {
+    "id": 244,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "'Rebu' is:",
@@ -2196,6 +2440,7 @@
     "xp_reward": 5
   },
   {
+    "id": 245,
     "lesson_id": 10,
     "question_type": "fill_blank",
     "question": "'Now' in Amharic is ____.",
@@ -2205,6 +2450,7 @@
     "xp_reward": 5
   },
   {
+    "id": 246,
     "lesson_id": 10,
     "question_type": "multiple_choice",
     "question": "What does 'tilant' mean?",
@@ -2214,6 +2460,7 @@
     "xp_reward": 5
   },
   {
+    "id": 247,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "Amharic sentence order is:",
@@ -2223,6 +2470,7 @@
     "xp_reward": 5
   },
   {
+    "id": 248,
     "lesson_id": 11,
     "question_type": "fill_blank",
     "question": "In Amharic, the verb comes at the ____ of the sentence.",
@@ -2232,6 +2480,7 @@
     "xp_reward": 5
   },
   {
+    "id": 249,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "How would you arrange 'I food eat' in Amharic word order?",
@@ -2241,6 +2490,7 @@
     "xp_reward": 5
   },
   {
+    "id": 250,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "'Metshaf' means:",
@@ -2250,6 +2500,7 @@
     "xp_reward": 5
   },
   {
+    "id": 251,
     "lesson_id": 11,
     "question_type": "fill_blank",
     "question": "The Amharic word for 'teacher' is ____.",
@@ -2259,6 +2510,7 @@
     "xp_reward": 5
   },
   {
+    "id": 252,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "What is 'temari' in English?",
@@ -2268,6 +2520,7 @@
     "xp_reward": 5
   },
   {
+    "id": 253,
     "lesson_id": 11,
     "question_type": "fill_blank",
     "question": "The word for 'dog' in Amharic is ____.",
@@ -2277,6 +2530,7 @@
     "xp_reward": 5
   },
   {
+    "id": 254,
     "lesson_id": 11,
     "question_type": "multiple_choice",
     "question": "'Gebeya' means:",
@@ -2286,6 +2540,7 @@
     "xp_reward": 5
   },
   {
+    "id": 255,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "In Amharic, 'wend' means:",
@@ -2295,6 +2550,7 @@
     "xp_reward": 5
   },
   {
+    "id": 256,
     "lesson_id": 12,
     "question_type": "fill_blank",
     "question": "The feminine word for 'queen' is ____.",
@@ -2304,6 +2560,7 @@
     "xp_reward": 5
   },
   {
+    "id": 257,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "'Set' in Amharic means:",
@@ -2313,6 +2570,7 @@
     "xp_reward": 5
   },
   {
+    "id": 258,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "Which is the correct gender for 'mekina' (car)?",
@@ -2322,6 +2580,7 @@
     "xp_reward": 5
   },
   {
+    "id": 259,
     "lesson_id": 12,
     "question_type": "fill_blank",
     "question": "The word for 'king' in Amharic is ____.",
@@ -2331,6 +2590,7 @@
     "xp_reward": 5
   },
   {
+    "id": 260,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "'Lam' (cow) is which gender in Amharic?",
@@ -2340,6 +2600,7 @@
     "xp_reward": 5
   },
   {
+    "id": 261,
     "lesson_id": 12,
     "question_type": "fill_blank",
     "question": "The masculine word for 'bull' is ____.",
@@ -2349,6 +2610,7 @@
     "xp_reward": 5
   },
   {
+    "id": 262,
     "lesson_id": 12,
     "question_type": "multiple_choice",
     "question": "How does Amharic indicate gender in 'you' (informal)?",
@@ -2358,6 +2620,7 @@
     "xp_reward": 5
   },
   {
+    "id": 263,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "How do you say 'I have' in Amharic?",
@@ -2367,6 +2630,7 @@
     "xp_reward": 5
   },
   {
+    "id": 264,
     "lesson_id": 13,
     "question_type": "fill_blank",
     "question": "'There is not' in Amharic is ____.",
@@ -2376,6 +2640,7 @@
     "xp_reward": 5
   },
   {
+    "id": 265,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "'Allew' means:",
@@ -2385,6 +2650,7 @@
     "xp_reward": 5
   },
   {
+    "id": 266,
     "lesson_id": 13,
     "question_type": "fill_blank",
     "question": "To say 'she has', you say ____.",
@@ -2394,6 +2660,7 @@
     "xp_reward": 5
   },
   {
+    "id": 267,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "The Amharic word 'alle' is used to express:",
@@ -2403,6 +2670,7 @@
     "xp_reward": 5
   },
   {
+    "id": 268,
     "lesson_id": 13,
     "question_type": "fill_blank",
     "question": "'I don't have' in Amharic is ____.",
@@ -2412,6 +2680,7 @@
     "xp_reward": 5
   },
   {
+    "id": 269,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "How do you say 'you have' to a man?",
@@ -2421,6 +2690,7 @@
     "xp_reward": 5
   },
   {
+    "id": 270,
     "lesson_id": 13,
     "question_type": "multiple_choice",
     "question": "'Yelem' is the negative of:",
@@ -2430,6 +2700,7 @@
     "xp_reward": 5
   },
   {
+    "id": 271,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "What is the plural of 'bet' (house)?",
@@ -2439,6 +2710,7 @@
     "xp_reward": 5
   },
   {
+    "id": 272,
     "lesson_id": 14,
     "question_type": "fill_blank",
     "question": "The definite article for masculine nouns is the suffix ____.",
@@ -2448,6 +2720,7 @@
     "xp_reward": 5
   },
   {
+    "id": 273,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "'Lijoch' means:",
@@ -2457,6 +2730,7 @@
     "xp_reward": 5
   },
   {
+    "id": 274,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "How do you make 'sew' (person) plural?",
@@ -2466,6 +2740,7 @@
     "xp_reward": 5
   },
   {
+    "id": 275,
     "lesson_id": 14,
     "question_type": "fill_blank",
     "question": "The plural suffix in Amharic is ____.",
@@ -2475,6 +2750,7 @@
     "xp_reward": 5
   },
   {
+    "id": 276,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "'Betu' means:",
@@ -2484,6 +2760,7 @@
     "xp_reward": 5
   },
   {
+    "id": 277,
     "lesson_id": 14,
     "question_type": "fill_blank",
     "question": "The definite article for feminine nouns is ____.",
@@ -2493,6 +2770,7 @@
     "xp_reward": 5
   },
   {
+    "id": 278,
     "lesson_id": 14,
     "question_type": "multiple_choice",
     "question": "What does 'wushoch' mean?",
@@ -2502,6 +2780,7 @@
     "xp_reward": 5
   },
   {
+    "id": 279,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "How do you say 'my' in Amharic?",
@@ -2511,6 +2790,7 @@
     "xp_reward": 5
   },
   {
+    "id": 280,
     "lesson_id": 15,
     "question_type": "fill_blank",
     "question": "'Your' (to a man) in Amharic is ____.",
@@ -2520,6 +2800,7 @@
     "xp_reward": 5
   },
   {
+    "id": 281,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "'Yesswa' means:",
@@ -2529,6 +2810,7 @@
     "xp_reward": 5
   },
   {
+    "id": 282,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "How do you say 'our house'?",
@@ -2538,6 +2820,7 @@
     "xp_reward": 5
   },
   {
+    "id": 283,
     "lesson_id": 15,
     "question_type": "fill_blank",
     "question": "'His' in Amharic is ____.",
@@ -2547,6 +2830,7 @@
     "xp_reward": 5
   },
   {
+    "id": 284,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "'Yene bet' means:",
@@ -2556,6 +2840,7 @@
     "xp_reward": 5
   },
   {
+    "id": 285,
     "lesson_id": 15,
     "question_type": "fill_blank",
     "question": "The possessive for 'their' is ____.",
@@ -2565,6 +2850,7 @@
     "xp_reward": 5
   },
   {
+    "id": 286,
     "lesson_id": 15,
     "question_type": "multiple_choice",
     "question": "Amharic possessives come ____ the noun.",
@@ -2574,6 +2860,7 @@
     "xp_reward": 5
   },
   {
+    "id": 287,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you ask 'who?' in Amharic?",
@@ -2583,6 +2870,7 @@
     "xp_reward": 5
   },
   {
+    "id": 288,
     "lesson_id": 16,
     "question_type": "fill_blank",
     "question": "The question word for 'where' is ____.",
@@ -2592,6 +2880,7 @@
     "xp_reward": 5
   },
   {
+    "id": 289,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "'Meche' asks about:",
@@ -2601,6 +2890,7 @@
     "xp_reward": 5
   },
   {
+    "id": 290,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "How do you ask 'why?' in Amharic?",
@@ -2610,6 +2900,7 @@
     "xp_reward": 5
   },
   {
+    "id": 291,
     "lesson_id": 16,
     "question_type": "fill_blank",
     "question": "'What' in Amharic is ____.",
@@ -2619,6 +2910,7 @@
     "xp_reward": 5
   },
   {
+    "id": 292,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "'Sint' is used to ask:",
@@ -2628,6 +2920,7 @@
     "xp_reward": 5
   },
   {
+    "id": 293,
     "lesson_id": 16,
     "question_type": "fill_blank",
     "question": "To ask 'how' in Amharic, you say ____.",
@@ -2637,6 +2930,7 @@
     "xp_reward": 5
   },
   {
+    "id": 294,
     "lesson_id": 16,
     "question_type": "multiple_choice",
     "question": "'Yeman' means:",
@@ -2646,6 +2940,7 @@
     "xp_reward": 5
   },
   {
+    "id": 295,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "What is 'mehed' in English?",
@@ -2655,6 +2950,7 @@
     "xp_reward": 5
   },
   {
+    "id": 296,
     "lesson_id": 17,
     "question_type": "fill_blank",
     "question": "The infinitive for 'to eat' is ____.",
@@ -2664,6 +2960,7 @@
     "xp_reward": 5
   },
   {
+    "id": 297,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "'Mayet' means:",
@@ -2673,6 +2970,7 @@
     "xp_reward": 5
   },
   {
+    "id": 298,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "How do you say 'to buy' in Amharic?",
@@ -2682,6 +2980,7 @@
     "xp_reward": 5
   },
   {
+    "id": 299,
     "lesson_id": 17,
     "question_type": "fill_blank",
     "question": "'To sleep' in Amharic is ____.",
@@ -2691,6 +2990,7 @@
     "xp_reward": 5
   },
   {
+    "id": 300,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "'Meshaf' means:",
@@ -2700,6 +3000,7 @@
     "xp_reward": 5
   },
   {
+    "id": 301,
     "lesson_id": 17,
     "question_type": "fill_blank",
     "question": "The word for 'to read' in Amharic is ____.",
@@ -2709,6 +3010,7 @@
     "xp_reward": 5
   },
   {
+    "id": 302,
     "lesson_id": 17,
     "question_type": "multiple_choice",
     "question": "What does 'mefeleg' mean?",
@@ -2718,6 +3020,7 @@
     "xp_reward": 5
   },
   {
+    "id": 303,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "How do you say 'I went' in Amharic?",
@@ -2727,6 +3030,7 @@
     "xp_reward": 5
   },
   {
+    "id": 304,
     "lesson_id": 18,
     "question_type": "fill_blank",
     "question": "'I ate' in Amharic is ____.",
@@ -2736,6 +3040,7 @@
     "xp_reward": 5
   },
   {
+    "id": 305,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "'Metahu' means:",
@@ -2745,6 +3050,7 @@
     "xp_reward": 5
   },
   {
+    "id": 306,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "How do you say 'I saw' in Amharic?",
@@ -2754,6 +3060,7 @@
     "xp_reward": 5
   },
   {
+    "id": 307,
     "lesson_id": 18,
     "question_type": "fill_blank",
     "question": "'I bought' in the past tense is ____.",
@@ -2763,6 +3070,7 @@
     "xp_reward": 5
   },
   {
+    "id": 308,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "'Serahu' means:",
@@ -2772,6 +3080,7 @@
     "xp_reward": 5
   },
   {
+    "id": 309,
     "lesson_id": 18,
     "question_type": "fill_blank",
     "question": "'I said' in Amharic is ____.",
@@ -2781,6 +3090,7 @@
     "xp_reward": 5
   },
   {
+    "id": 310,
     "lesson_id": 18,
     "question_type": "multiple_choice",
     "question": "Past tense in Amharic is formed by adding:",
@@ -2790,6 +3100,7 @@
     "xp_reward": 5
   },
   {
+    "id": 311,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "How do you say 'I eat' (present) in Amharic?",
@@ -2799,6 +3110,7 @@
     "xp_reward": 5
   },
   {
+    "id": 312,
     "lesson_id": 19,
     "question_type": "fill_blank",
     "question": "'I go' in the present tense is ____.",
@@ -2808,6 +3120,7 @@
     "xp_reward": 5
   },
   {
+    "id": 313,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "'Iserallehu' means:",
@@ -2817,6 +3130,7 @@
     "xp_reward": 5
   },
   {
+    "id": 314,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "The Amharic present tense uses which prefix for 'I'?",
@@ -2826,6 +3140,7 @@
     "xp_reward": 5
   },
   {
+    "id": 315,
     "lesson_id": 19,
     "question_type": "fill_blank",
     "question": "'I learn' in Amharic is ____.",
@@ -2835,6 +3150,7 @@
     "xp_reward": 5
   },
   {
+    "id": 316,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "'Inagerallehu' means:",
@@ -2844,6 +3160,7 @@
     "xp_reward": 5
   },
   {
+    "id": 317,
     "lesson_id": 19,
     "question_type": "fill_blank",
     "question": "'I write' in present tense is ____.",
@@ -2853,6 +3170,7 @@
     "xp_reward": 5
   },
   {
+    "id": 318,
     "lesson_id": 19,
     "question_type": "multiple_choice",
     "question": "Present/future tense verbs end with the suffix:",
@@ -2862,6 +3180,7 @@
     "xp_reward": 5
   },
   {
+    "id": 319,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "How do you make a verb negative in Amharic?",
@@ -2871,6 +3190,7 @@
     "xp_reward": 5
   },
   {
+    "id": 320,
     "lesson_id": 20,
     "question_type": "fill_blank",
     "question": "'I don't go' in Amharic is ____.",
@@ -2880,6 +3200,7 @@
     "xp_reward": 5
   },
   {
+    "id": 321,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "'Albelam' means:",
@@ -2889,6 +3210,7 @@
     "xp_reward": 5
   },
   {
+    "id": 322,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "What does 'aydelem' mean?",
@@ -2898,6 +3220,7 @@
     "xp_reward": 5
   },
   {
+    "id": 323,
     "lesson_id": 20,
     "question_type": "fill_blank",
     "question": "'I don't know' in Amharic is ____.",
@@ -2907,6 +3230,7 @@
     "xp_reward": 5
   },
   {
+    "id": 324,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "'Yelem' is the negative of:",
@@ -2916,6 +3240,7 @@
     "xp_reward": 5
   },
   {
+    "id": 325,
     "lesson_id": 20,
     "question_type": "fill_blank",
     "question": "'I can't' in Amharic is ____.",
@@ -2925,6 +3250,7 @@
     "xp_reward": 5
   },
   {
+    "id": 326,
     "lesson_id": 20,
     "question_type": "multiple_choice",
     "question": "The negative pattern in Amharic is:",
@@ -2934,6 +3260,7 @@
     "xp_reward": 5
   },
   {
+    "id": 327,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "What is 'menager' in English?",
@@ -2943,6 +3270,7 @@
     "xp_reward": 5
   },
   {
+    "id": 328,
     "lesson_id": 21,
     "question_type": "fill_blank",
     "question": "The imperative 'go!' (to a man) is ____.",
@@ -2952,6 +3280,7 @@
     "xp_reward": 5
   },
   {
+    "id": 329,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "'Memar' means:",
@@ -2961,6 +3290,7 @@
     "xp_reward": 5
   },
   {
+    "id": 330,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "How do you say 'come!' (to a man)?",
@@ -2970,6 +3300,7 @@
     "xp_reward": 5
   },
   {
+    "id": 331,
     "lesson_id": 21,
     "question_type": "fill_blank",
     "question": "The word for 'to help' is ____.",
@@ -2979,6 +3310,7 @@
     "xp_reward": 5
   },
   {
+    "id": 332,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "'Mewded' means:",
@@ -2988,6 +3320,7 @@
     "xp_reward": 5
   },
   {
+    "id": 333,
     "lesson_id": 21,
     "question_type": "fill_blank",
     "question": "'To work' in Amharic is ____.",
@@ -2997,6 +3330,7 @@
     "xp_reward": 5
   },
   {
+    "id": 334,
     "lesson_id": 21,
     "question_type": "multiple_choice",
     "question": "'Na!' is the imperative of:",
@@ -3006,6 +3340,7 @@
     "xp_reward": 5
   },
   {
+    "id": 335,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "How do you say 'I don't understand'?",
@@ -3015,6 +3350,7 @@
     "xp_reward": 5
   },
   {
+    "id": 336,
     "lesson_id": 22,
     "question_type": "fill_blank",
     "question": "'Let's go' in Amharic is ____.",
@@ -3024,6 +3360,7 @@
     "xp_reward": 5
   },
   {
+    "id": 337,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "'Irdegn' means:",
@@ -3033,6 +3370,7 @@
     "xp_reward": 5
   },
   {
+    "id": 338,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "How do you ask 'where is the bathroom?'",
@@ -3042,6 +3380,7 @@
     "xp_reward": 5
   },
   {
+    "id": 339,
     "lesson_id": 22,
     "question_type": "fill_blank",
     "question": "To say 'slowly please' (to a man), say 'kes ____'.",
@@ -3051,6 +3390,7 @@
     "xp_reward": 5
   },
   {
+    "id": 340,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "'Amarigna alinagerim' means:",
@@ -3060,6 +3400,7 @@
     "xp_reward": 5
   },
   {
+    "id": 341,
     "lesson_id": 22,
     "question_type": "fill_blank",
     "question": "'Wait' (command to a man) in Amharic is ____.",
@@ -3069,6 +3410,7 @@
     "xp_reward": 5
   },
   {
+    "id": 342,
     "lesson_id": 22,
     "question_type": "multiple_choice",
     "question": "How would you ask 'do you speak English?'",
@@ -3078,6 +3420,7 @@
     "xp_reward": 5
   },
   {
+    "id": 343,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "How do you say 'my name is ___'?",
@@ -3087,6 +3430,7 @@
     "xp_reward": 5
   },
   {
+    "id": 344,
     "lesson_id": 23,
     "question_type": "fill_blank",
     "question": "To ask a man his name, say 'simeh ____ new?'",
@@ -3096,6 +3440,7 @@
     "xp_reward": 5
   },
   {
+    "id": 345,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "'Ityopyawi negn' means:",
@@ -3105,6 +3450,7 @@
     "xp_reward": 5
   },
   {
+    "id": 346,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "How do you say 'nice to meet you'?",
@@ -3114,6 +3460,7 @@
     "xp_reward": 5
   },
   {
+    "id": 347,
     "lesson_id": 23,
     "question_type": "fill_blank",
     "question": "To say 'I am from ___', start with 'ke ___ ____'.",
@@ -3123,6 +3470,7 @@
     "xp_reward": 5
   },
   {
+    "id": 348,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "'Idme sint new' asks about:",
@@ -3132,6 +3480,7 @@
     "xp_reward": 5
   },
   {
+    "id": 349,
     "lesson_id": 23,
     "question_type": "fill_blank",
     "question": "'I am learning Amharic' is 'amarigna ____'.",
@@ -3141,6 +3490,7 @@
     "xp_reward": 5
   },
   {
+    "id": 350,
     "lesson_id": 23,
     "question_type": "multiple_choice",
     "question": "How do you ask a woman her name?",
@@ -3150,6 +3500,7 @@
     "xp_reward": 5
   },
   {
+    "id": 351,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "'Sint new?' means:",
@@ -3159,6 +3510,7 @@
     "xp_reward": 5
   },
   {
+    "id": 352,
     "lesson_id": 24,
     "question_type": "fill_blank",
     "question": "To say 'I want (it)', say ____.",
@@ -3168,6 +3520,7 @@
     "xp_reward": 5
   },
   {
+    "id": 353,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "'Wid new' means:",
@@ -3177,6 +3530,7 @@
     "xp_reward": 5
   },
   {
+    "id": 354,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "How do you say 'it's cheap'?",
@@ -3186,6 +3540,7 @@
     "xp_reward": 5
   },
   {
+    "id": 355,
     "lesson_id": 24,
     "question_type": "fill_blank",
     "question": "'Give me' (to a man) is ____.",
@@ -3195,6 +3550,7 @@
     "xp_reward": 5
   },
   {
+    "id": 356,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "'Igezewallehu' means:",
@@ -3204,6 +3560,7 @@
     "xp_reward": 5
   },
   {
+    "id": 357,
     "lesson_id": 24,
     "question_type": "fill_blank",
     "question": "To ask 'how much total?', say 'bemulubet ____ new?'",
@@ -3213,6 +3570,7 @@
     "xp_reward": 5
   },
   {
+    "id": 358,
     "lesson_id": 24,
     "question_type": "multiple_choice",
     "question": "How do you ask 'do you have (it)?'",
@@ -3222,6 +3580,7 @@
     "xp_reward": 5
   },
   {
+    "id": 359,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "How do you say 'where is it?'",
@@ -3231,6 +3590,7 @@
     "xp_reward": 5
   },
   {
+    "id": 360,
     "lesson_id": 25,
     "question_type": "fill_blank",
     "question": "To say 'go straight', say 'qetita ____'.",
@@ -3240,6 +3600,7 @@
     "xp_reward": 5
   },
   {
+    "id": 361,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "'Wede qegn' means:",
@@ -3249,6 +3610,7 @@
     "xp_reward": 5
   },
   {
+    "id": 362,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "How do you say 'near' in Amharic?",
@@ -3258,6 +3620,7 @@
     "xp_reward": 5
   },
   {
+    "id": 363,
     "lesson_id": 25,
     "question_type": "fill_blank",
     "question": "'Far' in Amharic is ____.",
@@ -3267,6 +3630,7 @@
     "xp_reward": 5
   },
   {
+    "id": 364,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "'Wede gra' means:",
@@ -3276,6 +3640,7 @@
     "xp_reward": 5
   },
   {
+    "id": 365,
     "lesson_id": 25,
     "question_type": "fill_blank",
     "question": "'Behind' in Amharic is ____.",
@@ -3285,6 +3650,7 @@
     "xp_reward": 5
   },
   {
+    "id": 366,
     "lesson_id": 25,
     "question_type": "multiple_choice",
     "question": "'Ategebabi' means:",
@@ -3294,6 +3660,7 @@
     "xp_reward": 5
   },
   {
+    "id": 367,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "How do you say 'I want food'?",
@@ -3303,6 +3670,7 @@
     "xp_reward": 5
   },
   {
+    "id": 368,
     "lesson_id": 26,
     "question_type": "fill_blank",
     "question": "'I am hungry' in Amharic is ____.",
@@ -3312,6 +3680,7 @@
     "xp_reward": 5
   },
   {
+    "id": 369,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "'Tiru new' at a restaurant means:",
@@ -3321,6 +3690,7 @@
     "xp_reward": 5
   },
   {
+    "id": 370,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "What is 'injera'?",
@@ -3330,6 +3700,7 @@
     "xp_reward": 5
   },
   {
+    "id": 371,
     "lesson_id": 26,
     "question_type": "fill_blank",
     "question": "To ask for the bill, say ____.",
@@ -3339,6 +3710,7 @@
     "xp_reward": 5
   },
   {
+    "id": 372,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "'Buna ifelligallehu' means:",
@@ -3348,6 +3720,7 @@
     "xp_reward": 5
   },
   {
+    "id": 373,
     "lesson_id": 26,
     "question_type": "fill_blank",
     "question": "'I am full' in Amharic is ____.",
@@ -3357,6 +3730,7 @@
     "xp_reward": 5
   },
   {
+    "id": 374,
     "lesson_id": 26,
     "question_type": "multiple_choice",
     "question": "'Tibs' is:",
@@ -3366,6 +3740,7 @@
     "xp_reward": 5
   },
   {
+    "id": 375,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "How do you say 'please' to a man?",
@@ -3375,6 +3750,7 @@
     "xp_reward": 5
   },
   {
+    "id": 376,
     "lesson_id": 27,
     "question_type": "fill_blank",
     "question": "'You're welcome' (it's nothing) is 'minem ____'.",
@@ -3384,6 +3760,7 @@
     "xp_reward": 5
   },
   {
+    "id": 377,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "'Azinalehu' means:",
@@ -3393,6 +3770,7 @@
     "xp_reward": 5
   },
   {
+    "id": 378,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "What is the formal title for 'Mr.' in Amharic?",
@@ -3402,6 +3780,7 @@
     "xp_reward": 5
   },
   {
+    "id": 379,
     "lesson_id": 27,
     "question_type": "fill_blank",
     "question": "'Madam' in Amharic is ____.",
@@ -3411,6 +3790,7 @@
     "xp_reward": 5
   },
   {
+    "id": 380,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "'Weyzerit' is the title for:",
@@ -3420,6 +3800,7 @@
     "xp_reward": 5
   },
   {
+    "id": 381,
     "lesson_id": 27,
     "question_type": "fill_blank",
     "question": "To say 'please' to a woman, say ____.",
@@ -3429,6 +3810,7 @@
     "xp_reward": 5
   },
   {
+    "id": 382,
     "lesson_id": 27,
     "question_type": "multiple_choice",
     "question": "How do you say 'congratulations' (to a man)?",
@@ -3438,6 +3820,7 @@
     "xp_reward": 5
   },
   {
+    "id": 383,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "How do you say 'good night'?",
@@ -3447,6 +3830,7 @@
     "xp_reward": 5
   },
   {
+    "id": 384,
     "lesson_id": 28,
     "question_type": "fill_blank",
     "question": "'Have a good day' is 'melkam ____'.",
@@ -3456,6 +3840,7 @@
     "xp_reward": 5
   },
   {
+    "id": 385,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "'Dekmognal' means:",
@@ -3465,6 +3850,7 @@
     "xp_reward": 5
   },
   {
+    "id": 386,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "How do you say 'see you tomorrow'?",
@@ -3474,6 +3860,7 @@
     "xp_reward": 5
   },
   {
+    "id": 387,
     "lesson_id": 28,
     "question_type": "fill_blank",
     "question": "'What's new?' is 'min addis ____ alle?'",
@@ -3483,6 +3870,7 @@
     "xp_reward": 5
   },
   {
+    "id": 388,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "'Minem yelem' means:",
@@ -3492,6 +3880,7 @@
     "xp_reward": 5
   },
   {
+    "id": 389,
     "lesson_id": 28,
     "question_type": "fill_blank",
     "question": "'Take care' (to a man) in Amharic is ____.",
@@ -3501,6 +3890,7 @@
     "xp_reward": 5
   },
   {
+    "id": 390,
     "lesson_id": 28,
     "question_type": "multiple_choice",
     "question": "How do you say 'God willing'?",
