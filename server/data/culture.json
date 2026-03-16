@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "title": "The Ethiopian Calendar",
+    "description": "Ethiopia follows a unique calendar that is 7-8 years behind the Gregorian calendar, with 13 months of sunshine.",
+    "image_emoji": "\ud83d\udcc5",
+    "difficulty": "beginner",
+    "related_lessons": [1, 15],
+    "sections": [
+      {
+        "heading": "13 Months of Sunshine",
+        "body": "The Ethiopian calendar (Ye'Ityop'iya Zemen) has 12 months of 30 days each, plus a 13th month called Pagume with 5 or 6 days. This is why Ethiopia's tourism slogan is '13 Months of Sunshine.' The calendar is based on the Coptic calendar and is approximately 7-8 years behind the Gregorian calendar."
+      },
+      {
+        "heading": "New Year: Enkutatash",
+        "body": "Ethiopian New Year (Enkutatash) falls on September 11th (or 12th in a leap year) in the Gregorian calendar. The word 'Enkutatash' means 'gift of jewels.' Children go door to door singing songs and giving bouquets of flowers, receiving small gifts in return. It marks the end of the rainy season when the countryside blooms with yellow daisies (Adey Abeba)."
+      },
+      {
+        "heading": "Telling Time",
+        "body": "Ethiopians count time differently too. The day starts at sunrise (6 AM Gregorian), so 7 AM is '1 o'clock' (and se'at) in Ethiopian time. Noon is 6 o'clock, and 6 PM is 12 o'clock. When someone gives you a time in Ethiopia, always clarify whether they mean Ethiopian or 'faranji' (foreign) time!"
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u12d8\u1218\u1295", "romanized": "ye'ityop'iya zemen", "english": "Ethiopian calendar" },
+      { "amharic": "\u12a5\u1295\u1241\u1323\u1323\u123d", "romanized": "enkutatash", "english": "New Year" },
+      { "amharic": "\u1333\u1309\u121c", "romanized": "pagume", "english": "13th month" },
+      { "amharic": "\u1230\u12d3\u1275", "romanized": "se'at", "english": "hour/clock" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Coffee Ceremony",
+    "description": "Coffee originated in Ethiopia, and the traditional ceremony is a cornerstone of social life and hospitality.",
+    "image_emoji": "\u2615",
+    "difficulty": "beginner",
+    "related_lessons": [6, 12],
+    "sections": [
+      {
+        "heading": "Birthplace of Coffee",
+        "body": "Legend has it that coffee was discovered by an Ethiopian goat herder named Kaldi in the Kaffa region. He noticed his goats became energetic after eating berries from a certain tree. The word 'coffee' itself may derive from 'Kaffa.' Ethiopia remains one of the world's top coffee producers and the culture around coffee is deeply embedded in daily life."
+      },
+      {
+        "heading": "The Three Rounds",
+        "body": "A traditional Ethiopian coffee ceremony has three rounds: Abol (the first and strongest), Tona (the second), and Baraka (the third, meaning 'blessing'). Each round uses the same beans, re-boiled, so each successive cup is lighter. It is considered impolite to leave before drinking all three rounds. The entire ceremony can last 1-2 hours."
+      },
+      {
+        "heading": "The Ritual",
+        "body": "The host (usually a woman) begins by roasting green coffee beans on a flat pan over charcoal. The aromatic smoke is wafted toward guests as a welcoming gesture. Incense (itan) is often burned alongside. The roasted beans are ground with a mortar and pestle (mukecha and zenezena), then brewed in a clay pot called a jebena. Coffee is served in small handleless cups (sini) with sugar, and sometimes salt or butter in certain regions."
+      },
+      {
+        "heading": "Social Significance",
+        "body": "The coffee ceremony is not just about drinking coffee -- it's a time for community, conversation, and conflict resolution. Important family and neighborhood matters are often discussed during the ceremony. Being invited to someone's coffee ceremony is a sign of friendship and respect. The phrase 'Buna dabo naw' means 'Coffee is our bread,' reflecting its central role."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u1261\u1293", "romanized": "buna", "english": "coffee" },
+      { "amharic": "\u1300\u1260\u1293", "romanized": "jebena", "english": "coffee pot" },
+      { "amharic": "\u1232\u1292", "romanized": "sini", "english": "coffee cup" },
+      { "amharic": "\u12a5\u1325\u1293", "romanized": "itan", "english": "incense" },
+      { "amharic": "\u12a0\u1266\u120d", "romanized": "abol", "english": "first round" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Greetings & Social Etiquette",
+    "description": "Ethiopian greetings are elaborate and warm, reflecting deep cultural values of respect and community.",
+    "image_emoji": "\ud83e\udd1d",
+    "difficulty": "beginner",
+    "related_lessons": [1, 2, 3],
+    "sections": [
+      {
+        "heading": "The Art of Greeting",
+        "body": "Ethiopians take greetings seriously. A simple 'hello' is never enough. After the initial greeting, you're expected to ask about the person's health, family, work, and general wellbeing. Rushing through greetings or skipping them is considered very rude. Even if you're in a hurry, a proper greeting sequence is essential."
+      },
+      {
+        "heading": "Physical Greetings",
+        "body": "Close friends and family greet each other with three kisses on alternating cheeks. Men often perform a shoulder bump (sometimes three times). Handshakes are common but lighter than Western handshakes. When greeting elders or those of higher status, it's respectful to bow slightly. You may also see people touch their right hand to their chest after shaking hands as a sign of sincerity."
+      },
+      {
+        "heading": "Respect for Elders",
+        "body": "Ethiopian culture places enormous importance on respecting elders. Younger people are expected to greet first, stand when an elder enters, and offer their seat. The word 'Ayzosh' (be strong/take courage) is often said to comfort someone. Using formal language with elders and strangers is important -- this is reflected in the Amharic distinction between informal 'ante/anchi' (you) and formal 'erswo' (you)."
+      },
+      {
+        "heading": "Time and Patience",
+        "body": "Ethiopian culture values relationships over punctuality. 'Ethiopian time' is a well-known concept where events often start 30 minutes to several hours late. This isn't considered disrespectful -- it reflects a culture that prioritizes human connection over rigid schedules. When visiting someone's home, expect to be offered food and drink, and it's polite to accept."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u1230\u120b\u121d", "romanized": "selam", "english": "hello/peace" },
+      { "amharic": "\u12a5\u1295\u12f0\u121d\u1295 \u1293\u1278\u12cd", "romanized": "endemin nachiw", "english": "how are you (formal)" },
+      { "amharic": "\u12a0\u12ed\u12de\u123d", "romanized": "ayzosh", "english": "be strong/take courage" },
+      { "amharic": "\u12a5\u122d\u1235\u12ce", "romanized": "erswo", "english": "you (formal)" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ethiopian Food Culture",
+    "description": "Sharing injera and eating from a common plate is at the heart of Ethiopian togetherness.",
+    "image_emoji": "\ud83c\udf5d",
+    "difficulty": "beginner",
+    "related_lessons": [6, 7, 12],
+    "sections": [
+      {
+        "heading": "Injera: The Foundation",
+        "body": "Injera is a large, spongy, sourdough flatbread made from teff flour. It serves as both plate and utensil -- various stews (wot) are placed on top, and diners tear off pieces of injera to scoop up the food. Teff is a tiny grain native to Ethiopia, rich in iron and protein. Making good injera is considered an essential skill, and the fermentation process takes 3-4 days."
+      },
+      {
+        "heading": "Eating Together",
+        "body": "Ethiopians eat from a shared plate (called a 'gebeta'), which symbolizes unity, trust, and friendship. Eating alone is considered unfortunate. The most honored gesture during a meal is 'gursha' -- hand-feeding someone a morsel of food. This is a sign of deep affection, respect, or love. Refusing a gursha is considered very rude."
+      },
+      {
+        "heading": "Fasting Culture",
+        "body": "Ethiopian Orthodox Christians fast up to 200 days per year, abstaining from all animal products. This has created an incredibly rich tradition of vegan cuisine. 'Yetsom beyaynetu' (fasting combination plate) features an array of lentil, chickpea, and vegetable dishes. Wednesdays and Fridays are regular fasting days. This tradition means Ethiopia has one of the world's most diverse plant-based culinary traditions."
+      },
+      {
+        "heading": "Key Dishes",
+        "body": "Doro Wot (spicy chicken stew) is the national dish, traditionally served on holidays. Kitfo is minced raw beef seasoned with mitmita spice and herbed butter. Shiro is a comforting chickpea flour stew popular during fasting and everyday meals. Tibs are sauteed meat and vegetables. Each region has its own specialties, reflecting Ethiopia's incredible ethnic and geographic diversity."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u12a5\u1295\u1300\u122b", "romanized": "injera", "english": "Ethiopian flatbread" },
+      { "amharic": "\u12c8\u1325", "romanized": "wot", "english": "stew" },
+      { "amharic": "\u1313\u122d\u123b", "romanized": "gursha", "english": "hand-feeding" },
+      { "amharic": "\u12f6\u122e \u12c8\u1325", "romanized": "doro wot", "english": "chicken stew" },
+      { "amharic": "\u123d\u122e", "romanized": "shiro", "english": "chickpea stew" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Major Holidays & Celebrations",
+    "description": "From the colorful Timkat to the bonfire of Meskel, Ethiopian holidays are vibrant expressions of faith and culture.",
+    "image_emoji": "\ud83c\udf89",
+    "difficulty": "intermediate",
+    "related_lessons": [15, 18],
+    "sections": [
+      {
+        "heading": "Timkat (Epiphany)",
+        "body": "Timkat, celebrated on January 19th (20th in leap years), is one of Ethiopia's most spectacular festivals. It commemorates the baptism of Jesus in the Jordan River. Replicas of the Ark of the Covenant (Tabot) are carried in colorful processions to a body of water, accompanied by singing, dancing, and prayer. Participants dress in white traditional clothing, and priests wear elaborate ceremonial robes. The celebration in Gondar is particularly famous, with UNESCO recognition."
+      },
+      {
+        "heading": "Meskel (Finding of the True Cross)",
+        "body": "Meskel is celebrated on September 27th with massive bonfires called 'Demera.' The holiday commemorates the finding of the True Cross by Queen Helena. In Addis Ababa, the main Demera in Meskel Square draws hundreds of thousands. The bonfire is topped with a cross decorated with yellow daisies. The direction the bonfire falls is believed to predict the year ahead. Meskel marks the start of the season of new flowers."
+      },
+      {
+        "heading": "Genna (Christmas)",
+        "body": "Ethiopian Christmas (Genna) is celebrated on January 7th. Unlike Western Christmas, the focus is on church services rather than gift-giving. People attend midnight mass wearing white traditional clothing (netela). A traditional game also called 'Genna' (similar to field hockey) is played. The day is spent with family, feasting on doro wot and injera."
+      },
+      {
+        "heading": "Fasika (Easter)",
+        "body": "Fasika follows a 55-day fasting period (the longest Lenten fast in Christianity). The fast is broken at midnight with a feast of meat dishes. Families slaughter a lamb or chicken, and the celebration involves singing 'Christos Tenestwal' (Christ has risen) to which others respond 'Bergit Tenestwal' (He has indeed risen). Fasika is arguably the most important religious holiday in Ethiopia."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u1325\u121d\u1240\u1275", "romanized": "timket", "english": "Epiphany" },
+      { "amharic": "\u1218\u1235\u1240\u120d", "romanized": "meskel", "english": "Finding of the Cross" },
+      { "amharic": "\u1308\u1293", "romanized": "genna", "english": "Christmas" },
+      { "amharic": "\u134b\u1232\u12ab", "romanized": "fasika", "english": "Easter" },
+      { "amharic": "\u12f0\u1218\u122b", "romanized": "demera", "english": "bonfire" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Family & Respect",
+    "description": "Family is the cornerstone of Ethiopian society, with deep traditions around respect, naming, and community.",
+    "image_emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "difficulty": "intermediate",
+    "related_lessons": [3, 4, 10],
+    "sections": [
+      {
+        "heading": "Family Structure",
+        "body": "Ethiopian families tend to be large and close-knit. Extended family members often live together or very nearby. Grandparents, aunts, uncles, and cousins are deeply involved in each other's lives. Children are raised collectively -- the saying 'It takes a village to raise a child' is literally practiced. Moving out before marriage is uncommon and can be seen as abandoning the family."
+      },
+      {
+        "heading": "Naming Traditions",
+        "body": "Ethiopians don't use family surnames in the Western sense. Instead, a person's 'last name' is their father's first name. So if Abebe has a son named Tadesse, the son is 'Tadesse Abebe.' Tadesse's son might be 'Dawit Tadesse.' First names often have meanings: 'Selam' (peace), 'Biruk' (blessed), 'Bethlehem' (house of bread). Some names indicate birth order or circumstances."
+      },
+      {
+        "heading": "Terms of Respect",
+        "body": "Ethiopians use kinship terms even with non-relatives to show respect and create connection. An older man may be called 'Gashe' (uncle) or 'Abaye' (father). An older woman is 'Etiye' (mother/aunt). Young people are called 'Lij' (child). Using someone's name without a title can seem disrespectful. In Amharic, verb forms change based on the formality level, similar to the French 'tu/vous' distinction."
+      },
+      {
+        "heading": "Community Values",
+        "body": "'Idir' is a community association where members contribute money monthly to support each other during funerals, hardships, or celebrations. 'Equb' is a rotating savings group. 'Debo' is communal labor for farming. These institutions reflect the deep Ethiopian value of mutual support. The concept of 'Yilugnta' (a sense of shame/propriety) guides social behavior and maintains community harmony."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u1260\u1270\u1230\u1265", "romanized": "beteseb", "english": "family" },
+      { "amharic": "\u12a5\u121b\u121b", "romanized": "emama", "english": "mother" },
+      { "amharic": "\u12a0\u1263\u1263", "romanized": "ababa", "english": "father" },
+      { "amharic": "\u120d\u1305", "romanized": "lij", "english": "child" },
+      { "amharic": "\u12d5\u12f5\u122d", "romanized": "edir", "english": "community association" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Numbers & Counting Customs",
+    "description": "From the unique Ge'ez numeral system to marketplace bargaining, numbers play a special role in daily life.",
+    "image_emoji": "\ud83d\udcaf",
+    "difficulty": "beginner",
+    "related_lessons": [8, 9],
+    "sections": [
+      {
+        "heading": "Ge'ez Numerals",
+        "body": "Ethiopia has its own numeral system derived from the Ge'ez script. While Arabic numerals (1, 2, 3) are widely used today, Ge'ez numerals still appear in religious texts, on buildings, and in traditional contexts. The symbols are: \u1369 (1), \u136a (2), \u136b (3), \u136c (4), \u136d (5), \u136e (6), \u136f (7), \u1370 (8), \u1371 (9), \u1372 (10), \u1373 (20), etc."
+      },
+      {
+        "heading": "Marketplace Bargaining",
+        "body": "In Ethiopian markets (particularly the famous Merkato in Addis Ababa -- Africa's largest open-air market), bargaining is expected and is a social art form. Prices are rarely fixed, and the back-and-forth negotiation is part of the shopping experience. Knowing numbers in Amharic gives you a significant advantage and earns respect from vendors. Starting at about 50-60% of the asking price is a common strategy."
+      },
+      {
+        "heading": "Lucky and Unlucky Numbers",
+        "body": "The number 7 (sebat) is considered sacred in Ethiopian culture, reflecting its biblical significance. The number 13 doesn't carry the negative connotation it has in Western culture -- remember, Ethiopia has a 13th month! Odd numbers are generally preferred for gifts and religious practices. The number 3 is significant in the Orthodox tradition (representing the Trinity)."
+      },
+      {
+        "heading": "Currency",
+        "body": "The Ethiopian currency is the Birr (\u1265\u122d), divided into 100 santim. When shopping, you'll hear amounts like 'hamsa birr' (50 birr) or 'meato birr' (100 birr). Understanding numbers quickly becomes practical when navigating daily transactions, from buying coffee to taking taxis."
+      }
+    ],
+    "vocab_highlights": [
+      { "amharic": "\u12a0\u1295\u12f5", "romanized": "and", "english": "one" },
+      { "amharic": "\u1201\u1208\u1275", "romanized": "hulet", "english": "two" },
+      { "amharic": "\u12a0\u1235\u122d", "romanized": "asir", "english": "ten" },
+      { "amharic": "\u1265\u122d", "romanized": "birr", "english": "Ethiopian currency" },
+      { "amharic": "\u1218\u122d\u12ab\u1276", "romanized": "merkato", "english": "market" }
+    ]
+  }
+]

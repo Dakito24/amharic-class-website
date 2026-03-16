@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import db from '../db.js';
 import { requireUser } from '../middleware/requireUser.js';
+import { recordAttempt } from '../helpers/xp.js';
 
 const router = Router();
 
@@ -44,6 +45,9 @@ router.post('/submit', requireUser, (req, res) => {
       correct++;
       totalXpEarned += question.xp_reward;
     }
+
+    // Record attempt for weak words tracking
+    recordAttempt(req.userId, question.id, lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'standard');
 
     results.push({
       question_id: question.id,

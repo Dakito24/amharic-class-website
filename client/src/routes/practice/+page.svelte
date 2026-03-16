@@ -1,5 +1,6 @@
 <script>
   import { getVocabulary, searchVocabulary } from '$lib/api.js';
+  import AudioButton from '$lib/components/AudioButton.svelte';
   import { onMount } from 'svelte';
 
   let vocab = $state([]);
@@ -92,7 +93,10 @@
           <div class="vocab-main">
             <div class="vocab-left">
               <span class="vocab-english">{word.english}</span>
-              <span class="vocab-romanized">{word.romanized}</span>
+              <span class="vocab-romanized-row">
+                <span class="vocab-romanized">{word.romanized}</span>
+                <AudioButton src={word.audio_url} />
+              </span>
             </div>
             <div class="vocab-right">
               <span class="vocab-amharic">{word.amharic}</span>
@@ -134,34 +138,34 @@
   }
 
   h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.8rem;
     margin-bottom: 0.25rem;
   }
 
   .subtitle {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 1.5rem;
   }
 
   .search-bar input {
     width: 100%;
     padding: 0.85rem 1rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1rem;
     outline: none;
     margin-bottom: 1rem;
   }
 
   .search-bar input:focus {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
   }
 
   .search-bar input::placeholder {
-    color: #666;
+    color: var(--color-text-muted);
   }
 
   .category-filters {
@@ -173,34 +177,34 @@
 
   .filter-btn {
     padding: 0.4rem 0.75rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 20px;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s;
   }
 
   .filter-btn:hover {
-    border-color: #e94560;
-    color: #fff;
+    border-color: var(--color-accent-primary);
+    color: var(--color-text-heading);
   }
 
   .filter-btn.active {
-    background: #e94560;
-    border-color: #e94560;
+    background: var(--color-accent-primary);
+    border-color: var(--color-accent-primary);
     color: #fff;
   }
 
   .loading, .empty {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 2rem;
   }
 
   .vocab-count {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
@@ -213,8 +217,8 @@
 
   .vocab-item {
     width: 100%;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 0.85rem 1rem;
     cursor: pointer;
@@ -224,11 +228,11 @@
   }
 
   .vocab-item:hover {
-    border-color: #3a3a5a;
+    border-color: var(--color-border-hover);
   }
 
   .vocab-item.expanded {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
   }
 
   .vocab-main {
@@ -244,12 +248,18 @@
   }
 
   .vocab-english {
-    color: #fff;
+    color: var(--color-text-heading);
     font-weight: 600;
   }
 
+  .vocab-romanized-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
   .vocab-romanized {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 0.9rem;
   }
 
@@ -260,13 +270,13 @@
   }
 
   .vocab-amharic {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 1.1rem;
   }
 
   .vocab-gender {
-    background: #2a2a4a;
-    color: #666;
+    background: var(--color-border);
+    color: var(--color-text-muted);
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
     font-size: 0.7rem;
@@ -275,7 +285,7 @@
   .vocab-details {
     margin-top: 0.75rem;
     padding-top: 0.75rem;
-    border-top: 1px solid #2a2a4a;
+    border-top: 1px solid var(--color-border);
   }
 
   .detail-row {
@@ -286,15 +296,15 @@
   }
 
   .detail-label {
-    color: #666;
+    color: var(--color-text-muted);
   }
 
   .detail-value {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   .detail-value.pron {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-style: italic;
   }
 </style>

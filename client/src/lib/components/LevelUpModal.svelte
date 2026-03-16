@@ -30,8 +30,8 @@
   }
 
   .modal {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    border: 2px solid #e94560;
+    background: linear-gradient(135deg, var(--color-bg-elevated), var(--color-bg-surface));
+    border: 2px solid var(--color-accent-primary);
     border-radius: 16px;
     padding: 2.5rem;
     text-align: center;
@@ -43,11 +43,11 @@
     font-size: 2rem;
     margin-bottom: 0.5rem;
     letter-spacing: 0.5rem;
-    color: #f5a623;
+    color: var(--color-accent-orange);
   }
 
   h2 {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 2rem;
     margin: 0;
   }
@@ -60,14 +60,14 @@
   }
 
   .level-title {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-size: 1.2rem;
     font-weight: 600;
     margin: 0;
   }
 
   .sub {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-top: 1rem;
   }
 

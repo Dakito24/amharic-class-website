@@ -170,6 +170,36 @@ export function initDatabase() {
       FOREIGN KEY (vocab_id) REFERENCES vocabulary(id),
       UNIQUE(user_id, vocab_id)
     );
+
+    CREATE TABLE IF NOT EXISTS quiz_attempts (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL,
+      question_id INTEGER NOT NULL,
+      lesson_id INTEGER,
+      user_answer TEXT NOT NULL,
+      correct_answer TEXT NOT NULL,
+      is_correct INTEGER NOT NULL DEFAULT 0,
+      mode TEXT NOT NULL DEFAULT 'standard',
+      time_taken_ms INTEGER,
+      attempted_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+      FOREIGN KEY (question_id) REFERENCES quiz_questions(id)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_quiz_attempts_user ON quiz_attempts(user_id);
+    CREATE INDEX IF NOT EXISTS idx_quiz_attempts_question ON quiz_attempts(user_id, question_id);
+
+    CREATE TABLE IF NOT EXISTS high_scores (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL,
+      difficulty TEXT NOT NULL DEFAULT 'medium',
+      score INTEGER NOT NULL,
+      correct_count INTEGER NOT NULL,
+      total_questions INTEGER NOT NULL,
+      time_remaining_ms INTEGER,
+      played_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    );
   `);
 }
 

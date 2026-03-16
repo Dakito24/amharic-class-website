@@ -3,6 +3,7 @@
   import { goto } from '$app/navigation';
   import { getLesson, completeLesson } from '$lib/api.js';
   import { loadProgress, triggerLevelUp } from '$lib/stores/progress.js';
+  import AudioButton from '$lib/components/AudioButton.svelte';
   import { onMount } from 'svelte';
 
   let lesson = $state(null);
@@ -89,6 +90,39 @@
 
   let totalSteps = $derived(lesson ? lesson.content.steps.length + 1 : 0);
   let progressPercent = $derived(lesson ? ((showVocab ? lesson.content.steps.length : currentStep) / totalSteps) * 100 : 0);
+
+  // Build a lookup from romanized text to audio_url for step examples
+  let audioLookup = $derived(() => {
+    if (!lesson?.vocabulary) return {};
+    const map = {};
+    for (const v of lesson.vocabulary) {
+      map[v.romanized.toLowerCase()] = v.audio_url;
+    }
+    return map;
+  });
+
+  function getAudioForExample(ex) {
+    const lookup = audioLookup();
+    return lookup[ex.romanized?.toLowerCase()] || null;
+  }
+
+  function getAudioForWord(word) {
+    const lookup = audioLookup();
+    return lookup[word.romanized?.toLowerCase()] || null;
+  }
+
+  // Match each vocab word with its related example sentence(s)
+  let vocabWithExamples = $derived(() => {
+    if (!lesson) return [];
+    const examples = lesson.content.examples || [];
+    return lesson.vocabulary.map(word => {
+      const related = examples.filter(ex =>
+        ex.romanized?.toLowerCase().includes(word.romanized.toLowerCase()) ||
+        ex.english?.toLowerCase().includes(word.english.toLowerCase().replace(/\s*\(.*\)/, ''))
+      );
+      return { ...word, examples: related };
+    });
+  });
 </script>
 
 <div class="lesson-page">
@@ -131,11 +165,38 @@
           {lesson.content.steps[currentStep].body}
         </div>
 
+        {#if lesson.content.steps[currentStep].words}
+          <div class="step-words">
+            {#each lesson.content.steps[currentStep].words as word}
+              <div class="step-word-item">
+                <div class="sw-main">
+                  <span class="sw-romanized">{word.romanized}</span>
+                  <span class="sw-amharic">{word.amharic}</span>
+                  {#if getAudioForWord(word)}
+                    <AudioButton src={getAudioForWord(word)} />
+                  {/if}
+                </div>
+                <div class="sw-detail">
+                  <span class="sw-english">{word.english}</span>
+                  {#if word.pronunciation_guide}
+                    <span class="sw-pron">{word.pronunciation_guide}</span>
+                  {/if}
+                </div>
+              </div>
+            {/each}
+          </div>
+        {/if}
+
         {#if lesson.content.steps[currentStep].examples}
           <div class="examples">
             {#each lesson.content.steps[currentStep].examples as ex}
               <div class="example-item">
-                <div class="ex-english">{ex.english}</div>
+                <div class="ex-top-row">
+                  <div class="ex-english">{ex.english}</div>
+                  {#if getAudioForExample(ex)}
+                    <AudioButton src={getAudioForExample(ex)} />
+                  {/if}
+                </div>
                 <div class="ex-romanized">{ex.romanized}</div>
                 {#if ex.amharic}
                   <div class="ex-amharic">{ex.amharic}</div>
@@ -179,7 +240,10 @@
                 <div class="fc-hint">Tap to reveal</div>
               </div>
               <div class="flashcard-back">
-                <div class="fc-romanized">{currentCard.romanized}</div>
+                <div class="fc-romanized-row">
+                  <div class="fc-romanized">{currentCard.romanized}</div>
+                  <AudioButton src={currentCard.audio_url} />
+                </div>
                 <div class="fc-amharic">{currentCard.amharic}</div>
                 {#if currentCard.pronunciation_guide}
                   <div class="fc-pron">{currentCard.pronunciation_guide}</div>
@@ -208,39 +272,42 @@
 
     {:else}
       <div class="vocab-section">
-        <h2>Vocabulary</h2>
-        <p class="vocab-intro">Review the words and phrases from this lesson:</p>
+        <h2>Vocabulary & Examples</h2>
+        <p class="vocab-intro">Listen and review the words and phrases from this lesson:</p>
 
-        <div class="vocab-grid">
-          {#each lesson.vocabulary as word}
-            <div class="vocab-card">
-              <div class="vocab-english">{word.english}</div>
-              <div class="vocab-romanized">{word.romanized}</div>
-              <div class="vocab-amharic">{word.amharic}</div>
-              {#if word.pronunciation_guide}
-                <div class="vocab-pron">{word.pronunciation_guide}</div>
-              {/if}
-              {#if word.gender}
-                <span class="vocab-gender">{word.gender}</span>
+        <div class="vocab-list-combined">
+          {#each vocabWithExamples() as word}
+            <div class="vocab-combined-card">
+              <div class="vocab-main">
+                <div class="vocab-english">{word.english}</div>
+                <div class="vocab-romanized-row">
+                  <div class="vocab-romanized">{word.romanized}</div>
+                  <AudioButton src={word.audio_url} />
+                </div>
+                <div class="vocab-amharic">{word.amharic}</div>
+                {#if word.pronunciation_guide}
+                  <div class="vocab-pron">{word.pronunciation_guide}</div>
+                {/if}
+                {#if word.gender}
+                  <span class="vocab-gender">{word.gender}</span>
+                {/if}
+              </div>
+              {#if word.examples.length > 0}
+                <div class="vocab-examples">
+                  {#each word.examples as ex}
+                    <div class="vocab-ex-item">
+                      <span class="ex-en">{ex.english}</span>
+                      <span class="ex-rom">{ex.romanized}</span>
+                      {#if ex.amharic}
+                        <span class="ex-amh">{ex.amharic}</span>
+                      {/if}
+                    </div>
+                  {/each}
+                </div>
               {/if}
             </div>
           {/each}
         </div>
-
-        {#if lesson.content.examples && lesson.content.examples.length > 0}
-          <h3 class="examples-header">Examples</h3>
-          <div class="examples-list">
-            {#each lesson.content.examples as ex}
-              <div class="example-row">
-                <span class="ex-en">{ex.english}</span>
-                <span class="ex-rom">{ex.romanized}</span>
-                {#if ex.pronunciation_guide}
-                  <span class="ex-pr">{ex.pronunciation_guide}</span>
-                {/if}
-              </div>
-            {/each}
-          </div>
-        {/if}
 
         {#if vocabCards.length > 0}
           <button class="btn btn-flashcard" onclick={startFlashcards}>
@@ -267,7 +334,7 @@
 
   .loading {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 3rem;
   }
 
@@ -276,13 +343,13 @@
   }
 
   .back {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-decoration: none;
     font-size: 0.9rem;
   }
 
   .back:hover {
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .lesson-info {
@@ -293,7 +360,7 @@
   }
 
   .unit-badge {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
     padding: 0.15rem 0.5rem;
     border-radius: 4px;
@@ -302,34 +369,34 @@
   }
 
   .lesson-info h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.5rem;
     margin: 0;
   }
 
   .progress-track {
     height: 4px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 2px;
     overflow: hidden;
   }
 
   .progress-fill {
     height: 100%;
-    background: #e94560;
+    background: var(--color-accent-primary);
     transition: width 0.3s ease;
   }
 
   .step-card {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 2rem;
     margin-bottom: 1rem;
   }
 
   .step-counter {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -337,15 +404,69 @@
   }
 
   .step-title {
-    color: #fff;
+    color: var(--color-text-heading);
     margin: 0 0 1rem;
     font-size: 1.3rem;
   }
 
   .step-body {
-    color: #ccc;
+    color: var(--color-text-primary);
     line-height: 1.7;
     white-space: pre-wrap;
+  }
+
+  .step-words {
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .step-word-item {
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 0.75rem;
+    transition: border-color 0.2s;
+  }
+
+  .step-word-item:hover {
+    border-color: var(--color-accent-primary);
+  }
+
+  .sw-main {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .sw-romanized {
+    color: var(--color-accent-primary);
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .sw-amharic {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+  }
+
+  .sw-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .sw-english {
+    color: var(--color-text-heading);
+    font-size: 0.85rem;
+  }
+
+  .sw-pron {
+    color: var(--color-accent-orange);
+    font-size: 0.75rem;
+    font-style: italic;
   }
 
   .examples {
@@ -355,31 +476,38 @@
   }
 
   .example-item {
-    background: #1a1a2e;
+    background: var(--color-bg-elevated);
     border-radius: 8px;
     padding: 1rem;
   }
 
-  .ex-english {
-    color: #fff;
-    font-weight: 600;
+  .ex-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
     margin-bottom: 0.25rem;
   }
 
+  .ex-english {
+    color: var(--color-text-heading);
+    font-weight: 600;
+  }
+
   .ex-romanized {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 1.1rem;
     font-weight: 600;
   }
 
   .ex-amharic {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
     margin-top: 0.15rem;
   }
 
   .ex-pron {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-size: 0.8rem;
     font-style: italic;
     margin-top: 0.15rem;
@@ -410,73 +538,122 @@
   }
 
   .btn-primary {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 
   .btn-primary:hover:not(:disabled) {
-    background: #d63851;
+    background: var(--color-accent-primary-hover);
   }
 
   .btn-secondary {
-    background: #2a2a4a;
-    color: #fff;
+    background: var(--color-border);
+    color: var(--color-text-heading);
   }
 
   .btn-secondary:hover:not(:disabled) {
-    background: #3a3a5a;
+    background: var(--color-border-hover);
   }
 
   .vocab-section h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.4rem;
     margin-bottom: 0.25rem;
   }
 
   .vocab-intro {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 1rem;
   }
 
-  .vocab-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  .vocab-list-combined {
+    display: flex;
+    flex-direction: column;
     gap: 0.75rem;
     margin-bottom: 1.5rem;
   }
 
-  .vocab-card {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+  .vocab-combined-card {
+    display: flex;
+    gap: 1.25rem;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 1.25rem;
     transition: border-color 0.2s;
+    align-items: flex-start;
   }
 
-  .vocab-card:hover {
-    border-color: #e94560;
+  .vocab-combined-card:hover {
+    border-color: var(--color-accent-primary);
+  }
+
+  .vocab-main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .vocab-examples {
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-left: 2px solid var(--color-border);
+    padding-left: 1rem;
+  }
+
+  .vocab-ex-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    align-items: baseline;
+    font-size: 0.88rem;
+  }
+
+  .ex-amh {
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 600px) {
+    .vocab-combined-card {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .vocab-examples {
+      border-left: none;
+      border-top: 1px solid var(--color-border);
+      padding-left: 0;
+      padding-top: 0.75rem;
+    }
   }
 
   .vocab-english {
-    color: #fff;
+    color: var(--color-text-heading);
     font-weight: 600;
     margin-bottom: 0.25rem;
   }
 
+  .vocab-romanized-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .vocab-romanized {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-weight: 600;
     font-size: 1.05rem;
   }
 
   .vocab-amharic {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
     margin-top: 0.1rem;
   }
 
   .vocab-pron {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-size: 0.8rem;
     font-style: italic;
     margin-top: 0.25rem;
@@ -484,55 +661,26 @@
 
   .vocab-gender {
     display: inline-block;
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
     padding: 0.1rem 0.4rem;
     border-radius: 4px;
     font-size: 0.7rem;
     margin-top: 0.3rem;
   }
 
-  .examples-header {
-    color: #fff;
-    font-size: 1.1rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .examples-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .example-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.75rem;
-    background: #16213e;
-    border-radius: 8px;
-    align-items: baseline;
-  }
-
   .ex-en {
-    color: #fff;
+    color: var(--color-text-heading);
     font-weight: 600;
   }
 
   .ex-rom {
-    color: #e94560;
-  }
-
-  .ex-pr {
-    color: #f5a623;
-    font-size: 0.85rem;
-    font-style: italic;
+    color: var(--color-accent-primary);
   }
 
   .completion-card {
-    background: #16213e;
-    border: 2px solid #4caf50;
+    background: var(--color-bg-surface);
+    border: 2px solid var(--color-accent-green);
     border-radius: 16px;
     padding: 3rem;
     text-align: center;
@@ -540,23 +688,23 @@
 
   .completion-icon {
     font-size: 3rem;
-    color: #4caf50;
+    color: var(--color-accent-green);
     margin-bottom: 1rem;
   }
 
   .completion-card h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.5rem;
   }
 
   .xp-earned {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-size: 1.5rem;
     font-weight: 700;
   }
 
   .already {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   .completion-actions {
@@ -571,10 +719,10 @@
   .btn-flashcard {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(135deg, #16213e, #1a1a2e);
-    border: 2px dashed #e94560;
+    background: linear-gradient(135deg, var(--color-bg-surface), var(--color-bg-elevated));
+    border: 2px dashed var(--color-accent-primary);
     border-radius: 12px;
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
@@ -593,7 +741,7 @@
   }
 
   .flashcard-counter {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin-bottom: 1rem;
     letter-spacing: 1px;
@@ -638,18 +786,18 @@
   }
 
   .flashcard-front {
-    background: linear-gradient(135deg, #16213e, #1a1a3a);
-    border: 2px solid #2a2a4a;
+    background: linear-gradient(135deg, var(--color-bg-surface), var(--color-bg-elevated));
+    border: 2px solid var(--color-border);
   }
 
   .flashcard-back {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    border: 2px solid #e94560;
+    background: linear-gradient(135deg, var(--color-bg-elevated), var(--color-bg-surface));
+    border: 2px solid var(--color-accent-primary);
     transform: rotateY(180deg);
   }
 
   .fc-label {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -657,40 +805,46 @@
   }
 
   .fc-word {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.6rem;
     font-weight: 700;
   }
 
   .fc-hint {
-    color: #555;
+    color: var(--color-text-muted);
     font-size: 0.8rem;
     margin-top: 1rem;
   }
 
-  .fc-romanized {
-    color: #e94560;
-    font-size: 1.6rem;
-    font-weight: 700;
+  .fc-romanized-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     margin-bottom: 0.25rem;
   }
 
+  .fc-romanized {
+    color: var(--color-accent-primary);
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
   .fc-amharic {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 1.2rem;
     margin-bottom: 0.25rem;
   }
 
   .fc-pron {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-size: 0.9rem;
     font-style: italic;
   }
 
   .fc-gender {
     display: inline-block;
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
     padding: 0.15rem 0.5rem;
     border-radius: 4px;
     font-size: 0.7rem;
@@ -705,8 +859,8 @@
   }
 
   .flashcard-done {
-    background: #16213e;
-    border: 2px solid #4caf50;
+    background: var(--color-bg-surface);
+    border: 2px solid var(--color-accent-green);
     border-radius: 16px;
     padding: 2.5rem;
     text-align: center;
@@ -714,17 +868,17 @@
 
   .done-icon {
     font-size: 2.5rem;
-    color: #4caf50;
+    color: var(--color-accent-green);
     margin-bottom: 0.5rem;
   }
 
   .flashcard-done h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.5rem;
   }
 
   .flashcard-done p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 1.25rem;
   }
 

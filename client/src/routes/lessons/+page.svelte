@@ -48,19 +48,19 @@
 
 <style>
   .lessons-page h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.8rem;
     margin-bottom: 0.25rem;
   }
 
   .subtitle {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 2rem;
   }
 
   .loading {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 3rem;
   }
 
@@ -69,7 +69,7 @@
   }
 
   .unit-header {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.2rem;
     margin-bottom: 1rem;
     display: flex;
@@ -78,7 +78,7 @@
   }
 
   .unit-num {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
     padding: 0.2rem 0.6rem;
     border-radius: 6px;

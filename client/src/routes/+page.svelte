@@ -93,6 +93,46 @@
         <p>Browse all vocabulary</p>
       </div>
     </a>
+
+    <a href="/listening" class="action-card">
+      <div class="action-icon">&#127911;</div>
+      <div>
+        <h3>Listening Quiz</h3>
+        <p>Test your ear</p>
+      </div>
+    </a>
+
+    <a href="/timed" class="action-card">
+      <div class="action-icon">&#9201;</div>
+      <div>
+        <h3>Timed Challenge</h3>
+        <p>Race the clock</p>
+      </div>
+    </a>
+
+    <a href="/conversations" class="action-card">
+      <div class="action-icon">&#128172;</div>
+      <div>
+        <h3>Conversations</h3>
+        <p>Practice real dialogue</p>
+      </div>
+    </a>
+
+    <a href="/review" class="action-card">
+      <div class="action-icon">&#128270;</div>
+      <div>
+        <h3>Review Weak Words</h3>
+        <p>Focus on trouble spots</p>
+      </div>
+    </a>
+
+    <a href="/culture" class="action-card">
+      <div class="action-icon">&#127758;</div>
+      <div>
+        <h3>Cultural Notes</h3>
+        <p>Learn the culture</p>
+      </div>
+    </a>
   </div>
 
   {#if recentLessons.length > 0}
@@ -123,12 +163,12 @@
 
   .hero h1 {
     font-size: 2rem;
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.5rem;
   }
 
   .hero p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 1.1rem;
   }
 
@@ -140,8 +180,8 @@
   }
 
   .stat-card {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.25rem;
     text-align: center;
@@ -150,28 +190,28 @@
   .stat-value {
     font-size: 2rem;
     font-weight: 800;
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .streak-value {
-    color: #f5a623;
+    color: var(--color-accent-orange);
   }
 
   .stat-label {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin-top: 0.25rem;
   }
 
   .stat-sub {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.75rem;
     margin-top: 0.25rem;
   }
 
   .xp-bar, .progress-bar {
     height: 6px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 3px;
     margin-top: 0.5rem;
     overflow: hidden;
@@ -179,20 +219,20 @@
 
   .xp-fill {
     height: 100%;
-    background: linear-gradient(90deg, #e94560, #f5a623);
+    background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-orange));
     border-radius: 3px;
     transition: width 0.5s ease;
   }
 
   .progress-fill {
     height: 100%;
-    background: #4caf50;
+    background: var(--color-accent-green);
     border-radius: 3px;
     transition: width 0.5s ease;
   }
 
   .xp-detail {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.7rem;
     margin-top: 0.25rem;
   }
@@ -208,8 +248,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.25rem;
     text-decoration: none;
@@ -217,19 +257,19 @@
   }
 
   .action-card:hover {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
     transform: translateY(-2px);
   }
 
   .action-card.primary {
-    border-color: #e94560;
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border-color: var(--color-accent-primary);
+    background: linear-gradient(135deg, var(--color-bg-elevated), var(--color-bg-surface));
   }
 
   .action-icon {
     width: 48px;
     height: 48px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -239,19 +279,19 @@
   }
 
   .action-card h3 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1rem;
     margin: 0;
   }
 
   .action-card p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.8rem;
     margin: 0.15rem 0 0;
   }
 
   .recent h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.2rem;
     margin-bottom: 0.75rem;
   }
@@ -267,19 +307,19 @@
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 1rem;
-    background: #16213e;
+    background: var(--color-bg-surface);
     border-radius: 8px;
     text-decoration: none;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     transition: background 0.2s;
   }
 
   .recent-item:hover {
-    background: #1a1a3e;
+    background: var(--color-bg-elevated);
   }
 
   .recent-check {
-    color: #4caf50;
+    color: var(--color-accent-green);
     font-size: 0.75rem;
     font-weight: 700;
   }

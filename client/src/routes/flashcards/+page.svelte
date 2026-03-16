@@ -1,6 +1,7 @@
 <script>
   import { getDueFlashcards, reviewFlashcard } from '$lib/api.js';
   import { loadProgress } from '$lib/stores/progress.js';
+  import AudioButton from '$lib/components/AudioButton.svelte';
   import { onMount } from 'svelte';
 
   let cards = $state([]);
@@ -46,7 +47,30 @@
     reviewedCount = 0;
     xpEarned = 0;
   }
+
+  const RATE_MAP = { '1': 1, '2': 3, '3': 4, '4': 5 };
+
+  function handleFlashcardKeydown(e) {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (loading || sessionComplete || cards.length === 0) return;
+
+    if (e.key === ' ') {
+      e.preventDefault();
+      e.stopPropagation();
+      flip();
+      return;
+    }
+
+    if (flipped && RATE_MAP[e.key]) {
+      e.preventDefault();
+      e.stopPropagation();
+      rate(RATE_MAP[e.key]);
+    }
+  }
 </script>
+
+<svelte:window onkeydown={handleFlashcardKeydown} />
 
 <div class="flashcards-page">
   <h1>Flashcards</h1>
@@ -95,7 +119,10 @@
         </div>
         <div class="flashcard-back">
           <div class="card-label">Amharic</div>
-          <div class="card-romanized">{currentCard.romanized}</div>
+          <div class="card-romanized-row">
+            <div class="card-romanized">{currentCard.romanized}</div>
+            <AudioButton src={currentCard.audio_url} />
+          </div>
           <div class="card-amharic">{currentCard.amharic}</div>
           {#if currentCard.pronunciation_guide}
             <div class="card-pronunciation">{currentCard.pronunciation_guide}</div>
@@ -140,49 +167,49 @@
   }
 
   h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.8rem;
     margin-bottom: 0.25rem;
   }
 
   .subtitle {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 1.5rem;
   }
 
   .loading {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 3rem;
   }
 
   .empty-state, .session-complete {
     text-align: center;
     padding: 3rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 16px;
   }
 
   .empty-icon {
     font-size: 3rem;
-    color: #4caf50;
+    color: var(--color-accent-green);
     margin-bottom: 1rem;
   }
 
   .complete-icon {
     font-size: 3rem;
-    color: #f5a623;
+    color: var(--color-accent-orange);
     margin-bottom: 1rem;
   }
 
   .empty-state h2, .session-complete h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.5rem;
   }
 
   .empty-state p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 1.5rem;
   }
 
@@ -202,15 +229,15 @@
   .stat-num {
     font-size: 2rem;
     font-weight: 800;
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .stat-num.xp {
-    color: #f5a623;
+    color: var(--color-accent-orange);
   }
 
   .stat-label {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
   }
 
@@ -223,7 +250,7 @@
   .progress-info {
     display: flex;
     justify-content: space-between;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin-bottom: 1rem;
   }
@@ -263,19 +290,19 @@
   }
 
   .flashcard-front {
-    background: linear-gradient(135deg, #16213e, #1a1a2e);
-    border: 2px solid #2a2a4a;
+    background: linear-gradient(135deg, var(--color-bg-surface), var(--color-bg-elevated));
+    border: 2px solid var(--color-border);
   }
 
   .flashcard-back {
-    background: linear-gradient(135deg, #1a1a2e, #16213e);
-    border: 2px solid #e94560;
+    background: linear-gradient(135deg, var(--color-bg-elevated), var(--color-bg-surface));
+    border: 2px solid var(--color-accent-primary);
     transform: rotateY(180deg);
   }
 
   .card-label {
     font-size: 0.75rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
@@ -283,38 +310,44 @@
 
   .card-word {
     font-size: 1.8rem;
-    color: #fff;
+    color: var(--color-text-heading);
     font-weight: 700;
   }
 
   .card-hint {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.85rem;
     margin-top: 1rem;
   }
 
+  .card-romanized-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
   .card-romanized {
     font-size: 1.8rem;
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-weight: 700;
-    margin-bottom: 0.25rem;
   }
 
   .card-amharic {
     font-size: 1.3rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   .card-pronunciation {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-style: italic;
     margin-top: 0.5rem;
   }
 
   .card-gender {
     margin-top: 0.5rem;
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
     padding: 0.15rem 0.5rem;
     border-radius: 4px;
     font-size: 0.75rem;
@@ -325,7 +358,7 @@
   }
 
   .rating-prompt {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 0.75rem;
   }
 
@@ -341,10 +374,10 @@
     align-items: center;
     gap: 0.25rem;
     padding: 0.75rem 0.5rem;
-    border: 1px solid #2a2a4a;
+    border: 1px solid var(--color-border);
     border-radius: 10px;
-    background: #16213e;
-    color: #fff;
+    background: var(--color-bg-surface);
+    color: var(--color-text-heading);
     cursor: pointer;
     transition: all 0.2s;
     font-size: 0.8rem;
@@ -354,10 +387,10 @@
     transform: translateY(-2px);
   }
 
-  .rate-fail:hover { border-color: #e94560; }
-  .rate-hard:hover { border-color: #f5a623; }
-  .rate-good:hover { border-color: #4caf50; }
-  .rate-easy:hover { border-color: #2196f3; }
+  .rate-fail:hover { border-color: var(--color-accent-primary); }
+  .rate-hard:hover { border-color: var(--color-accent-orange); }
+  .rate-good:hover { border-color: var(--color-accent-green); }
+  .rate-easy:hover { border-color: var(--color-accent-blue); }
 
   .rate-emoji {
     font-size: 1.5rem;
@@ -376,12 +409,12 @@
   }
 
   .btn-primary {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 
   .btn-secondary {
-    background: #2a2a4a;
-    color: #fff;
+    background: var(--color-border);
+    color: var(--color-text-heading);
   }
 </style>

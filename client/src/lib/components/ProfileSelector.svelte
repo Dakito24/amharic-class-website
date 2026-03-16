@@ -204,7 +204,7 @@
   .profile-overlay {
     position: fixed;
     inset: 0;
-    background: #0f0f23;
+    background: var(--color-bg-body);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,13 +220,13 @@
 
   h1 {
     font-size: 2.5rem;
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 2.5rem;
     font-weight: 700;
   }
 
   .loading-text {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 1.1rem;
   }
 
@@ -285,11 +285,11 @@
   }
 
   .add-avatar {
-    background: #1a1a2e !important;
-    border: 2px dashed #2a2a4a;
+    background: var(--color-bg-elevated) !important;
+    border: 2px dashed var(--color-border);
     font-size: 2.5rem;
     font-weight: 300;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   .add-card {
@@ -299,12 +299,12 @@
   }
 
   .add-card:hover .add-avatar {
-    border-color: #e94560;
-    color: #e94560;
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
   }
 
   .profile-name {
-    color: #e0e0e0;
+    color: var(--color-text-primary);
     font-size: 0.95rem;
     font-weight: 500;
     max-width: 100px;
@@ -314,7 +314,7 @@
   }
 
   .profile-level {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.8rem;
   }
 
@@ -333,9 +333,9 @@
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    border: 1px solid #2a2a4a;
-    background: #16213e;
-    color: #a8a8b3;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-surface);
+    color: var(--color-text-secondary);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -345,20 +345,20 @@
   }
 
   .edit-btn:hover {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: var(--color-accent-blue);
+    color: var(--color-accent-blue);
   }
 
   .delete-btn:hover {
-    border-color: #e94560;
-    color: #e94560;
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
   }
 
   .edit-input {
-    background: #16213e;
-    border: 1px solid #e94560;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-accent-primary);
     border-radius: 6px;
-    color: #fff;
+    color: var(--color-text-heading);
     padding: 0.3rem 0.5rem;
     font-size: 0.9rem;
     width: 100px;
@@ -380,19 +380,19 @@
   }
 
   .btn-save {
-    background: #4caf50;
+    background: var(--color-accent-green);
     color: #fff;
   }
 
   .btn-cancel {
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   /* Add profile form */
   .add-form {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.5rem;
     max-width: 360px;
@@ -400,7 +400,7 @@
   }
 
   .add-form h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
@@ -408,10 +408,10 @@
   .name-input {
     width: 100%;
     padding: 0.65rem 0.75rem;
-    background: #1a1a2e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1rem;
     outline: none;
     transition: border-color 0.2s;
@@ -419,7 +419,7 @@
   }
 
   .name-input:focus {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
   }
 
   .color-picker {
@@ -427,7 +427,7 @@
   }
 
   .color-label {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     display: block;
     margin-bottom: 0.5rem;
@@ -479,25 +479,25 @@
   }
 
   .btn-primary {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 
   .btn-primary:hover:not(:disabled) {
-    background: #d63851;
+    background: var(--color-accent-primary-hover);
   }
 
   .btn-secondary {
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .btn-secondary:hover {
-    background: #353560;
+    background: var(--color-border-hover);
   }
 
   .btn-danger {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 
@@ -517,8 +517,8 @@
   }
 
   .confirm-modal {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.5rem;
     max-width: 380px;
@@ -527,13 +527,13 @@
   }
 
   .confirm-modal h3 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.75rem;
     font-size: 1.2rem;
   }
 
   .confirm-modal p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
     margin-bottom: 1.25rem;
     line-height: 1.5;

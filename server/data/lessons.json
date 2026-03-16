@@ -11,8 +11,21 @@
     "content": {
       "steps": [
         {"title": "The Amharic Sound System", "body": "Amharic has 7 vowels and about 31 consonants. Many sounds are similar to English, but some are unique. This lesson focuses on pronunciation since we are learning to SPEAK."},
-        {"title": "The 7 Vowels", "body": "Amharic vowels: a (as in 'bar'), u (as in 'boot'), i (as in 'seat'), a (as in 'bar'), e (as in 'way'), \u0259 (the schwa - like 'e' in 'roses', the hardest vowel for English speakers), o (as in 'boat')."},
-        {"title": "Ejective Consonants", "body": "Amharic has 5 ejective consonants with no English equivalent: t' (sharp t), k'/q (sharp k), ch' (sharp ch), ts'/s' (sharp ts), p' (sharp p). These are made by building air pressure in the throat and releasing it sharply."},
+        {"title": "The 7 Vowels", "body": "Amharic has 7 vowels. Listen to each one:", "words": [
+          {"romanized": "a", "amharic": "አ", "english": "as in 'bar'", "pronunciation_guide": "ah"},
+          {"romanized": "u", "amharic": "ኡ", "english": "as in 'boot'", "pronunciation_guide": "oo"},
+          {"romanized": "i", "amharic": "ኢ", "english": "as in 'seat'", "pronunciation_guide": "ee"},
+          {"romanized": "e", "amharic": "ኤ", "english": "as in 'way'", "pronunciation_guide": "ay"},
+          {"romanized": "ə", "amharic": "እ", "english": "schwa - like 'e' in 'roses'", "pronunciation_guide": "uh"},
+          {"romanized": "o", "amharic": "ኦ", "english": "as in 'boat'", "pronunciation_guide": "oh"}
+        ]},
+        {"title": "Ejective Consonants", "body": "Amharic has 5 ejective consonants with no English equivalent. These are made by building air pressure in the throat and releasing it sharply. Listen:", "words": [
+          {"romanized": "t'", "amharic": "ጥ", "english": "sharp t", "pronunciation_guide": "sharp t with throat pressure"},
+          {"romanized": "q", "amharic": "ቅ", "english": "sharp k (k'/q)", "pronunciation_guide": "sharp k from back of throat"},
+          {"romanized": "ch'", "amharic": "ጭ", "english": "sharp ch", "pronunciation_guide": "sharp ch with throat pressure"},
+          {"romanized": "ts'", "amharic": "ጽ", "english": "sharp ts", "pronunciation_guide": "sharp ts with throat pressure"},
+          {"romanized": "p'", "amharic": "ጵ", "english": "sharp p", "pronunciation_guide": "sharp p with throat pressure"}
+        ]},
         {"title": "Gemination", "body": "Doubling a consonant changes meaning! 'ale' means 'he said' but 'alle' means 'there is'. 'meta' means 'he came' but 'metta' means 'he hit'. Always listen for doubled consonants."}
       ],
       "examples": [

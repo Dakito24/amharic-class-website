@@ -2,6 +2,7 @@
   import { userProgress } from '../stores/progress.js';
   import { activeProfile, profiles, activeProfileId, showProfileSelector } from '../stores/profile.js';
   import { loadProgress, checkStreak } from '../stores/progress.js';
+  import { theme, toggleTheme } from '../stores/theme.js';
 
   let progress = $derived($userProgress);
   let profile = $derived($activeProfile);
@@ -42,6 +43,10 @@
   </div>
 
   <div class="nav-right">
+    <button class="theme-toggle" onclick={() => profile && toggleTheme(profile.id)} title="Toggle theme">
+      {$theme === 'dark' ? '\u2600' : '\u263D'}
+    </button>
+
     {#if profile}
       <div class="profile-switcher">
         <button class="profile-btn" onclick={(e) => { e.stopPropagation(); toggleDropdown(); }}>
@@ -100,8 +105,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0.75rem 1.5rem;
-    background: #1a1a2e;
-    border-bottom: 2px solid #16213e;
+    background: var(--color-bg-elevated);
+    border-bottom: 2px solid var(--color-bg-surface);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -117,12 +122,12 @@
   .logo-text {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #e94560;
+    color: var(--color-accent-primary);
   }
 
   .logo-sub {
     font-size: 0.65rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -133,7 +138,7 @@
   }
 
   .nav-links a {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
@@ -141,13 +146,33 @@
   }
 
   .nav-links a:hover {
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .nav-right {
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    transition: all 0.2s;
+  }
+
+  .theme-toggle:hover {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-orange);
   }
 
   /* Profile switcher */
@@ -160,16 +185,16 @@
     align-items: center;
     gap: 0.4rem;
     background: none;
-    border: 1px solid #2a2a4a;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     padding: 0.3rem 0.6rem 0.3rem 0.3rem;
     cursor: pointer;
-    color: #fff;
+    color: var(--color-text-heading);
     transition: border-color 0.2s;
   }
 
   .profile-btn:hover {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
   }
 
   .profile-mini-avatar {
@@ -195,7 +220,7 @@
 
   .dropdown-arrow {
     font-size: 0.5rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   .profile-dropdown {
@@ -203,8 +228,8 @@
     top: 100%;
     right: 0;
     margin-top: 0.5rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 0.4rem;
     min-width: 180px;
@@ -220,7 +245,7 @@
     padding: 0.5rem 0.6rem;
     background: none;
     border: none;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     border-radius: 6px;
     cursor: pointer;
     font-size: 0.85rem;
@@ -228,12 +253,12 @@
   }
 
   .dropdown-item:hover {
-    background: #1a1a2e;
-    color: #fff;
+    background: var(--color-bg-elevated);
+    color: var(--color-text-heading);
   }
 
   .dropdown-item.active {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-weight: 600;
   }
 
@@ -257,17 +282,17 @@
 
   .dropdown-divider {
     height: 1px;
-    background: #2a2a4a;
+    background: var(--color-border);
     margin: 0.25rem 0;
   }
 
   .dropdown-item.manage {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.8rem;
   }
 
   .dropdown-item.manage:hover {
-    color: #e94560;
+    color: var(--color-accent-primary);
   }
 
   /* Existing styles */
@@ -275,7 +300,7 @@
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-weight: 700;
   }
 
@@ -288,11 +313,11 @@
     align-items: center;
     gap: 0.5rem;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .level-badge {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
@@ -303,21 +328,21 @@
   .xp-bar-container {
     width: 80px;
     height: 8px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 4px;
     overflow: hidden;
   }
 
   .xp-bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #e94560, #f5a623);
+    background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-orange));
     border-radius: 4px;
     transition: width 0.5s ease;
   }
 
   .xp-text {
     font-size: 0.8rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
   }
 
   @media (max-width: 768px) {

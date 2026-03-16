@@ -171,15 +171,15 @@
   }
 
   h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
   }
 
   /* Profile Settings */
   .profile-settings {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1rem 1.25rem;
     margin-bottom: 1.5rem;
@@ -193,7 +193,7 @@
   }
 
   .setting-label {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     font-weight: 500;
   }
@@ -223,16 +223,16 @@
   }
 
   .current-name {
-    color: #fff;
+    color: var(--color-text-primary);
     font-weight: 600;
     font-size: 0.95rem;
   }
 
   .edit-input {
-    background: #1a1a2e;
-    border: 1px solid #e94560;
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-accent-primary);
     border-radius: 6px;
-    color: #fff;
+    color: var(--color-text-primary);
     padding: 0.35rem 0.6rem;
     font-size: 0.9rem;
     width: 140px;
@@ -250,22 +250,22 @@
   }
 
   .btn-save {
-    background: #4caf50;
+    background: var(--color-accent-green);
     color: #fff;
   }
 
   .btn-cancel {
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .btn-edit {
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .btn-edit:hover {
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   /* Level section */
@@ -273,8 +273,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 16px;
     padding: 2rem;
     margin-bottom: 1.5rem;
@@ -284,7 +284,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #e94560, #f5a623);
+    background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-orange));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,13 +313,13 @@
   .xp-total {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.75rem;
   }
 
   .xp-bar-big {
     height: 12px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 0.25rem;
@@ -327,13 +327,13 @@
 
   .xp-bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #e94560, #f5a623);
+    background: linear-gradient(90deg, var(--color-accent-primary), var(--color-accent-orange));
     border-radius: 6px;
     transition: width 0.5s;
   }
 
   .xp-progress {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.8rem;
   }
 
@@ -345,8 +345,8 @@
   }
 
   .stat-box {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.25rem;
     text-align: center;
@@ -355,28 +355,28 @@
   .stat-num {
     font-size: 2rem;
     font-weight: 800;
-    color: #fff;
+    color: var(--color-text-heading);
   }
 
   .stat-num.streak {
-    color: #f5a623;
+    color: var(--color-accent-orange);
   }
 
   .stat-text {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin-top: 0.15rem;
   }
 
   .stat-sub {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.75rem;
     margin-top: 0.15rem;
   }
 
   .mini-bar {
     height: 4px;
-    background: #2a2a4a;
+    background: var(--color-border);
     border-radius: 2px;
     margin-top: 0.5rem;
     overflow: hidden;
@@ -384,7 +384,7 @@
 
   .mini-fill {
     height: 100%;
-    background: #4caf50;
+    background: var(--color-accent-green);
     border-radius: 2px;
   }
 
@@ -393,7 +393,7 @@
   }
 
   .achievements-section h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
@@ -408,8 +408,8 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 1rem;
     transition: all 0.2s;
@@ -420,7 +420,7 @@
   }
 
   .achievement:not(.locked) {
-    border-color: #f5a623;
+    border-color: var(--color-accent-orange);
   }
 
   .achievement-icon {
@@ -435,23 +435,23 @@
   }
 
   .achievement:not(.locked) .achievement-icon {
-    background: linear-gradient(135deg, #f5a623, #e94560);
+    background: linear-gradient(135deg, var(--color-accent-orange), var(--color-accent-primary));
     color: #fff;
   }
 
   .achievement.locked .achievement-icon {
-    background: #2a2a4a;
-    color: #666;
+    background: var(--color-border);
+    color: var(--color-text-muted);
   }
 
   .achievement-info h3 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 0.95rem;
     margin: 0;
   }
 
   .achievement-info p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.8rem;
     margin: 0.1rem 0 0;
   }
@@ -466,17 +466,17 @@
   .action-link {
     display: block;
     padding: 1rem 1.25rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
-    color: #e94560;
+    color: var(--color-accent-primary);
     text-decoration: none;
     font-weight: 600;
     transition: all 0.2s;
   }
 
   .action-link:hover {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
     background: rgba(233, 69, 96, 0.05);
   }
 
@@ -489,13 +489,13 @@
   }
 
   .danger-zone h2 {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .danger-zone p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin-bottom: 1rem;
     line-height: 1.5;
@@ -512,7 +512,7 @@
   }
 
   .btn-danger {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 
@@ -521,12 +521,12 @@
   }
 
   .btn-secondary {
-    background: #2a2a4a;
-    color: #a8a8b3;
+    background: var(--color-border);
+    color: var(--color-text-secondary);
   }
 
   .btn-secondary:hover {
-    background: #353560;
+    background: var(--color-border-hover);
   }
 
   /* Delete confirmation modal */
@@ -541,8 +541,8 @@
   }
 
   .confirm-modal {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.5rem;
     max-width: 380px;
@@ -551,13 +551,13 @@
   }
 
   .confirm-modal h3 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.75rem;
     font-size: 1.2rem;
   }
 
   .confirm-modal p {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     font-size: 0.9rem;
     margin-bottom: 1.25rem;
     line-height: 1.5;
@@ -571,7 +571,7 @@
 
   .loading {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 3rem;
   }
 

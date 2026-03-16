@@ -30,8 +30,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.25rem;
     text-decoration: none;
@@ -40,13 +40,13 @@
   }
 
   .card:hover:not(.locked) {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(233, 69, 96, 0.15);
   }
 
   .card.completed {
-    border-color: #4caf50;
+    border-color: var(--color-accent-green);
     opacity: 0.85;
   }
 
@@ -67,7 +67,7 @@
   .check {
     width: 32px;
     height: 32px;
-    background: #4caf50;
+    background: var(--color-accent-green);
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -78,14 +78,14 @@
   }
 
   .lock {
-    color: #666;
+    color: var(--color-text-muted);
     font-size: 0.7rem;
   }
 
   .dot {
     width: 12px;
     height: 12px;
-    background: #e94560;
+    background: var(--color-accent-primary);
     border-radius: 50%;
   }
 
@@ -95,26 +95,26 @@
 
   .card-meta {
     font-size: 0.75rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.25rem;
   }
 
   .card-title {
-    color: #fff;
+    color: var(--color-text-heading);
     margin: 0 0 0.25rem;
     font-size: 1.1rem;
   }
 
   .card-desc {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin: 0;
     font-size: 0.85rem;
   }
 
   .card-xp {
-    color: #f5a623;
+    color: var(--color-accent-orange);
     font-weight: 700;
     font-size: 0.9rem;
     white-space: nowrap;

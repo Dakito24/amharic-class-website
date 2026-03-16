@@ -44,30 +44,30 @@
   }
 
   h1 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1.8rem;
     margin-bottom: 0.25rem;
   }
 
   .subtitle {
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     margin-bottom: 2rem;
   }
 
   .loading, .empty {
     text-align: center;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     padding: 3rem;
   }
 
   .empty {
-    background: #16213e;
+    background: var(--color-bg-surface);
     border-radius: 16px;
-    border: 1px solid #2a2a4a;
+    border: 1px solid var(--color-border);
   }
 
   .empty h2 {
-    color: #fff;
+    color: var(--color-text-heading);
     margin-bottom: 0.5rem;
   }
 
@@ -82,8 +82,8 @@
   }
 
   .quiz-card {
-    background: #16213e;
-    border: 1px solid #2a2a4a;
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     padding: 1.25rem;
     text-decoration: none;
@@ -91,26 +91,26 @@
   }
 
   .quiz-card:hover {
-    border-color: #e94560;
+    border-color: var(--color-accent-primary);
     transform: translateY(-2px);
   }
 
   .quiz-unit {
     font-size: 0.7rem;
-    color: #a8a8b3;
+    color: var(--color-text-secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
   }
 
   .quiz-card h3 {
-    color: #fff;
+    color: var(--color-text-heading);
     font-size: 1rem;
     margin: 0 0 0.75rem;
   }
 
   .quiz-cta {
-    color: #e94560;
+    color: var(--color-accent-primary);
     font-size: 0.85rem;
     font-weight: 600;
   }
@@ -125,7 +125,7 @@
   }
 
   .btn-primary {
-    background: #e94560;
+    background: var(--color-accent-primary);
     color: #fff;
   }
 </style>

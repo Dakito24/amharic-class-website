@@ -96,3 +96,76 @@ export function getProgress() {
 export function updateStreak() {
   return request('/progress/streak', { method: 'POST' });
 }
+
+// Culture endpoints
+export function getCultureArticles() {
+  return request('/culture');
+}
+
+export function getCultureArticle(id) {
+  return request(`/culture/${id}`);
+}
+
+// Review endpoints
+export function getWeakWords(lessonId) {
+  const query = lessonId ? `?lesson_id=${lessonId}` : '';
+  return request(`/review/weak-words${query}`);
+}
+
+export function getVocabMastery(lessonId) {
+  const query = lessonId ? `?lesson_id=${lessonId}` : '';
+  return request(`/review/vocab-mastery${query}`);
+}
+
+export function getReviewQuiz() {
+  return request('/review/quiz');
+}
+
+export function submitReviewQuiz(answers) {
+  return request('/review/submit', {
+    method: 'POST',
+    body: JSON.stringify({ answers })
+  });
+}
+
+// Listening endpoints
+export function getListeningQuiz(lessonId) {
+  const query = lessonId ? `?lesson_id=${lessonId}` : '';
+  return request(`/listening/quiz${query}`);
+}
+
+export function submitListeningQuiz(answers) {
+  return request('/listening/submit', {
+    method: 'POST',
+    body: JSON.stringify({ answers })
+  });
+}
+
+// Conversation endpoints
+export function getConversations() {
+  return request('/conversations');
+}
+
+export function getConversation(id) {
+  return request(`/conversations/${id}`);
+}
+
+export function completeConversation(id) {
+  return request(`/conversations/${id}/complete`, { method: 'POST' });
+}
+
+// Timed challenge endpoints
+export function startTimedChallenge(difficulty) {
+  return request(`/timed/start?difficulty=${difficulty}`);
+}
+
+export function submitTimedChallenge(difficulty, answers, timeRemainingMs) {
+  return request('/timed/submit', {
+    method: 'POST',
+    body: JSON.stringify({ difficulty, answers, time_remaining_ms: timeRemainingMs })
+  });
+}
+
+export function getTimedLeaderboard(difficulty) {
+  return request(`/timed/leaderboard?difficulty=${difficulty}`);
+}
