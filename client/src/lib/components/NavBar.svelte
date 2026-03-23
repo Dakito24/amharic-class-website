@@ -30,16 +30,13 @@
 <svelte:window onclick={() => dropdownOpen = false} />
 
 <nav class="navbar">
-  <a href="/" class="logo">
-    <span class="logo-text">Amharic</span>
-    <span class="logo-sub">speak it</span>
-  </a>
-
   <div class="nav-links">
+    <a href="/">Home</a>
     <a href="/lessons">Lessons</a>
     <a href="/flashcards">Flashcards</a>
     <a href="/quiz">Quiz</a>
     <a href="/practice">Practice</a>
+    <a href="/games">Games</a>
   </div>
 
   <div class="nav-right">
@@ -58,6 +55,8 @@
         </button>
 
         {#if dropdownOpen}
+          <!-- svelte-ignore a11y_no_static_element_interactions -->
+          <!-- svelte-ignore a11y_click_events_have_key_events -->
           <div class="profile-dropdown" onclick={(e) => e.stopPropagation()}>
             {#each allProfiles as p}
               <button
@@ -103,33 +102,13 @@
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.75rem 1.5rem;
     background: var(--color-bg-elevated);
     border-bottom: 2px solid var(--color-bg-surface);
     position: sticky;
     top: 0;
     z-index: 100;
-  }
-
-  .logo {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-  }
-
-  .logo-text {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--color-accent-primary);
-  }
-
-  .logo-sub {
-    font-size: 0.65rem;
-    color: var(--color-text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 2px;
   }
 
   .nav-links {
@@ -153,6 +132,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    position: absolute;
+    right: 1.5rem;
   }
 
   .theme-toggle {

@@ -9,7 +9,8 @@
     { key: '3', path: '/flashcards', label: 'Flashcards' },
     { key: '4', path: '/quiz', label: 'Quiz' },
     { key: '5', path: '/practice', label: 'Practice' },
-    { key: '6', path: '/profile', label: 'Profile' }
+    { key: '6', path: '/games', label: 'Games' },
+    { key: '7', path: '/profile', label: 'Profile' }
   ];
 
   function handleKeydown(e) {
@@ -43,7 +44,7 @@
 
 {#if showHelp}
   <!-- svelte-ignore a11y_no_static_element_interactions -->
-  <div class="help-overlay" onclick={() => showHelp = false} onkeydown={(e) => e.key === 'Escape' && (showHelp = false)} role="dialog" aria-label="Keyboard shortcuts">
+  <div class="help-overlay" onclick={() => showHelp = false} onkeydown={(e) => e.key === 'Escape' && (showHelp = false)} role="dialog" aria-label="Keyboard shortcuts" tabindex="-1">
     <!-- svelte-ignore a11y_no_static_element_interactions -->
     <!-- svelte-ignore a11y_click_events_have_key_events -->
     <div class="help-modal" onclick={(e) => e.stopPropagation()}>

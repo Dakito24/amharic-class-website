@@ -3898,5 +3898,3005 @@
     "correct_answer": "egziabher kefeleqe",
     "explanation": "'Egziabher kefeleqe' (እግዚአብሔር ከፈለቀ) means 'God willing' or 'if God permits.' It reflects the deep religious culture of Ethiopia.",
     "xp_reward": 5
+  },
+  {
+    "id": 391,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"head\" in Amharic?",
+    "options": "[\"ras\",\"ij\",\"igr\",\"ayn\"]",
+    "correct_answer": "ras",
+    "explanation": "\"Ras\" (ራስ) means \"head\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 392,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What does \"ayn\" mean in English?",
+    "options": "[\"eye\",\"ear\",\"nose\",\"mouth\"]",
+    "correct_answer": "eye",
+    "explanation": "\"Ayn\" (ዓይን) means \"eye\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 393,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"ear\"?",
+    "options": "[\"joro\",\"af\",\"tat\",\"fit\"]",
+    "correct_answer": "joro",
+    "explanation": "\"Joro\" (ጆሮ) means \"ear\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 394,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "\"Hode yamenal\" means:",
+    "options": "[\"My stomach hurts\",\"My head hurts\",\"My back hurts\",\"My neck hurts\"]",
+    "correct_answer": "My stomach hurts",
+    "explanation": "\"Hode yamenal\" (ሆዴ ያመኛል) means \"My stomach hurts.\" \"Hod\" means stomach.",
+    "xp_reward": 5
+  },
+  {
+    "id": 395,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for \"finger\"?",
+    "options": "[\"tat\",\"ij\",\"igr\",\"tirs\"]",
+    "correct_answer": "tat",
+    "explanation": "\"Tat\" (ጣት) means \"finger\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 396,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What does \"milas\" mean?",
+    "options": "[\"tongue\",\"tooth\",\"mouth\",\"neck\"]",
+    "correct_answer": "tongue",
+    "explanation": "\"Milas\" (ምላስ) means \"tongue\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 397,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"bone\" in Amharic?",
+    "options": "[\"atint\",\"dem\",\"lib\",\"qoda\"]",
+    "correct_answer": "atint",
+    "explanation": "\"Atint\" (አጥንት) means \"bone\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 398,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "\"Rase yamenal\" means:",
+    "options": "[\"My head hurts\",\"My hand hurts\",\"My heart hurts\",\"My foot hurts\"]",
+    "correct_answer": "My head hurts",
+    "explanation": "\"Rase yamenal\" (ራሴ ያመኛል) means \"My head hurts.\" \"Ras\" means head.",
+    "xp_reward": 5
+  },
+  {
+    "id": 399,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What is \"tsegur\" in English?",
+    "options": "[\"hair\",\"face\",\"skin\",\"shoulder\"]",
+    "correct_answer": "hair",
+    "explanation": "\"Tsegur\" (ጸጉር) means \"hair\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 400,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"blood\" in Amharic?",
+    "options": "[\"dem\",\"lib\",\"hod\",\"af\"]",
+    "correct_answer": "dem",
+    "explanation": "\"Dem\" (ደም) means \"blood\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 401,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What does \"angat\" refer to?",
+    "options": "[\"neck\",\"back\",\"shoulder\",\"stomach\"]",
+    "correct_answer": "neck",
+    "explanation": "\"Angat\" (አንገት) means \"neck\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 402,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "\"Ijhin tateb\" means:",
+    "options": "[\"Wash your hands\",\"Raise your hand\",\"Give me your hand\",\"Touch your face\"]",
+    "correct_answer": "Wash your hands",
+    "explanation": "\"Ijhin tateb\" (እጅህን ታጠብ) means \"Wash your hands.\" \"Ij\" means hand.",
+    "xp_reward": 5
+  },
+  {
+    "id": 403,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"heart\" in Amharic?",
+    "options": "[\"lib\",\"dem\",\"hod\",\"jerba\"]",
+    "correct_answer": "lib",
+    "explanation": "\"Lib\" (ልብ) means \"heart\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 404,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "What does \"qoda\" mean?",
+    "options": "[\"skin\",\"bone\",\"blood\",\"shoulder\"]",
+    "correct_answer": "skin",
+    "explanation": "\"Qoda\" (ቆዳ) means \"skin\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 405,
+    "lesson_id": 29,
+    "question_type": "multiple_choice",
+    "question": "Which phrase means \"Open your eyes\"?",
+    "options": "[\"aynihin kfet\",\"afihin zga\",\"fitihin nka\",\"rasihin azur\"]",
+    "correct_answer": "aynihin kfet",
+    "explanation": "\"Aynihin kfet\" (ዓይንህን ክፈት) means \"Open your eyes.\" \"Ayn\" means eye.",
+    "xp_reward": 5
+  },
+  {
+    "id": 406,
+    "lesson_id": 29,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"hand\" is ___.",
+    "options": "[]",
+    "correct_answer": "ij",
+    "explanation": "\"Ij\" (እጅ) means \"hand\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 407,
+    "lesson_id": 29,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"foot\" is ___.",
+    "options": "[]",
+    "correct_answer": "igr",
+    "explanation": "\"Igr\" (እግር) means \"foot\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 408,
+    "lesson_id": 29,
+    "question_type": "fill_blank",
+    "question": "\"Af\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "mouth",
+    "explanation": "\"Af\" (አፍ) means \"mouth\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 409,
+    "lesson_id": 29,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"back\" is ___.",
+    "options": "[]",
+    "correct_answer": "jerba",
+    "explanation": "\"Jerba\" (ጀርባ) means \"back\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 410,
+    "lesson_id": 29,
+    "question_type": "fill_blank",
+    "question": "\"Tiksha\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "shoulder",
+    "explanation": "\"Tiksha\" (ትከሻ) means \"shoulder\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 411,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"dog\" in Amharic?",
+    "options": "[\"wusha\",\"dmet\",\"lam\",\"feres\"]",
+    "correct_answer": "wusha",
+    "explanation": "\"Wusha\" (ውሻ) means \"dog\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 412,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "\"Wusha alen\" means:",
+    "options": "[\"I have a dog\",\"I see a dog\",\"I want a dog\",\"The dog is here\"]",
+    "correct_answer": "I have a dog",
+    "explanation": "\"Wusha alen\" (ውሻ አለኝ) means \"I have a dog.\" \"Alen\" means \"I have.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 413,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "What does \"anbessa\" mean?",
+    "options": "[\"lion\",\"elephant\",\"monkey\",\"hyena\"]",
+    "correct_answer": "lion",
+    "explanation": "\"Anbessa\" (አንበሳ) means \"lion\" in Amharic. The lion is a national symbol of Ethiopia.",
+    "xp_reward": 5
+  },
+  {
+    "id": 414,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"chicken\"?",
+    "options": "[\"doro\",\"wof\",\"asa\",\"beg\"]",
+    "correct_answer": "doro",
+    "explanation": "\"Doro\" (ዶሮ) means \"chicken\" in Amharic. \"Doro wet\" is a famous Ethiopian chicken stew.",
+    "xp_reward": 5
+  },
+  {
+    "id": 415,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "What is \"zihon\" in English?",
+    "options": "[\"elephant\",\"camel\",\"horse\",\"donkey\"]",
+    "correct_answer": "elephant",
+    "explanation": "\"Zihon\" (ዝሆን) means \"elephant\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 416,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"sheep\" in Amharic?",
+    "options": "[\"beg\",\"fiyel\",\"lam\",\"bere\"]",
+    "correct_answer": "beg",
+    "explanation": "\"Beg\" (በግ) means \"sheep\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 417,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "\"Ibab adegegna new\" means:",
+    "options": "[\"The snake is dangerous\",\"The snake is long\",\"The snake is fast\",\"I see a snake\"]",
+    "correct_answer": "The snake is dangerous",
+    "explanation": "\"Ibab adegegna new\" (እባብ አደገኛ ነው) means \"The snake is dangerous.\" \"Ibab\" means snake.",
+    "xp_reward": 5
+  },
+  {
+    "id": 418,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "What does \"dmet\" mean?",
+    "options": "[\"cat\",\"dog\",\"mouse\",\"rabbit\"]",
+    "correct_answer": "cat",
+    "explanation": "\"Dmet\" (ድመት) means \"cat\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 419,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"bird\" in Amharic?",
+    "options": "[\"wof\",\"nib\",\"asa\",\"doro\"]",
+    "correct_answer": "wof",
+    "explanation": "\"Wof\" (ወፍ) means \"bird\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 420,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"monkey\" in Amharic?",
+    "options": "[\"zinjero\",\"jib\",\"ayt\",\"tinchel\"]",
+    "correct_answer": "zinjero",
+    "explanation": "\"Zinjero\" (ዝንጀሮ) means \"monkey\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 421,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "\"Nibu mar yiserawal\" means:",
+    "options": "[\"The bee makes honey\",\"The bird is flying\",\"The fish is swimming\",\"The cow gives milk\"]",
+    "correct_answer": "The bee makes honey",
+    "explanation": "\"Nibu mar yiserawal\" (ንቡ ማር ይሠራል) means \"The bee makes honey.\" \"Nib\" means bee, \"mar\" means honey.",
+    "xp_reward": 5
+  },
+  {
+    "id": 422,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "What is \"gimel\" in English?",
+    "options": "[\"camel\",\"goat\",\"ox\",\"donkey\"]",
+    "correct_answer": "camel",
+    "explanation": "\"Gimel\" (ግመል) means \"camel\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 423,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "What does \"jib\" mean?",
+    "options": "[\"hyena\",\"lion\",\"snake\",\"monkey\"]",
+    "correct_answer": "hyena",
+    "explanation": "\"Jib\" (ጅብ) means \"hyena\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 424,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"horse\"?",
+    "options": "[\"feres\",\"ahiya\",\"lam\",\"bere\"]",
+    "correct_answer": "feres",
+    "explanation": "\"Feres\" (ፈረስ) means \"horse\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 425,
+    "lesson_id": 30,
+    "question_type": "multiple_choice",
+    "question": "\"Feresu fetena new\" means:",
+    "options": "[\"The horse is fast\",\"The horse is big\",\"The horse is strong\",\"The horse is black\"]",
+    "correct_answer": "The horse is fast",
+    "explanation": "\"Feresu fetena new\" (ፈረሱ ፈጣና ነው) means \"The horse is fast.\" \"Feres\" means horse.",
+    "xp_reward": 5
+  },
+  {
+    "id": 426,
+    "lesson_id": 30,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"fish\" is ___.",
+    "options": "[]",
+    "correct_answer": "asa",
+    "explanation": "\"Asa\" (ዓሳ) means \"fish\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 427,
+    "lesson_id": 30,
+    "question_type": "fill_blank",
+    "question": "\"Ahiya\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "donkey",
+    "explanation": "\"Ahiya\" (አህያ) means \"donkey\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 428,
+    "lesson_id": 30,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"rabbit\" is ___.",
+    "options": "[]",
+    "correct_answer": "tinchel",
+    "explanation": "\"Tinchel\" (ጥንቸል) means \"rabbit\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 429,
+    "lesson_id": 30,
+    "question_type": "fill_blank",
+    "question": "\"Ayt\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "mouse",
+    "explanation": "\"Ayt\" (አይጥ) means \"mouse\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 430,
+    "lesson_id": 30,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"cow\" is ___.",
+    "options": "[]",
+    "correct_answer": "lam",
+    "explanation": "\"Lam\" (ላም) means \"cow\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 431,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What color is \"qey\" in English?",
+    "options": "[\"red\",\"blue\",\"green\",\"yellow\"]",
+    "correct_answer": "red",
+    "explanation": "\"Qey\" (ቀይ) means \"red\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 432,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"blue\" in Amharic?",
+    "options": "[\"semayawi\",\"arenguade\",\"bicha\",\"nech\"]",
+    "correct_answer": "semayawi",
+    "explanation": "\"Semayawi\" (ሰማያዊ) means \"blue\" in Amharic. It is derived from \"semay\" (sky).",
+    "xp_reward": 5
+  },
+  {
+    "id": 433,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What does \"tillik\" mean?",
+    "options": "[\"big\",\"small\",\"tall\",\"heavy\"]",
+    "correct_answer": "big",
+    "explanation": "\"Tillik\" (ትልቅ) means \"big\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 434,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"black\"?",
+    "options": "[\"tikur\",\"nech\",\"bunama\",\"qey\"]",
+    "correct_answer": "tikur",
+    "explanation": "\"Tikur\" (ጥቁር) means \"black\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 435,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "\"Yih tinish new\" means:",
+    "options": "[\"This is small\",\"This is big\",\"This is new\",\"This is old\"]",
+    "correct_answer": "This is small",
+    "explanation": "\"Yih tinish new\" (ይህ ትንሽ ነው) means \"This is small.\" \"Tinish\" means small.",
+    "xp_reward": 5
+  },
+  {
+    "id": 436,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What does \"qonjo\" mean?",
+    "options": "[\"beautiful\",\"new\",\"old\",\"tall\"]",
+    "correct_answer": "beautiful",
+    "explanation": "\"Qonjo\" (ቆንጆ) means \"beautiful\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 437,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"green\" in Amharic?",
+    "options": "[\"arenguade\",\"bicha\",\"semayawi\",\"hamrawi\"]",
+    "correct_answer": "arenguade",
+    "explanation": "\"Arenguade\" (አረንጓዴ) means \"green\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 438,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "\"Irsu rejim new\" means:",
+    "options": "[\"He is tall\",\"He is short\",\"He is big\",\"He is heavy\"]",
+    "correct_answer": "He is tall",
+    "explanation": "\"Irsu rejim new\" (እርሱ ረጅም ነው) means \"He is tall.\" \"Rejim\" means tall/long.",
+    "xp_reward": 5
+  },
+  {
+    "id": 439,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What does \"kebad\" mean?",
+    "options": "[\"heavy\",\"light\",\"big\",\"short\"]",
+    "correct_answer": "heavy",
+    "explanation": "\"Kebad\" (ከባድ) means \"heavy\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 440,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"yellow\"?",
+    "options": "[\"bicha\",\"qey\",\"nech\",\"bunama\"]",
+    "correct_answer": "bicha",
+    "explanation": "\"Bicha\" (ቢጫ) means \"yellow\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 441,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "\"Adis chama gezehu\" means:",
+    "options": "[\"I bought new shoes\",\"I need new shoes\",\"I have old shoes\",\"I lost my shoes\"]",
+    "correct_answer": "I bought new shoes",
+    "explanation": "\"Adis chama gezehu\" (አዲስ ጫማ ገዛሁ) means \"I bought new shoes.\" \"Adis\" means new.",
+    "xp_reward": 5
+  },
+  {
+    "id": 442,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What does \"achir\" mean?",
+    "options": "[\"short\",\"tall\",\"small\",\"light\"]",
+    "correct_answer": "short",
+    "explanation": "\"Achir\" (አጭር) means \"short\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 443,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"white\" in Amharic?",
+    "options": "[\"nech\",\"tikur\",\"qey\",\"bicha\"]",
+    "correct_answer": "nech",
+    "explanation": "\"Nech\" (ነጭ) means \"white\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 444,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "\"Semay semayawi new\" means:",
+    "options": "[\"The sky is blue\",\"The sky is beautiful\",\"The sky is big\",\"The sky is white\"]",
+    "correct_answer": "The sky is blue",
+    "explanation": "\"Semay semayawi new\" (ሰማይ ሰማያዊ ነው) means \"The sky is blue.\" \"Semayawi\" derives from \"semay\" (sky).",
+    "xp_reward": 5
+  },
+  {
+    "id": 445,
+    "lesson_id": 31,
+    "question_type": "multiple_choice",
+    "question": "What does \"aroge\" mean?",
+    "options": "[\"old\",\"new\",\"beautiful\",\"brown\"]",
+    "correct_answer": "old",
+    "explanation": "\"Aroge\" (አሮጌ) means \"old\" in Amharic (for objects, not people).",
+    "xp_reward": 5
+  },
+  {
+    "id": 446,
+    "lesson_id": 31,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"brown\" is ___.",
+    "options": "[]",
+    "correct_answer": "bunama",
+    "explanation": "\"Bunama\" (ቡናማ) means \"brown\" in Amharic. It derives from \"buna\" (coffee).",
+    "xp_reward": 5
+  },
+  {
+    "id": 447,
+    "lesson_id": 31,
+    "question_type": "fill_blank",
+    "question": "\"Qelal\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "light",
+    "explanation": "\"Qelal\" (ቀላል) means \"light\" (in weight) in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 448,
+    "lesson_id": 31,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"small\" is ___.",
+    "options": "[]",
+    "correct_answer": "tinish",
+    "explanation": "\"Tinish\" (ትንሽ) means \"small\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 449,
+    "lesson_id": 31,
+    "question_type": "fill_blank",
+    "question": "\"Rejim\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "tall",
+    "explanation": "\"Rejim\" (ረጅም) means \"tall\" or \"long\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 450,
+    "lesson_id": 31,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"new\" is ___.",
+    "options": "[]",
+    "correct_answer": "adis",
+    "explanation": "\"Adis\" (አዲስ) means \"new\" in Amharic. Addis Ababa means \"new flower.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 451,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"bread\" in Amharic?",
+    "options": "[\"dabo\",\"injera\",\"siga\",\"ruz\"]",
+    "correct_answer": "dabo",
+    "explanation": "\"Dabo\" (ዳቦ) means \"bread\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 452,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What is \"injera\"?",
+    "options": "[\"A traditional Ethiopian flatbread\",\"A type of meat\",\"A spice blend\",\"A vegetable\"]",
+    "correct_answer": "A traditional Ethiopian flatbread",
+    "explanation": "\"Injera\" (እንጀራ) is the spongy sourdough flatbread that is the staple of Ethiopian cuisine.",
+    "xp_reward": 5
+  },
+  {
+    "id": 453,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What does \"siga\" mean?",
+    "options": "[\"meat\",\"egg\",\"bread\",\"butter\"]",
+    "correct_answer": "meat",
+    "explanation": "\"Siga\" (ስጋ) means \"meat\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 454,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "\"Raben\" means:",
+    "options": "[\"I am hungry\",\"I am thirsty\",\"I am full\",\"I am tired\"]",
+    "correct_answer": "I am hungry",
+    "explanation": "\"Raben\" (ራበኝ) means \"I am hungry\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 455,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"honey\"?",
+    "options": "[\"mar\",\"chew\",\"zeyt\",\"sikwar\"]",
+    "correct_answer": "mar",
+    "explanation": "\"Mar\" (ማር) means \"honey\" in Amharic. Ethiopian honey is renowned for its quality.",
+    "xp_reward": 5
+  },
+  {
+    "id": 456,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"egg\" in Amharic?",
+    "options": "[\"inqulal\",\"qibe\",\"ayib\",\"misir\"]",
+    "correct_answer": "inqulal",
+    "explanation": "\"Inqulal\" (እንቁላል) means \"egg\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 457,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What does \"berbere\" refer to?",
+    "options": "[\"pepper/spice blend\",\"salt\",\"sugar\",\"oil\"]",
+    "correct_answer": "pepper/spice blend",
+    "explanation": "\"Berbere\" (በርበሬ) is the iconic Ethiopian spice blend used in many traditional dishes.",
+    "xp_reward": 5
+  },
+  {
+    "id": 458,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "\"Timatim qey new\" means:",
+    "options": "[\"The tomato is red\",\"The tomato is big\",\"The tomato is ripe\",\"I like tomato\"]",
+    "correct_answer": "The tomato is red",
+    "explanation": "\"Timatim qey new\" (ቲማቲም ቀይ ነው) means \"The tomato is red.\" \"Qey\" means red.",
+    "xp_reward": 5
+  },
+  {
+    "id": 459,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What is \"shinkurt\" in English?",
+    "options": "[\"onion\",\"garlic\",\"potato\",\"tomato\"]",
+    "correct_answer": "onion",
+    "explanation": "\"Shinkurt\" (ሽንኩርት) means \"onion\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 460,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"banana\" in Amharic?",
+    "options": "[\"muz\",\"birtukan\",\"lomi\",\"dinich\"]",
+    "correct_answer": "muz",
+    "explanation": "\"Muz\" (ሙዝ) means \"banana\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 461,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What does \"qibe\" mean?",
+    "options": "[\"butter\",\"cheese\",\"oil\",\"honey\"]",
+    "correct_answer": "butter",
+    "explanation": "\"Qibe\" (ቅቤ) means \"butter\" in Amharic. Ethiopian spiced butter (niter kibbeh) is a key ingredient.",
+    "xp_reward": 5
+  },
+  {
+    "id": 462,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "\"Migbu tafach new\" means:",
+    "options": "[\"The food is delicious\",\"The food is ready\",\"The food is hot\",\"The food is cold\"]",
+    "correct_answer": "The food is delicious",
+    "explanation": "\"Migbu tafach new\" (ምግቡ ጣፋጭ ነው) means \"The food is delicious.\" \"Tafach\" means delicious.",
+    "xp_reward": 5
+  },
+  {
+    "id": 463,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"lentils\" in Amharic?",
+    "options": "[\"misir\",\"ruz\",\"dinich\",\"ayib\"]",
+    "correct_answer": "misir",
+    "explanation": "\"Misir\" (ምስር) means \"lentils\" in Amharic. Misir wet (lentil stew) is a popular Ethiopian dish.",
+    "xp_reward": 5
+  },
+  {
+    "id": 464,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"salt\" in Amharic?",
+    "options": "[\"chew\",\"sikwar\",\"zeyt\",\"mar\"]",
+    "correct_answer": "chew",
+    "explanation": "\"Chew\" (ጨው) means \"salt\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 465,
+    "lesson_id": 32,
+    "question_type": "multiple_choice",
+    "question": "What does \"birtukan\" mean?",
+    "options": "[\"orange (fruit)\",\"lemon\",\"banana\",\"tomato\"]",
+    "correct_answer": "orange (fruit)",
+    "explanation": "\"Birtukan\" (ብርቱካን) means \"orange\" (the fruit) in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 466,
+    "lesson_id": 32,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"sugar\" is ___.",
+    "options": "[]",
+    "correct_answer": "sikwar",
+    "explanation": "\"Sikwar\" (ስኳር) means \"sugar\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 467,
+    "lesson_id": 32,
+    "question_type": "fill_blank",
+    "question": "\"Dinich\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "potato",
+    "explanation": "\"Dinich\" (ድንች) means \"potato\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 468,
+    "lesson_id": 32,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"cheese\" is ___.",
+    "options": "[]",
+    "correct_answer": "ayib",
+    "explanation": "\"Ayib\" (አይብ) means \"cheese\" in Amharic. It is a mild, fresh cheese similar to cottage cheese.",
+    "xp_reward": 5
+  },
+  {
+    "id": 469,
+    "lesson_id": 32,
+    "question_type": "fill_blank",
+    "question": "\"Lomi\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "lemon",
+    "explanation": "\"Lomi\" (ሎሚ) means \"lemon\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 470,
+    "lesson_id": 32,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"oil\" is ___.",
+    "options": "[]",
+    "correct_answer": "zeyt",
+    "explanation": "\"Zeyt\" (ዘይት) means \"oil\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 471,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"water\" in Amharic?",
+    "options": "[\"wuha\",\"wetat\",\"chemaki\",\"shai\"]",
+    "correct_answer": "wuha",
+    "explanation": "\"Wuha\" (ውሃ) means \"water\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 472,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "What does \"buna\" mean?",
+    "options": "[\"coffee\",\"tea\",\"milk\",\"juice\"]",
+    "correct_answer": "coffee",
+    "explanation": "\"Buna\" (ቡና) means \"coffee\" in Amharic. Ethiopia is considered the birthplace of coffee.",
+    "xp_reward": 5
+  },
+  {
+    "id": 473,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "\"Buna ifelligalehu\" means:",
+    "options": "[\"I want coffee\",\"I have coffee\",\"The coffee is ready\",\"I like coffee\"]",
+    "correct_answer": "I want coffee",
+    "explanation": "\"Buna ifelligalehu\" (ቡና እፈልጋለሁ) means \"I want coffee.\" \"Ifelligalehu\" means \"I want.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 474,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"tea\"?",
+    "options": "[\"shai\",\"buna\",\"wuha\",\"wetat\"]",
+    "correct_answer": "shai",
+    "explanation": "\"Shai\" (ሻይ) means \"tea\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 475,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "What is a \"jebena\"?",
+    "options": "[\"A traditional Ethiopian coffee pot/kettle\",\"A plate\",\"A large bowl\",\"A cooking stove\"]",
+    "correct_answer": "A traditional Ethiopian coffee pot/kettle",
+    "explanation": "\"Jebena\" (ጀበና) is the traditional Ethiopian clay coffee pot used in the coffee ceremony.",
+    "xp_reward": 5
+  },
+  {
+    "id": 476,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"plate\" in Amharic?",
+    "options": "[\"sahan\",\"siniya\",\"sahle\",\"sini\"]",
+    "correct_answer": "sahan",
+    "explanation": "\"Sahan\" (ሳህን) means \"plate\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 477,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "\"Shayu muq new\" means:",
+    "options": "[\"The tea is hot\",\"The tea is ready\",\"The tea is sweet\",\"The tea is cold\"]",
+    "correct_answer": "The tea is hot",
+    "explanation": "\"Shayu muq new\" (ሻዩ ሙቅ ነው) means \"The tea is hot.\" \"Muq\" means hot/warm.",
+    "xp_reward": 5
+  },
+  {
+    "id": 478,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "What does \"mankiya\" mean?",
+    "options": "[\"spoon\",\"fork\",\"knife\",\"cup\"]",
+    "correct_answer": "spoon",
+    "explanation": "\"Mankiya\" (ማንኪያ) means \"spoon\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 479,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"glass\" in Amharic?",
+    "options": "[\"birchiko\",\"termus\",\"siniya\",\"dist\"]",
+    "correct_answer": "birchiko",
+    "explanation": "\"Birchiko\" (ብርጭቆ) means \"glass\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 480,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "\"Teman\" means:",
+    "options": "[\"I am thirsty\",\"I am hungry\",\"I am tired\",\"I am cold\"]",
+    "correct_answer": "I am thirsty",
+    "explanation": "\"Teman\" (ጠማኝ) means \"I am thirsty\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 481,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"knife\" in Amharic?",
+    "options": "[\"billa\",\"shuka\",\"mankiya\",\"sahan\"]",
+    "correct_answer": "billa",
+    "explanation": "\"Billa\" (ቢላ) means \"knife\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 482,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "What does \"wetat\" mean?",
+    "options": "[\"milk\",\"water\",\"juice\",\"tea\"]",
+    "correct_answer": "milk",
+    "explanation": "\"Wetat\" (ወተት) means \"milk\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 483,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "\"Birchikow tesebere\" means:",
+    "options": "[\"The glass is broken\",\"The glass is full\",\"The glass is empty\",\"The glass is clean\"]",
+    "correct_answer": "The glass is broken",
+    "explanation": "\"Birchikow tesebere\" (ብርጭቆው ተሰበረ) means \"The glass is broken.\" \"Tesebere\" means broke/broken.",
+    "xp_reward": 5
+  },
+  {
+    "id": 484,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"bottle\"?",
+    "options": "[\"termus\",\"birchiko\",\"dist\",\"siniya\"]",
+    "correct_answer": "termus",
+    "explanation": "\"Termus\" (ጠርሙስ) means \"bottle\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 485,
+    "lesson_id": 33,
+    "question_type": "multiple_choice",
+    "question": "What does \"samuna\" mean?",
+    "options": "[\"soap\",\"towel\",\"pot\",\"stove\"]",
+    "correct_answer": "soap",
+    "explanation": "\"Samuna\" (ሳሙና) means \"soap\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 486,
+    "lesson_id": 33,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"fork\" is ___.",
+    "options": "[]",
+    "correct_answer": "shuka",
+    "explanation": "\"Shuka\" (ሹካ) means \"fork\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 487,
+    "lesson_id": 33,
+    "question_type": "fill_blank",
+    "question": "\"Fota\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "towel",
+    "explanation": "\"Fota\" (ፎጣ) means \"towel\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 488,
+    "lesson_id": 33,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"pot\" is ___.",
+    "options": "[]",
+    "correct_answer": "dist",
+    "explanation": "\"Dist\" (ድስት) means \"pot\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 489,
+    "lesson_id": 33,
+    "question_type": "fill_blank",
+    "question": "\"Chemaki\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "juice",
+    "explanation": "\"Chemaki\" (ጭማቂ) means \"juice\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 490,
+    "lesson_id": 33,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"cup\" is ___.",
+    "options": "[]",
+    "correct_answer": "siniya",
+    "explanation": "\"Siniya\" (ሲኒ) means \"cup\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 491,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"shirt\" in Amharic?",
+    "options": "[\"shemiz\",\"suri\",\"libs\",\"qemis\"]",
+    "correct_answer": "shemiz",
+    "explanation": "\"Shemiz\" (ሸሚዝ) means \"shirt\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 492,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "What does \"chama\" mean?",
+    "options": "[\"shoes\",\"socks\",\"hat\",\"belt\"]",
+    "correct_answer": "shoes",
+    "explanation": "\"Chama\" (ጫማ) means \"shoes\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 493,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "\"Adis chama ifelligalehu\" means:",
+    "options": "[\"I need new shoes\",\"I have new shoes\",\"I lost my shoes\",\"I bought new shoes\"]",
+    "correct_answer": "I need new shoes",
+    "explanation": "\"Adis chama ifelligalehu\" (አዲስ ጫማ እፈልጋለሁ) means \"I need new shoes.\" \"Ifelligalehu\" means \"I want/need.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 494,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"dress\"?",
+    "options": "[\"qemis\",\"shemiz\",\"netela\",\"libs\"]",
+    "correct_answer": "qemis",
+    "explanation": "\"Qemis\" (ቀሚስ) means \"dress\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 495,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "What is a \"netela\"?",
+    "options": "[\"A traditional Ethiopian cotton scarf/shawl\",\"A pair of pants\",\"A type of hat\",\"A leather belt\"]",
+    "correct_answer": "A traditional Ethiopian cotton scarf/shawl",
+    "explanation": "\"Netela\" (ነጠላ) is a traditional Ethiopian white cotton shawl worn by both men and women.",
+    "xp_reward": 5
+  },
+  {
+    "id": 496,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "\"Yih qemis qonjo new\" means:",
+    "options": "[\"This dress is beautiful\",\"This dress is new\",\"This dress is white\",\"This dress is old\"]",
+    "correct_answer": "This dress is beautiful",
+    "explanation": "\"Yih qemis qonjo new\" (ይህ ቀሚስ ቆንጆ ነው) means \"This dress is beautiful.\" \"Qonjo\" means beautiful.",
+    "xp_reward": 5
+  },
+  {
+    "id": 497,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"jacket\" in Amharic?",
+    "options": "[\"jaket\",\"kofiya\",\"qebeto\",\"suri\"]",
+    "correct_answer": "jaket",
+    "explanation": "\"Jaket\" (ጃኬት) means \"jacket\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 498,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "What does \"borsa\" mean?",
+    "options": "[\"bag\",\"pocket\",\"belt\",\"umbrella\"]",
+    "correct_answer": "bag",
+    "explanation": "\"Borsa\" (ቦርሳ) means \"bag\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 499,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "\"Kalsiye yetno new\" means:",
+    "options": "[\"Where are my socks\",\"Where are my shoes\",\"I need socks\",\"These socks are old\"]",
+    "correct_answer": "Where are my socks",
+    "explanation": "\"Kalsiye yetno new\" (ካልሲዬ የት ነው) means \"Where are my socks?\" \"Kalsi\" means socks.",
+    "xp_reward": 5
+  },
+  {
+    "id": 500,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"hat\"?",
+    "options": "[\"kofiya\",\"netela\",\"qebeto\",\"jaket\"]",
+    "correct_answer": "kofiya",
+    "explanation": "\"Kofiya\" (ኮፍያ) means \"hat\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 501,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "What does \"jantila\" mean?",
+    "options": "[\"umbrella\",\"jacket\",\"scarf\",\"bag\"]",
+    "correct_answer": "umbrella",
+    "explanation": "\"Jantila\" (ጃንጥላ) means \"umbrella\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 502,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "\"Libsu ateb\" means:",
+    "options": "[\"Wash the clothes\",\"Fold the clothes\",\"Iron the clothes\",\"Buy clothes\"]",
+    "correct_answer": "Wash the clothes",
+    "explanation": "\"Libsu ateb\" (ልብሱን አጠብ) means \"Wash the clothes.\" \"Libs\" means clothes.",
+    "xp_reward": 5
+  },
+  {
+    "id": 503,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"ring\" in Amharic?",
+    "options": "[\"qelebet\",\"se'at\",\"menetser\",\"borsa\"]",
+    "correct_answer": "qelebet",
+    "explanation": "\"Qelebet\" (ቀለበት) means \"ring\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 504,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "What does \"menetser\" mean?",
+    "options": "[\"glasses\",\"watch\",\"ring\",\"umbrella\"]",
+    "correct_answer": "glasses",
+    "explanation": "\"Menetser\" (መነጽር) means \"glasses\" (eyeglasses) in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 505,
+    "lesson_id": 34,
+    "question_type": "multiple_choice",
+    "question": "\"Muq libs libes\" means:",
+    "options": "[\"Wear warm clothes\",\"Wash the clothes\",\"New clothes are nice\",\"Fold the clothes\"]",
+    "correct_answer": "Wear warm clothes",
+    "explanation": "\"Muq libs libes\" (ሙቅ ልብስ ልበስ) means \"Wear warm clothes.\" \"Muq\" means warm.",
+    "xp_reward": 5
+  },
+  {
+    "id": 506,
+    "lesson_id": 34,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"pants\" is ___.",
+    "options": "[]",
+    "correct_answer": "suri",
+    "explanation": "\"Suri\" (ሱሪ) means \"pants\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 507,
+    "lesson_id": 34,
+    "question_type": "fill_blank",
+    "question": "\"Kalsi\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "socks",
+    "explanation": "\"Kalsi\" (ካልሲ) means \"socks\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 508,
+    "lesson_id": 34,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"belt\" is ___.",
+    "options": "[]",
+    "correct_answer": "qebeto",
+    "explanation": "\"Qebeto\" (ቀበቶ) means \"belt\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 509,
+    "lesson_id": 34,
+    "question_type": "fill_blank",
+    "question": "\"Libs\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "clothes",
+    "explanation": "\"Libs\" (ልብስ) means \"clothes\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 510,
+    "lesson_id": 34,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"watch\" is ___.",
+    "options": "[]",
+    "correct_answer": "se'at",
+    "explanation": "\"Se'at\" (ሰዓት) means \"watch\" or \"clock\" in Amharic. It also means \"hour/time.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 511,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"house\" in Amharic?",
+    "options": "[\"bet\",\"kifil\",\"kushna\",\"ber\"]",
+    "correct_answer": "bet",
+    "explanation": "\"Bet\" (ቤት) means \"house\" or \"home\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 512,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"ber\" mean?",
+    "options": "[\"door\",\"window\",\"wall\",\"roof\"]",
+    "correct_answer": "door",
+    "explanation": "\"Ber\" (በር) means \"door\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 513,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"window\"?",
+    "options": "[\"meskot\",\"ber\",\"gidgida\",\"tariya\"]",
+    "correct_answer": "meskot",
+    "explanation": "\"Meskot\" (መስኮት) means \"window\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 514,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"table\" in Amharic?",
+    "options": "[\"terepeza\",\"wenber\",\"alga\",\"welel\"]",
+    "correct_answer": "terepeza",
+    "explanation": "\"Terepeza\" (ጠረጴዛ) means \"table\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 515,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"wenber\" mean?",
+    "options": "[\"chair\",\"table\",\"bed\",\"floor\"]",
+    "correct_answer": "chair",
+    "explanation": "\"Wenber\" (ወንበር) means \"chair\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 516,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"bed\"?",
+    "options": "[\"alga\",\"wenber\",\"tiras\",\"terepeza\"]",
+    "correct_answer": "alga",
+    "explanation": "\"Alga\" (አልጋ) means \"bed\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 517,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"kitchen\" in Amharic?",
+    "options": "[\"kushna\",\"metatebiya\",\"kifil\",\"bet\"]",
+    "correct_answer": "kushna",
+    "explanation": "\"Kushna\" (ኩሽና) means \"kitchen\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 518,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"metatebiya\" mean?",
+    "options": "[\"bathroom\",\"kitchen\",\"bedroom\",\"living room\"]",
+    "correct_answer": "bathroom",
+    "explanation": "\"Metatebiya\" (መታጠቢያ) means \"bathroom\" in Amharic. It derives from the verb \"to wash.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 519,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"key\" in Amharic?",
+    "options": "[\"qulif\",\"mebraat\",\"mestawet\",\"tariya\"]",
+    "correct_answer": "qulif",
+    "explanation": "\"Qulif\" (ቁልፍ) means \"key\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 520,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"room\" in Amharic?",
+    "options": "[\"kifil\",\"bet\",\"welel\",\"gidgida\"]",
+    "correct_answer": "kifil",
+    "explanation": "\"Kifil\" (ክፍል) means \"room\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 521,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"tariya\" mean?",
+    "options": "[\"roof\",\"wall\",\"floor\",\"door\"]",
+    "correct_answer": "roof",
+    "explanation": "\"Tariya\" (ጣሪያ) means \"roof\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 522,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"wall\"?",
+    "options": "[\"gidgida\",\"welel\",\"tariya\",\"meskot\"]",
+    "correct_answer": "gidgida",
+    "explanation": "\"Gidgida\" (ግድግዳ) means \"wall\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 523,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"mebraat\" mean?",
+    "options": "[\"light\",\"mirror\",\"pillow\",\"key\"]",
+    "correct_answer": "light",
+    "explanation": "\"Mebraat\" (መብራት) means \"light\" in Amharic. It derives from the root meaning \"to shine.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 524,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"mirror\" in Amharic?",
+    "options": "[\"mestawet\",\"mebraat\",\"meskot\",\"qulif\"]",
+    "correct_answer": "mestawet",
+    "explanation": "\"Mestawet\" (መስታወት) means \"mirror\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 525,
+    "lesson_id": 35,
+    "question_type": "multiple_choice",
+    "question": "What does \"welel\" mean?",
+    "options": "[\"floor\",\"wall\",\"roof\",\"room\"]",
+    "correct_answer": "floor",
+    "explanation": "\"Welel\" (ወለል) means \"floor\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 526,
+    "lesson_id": 35,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"house\" is ___.",
+    "options": "[]",
+    "correct_answer": "bet",
+    "explanation": "\"Bet\" (ቤት) means \"house\" in Amharic. It is one of the most commonly used words.",
+    "xp_reward": 5
+  },
+  {
+    "id": 527,
+    "lesson_id": 35,
+    "question_type": "fill_blank",
+    "question": "\"Alga\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "bed",
+    "explanation": "\"Alga\" (አልጋ) means \"bed\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 528,
+    "lesson_id": 35,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"pillow\" is ___.",
+    "options": "[]",
+    "correct_answer": "tiras",
+    "explanation": "\"Tiras\" (ትራስ) means \"pillow\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 529,
+    "lesson_id": 35,
+    "question_type": "fill_blank",
+    "question": "\"Kushna\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "kitchen",
+    "explanation": "\"Kushna\" (ኩሽና) means \"kitchen\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 530,
+    "lesson_id": 35,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"door\" is ___.",
+    "options": "[]",
+    "correct_answer": "ber",
+    "explanation": "\"Ber\" (በር) means \"door\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 531,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"sun\" in Amharic?",
+    "options": "[\"tsehay\",\"chereka\",\"kokeb\",\"semay\"]",
+    "correct_answer": "tsehay",
+    "explanation": "\"Tsehay\" (ፀሐይ) means \"sun\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 532,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"chereka\" mean?",
+    "options": "[\"moon\",\"star\",\"sun\",\"cloud\"]",
+    "correct_answer": "moon",
+    "explanation": "\"Chereka\" (ጨረቃ) means \"moon\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 533,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"star\"?",
+    "options": "[\"kokeb\",\"tsehay\",\"chereka\",\"semay\"]",
+    "correct_answer": "kokeb",
+    "explanation": "\"Kokeb\" (ኮከብ) means \"star\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 534,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"tree\" in Amharic?",
+    "options": "[\"zaf\",\"abeba\",\"sar\",\"den\"]",
+    "correct_answer": "zaf",
+    "explanation": "\"Zaf\" (ዛፍ) means \"tree\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 535,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"abeba\" mean?",
+    "options": "[\"flower\",\"tree\",\"grass\",\"forest\"]",
+    "correct_answer": "flower",
+    "explanation": "\"Abeba\" (አበባ) means \"flower\" in Amharic. Addis Ababa means \"new flower.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 536,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "Which word means \"mountain\" in Amharic?",
+    "options": "[\"terara\",\"wenz\",\"hayk\",\"bahir\"]",
+    "correct_answer": "terara",
+    "explanation": "\"Terara\" (ተራራ) means \"mountain\" in Amharic. Ethiopia is known as the \"Roof of Africa\" for its highlands.",
+    "xp_reward": 5
+  },
+  {
+    "id": 537,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"river\" in Amharic?",
+    "options": "[\"wenz\",\"hayk\",\"bahir\",\"wuha\"]",
+    "correct_answer": "wenz",
+    "explanation": "\"Wenz\" (ወንዝ) means \"river\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 538,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"bahir\" mean?",
+    "options": "[\"sea\",\"lake\",\"river\",\"rain\"]",
+    "correct_answer": "sea",
+    "explanation": "\"Bahir\" (ባሕር) means \"sea\" in Amharic. \"Bahir Dar\" is a city named for its location at a lake.",
+    "xp_reward": 5
+  },
+  {
+    "id": 539,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"fire\"?",
+    "options": "[\"isat\",\"nefas\",\"zinab\",\"afer\"]",
+    "correct_answer": "isat",
+    "explanation": "\"Isat\" (እሳት) means \"fire\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 540,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"semay\" mean?",
+    "options": "[\"sky\",\"cloud\",\"wind\",\"rain\"]",
+    "correct_answer": "sky",
+    "explanation": "\"Semay\" (ሰማይ) means \"sky\" in Amharic. The color \"semayawi\" (blue) derives from this word.",
+    "xp_reward": 5
+  },
+  {
+    "id": 541,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"rain\" in Amharic?",
+    "options": "[\"zinab\",\"demena\",\"nefas\",\"beredo\"]",
+    "correct_answer": "zinab",
+    "explanation": "\"Zinab\" (ዝናብ) means \"rain\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 542,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"dengay\" mean?",
+    "options": "[\"stone/rock\",\"sand\",\"earth\",\"grass\"]",
+    "correct_answer": "stone/rock",
+    "explanation": "\"Dengay\" (ድንጋይ) means \"stone\" or \"rock\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 543,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "Which Amharic word means \"forest\"?",
+    "options": "[\"den\",\"zaf\",\"sar\",\"terara\"]",
+    "correct_answer": "den",
+    "explanation": "\"Den\" (ደን) means \"forest\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 544,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "What does \"nefas\" mean?",
+    "options": "[\"wind\",\"rain\",\"cloud\",\"snow\"]",
+    "correct_answer": "wind",
+    "explanation": "\"Nefas\" (ነፋስ) means \"wind\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 545,
+    "lesson_id": 36,
+    "question_type": "multiple_choice",
+    "question": "How do you say \"lake\" in Amharic?",
+    "options": "[\"hayk\",\"wenz\",\"bahir\",\"semay\"]",
+    "correct_answer": "hayk",
+    "explanation": "\"Hayk\" (ሐይቅ) means \"lake\" in Amharic. Lake Tana is the largest lake in Ethiopia.",
+    "xp_reward": 5
+  },
+  {
+    "id": 546,
+    "lesson_id": 36,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"earth/soil\" is ___.",
+    "options": "[]",
+    "correct_answer": "afer",
+    "explanation": "\"Afer\" (አፈር) means \"earth\" or \"soil\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 547,
+    "lesson_id": 36,
+    "question_type": "fill_blank",
+    "question": "\"Demena\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "cloud",
+    "explanation": "\"Demena\" (ደመና) means \"cloud\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 548,
+    "lesson_id": 36,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"grass\" is ___.",
+    "options": "[]",
+    "correct_answer": "sar",
+    "explanation": "\"Sar\" (ሣር) means \"grass\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 549,
+    "lesson_id": 36,
+    "question_type": "fill_blank",
+    "question": "\"Beredo\" means ___ in English.",
+    "options": "[]",
+    "correct_answer": "snow",
+    "explanation": "\"Beredo\" (በረዶ) means \"snow\" or \"ice\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 550,
+    "lesson_id": 36,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for \"sand\" is ___.",
+    "options": "[]",
+    "correct_answer": "ashewa",
+    "explanation": "\"Ashewa\" (አሸዋ) means \"sand\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 551,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'market' in Amharic?",
+    "options": "[\"gebeya\",\"ketema\",\"suq\",\"mender\"]",
+    "correct_answer": "gebeya",
+    "explanation": "\"Gebeya\" (ገበያ) means \"market\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 552,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What does 'ketema' mean in English?",
+    "options": "[\"city\",\"village\",\"building\",\"bridge\"]",
+    "correct_answer": "city",
+    "explanation": "\"Ketema\" (ከተማ) means \"city\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 553,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "'Gebeya yet new?' means:",
+    "options": "[\"Where is the market?\",\"The market is big\",\"I went to the market\",\"The market is closed\"]",
+    "correct_answer": "Where is the market?",
+    "explanation": "\"Gebeya yet new?\" (ገበያ የት ነው?) asks \"Where is the market?\" — \"yet new\" means \"where is.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 554,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'hospital' in Amharic?",
+    "options": "[\"hospitaal\",\"farmasi\",\"mesgid\",\"bank\"]",
+    "correct_answer": "hospitaal",
+    "explanation": "\"Hospitaal\" (ሆስፒታል) means \"hospital\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 555,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'church'?",
+    "options": "[\"beta kristiyan\",\"mesgid\",\"timhirt bet\",\"posta bet\"]",
+    "correct_answer": "beta kristiyan",
+    "explanation": "\"Beta kristiyan\" (ቤተ ክርስቲያን) means \"church\" in Amharic, literally \"house of Christians.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 556,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What does 'mender' mean?",
+    "options": "[\"village\",\"city\",\"market\",\"park\"]",
+    "correct_answer": "village",
+    "explanation": "\"Mender\" (መንደር) means \"village\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 557,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'airport' in Amharic?",
+    "options": "[\"ayermarefiya\",\"istadyem\",\"tabiya\",\"dildiy\"]",
+    "correct_answer": "ayermarefiya",
+    "explanation": "\"Ayermarefiya\" (አየር ማረፊያ) means \"airport,\" literally \"air resting place.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 558,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "'Mesgid' refers to which place?",
+    "options": "[\"mosque\",\"church\",\"school\",\"library\"]",
+    "correct_answer": "mosque",
+    "explanation": "\"Mesgid\" (መስጊድ) means \"mosque\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 559,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What is 'betemeṣahift' in English?",
+    "options": "[\"library\",\"museum\",\"pharmacy\",\"post office\"]",
+    "correct_answer": "library",
+    "explanation": "\"Betemeṣahift\" (ቤተ መጻሕፍት) means \"library,\" literally \"house of books.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 560,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'bridge' in Amharic?",
+    "options": "[\"dildiy\",\"hinetsa\",\"menged\",\"park\"]",
+    "correct_answer": "dildiy",
+    "explanation": "\"Dildiy\" (ድልድይ) means \"bridge\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 561,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "'Posta bet' means:",
+    "options": "[\"post office\",\"police station\",\"pharmacy\",\"hotel\"]",
+    "correct_answer": "post office",
+    "explanation": "\"Posta bet\" (ፖስታ ቤት) means \"post office,\" literally \"post house.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 562,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What does 'polis tabiya' mean?",
+    "options": "[\"police station\",\"bus station\",\"post office\",\"pharmacy\"]",
+    "correct_answer": "police station",
+    "explanation": "\"Polis tabiya\" (ፖሊስ ጣቢያ) means \"police station\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 563,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'building' in Amharic?",
+    "options": "[\"hinetsa\",\"dildiy\",\"ketema\",\"mender\"]",
+    "correct_answer": "hinetsa",
+    "explanation": "\"Hinetsa\" (ህንፃ) means \"building\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 564,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'stadium'?",
+    "options": "[\"istadyem\",\"muzyem\",\"park\",\"hotel\"]",
+    "correct_answer": "istadyem",
+    "explanation": "\"Istadyem\" (ስታድየም) means \"stadium\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 565,
+    "lesson_id": 37,
+    "question_type": "multiple_choice",
+    "question": "'Suq' means:",
+    "options": "[\"shop\",\"market\",\"bank\",\"park\"]",
+    "correct_answer": "shop",
+    "explanation": "\"Suq\" (ሱቅ) means \"shop\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 566,
+    "lesson_id": 37,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'school' is ___.",
+    "options": "[]",
+    "correct_answer": "timhirt bet",
+    "explanation": "\"Timhirt bet\" (ትምህርት ቤት) means \"school,\" literally \"learning house.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 567,
+    "lesson_id": 37,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'pharmacy' is ___.",
+    "options": "[]",
+    "correct_answer": "farmasi",
+    "explanation": "\"Farmasi\" (ፋርማሲ) means \"pharmacy\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 568,
+    "lesson_id": 37,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'museum' is said as ___.",
+    "options": "[]",
+    "correct_answer": "muzyem",
+    "explanation": "\"Muzyem\" (ሙዝየም) means \"museum\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 569,
+    "lesson_id": 37,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'hotel' is ___.",
+    "options": "[]",
+    "correct_answer": "hotel",
+    "explanation": "\"Hotel\" (ሆቴል) means \"hotel\" in Amharic, borrowed from English.",
+    "xp_reward": 5
+  },
+  {
+    "id": 570,
+    "lesson_id": 37,
+    "question_type": "fill_blank",
+    "question": "To say 'bank' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "bank",
+    "explanation": "\"Bank\" (ባንክ) means \"bank\" in Amharic, borrowed from English.",
+    "xp_reward": 5
+  },
+  {
+    "id": 571,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What does 'mekina' mean?",
+    "options": "[\"car\",\"bus\",\"taxi\",\"bicycle\"]",
+    "correct_answer": "car",
+    "explanation": "\"Mekina\" (መኪና) means \"car\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 572,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "'Tiketu sint new?' means:",
+    "options": "[\"How much is the ticket?\",\"Where is the ticket?\",\"I need a ticket\",\"The ticket is here\"]",
+    "correct_answer": "How much is the ticket?",
+    "explanation": "\"Tiketu sint new?\" (ቲኬቱ ስንት ነው?) asks \"How much is the ticket?\" — \"sint new\" means \"how much is it.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 573,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'bus' in Amharic?",
+    "options": "[\"awtobus\",\"mekina\",\"taksi\",\"merkeb\"]",
+    "correct_answer": "awtobus",
+    "explanation": "\"Awtobus\" (አውቶቡስ) means \"bus\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 574,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What does 'awroplan' mean?",
+    "options": "[\"airplane\",\"ship\",\"bus\",\"car\"]",
+    "correct_answer": "airplane",
+    "explanation": "\"Awroplan\" (አውሮፕላን) means \"airplane\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 575,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "'Shofer' refers to a:",
+    "options": "[\"driver\",\"passenger\",\"ticket\",\"road\"]",
+    "correct_answer": "driver",
+    "explanation": "\"Shofer\" (ሾፌር) means \"driver\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 576,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'road'?",
+    "options": "[\"menged\",\"tabiya\",\"gomma\",\"nedaj\"]",
+    "correct_answer": "menged",
+    "explanation": "\"Menged\" (መንገድ) means \"road\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 577,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'ship' in Amharic?",
+    "options": "[\"merkeb\",\"awroplan\",\"bisiklet\",\"mekina\"]",
+    "correct_answer": "merkeb",
+    "explanation": "\"Merkeb\" (መርከብ) means \"ship\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 578,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "'Fetena' means:",
+    "options": "[\"fast\",\"slow\",\"big\",\"small\"]",
+    "correct_answer": "fast",
+    "explanation": "\"Fetena\" (ፈጠና) means \"fast\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 579,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What does 'zegita' mean?",
+    "options": "[\"slow\",\"fast\",\"heavy\",\"light\"]",
+    "correct_answer": "slow",
+    "explanation": "\"Zegita\" (ዘግታ) means \"slow\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 580,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to stop' in Amharic?",
+    "options": "[\"maqom\",\"medres\",\"melak\",\"mekfet\"]",
+    "correct_answer": "maqom",
+    "explanation": "\"Maqom\" (ማቆም) means \"to stop\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 581,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "'Medres' means:",
+    "options": "[\"to arrive\",\"to stop\",\"to drive\",\"to leave\"]",
+    "correct_answer": "to arrive",
+    "explanation": "\"Medres\" (መድረስ) means \"to arrive\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 582,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'passenger'?",
+    "options": "[\"meñgeder\",\"shofer\",\"tabiya\",\"tiket\"]",
+    "correct_answer": "meñgeder",
+    "explanation": "\"Meñgeder\" (መንገደኛ) means \"passenger\" or \"traveler\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 583,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "'Gomma' refers to:",
+    "options": "[\"wheel/tire\",\"fuel\",\"road\",\"station\"]",
+    "correct_answer": "wheel/tire",
+    "explanation": "\"Gomma\" (ጎማ) means \"wheel\" or \"tire\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 584,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'station' in Amharic?",
+    "options": "[\"tabiya\",\"menged\",\"tiraafik\",\"nedaj\"]",
+    "correct_answer": "tabiya",
+    "explanation": "\"Tabiya\" (ጣቢያ) means \"station\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 585,
+    "lesson_id": 38,
+    "question_type": "multiple_choice",
+    "question": "What does 'tiraafik' mean?",
+    "options": "[\"traffic\",\"station\",\"ticket\",\"road\"]",
+    "correct_answer": "traffic",
+    "explanation": "\"Tiraafik\" (ትራፊክ) means \"traffic\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 586,
+    "lesson_id": 38,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'bicycle' is ___.",
+    "options": "[]",
+    "correct_answer": "bisiklet",
+    "explanation": "\"Bisiklet\" (ብስክሌት) means \"bicycle\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 587,
+    "lesson_id": 38,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'fuel' is said as ___.",
+    "options": "[]",
+    "correct_answer": "nedaj",
+    "explanation": "\"Nedaj\" (ነዳጅ) means \"fuel\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 588,
+    "lesson_id": 38,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'taxi' is ___.",
+    "options": "[]",
+    "correct_answer": "taksi",
+    "explanation": "\"Taksi\" (ታክሲ) means \"taxi\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 589,
+    "lesson_id": 38,
+    "question_type": "fill_blank",
+    "question": "To say 'ticket' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "tiket",
+    "explanation": "\"Tiket\" (ቲኬት) means \"ticket\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 590,
+    "lesson_id": 38,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'car' is ___.",
+    "options": "[]",
+    "correct_answer": "mekina",
+    "explanation": "\"Mekina\" (መኪና) means \"car\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 591,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Astemari' means:",
+    "options": "[\"teacher\",\"student\",\"doctor\",\"farmer\"]",
+    "correct_answer": "teacher",
+    "explanation": "\"Astemari\" (አስተማሪ) means \"teacher\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 592,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "What does 'Astemari neñ' mean?",
+    "options": "[\"I am a teacher\",\"She is a teacher\",\"I need a teacher\",\"I see a teacher\"]",
+    "correct_answer": "I am a teacher",
+    "explanation": "\"Astemari neñ\" (አስተማሪ ነኝ) means \"I am a teacher.\" \"Neñ\" means \"I am.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 593,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'doctor' in Amharic?",
+    "options": "[\"hakim\",\"ners\",\"astemari\",\"tebeka\"]",
+    "correct_answer": "hakim",
+    "explanation": "\"Hakim\" (ሐኪም) means \"doctor\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 594,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Gebere' refers to a:",
+    "options": "[\"farmer\",\"merchant\",\"soldier\",\"guard\"]",
+    "correct_answer": "farmer",
+    "explanation": "\"Gebere\" (ገበሬ) means \"farmer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 595,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'student'?",
+    "options": "[\"temari\",\"astemari\",\"tsehafi\",\"mehandis\"]",
+    "correct_answer": "temari",
+    "explanation": "\"Temari\" (ተማሪ) means \"student\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 596,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Mehandis' means:",
+    "options": "[\"engineer\",\"pilot\",\"lawyer\",\"singer\"]",
+    "correct_answer": "engineer",
+    "explanation": "\"Mehandis\" (መሀንዲስ) means \"engineer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 597,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'soldier' in Amharic?",
+    "options": "[\"wetader\",\"polis\",\"zebegna\",\"negade\"]",
+    "correct_answer": "wetader",
+    "explanation": "\"Wetader\" (ወታደር) means \"soldier\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 598,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "What does 'negade' mean?",
+    "options": "[\"merchant\",\"farmer\",\"teacher\",\"priest\"]",
+    "correct_answer": "merchant",
+    "explanation": "\"Negade\" (ነጋዴ) means \"merchant\" or \"trader\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 599,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Qes' refers to a:",
+    "options": "[\"priest\",\"police officer\",\"writer\",\"cook\"]",
+    "correct_answer": "priest",
+    "explanation": "\"Qes\" (ቄስ) means \"priest\" in Amharic, referring to an Ethiopian Orthodox priest.",
+    "xp_reward": 5
+  },
+  {
+    "id": 600,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'singer' in Amharic?",
+    "options": "[\"zefañ\",\"tsehafi\",\"abari\",\"tebeka\"]",
+    "correct_answer": "zefañ",
+    "explanation": "\"Zefañ\" (ዘፋኝ) means \"singer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 601,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "What does 'tsehafi' mean?",
+    "options": "[\"writer\",\"singer\",\"nurse\",\"guard\"]",
+    "correct_answer": "writer",
+    "explanation": "\"Tsehafi\" (ጸሐፊ) means \"writer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 602,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Tebeka' means:",
+    "options": "[\"lawyer\",\"doctor\",\"engineer\",\"teacher\"]",
+    "correct_answer": "lawyer",
+    "explanation": "\"Tebeka\" (ጠበቃ) means \"lawyer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 603,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'pilot'?",
+    "options": "[\"abari\",\"shofer\",\"wetader\",\"mehandis\"]",
+    "correct_answer": "abari",
+    "explanation": "\"Abari\" (አብራሪ) means \"pilot\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 604,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "'Zebegna' means:",
+    "options": "[\"guard\",\"soldier\",\"police\",\"farmer\"]",
+    "correct_answer": "guard",
+    "explanation": "\"Zebegna\" (ዘበኛ) means \"guard\" or \"watchman\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 605,
+    "lesson_id": 39,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'cook' in Amharic?",
+    "options": "[\"megeb aseri\",\"gebere\",\"negade\",\"ners\"]",
+    "correct_answer": "megeb aseri",
+    "explanation": "\"Megeb aseri\" (ምግብ አሰሪ) means \"cook,\" literally \"food preparer.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 606,
+    "lesson_id": 39,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'nurse' is ___.",
+    "options": "[]",
+    "correct_answer": "ners",
+    "explanation": "\"Ners\" (ነርስ) means \"nurse\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 607,
+    "lesson_id": 39,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'police' is said as ___.",
+    "options": "[]",
+    "correct_answer": "polis",
+    "explanation": "\"Polis\" (ፖሊስ) means \"police\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 608,
+    "lesson_id": 39,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'teacher' is ___.",
+    "options": "[]",
+    "correct_answer": "astemari",
+    "explanation": "\"Astemari\" (አስተማሪ) means \"teacher\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 609,
+    "lesson_id": 39,
+    "question_type": "fill_blank",
+    "question": "To say 'doctor' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "hakim",
+    "explanation": "\"Hakim\" (ሐኪም) means \"doctor\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 610,
+    "lesson_id": 39,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'farmer' is ___.",
+    "options": "[]",
+    "correct_answer": "gebere",
+    "explanation": "\"Gebere\" (ገበሬ) means \"farmer\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 611,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'medicine' in Amharic?",
+    "options": "[\"medhanit\",\"merfe\",\"hakim\",\"hospitaal\"]",
+    "correct_answer": "medhanit",
+    "explanation": "\"Medhanit\" (መድኃኒት) means \"medicine\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 612,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Tikusat alebeñ' means:",
+    "options": "[\"I have a fever\",\"I have a cough\",\"I have pain\",\"I am healthy\"]",
+    "correct_answer": "I have a fever",
+    "explanation": "\"Tikusat alebeñ\" (ትኩሳት አለብኝ) means \"I have a fever.\" \"Alebeñ\" means \"I have (on me).\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 613,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "What does 'himem' mean?",
+    "options": "[\"pain\",\"fever\",\"cough\",\"cold\"]",
+    "correct_answer": "pain",
+    "explanation": "\"Himem\" (ህመም) means \"pain\" or \"illness\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 614,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'cough' in Amharic?",
+    "options": "[\"sal\",\"gunfan\",\"tikusat\",\"himem\"]",
+    "correct_answer": "sal",
+    "explanation": "\"Sal\" (ሳል) means \"cough\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 615,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Gunfan' means:",
+    "options": "[\"cold/flu\",\"fever\",\"injection\",\"rest\"]",
+    "correct_answer": "cold/flu",
+    "explanation": "\"Gunfan\" (ጉንፋን) means \"cold\" or \"flu\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 616,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'injection'?",
+    "options": "[\"merfe\",\"medhanit\",\"fashoo\",\"ambulans\"]",
+    "correct_answer": "merfe",
+    "explanation": "\"Merfe\" (መርፌ) means \"injection\" or \"needle\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 617,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'rest' in Amharic?",
+    "options": "[\"ireft\",\"tena\",\"himem\",\"sal\"]",
+    "correct_answer": "ireft",
+    "explanation": "\"Ireft\" (እረፍት) means \"rest\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 618,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Tena' means:",
+    "options": "[\"healthy/health\",\"pain\",\"medicine\",\"hospital\"]",
+    "correct_answer": "healthy/health",
+    "explanation": "\"Tena\" (ጤና) means \"health\" or \"healthy\" in Amharic. It also appears in the greeting \"Tena yistilign.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 619,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "What does 'ambulans' mean?",
+    "options": "[\"ambulance\",\"hospital\",\"pharmacy\",\"bandage\"]",
+    "correct_answer": "ambulance",
+    "explanation": "\"Ambulans\" (አምቡላንስ) means \"ambulance\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 620,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'bandage' in Amharic?",
+    "options": "[\"fashoo\",\"merfe\",\"medhanit\",\"sal\"]",
+    "correct_answer": "fashoo",
+    "explanation": "\"Fashoo\" (ፋሾ) means \"bandage\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 621,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Medhanit bet' means:",
+    "options": "[\"pharmacy\",\"hospital\",\"clinic\",\"medicine\"]",
+    "correct_answer": "pharmacy",
+    "explanation": "\"Medhanit bet\" (መድኃኒት ቤት) means \"pharmacy,\" literally \"medicine house.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 622,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Sal alebeñ' means:",
+    "options": "[\"I have a cough\",\"I have a fever\",\"I have pain\",\"I need rest\"]",
+    "correct_answer": "I have a cough",
+    "explanation": "\"Sal alebeñ\" (ሳል አለብኝ) means \"I have a cough.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 623,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "How would you say 'I have pain' in Amharic?",
+    "options": "[\"himem alebeñ\",\"tikusat alebeñ\",\"sal alebeñ\",\"gunfan alebeñ\"]",
+    "correct_answer": "himem alebeñ",
+    "explanation": "\"Himem alebeñ\" (ህመም አለብኝ) means \"I have pain\" or \"I am sick.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 624,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "'Ireft yisfeligeñal' means:",
+    "options": "[\"I need rest\",\"I am healthy\",\"I need medicine\",\"I have a fever\"]",
+    "correct_answer": "I need rest",
+    "explanation": "\"Ireft yisfeligeñal\" (እረፍት ይስፈልገኛል) means \"I need rest.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 625,
+    "lesson_id": 40,
+    "question_type": "multiple_choice",
+    "question": "What does 'tena new' mean?",
+    "options": "[\"It is healthy/fine\",\"It is painful\",\"It is a hospital\",\"It is medicine\"]",
+    "correct_answer": "It is healthy/fine",
+    "explanation": "\"Tena new\" (ጤና ነው) means \"it is healthy\" or \"it is fine.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 626,
+    "lesson_id": 40,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'fever' is ___.",
+    "options": "[]",
+    "correct_answer": "tikusat",
+    "explanation": "\"Tikusat\" (ትኩሳት) means \"fever\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 627,
+    "lesson_id": 40,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'cold/flu' is said as ___.",
+    "options": "[]",
+    "correct_answer": "gunfan",
+    "explanation": "\"Gunfan\" (ጉንፋን) means \"cold\" or \"flu\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 628,
+    "lesson_id": 40,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'hospital' is ___.",
+    "options": "[]",
+    "correct_answer": "hospitaal",
+    "explanation": "\"Hospitaal\" (ሆስፒታል) means \"hospital\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 629,
+    "lesson_id": 40,
+    "question_type": "fill_blank",
+    "question": "To say 'injection' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "merfe",
+    "explanation": "\"Merfe\" (መርፌ) means \"injection\" or \"needle\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 630,
+    "lesson_id": 40,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'medicine' is ___.",
+    "options": "[]",
+    "correct_answer": "medhanit",
+    "explanation": "\"Medhanit\" (መድኃኒት) means \"medicine\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 631,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Desteña' means:",
+    "options": "[\"happy\",\"sad\",\"angry\",\"tired\"]",
+    "correct_answer": "happy",
+    "explanation": "\"Desteña\" (ደስተኛ) means \"happy\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 632,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "What does 'Dekmoñal' mean?",
+    "options": "[\"I am tired\",\"I am happy\",\"I am sad\",\"I am angry\"]",
+    "correct_answer": "I am tired",
+    "explanation": "\"Dekmoñal\" (ደክሞኛል) means \"I am tired.\" It comes from \"dekama\" (ደካማ), meaning \"tired.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 633,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'sad' in Amharic?",
+    "options": "[\"azañ\",\"desteña\",\"tenadaj\",\"feri\"]",
+    "correct_answer": "azañ",
+    "explanation": "\"Azañ\" (አዛኝ) means \"sad\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 634,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Tenadaj' means:",
+    "options": "[\"angry\",\"happy\",\"surprised\",\"calm\"]",
+    "correct_answer": "angry",
+    "explanation": "\"Tenadaj\" (ተናዳጅ) means \"angry\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 635,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'afraid'?",
+    "options": "[\"feri\",\"defar\",\"dekama\",\"azañ\"]",
+    "correct_answer": "feri",
+    "explanation": "\"Feri\" (ፈሪ) means \"afraid\" or \"fearful\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 636,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Yetegereme' means:",
+    "options": "[\"surprised\",\"excited\",\"worried\",\"proud\"]",
+    "correct_answer": "surprised",
+    "explanation": "\"Yetegereme\" (የተገረመ) means \"surprised\" or \"amazed\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 637,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'proud' in Amharic?",
+    "options": "[\"kuratam\",\"ameseganyi\",\"tagisgna\",\"defar\"]",
+    "correct_answer": "kuratam",
+    "explanation": "\"Kuratam\" (ኩራተኛ) means \"proud\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 638,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "What does 'ameseganyi' mean?",
+    "options": "[\"grateful\",\"proud\",\"lonely\",\"brave\"]",
+    "correct_answer": "grateful",
+    "explanation": "\"Ameseganyi\" (አመሰጋኝ) means \"grateful\" or \"thankful\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 639,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Bilchgna' means:",
+    "options": "[\"lonely\",\"bored\",\"calm\",\"kind\"]",
+    "correct_answer": "lonely",
+    "explanation": "\"Bilchgna\" (ብልጭግና) means \"lonely\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 640,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'brave' in Amharic?",
+    "options": "[\"defar\",\"feri\",\"tsegiyu\",\"degg\"]",
+    "correct_answer": "defar",
+    "explanation": "\"Defar\" (ደፋር) means \"brave\" or \"courageous\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 641,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Degg' means:",
+    "options": "[\"kind\",\"patient\",\"jealous\",\"calm\"]",
+    "correct_answer": "kind",
+    "explanation": "\"Degg\" (ደግ) means \"kind\" or \"good-natured\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 642,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "What does 'tagisgna' mean?",
+    "options": "[\"patient\",\"kind\",\"brave\",\"grateful\"]",
+    "correct_answer": "patient",
+    "explanation": "\"Tagisgna\" (ታጋሽኛ) means \"patient\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 643,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Qenateña' means:",
+    "options": "[\"jealous\",\"worried\",\"excited\",\"bored\"]",
+    "correct_answer": "jealous",
+    "explanation": "\"Qenateña\" (ቅናተኛ) means \"jealous\" or \"envious\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 644,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'calm' in Amharic?",
+    "options": "[\"tsegiyu\",\"dekama\",\"tenadaj\",\"azañ\"]",
+    "correct_answer": "tsegiyu",
+    "explanation": "\"Tsegiyu\" (ጸጥ ያለ) means \"calm\" or \"quiet\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 645,
+    "lesson_id": 41,
+    "question_type": "multiple_choice",
+    "question": "'Yetesasbew' means:",
+    "options": "[\"worried\",\"excited\",\"surprised\",\"lonely\"]",
+    "correct_answer": "worried",
+    "explanation": "\"Yetesasbew\" (የተሳሰበው) means \"worried\" or \"concerned\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 646,
+    "lesson_id": 41,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'happy' is ___.",
+    "options": "[]",
+    "correct_answer": "desteña",
+    "explanation": "\"Desteña\" (ደስተኛ) means \"happy\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 647,
+    "lesson_id": 41,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'angry' is said as ___.",
+    "options": "[]",
+    "correct_answer": "tenadaj",
+    "explanation": "\"Tenadaj\" (ተናዳጅ) means \"angry\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 648,
+    "lesson_id": 41,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'tired' is ___.",
+    "options": "[]",
+    "correct_answer": "dekama",
+    "explanation": "\"Dekama\" (ደካማ) means \"tired\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 649,
+    "lesson_id": 41,
+    "question_type": "fill_blank",
+    "question": "To say 'kind' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "degg",
+    "explanation": "\"Degg\" (ደግ) means \"kind\" or \"good-natured\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 650,
+    "lesson_id": 41,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'afraid' is ___.",
+    "options": "[]",
+    "correct_answer": "feri",
+    "explanation": "\"Feri\" (ፈሪ) means \"afraid\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 651,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Mabsel' means:",
+    "options": "[\"to cook\",\"to wash\",\"to clean\",\"to cut\"]",
+    "correct_answer": "to cook",
+    "explanation": "\"Mabsel\" (ማብሰል) means \"to cook\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 652,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "What does 'mateb' mean?",
+    "options": "[\"to wash\",\"to cook\",\"to clean\",\"to carry\"]",
+    "correct_answer": "to wash",
+    "explanation": "\"Mateb\" (ማጠብ) means \"to wash\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 653,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to open' in Amharic?",
+    "options": "[\"mekfet\",\"mezgat\",\"meshkem\",\"megfat\"]",
+    "correct_answer": "mekfet",
+    "explanation": "\"Mekfet\" (መክፈት) means \"to open\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 654,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Mezgat' means:",
+    "options": "[\"to close\",\"to open\",\"to push\",\"to pull\"]",
+    "correct_answer": "to close",
+    "explanation": "\"Mezgat\" (መዝጋት) means \"to close\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 655,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'to carry'?",
+    "options": "[\"meshkem\",\"megfat\",\"megotat\",\"mewerwer\"]",
+    "correct_answer": "meshkem",
+    "explanation": "\"Meshkem\" (መሸከም) means \"to carry\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 656,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Megfat' means:",
+    "options": "[\"to push\",\"to pull\",\"to throw\",\"to carry\"]",
+    "correct_answer": "to push",
+    "explanation": "\"Megfat\" (መግፋት) means \"to push\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 657,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to pull' in Amharic?",
+    "options": "[\"megotat\",\"megfat\",\"meshkem\",\"mesber\"]",
+    "correct_answer": "megotat",
+    "explanation": "\"Megotat\" (መጎተት) means \"to pull\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 658,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "What does 'mewerwer' mean?",
+    "options": "[\"to throw\",\"to break\",\"to build\",\"to cut\"]",
+    "correct_answer": "to throw",
+    "explanation": "\"Mewerwer\" (መወርወር) means \"to throw\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 659,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Mesber' means:",
+    "options": "[\"to break\",\"to build\",\"to throw\",\"to cut\"]",
+    "correct_answer": "to break",
+    "explanation": "\"Mesber\" (መስበር) means \"to break\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 660,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to build' in Amharic?",
+    "options": "[\"meseñat\",\"mesber\",\"mejemer\",\"mechres\"]",
+    "correct_answer": "meseñat",
+    "explanation": "\"Meseñat\" (መሰናት) means \"to build\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 661,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Meqret' means:",
+    "options": "[\"to cut\",\"to break\",\"to throw\",\"to push\"]",
+    "correct_answer": "to cut",
+    "explanation": "\"Meqret\" (መቅረጥ) means \"to cut\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 662,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "What does 'mejemer' mean?",
+    "options": "[\"to begin\",\"to finish\",\"to help\",\"to learn\"]",
+    "correct_answer": "to begin",
+    "explanation": "\"Mejemer\" (መጀመር) means \"to begin\" or \"to start\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 663,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "'Mechres' means:",
+    "options": "[\"to finish\",\"to begin\",\"to send\",\"to receive\"]",
+    "correct_answer": "to finish",
+    "explanation": "\"Mechres\" (መጨረስ) means \"to finish\" or \"to complete\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 664,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'to teach' in Amharic?",
+    "options": "[\"mastemar\",\"memarir\",\"merdat\",\"melak\"]",
+    "correct_answer": "mastemar",
+    "explanation": "\"Mastemar\" (ማስተማር) means \"to teach\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 665,
+    "lesson_id": 42,
+    "question_type": "multiple_choice",
+    "question": "What does 'meqebel' mean?",
+    "options": "[\"to receive\",\"to send\",\"to help\",\"to learn\"]",
+    "correct_answer": "to receive",
+    "explanation": "\"Meqebel\" (መቀበል) means \"to receive\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 666,
+    "lesson_id": 42,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'to help' is ___.",
+    "options": "[]",
+    "correct_answer": "merdat",
+    "explanation": "\"Merdat\" (መርዳት) means \"to help\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 667,
+    "lesson_id": 42,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'to learn' is said as ___.",
+    "options": "[]",
+    "correct_answer": "memarir",
+    "explanation": "\"Memarir\" (መማር) means \"to learn\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 668,
+    "lesson_id": 42,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'to send' is ___.",
+    "options": "[]",
+    "correct_answer": "melak",
+    "explanation": "\"Melak\" (መላክ) means \"to send\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 669,
+    "lesson_id": 42,
+    "question_type": "fill_blank",
+    "question": "To say 'to clean' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "matsdat",
+    "explanation": "\"Matsdat\" (ማጽዳት) means \"to clean\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 670,
+    "lesson_id": 42,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'to cook' is ___.",
+    "options": "[]",
+    "correct_answer": "mabsel",
+    "explanation": "\"Mabsel\" (ማብሰል) means \"to cook\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 671,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Tewat' means:",
+    "options": "[\"morning\",\"evening\",\"night\",\"afternoon\"]",
+    "correct_answer": "morning",
+    "explanation": "\"Tewat\" (ጠዋት) means \"morning\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 672,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Chigir yelem' means:",
+    "options": "[\"No problem\",\"I have a problem\",\"Big problem\",\"What is the problem?\"]",
+    "correct_answer": "No problem",
+    "explanation": "\"Chigir yelem\" (ችግር የለም) means \"No problem\" or \"There is no problem.\" \"Yelem\" means \"there is not.\"",
+    "xp_reward": 5
+  },
+  {
+    "id": 673,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "What does 'misit' mean?",
+    "options": "[\"evening\",\"morning\",\"always\",\"sometimes\"]",
+    "correct_answer": "evening",
+    "explanation": "\"Misit\" (ምሽት) means \"evening\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 674,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'always' in Amharic?",
+    "options": "[\"hulgizie\",\"andand gizie\",\"befe\",\"qedem\"]",
+    "correct_answer": "hulgizie",
+    "explanation": "\"Hulgizie\" (ሁልጊዜ) means \"always\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 675,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Befe' means:",
+    "options": "[\"never\",\"always\",\"sometimes\",\"maybe\"]",
+    "correct_answer": "never",
+    "explanation": "\"Befe\" (በፍ) means \"never\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 676,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "What is the Amharic word for 'sometimes'?",
+    "options": "[\"andand gizie\",\"hulgizie\",\"befe\",\"zegay\"]",
+    "correct_answer": "andand gizie",
+    "explanation": "\"Andand gizie\" (አንዳንድ ጊዜ) means \"sometimes\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 677,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Zegaju' means:",
+    "options": "[\"ready\",\"busy\",\"late\",\"early\"]",
+    "correct_answer": "ready",
+    "explanation": "\"Zegaju\" (ዝግጁ) means \"ready\" or \"prepared\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 678,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'busy' in Amharic?",
+    "options": "[\"isiru\",\"zegaju\",\"beqi\",\"irgiṭegna\"]",
+    "correct_answer": "isiru",
+    "explanation": "\"Isiru\" (እስሩ) means \"busy\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 679,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "What does 'chigir' mean?",
+    "options": "[\"problem\",\"answer\",\"question\",\"idea\"]",
+    "correct_answer": "problem",
+    "explanation": "\"Chigir\" (ችግር) means \"problem\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 680,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Hasab' means:",
+    "options": "[\"idea\",\"plan\",\"question\",\"answer\"]",
+    "correct_answer": "idea",
+    "explanation": "\"Hasab\" (ሀሳብ) means \"idea\" or \"thought\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 681,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'together' in Amharic?",
+    "options": "[\"beyiberet\",\"bichaye\",\"beqi\",\"qedem\"]",
+    "correct_answer": "beyiberet",
+    "explanation": "\"Beyiberet\" (በይበረት) means \"together\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 682,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Bichaye' means:",
+    "options": "[\"alone\",\"together\",\"enough\",\"sure\"]",
+    "correct_answer": "alone",
+    "explanation": "\"Bichaye\" (ብቻየ) means \"alone\" or \"by myself\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 683,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "What does 'beqi' mean?",
+    "options": "[\"enough\",\"maybe\",\"sure\",\"late\"]",
+    "correct_answer": "enough",
+    "explanation": "\"Beqi\" (በቂ) means \"enough\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 684,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "'Minaibat' means:",
+    "options": "[\"maybe\",\"sure\",\"never\",\"always\"]",
+    "correct_answer": "maybe",
+    "explanation": "\"Minaibat\" (ምናልባት) means \"maybe\" or \"perhaps\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 685,
+    "lesson_id": 43,
+    "question_type": "multiple_choice",
+    "question": "How do you say 'early' in Amharic?",
+    "options": "[\"qedem\",\"zegay\",\"tewat\",\"misit\"]",
+    "correct_answer": "qedem",
+    "explanation": "\"Qedem\" (ቀደም) means \"early\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 686,
+    "lesson_id": 43,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'morning' is ___.",
+    "options": "[]",
+    "correct_answer": "tewat",
+    "explanation": "\"Tewat\" (ጠዋት) means \"morning\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 687,
+    "lesson_id": 43,
+    "question_type": "fill_blank",
+    "question": "In Amharic, 'late' is said as ___.",
+    "options": "[]",
+    "correct_answer": "zegay",
+    "explanation": "\"Zegay\" (ዘግይ) means \"late\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 688,
+    "lesson_id": 43,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'plan' is ___.",
+    "options": "[]",
+    "correct_answer": "iqid",
+    "explanation": "\"Iqid\" (እቅድ) means \"plan\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 689,
+    "lesson_id": 43,
+    "question_type": "fill_blank",
+    "question": "To say 'question' in Amharic, you say ___.",
+    "options": "[]",
+    "correct_answer": "tiyaqe",
+    "explanation": "\"Tiyaqe\" (ጥያቄ) means \"question\" in Amharic.",
+    "xp_reward": 5
+  },
+  {
+    "id": 690,
+    "lesson_id": 43,
+    "question_type": "fill_blank",
+    "question": "The Amharic word for 'answer' is ___.",
+    "options": "[]",
+    "correct_answer": "meils",
+    "explanation": "\"Meils\" (መልስ) means \"answer\" or \"response\" in Amharic.",
+    "xp_reward": 5
   }
 ]

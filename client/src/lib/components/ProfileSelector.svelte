@@ -104,6 +104,7 @@
               <div class="avatar" style="background: {profile.avatar_color}">
                 {profile.name[0].toUpperCase()}
               </div>
+              <!-- svelte-ignore a11y_autofocus -->
               <input
                 type="text"
                 class="edit-input"
@@ -151,6 +152,7 @@
       {#if showAddForm}
         <div class="add-form">
           <h2>Create Profile</h2>
+          <!-- svelte-ignore a11y_autofocus -->
           <input
             type="text"
             class="name-input"
@@ -168,6 +170,7 @@
                   class:selected={selectedColor === color}
                   style="background: {color}"
                   onclick={() => selectedColor = color}
+                  aria-label="Select color {color}"
                 ></button>
               {/each}
             </div>

@@ -11,6 +11,7 @@ import reviewRouter from './routes/review.js';
 import listeningRouter from './routes/listening.js';
 import conversationsRouter from './routes/conversations.js';
 import timedRouter from './routes/timed.js';
+import gamesRouter from './routes/games.js';
 
 const app = express();
 const PORT = 3001;
@@ -41,6 +42,7 @@ app.use('/api/review', reviewRouter);
 app.use('/api/listening', listeningRouter);
 app.use('/api/conversations', conversationsRouter);
 app.use('/api/timed', timedRouter);
+app.use('/api/games', gamesRouter);
 
 const HOST = process.env.HOST || '0.0.0.0';
 

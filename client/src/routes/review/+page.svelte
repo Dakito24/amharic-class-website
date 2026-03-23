@@ -99,8 +99,6 @@
     flex-wrap: wrap;
     gap: 0.4rem;
     margin-bottom: 1.5rem;
-    max-height: 80px;
-    overflow-y: auto;
   }
 
   .filter-btn {

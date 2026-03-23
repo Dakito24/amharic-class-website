@@ -169,3 +169,52 @@ export function submitTimedChallenge(difficulty, answers, timeRemainingMs) {
 export function getTimedLeaderboard(difficulty) {
   return request(`/timed/leaderboard?difficulty=${difficulty}`);
 }
+
+// Daily Challenge endpoints
+export function getDailyChallenge() {
+  return request('/games/daily-challenge');
+}
+
+export function completeDailyChallenge(score, timeTakenMs) {
+  return request('/games/daily-challenge/complete', {
+    method: 'POST',
+    body: JSON.stringify({ score, time_taken_ms: timeTakenMs })
+  });
+}
+
+// Game endpoints
+export function submitGameScore(gameType, score, timeTakenMs, metadata = {}) {
+  return request('/games/score', {
+    method: 'POST',
+    body: JSON.stringify({ game_type: gameType, score, time_taken_ms: timeTakenMs, metadata })
+  });
+}
+
+export function getGameHighScores(gameType) {
+  return request(`/games/high-scores/${gameType}`);
+}
+
+// Picture Match endpoints
+export function getPictureMatchCategories() {
+  return request('/games/picture-match/categories');
+}
+
+export function getPictureMatchData(category) {
+  return request(`/games/picture-match/data?category=${category}`);
+}
+
+// Story Adventure endpoints
+export function getStoryChapters() {
+  return request('/games/story-adventure/chapters');
+}
+
+export function getStoryChapter(id) {
+  return request(`/games/story-adventure/${id}`);
+}
+
+export function completeStoryChapter(id, choices) {
+  return request(`/games/story-adventure/${id}/complete`, {
+    method: 'POST',
+    body: JSON.stringify({ choices })
+  });
+}

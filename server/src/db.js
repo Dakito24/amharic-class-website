@@ -200,6 +200,32 @@ export function initDatabase() {
       played_at TEXT DEFAULT (datetime('now')),
       FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
     );
+
+    CREATE TABLE IF NOT EXISTS game_scores (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL,
+      game_type TEXT NOT NULL,
+      score INTEGER NOT NULL,
+      time_taken_ms INTEGER,
+      metadata TEXT,
+      played_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS daily_challenges (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      user_id INTEGER NOT NULL,
+      challenge_date TEXT NOT NULL,
+      challenge_type TEXT NOT NULL,
+      score INTEGER NOT NULL,
+      time_taken_ms INTEGER,
+      completed_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+      UNIQUE(user_id, challenge_date)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_game_scores_user ON game_scores(user_id, game_type);
+    CREATE INDEX IF NOT EXISTS idx_daily_challenges_user ON daily_challenges(user_id, challenge_date);
   `);
 }
 
