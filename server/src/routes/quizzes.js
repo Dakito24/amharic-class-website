@@ -6,8 +6,8 @@ import { recordAttempt } from '../helpers/xp.js';
 const router = Router();
 
 // GET /api/quizzes/:lessonId - get quiz questions for a lesson
-router.get('/:lessonId', (req, res) => {
-  const questions = db.prepare(
+router.get('/:lessonId', async (req, res) => {
+  const questions = await db.prepare(
     'SELECT * FROM quiz_questions WHERE lesson_id = ? ORDER BY id'
   ).all(req.params.lessonId);
 
@@ -20,7 +20,7 @@ router.get('/:lessonId', (req, res) => {
 });
 
 // POST /api/quizzes/submit - submit quiz answers, return score + XP
-router.post('/submit', requireUser, (req, res) => {
+router.post('/submit', requireUser, async (req, res) => {
   const { lesson_id, answers } = req.body;
   // answers is an array of { question_id, user_answer }
 
@@ -28,7 +28,7 @@ router.post('/submit', requireUser, (req, res) => {
     return res.status(400).json({ error: 'lesson_id and answers array required' });
   }
 
-  const questions = db.prepare(
+  const questions = await db.prepare(
     'SELECT * FROM quiz_questions WHERE lesson_id = ?'
   ).all(lesson_id);
 
@@ -47,7 +47,7 @@ router.post('/submit', requireUser, (req, res) => {
     }
 
     // Record attempt for weak words tracking
-    recordAttempt(req.userId, question.id, lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'standard');
+    await recordAttempt(req.userId, question.id, lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'standard');
 
     results.push({
       question_id: question.id,
@@ -64,7 +64,7 @@ router.post('/submit', requireUser, (req, res) => {
   }
 
   // Update user progress
-  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const newXp = progress.total_xp + totalXpEarned;
   const newLevel = Math.floor(newXp / 100) + 1;
   const leveledUp = newLevel > progress.level;
@@ -78,7 +78,7 @@ router.post('/submit', requireUser, (req, res) => {
   }
 
   const today = new Date().toISOString().split('T')[0];
-  db.prepare(`
+  await db.prepare(`
     UPDATE user_progress SET total_xp = ?, level = ?, achievements = ?, last_activity_date = ?
     WHERE user_id = ?
   `).run(newXp, newLevel, JSON.stringify(achievements), today, req.userId);

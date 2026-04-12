@@ -28,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
-initDatabase();
+await initDatabase();
 
 app.get('/health', (req, res) => res.sendStatus(200));
 

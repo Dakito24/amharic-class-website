@@ -4,7 +4,7 @@ import db from '../db.js';
 const router = Router();
 
 // GET /api/vocabulary - get vocabulary, filterable by category and lesson_id
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   const { category, lesson_id } = req.query;
   let sql = 'SELECT * FROM vocabulary WHERE 1=1';
   const params = [];
@@ -19,16 +19,16 @@ router.get('/', (req, res) => {
   }
 
   sql += ' ORDER BY lesson_id, id';
-  const vocab = db.prepare(sql).all(...params);
+  const vocab = await db.prepare(sql).all(...params);
   res.json(vocab);
 });
 
 // GET /api/vocabulary/search?q= - search vocabulary
-router.get('/search', (req, res) => {
+router.get('/search', async (req, res) => {
   const { q } = req.query;
   if (!q || q.length < 2) return res.json([]);
 
-  const vocab = db.prepare(`
+  const vocab = await db.prepare(`
     SELECT * FROM vocabulary
     WHERE english LIKE ? OR romanized LIKE ? OR amharic LIKE ?
     ORDER BY lesson_id, id

@@ -31,14 +31,14 @@ const ALL_ACHIEVEMENTS = [
 ];
 
 // GET /api/progress - get user progress
-router.get('/', requireUser, (req, res) => {
-  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+router.get('/', requireUser, async (req, res) => {
+  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const unlockedAchievements = JSON.parse(progress.achievements);
   const lessonsCompleted = JSON.parse(progress.lessons_completed);
   const vocabMastered = JSON.parse(progress.vocab_mastered);
 
-  const totalLessons = db.prepare('SELECT COUNT(*) as count FROM lessons').get().count;
-  const totalVocab = db.prepare('SELECT COUNT(*) as count FROM vocabulary').get().count;
+  const totalLessons = await db.prepare('SELECT COUNT(*) as count FROM lessons').get();
+  const totalVocab = await db.prepare('SELECT COUNT(*) as count FROM vocabulary').get();
 
   const levelTitle = LEVEL_TITLES[Math.min(progress.level, 10)] || 'Master';
   const xpForNextLevel = progress.level * 100;
@@ -54,9 +54,9 @@ router.get('/', requireUser, (req, res) => {
     longest_streak: progress.longest_streak,
     last_activity_date: progress.last_activity_date,
     lessons_completed: lessonsCompleted.length,
-    total_lessons: totalLessons,
+    total_lessons: totalLessons.count,
     vocab_mastered: vocabMastered.length,
-    total_vocab: totalVocab,
+    total_vocab: totalVocab.count,
     achievements: ALL_ACHIEVEMENTS.map(a => ({
       ...a,
       unlocked: unlockedAchievements.includes(a.key)
@@ -65,8 +65,8 @@ router.get('/', requireUser, (req, res) => {
 });
 
 // POST /api/progress/streak - update daily streak
-router.post('/streak', requireUser, (req, res) => {
-  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+router.post('/streak', requireUser, async (req, res) => {
+  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const today = new Date().toISOString().split('T')[0];
 
   if (progress.last_activity_date === today) {
@@ -102,7 +102,7 @@ router.post('/streak', requireUser, (req, res) => {
     newAchievements.push({ key: 'streak_month', title: 'Streak Month', description: '30-day streak' });
   }
 
-  db.prepare(`
+  await db.prepare(`
     UPDATE user_progress SET
       current_streak = ?, longest_streak = ?, last_activity_date = ?, achievements = ?
     WHERE user_id = ?
@@ -116,11 +116,11 @@ router.post('/streak', requireUser, (req, res) => {
 });
 
 // GET /api/flashcards/due - get flashcards due for review
-router.get('/flashcards/due', requireUser, (req, res) => {
+router.get('/flashcards/due', requireUser, async (req, res) => {
   const today = new Date().toISOString().split('T')[0];
 
   // Get vocab that either has no review record for this user or is due
-  const due = db.prepare(`
+  const due = await db.prepare(`
     SELECT v.*, fr.ease_factor, fr.interval, fr.repetitions, fr.next_review, fr.last_review
     FROM vocabulary v
     LEFT JOIN flashcard_reviews fr ON v.id = fr.vocab_id AND fr.user_id = ?
@@ -133,7 +133,7 @@ router.get('/flashcards/due', requireUser, (req, res) => {
 });
 
 // POST /api/flashcards/review - submit flashcard review (SM-2 algorithm)
-router.post('/flashcards/review', requireUser, (req, res) => {
+router.post('/flashcards/review', requireUser, async (req, res) => {
   const { vocab_id, quality } = req.body;
   // quality: 0-5 (0=complete fail, 5=perfect recall)
 
@@ -142,7 +142,7 @@ router.post('/flashcards/review', requireUser, (req, res) => {
   }
 
   const today = new Date().toISOString().split('T')[0];
-  const existing = db.prepare('SELECT * FROM flashcard_reviews WHERE user_id = ? AND vocab_id = ?').get(req.userId, vocab_id);
+  const existing = await db.prepare('SELECT * FROM flashcard_reviews WHERE user_id = ? AND vocab_id = ?').get(req.userId, vocab_id);
 
   let easeFactor = existing?.ease_factor || 2.5;
   let interval = existing?.interval || 1;
@@ -171,20 +171,20 @@ router.post('/flashcards/review', requireUser, (req, res) => {
   const nextReviewStr = nextReview.toISOString().split('T')[0];
 
   if (existing) {
-    db.prepare(`
+    await db.prepare(`
       UPDATE flashcard_reviews SET
         ease_factor = ?, interval = ?, repetitions = ?, next_review = ?, last_review = ?
       WHERE user_id = ? AND vocab_id = ?
     `).run(easeFactor, interval, repetitions, nextReviewStr, today, req.userId, vocab_id);
   } else {
-    db.prepare(`
+    await db.prepare(`
       INSERT INTO flashcard_reviews (user_id, vocab_id, ease_factor, interval, repetitions, next_review, last_review)
       VALUES (?, ?, ?, ?, ?, ?, ?)
     `).run(req.userId, vocab_id, easeFactor, interval, repetitions, nextReviewStr, today);
   }
 
   // Award XP
-  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const newXp = progress.total_xp + 2;
   const newLevel = Math.floor(newXp / 100) + 1;
 
@@ -201,7 +201,7 @@ router.post('/flashcards/review', requireUser, (req, res) => {
     }
   }
 
-  db.prepare(`
+  await db.prepare(`
     UPDATE user_progress SET
       total_xp = ?, level = ?, vocab_mastered = ?, achievements = ?, last_activity_date = ?
     WHERE user_id = ?
