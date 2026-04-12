@@ -46,6 +46,11 @@ app.use('/api/games', gamesRouter);
 
 const HOST = process.env.HOST || '0.0.0.0';
 
-app.listen(PORT, HOST, () => {
-  console.log(`Amharic API server running on http://${HOST}:${PORT}`);
-});
+// Only start server if not running in serverless environment (Vercel)
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(PORT, HOST, () => {
+    console.log(`Amharic API server running on http://${HOST}:${PORT}`);
+  });
+}
+
+export default app;
