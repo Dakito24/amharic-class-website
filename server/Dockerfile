@@ -15,7 +15,7 @@ COPY server/data ./server/data
 COPY server/docker-entrypoint.sh ./server/
 
 # Create data directory and make entrypoint executable
-RUN mkdir -p /monorepo/server/data && \
+RUN mkdir -p /monorepo/server/db && \
     chmod +x /monorepo/server/docker-entrypoint.sh
 
 WORKDIR /monorepo/server
