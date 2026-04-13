@@ -8,8 +8,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@sveltejs/adapter-node": "^5.2.10"
+  },
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "^6.3.3",
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "svelte": "^5.0.0",

@@ -48,13 +48,13 @@ function getDailyChallengeType(seed) {
 }
 
 // GET /api/games/daily-challenge - Returns today's daily challenge
-router.get('/daily-challenge', requireUser, async (req, res) => {
+router.get('/daily-challenge', requireUser, (req, res) => {
   const today = new Date().toISOString().split('T')[0];
   const seed = getDailySeed();
   const challengeType = getDailyChallengeType(seed);
 
   // Check if user has completed today's challenge
-  const completed = await db.prepare(
+  const completed = db.prepare(
     'SELECT * FROM daily_challenges WHERE user_id = ? AND challenge_date = ?'
   ).get(req.userId, today);
 
@@ -63,7 +63,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
   // Generate challenge data based on type
   switch (challengeType) {
     case 'quiz': {
-      const questions = await db.prepare(`
+      const questions = db.prepare(`
         SELECT * FROM quiz_questions
         WHERE question_type = 'multiple_choice' AND options IS NOT NULL
         ORDER BY RANDOM()
@@ -75,7 +75,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
       break;
     }
     case 'flashcard': {
-      const vocab = await db.prepare(`
+      const vocab = db.prepare(`
         SELECT * FROM vocabulary
         ORDER BY RANDOM()
         LIMIT 15
@@ -84,7 +84,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
       break;
     }
     case 'listening': {
-      const vocab = await db.prepare(`
+      const vocab = db.prepare(`
         SELECT * FROM vocabulary
         WHERE audio_url IS NOT NULL
         ORDER BY RANDOM()
@@ -94,7 +94,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
       break;
     }
     case 'speed-typing': {
-      const vocab = await db.prepare(`
+      const vocab = db.prepare(`
         SELECT * FROM vocabulary
         ORDER BY RANDOM()
         LIMIT 20
@@ -103,7 +103,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
       break;
     }
     case 'memory': {
-      const vocab = await db.prepare(`
+      const vocab = db.prepare(`
         SELECT * FROM vocabulary
         ORDER BY RANDOM()
         LIMIT 12
@@ -125,7 +125,7 @@ router.get('/daily-challenge', requireUser, async (req, res) => {
 });
 
 // POST /api/games/daily-challenge/complete - Marks today's challenge complete
-router.post('/daily-challenge/complete', requireUser, async (req, res) => {
+router.post('/daily-challenge/complete', requireUser, (req, res) => {
   const { score, time_taken_ms } = req.body;
   const today = new Date().toISOString().split('T')[0];
   const seed = getDailySeed();
@@ -136,7 +136,7 @@ router.post('/daily-challenge/complete', requireUser, async (req, res) => {
   }
 
   // Check if already completed
-  const existing = await db.prepare(
+  const existing = db.prepare(
     'SELECT * FROM daily_challenges WHERE user_id = ? AND challenge_date = ?'
   ).get(req.userId, today);
 
@@ -148,25 +148,25 @@ router.post('/daily-challenge/complete', requireUser, async (req, res) => {
   const xpEarned = Math.max(10, Math.floor(score / 2)); // At least 10 XP, up to 50 for perfect score
 
   // Save challenge completion
-  await db.prepare(`
+  db.prepare(`
     INSERT INTO daily_challenges (user_id, challenge_date, challenge_type, score, time_taken_ms)
     VALUES (?, ?, ?, ?, ?)
   `).run(req.userId, today, challengeType, score, time_taken_ms || null);
 
   // Award XP
-  const { total_xp, level, leveled_up } = await awardXP(req.userId, xpEarned);
+  const { total_xp, level, leveled_up } = awardXP(req.userId, xpEarned);
 
   // Calculate streak
   const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-  const completedYesterday = await db.prepare(
+  const completedYesterday = db.prepare(
     'SELECT * FROM daily_challenges WHERE user_id = ? AND challenge_date = ?'
   ).get(req.userId, yesterday);
 
-  const progress = await db.prepare('SELECT current_streak FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = db.prepare('SELECT current_streak FROM user_progress WHERE user_id = ?').get(req.userId);
   const newStreak = completedYesterday ? (progress.current_streak + 1) : 1;
 
   // Update streak
-  await db.prepare(
+  db.prepare(
     'UPDATE user_progress SET current_streak = ?, longest_streak = MAX(longest_streak, ?) WHERE user_id = ?'
   ).run(newStreak, newStreak, req.userId);
 
@@ -180,12 +180,12 @@ router.post('/daily-challenge/complete', requireUser, async (req, res) => {
 });
 
 // GET /api/games/high-scores/:game_type - Gets leaderboard
-router.get('/high-scores/:game_type', async (req, res) => {
+router.get('/high-scores/:game_type', (req, res) => {
   const { game_type } = req.params;
   const userId = req.userId;
 
   // Get top 20 scores
-  const topScores = await db.prepare(`
+  const topScores = db.prepare(`
     SELECT gs.*, u.name as username, u.avatar_color
     FROM game_scores gs
     JOIN users u ON gs.user_id = u.id
@@ -199,13 +199,13 @@ router.get('/high-scores/:game_type', async (req, res) => {
 
   if (userId) {
     // Get user's best score and rank
-    userBestScore = await db.prepare(`
+    userBestScore = db.prepare(`
       SELECT MAX(score) as best_score FROM game_scores
       WHERE user_id = ? AND game_type = ?
     `).get(userId, game_type);
 
     if (userBestScore?.best_score) {
-      const rank = await db.prepare(`
+      const rank = db.prepare(`
         SELECT COUNT(DISTINCT score) + 1 as rank FROM game_scores
         WHERE game_type = ? AND score > ?
       `).get(game_type, userBestScore.best_score);
@@ -221,7 +221,7 @@ router.get('/high-scores/:game_type', async (req, res) => {
 });
 
 // POST /api/games/score - Saves a game score
-router.post('/score', requireUser, async (req, res) => {
+router.post('/score', requireUser, (req, res) => {
   const { game_type, score, time_taken_ms, metadata } = req.body;
 
   if (!game_type || score === undefined) {
@@ -229,7 +229,7 @@ router.post('/score', requireUser, async (req, res) => {
   }
 
   // Save the score
-  await db.prepare(`
+  db.prepare(`
     INSERT INTO game_scores (user_id, game_type, score, time_taken_ms, metadata)
     VALUES (?, ?, ?, ?, ?)
   `).run(
@@ -242,10 +242,10 @@ router.post('/score', requireUser, async (req, res) => {
 
   // Award XP (score / 10, minimum 5, maximum 50)
   const xpEarned = Math.max(5, Math.min(50, Math.floor(score / 10)));
-  const { total_xp, level, leveled_up } = await awardXP(req.userId, xpEarned);
+  const { total_xp, level, leveled_up } = awardXP(req.userId, xpEarned);
 
   // Check if this is a high score
-  const bestScore = await db.prepare(`
+  const bestScore = db.prepare(`
     SELECT MAX(score) as best FROM game_scores
     WHERE user_id = ? AND game_type = ?
   `).get(req.userId, game_type);
@@ -253,7 +253,7 @@ router.post('/score', requireUser, async (req, res) => {
   const isHighScore = score >= bestScore.best;
 
   // Get user's rank
-  const rank = await db.prepare(`
+  const rank = db.prepare(`
     SELECT COUNT(DISTINCT score) + 1 as rank FROM game_scores
     WHERE game_type = ? AND score > ?
   `).get(game_type, score);
@@ -269,14 +269,14 @@ router.post('/score', requireUser, async (req, res) => {
 });
 
 // GET /api/games/picture-match/categories - Gets available picture match categories
-router.get('/picture-match/categories', async (req, res) => {
+router.get('/picture-match/categories', (req, res) => {
   const categories = [];
 
   for (const category of Object.keys(PICTURE_MATCH_CATEGORIES)) {
     // Count how many vocab words we have for this category
     const words = PICTURE_MATCH_CATEGORIES[category];
     const placeholders = words.map(() => '?').join(',');
-    const count = await db.prepare(`
+    const count = db.prepare(`
       SELECT COUNT(*) as count FROM vocabulary
       WHERE LOWER(english) IN (${placeholders})
     `).get(...words);
@@ -293,7 +293,7 @@ router.get('/picture-match/categories', async (req, res) => {
 });
 
 // GET /api/games/picture-match/data?category=animals - Gets picture match game data
-router.get('/picture-match/data', async (req, res) => {
+router.get('/picture-match/data', (req, res) => {
   const { category } = req.query;
 
   if (!category || !PICTURE_MATCH_CATEGORIES[category]) {
@@ -303,7 +303,7 @@ router.get('/picture-match/data', async (req, res) => {
   const words = PICTURE_MATCH_CATEGORIES[category];
   const placeholders = words.map(() => '?').join(',');
 
-  const vocab = await db.prepare(`
+  const vocab = db.prepare(`
     SELECT * FROM vocabulary
     WHERE LOWER(english) IN (${placeholders})
     ORDER BY RANDOM()
@@ -380,7 +380,7 @@ router.get('/story-adventure/:id', (req, res) => {
 });
 
 // POST /api/games/story-adventure/:id/complete - Completes a story chapter
-router.post('/story-adventure/:id/complete', requireUser, async (req, res) => {
+router.post('/story-adventure/:id/complete', requireUser, (req, res) => {
   const chapterId = parseInt(req.params.id);
   const { choices } = req.body;
 
@@ -392,10 +392,10 @@ router.post('/story-adventure/:id/complete', requireUser, async (req, res) => {
 
   // Award XP based on chapter reward
   const xpEarned = chapter.xp_reward || 50;
-  const { total_xp, level, leveled_up } = await awardXP(req.userId, xpEarned);
+  const { total_xp, level, leveled_up } = awardXP(req.userId, xpEarned);
 
   // Save the score
-  await db.prepare(`
+  db.prepare(`
     INSERT INTO game_scores (user_id, game_type, score, metadata)
     VALUES (?, ?, ?, ?)
   `).run(

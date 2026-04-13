@@ -5,13 +5,13 @@ import { requireUser } from '../middleware/requireUser.js';
 const router = Router();
 
 // GET /api/lessons - list all lessons with completion status
-router.get('/', requireUser, async (req, res) => {
-  const lessons = await db.prepare(`
+router.get('/', requireUser, (req, res) => {
+  const lessons = db.prepare(`
     SELECT id, title, description, order_num, unit, unit_title, category, xp_reward
     FROM lessons ORDER BY order_num
   `).all();
 
-  const progress = await db.prepare('SELECT lessons_completed FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = db.prepare('SELECT lessons_completed FROM user_progress WHERE user_id = ?').get(req.userId);
   const completed = JSON.parse(progress?.lessons_completed || '[]');
 
   const result = lessons.map((lesson, index) => ({
@@ -24,12 +24,12 @@ router.get('/', requireUser, async (req, res) => {
 });
 
 // GET /api/lessons/:id - get lesson content + vocabulary
-router.get('/:id', requireUser, async (req, res) => {
-  const lesson = await db.prepare('SELECT * FROM lessons WHERE id = ?').get(req.params.id);
+router.get('/:id', requireUser, (req, res) => {
+  const lesson = db.prepare('SELECT * FROM lessons WHERE id = ?').get(req.params.id);
   if (!lesson) return res.status(404).json({ error: 'Lesson not found' });
 
-  const vocabulary = await db.prepare('SELECT * FROM vocabulary WHERE lesson_id = ?').all(req.params.id);
-  const progress = await db.prepare('SELECT lessons_completed FROM user_progress WHERE user_id = ?').get(req.userId);
+  const vocabulary = db.prepare('SELECT * FROM vocabulary WHERE lesson_id = ?').all(req.params.id);
+  const progress = db.prepare('SELECT lessons_completed FROM user_progress WHERE user_id = ?').get(req.userId);
   const completed = JSON.parse(progress?.lessons_completed || '[]');
 
   res.json({
@@ -41,11 +41,11 @@ router.get('/:id', requireUser, async (req, res) => {
 });
 
 // POST /api/lessons/:id/complete - mark lesson complete, award XP
-router.post('/:id/complete', requireUser, async (req, res) => {
-  const lesson = await db.prepare('SELECT * FROM lessons WHERE id = ?').get(req.params.id);
+router.post('/:id/complete', requireUser, (req, res) => {
+  const lesson = db.prepare('SELECT * FROM lessons WHERE id = ?').get(req.params.id);
   if (!lesson) return res.status(404).json({ error: 'Lesson not found' });
 
-  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const completed = JSON.parse(progress.lessons_completed);
 
   if (completed.includes(lesson.id)) {
@@ -89,7 +89,7 @@ router.post('/:id/complete', requireUser, async (req, res) => {
   }
 
   const today = new Date().toISOString().split('T')[0];
-  await db.prepare(`
+  db.prepare(`
     UPDATE user_progress SET
       total_xp = ?, level = ?, lessons_completed = ?, achievements = ?, last_activity_date = ?
     WHERE user_id = ?

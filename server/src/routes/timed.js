@@ -12,14 +12,14 @@ const DIFFICULTY_CONFIG = {
 };
 
 // GET /api/timed/start?difficulty= - get random MC questions + time limit
-router.get('/start', requireUser, async (req, res) => {
+router.get('/start', requireUser, (req, res) => {
   const difficulty = req.query.difficulty || 'medium';
   const config = DIFFICULTY_CONFIG[difficulty];
   if (!config) {
     return res.status(400).json({ error: 'Invalid difficulty. Use easy, medium, or hard.' });
   }
 
-  const questions = await db.prepare(`
+  const questions = db.prepare(`
     SELECT * FROM quiz_questions
     WHERE question_type = 'multiple_choice' AND options IS NOT NULL
     ORDER BY RANDOM()
@@ -40,7 +40,7 @@ router.get('/start', requireUser, async (req, res) => {
 });
 
 // POST /api/timed/submit - grade timed challenge
-router.post('/submit', requireUser, async (req, res) => {
+router.post('/submit', requireUser, (req, res) => {
   const { difficulty, answers, time_remaining_ms } = req.body;
 
   if (!difficulty || !answers || !Array.isArray(answers)) {
@@ -55,7 +55,7 @@ router.post('/submit', requireUser, async (req, res) => {
   const questionIds = answers.map(a => a.question_id);
   const placeholders = questionIds.map(() => '?').join(',');
   const questions = questionIds.length > 0
-    ? await db.prepare(`SELECT * FROM quiz_questions WHERE id IN (${placeholders})`).all(...questionIds)
+    ? db.prepare(`SELECT * FROM quiz_questions WHERE id IN (${placeholders})`).all(...questionIds)
     : [];
 
   let correct = 0;
@@ -68,7 +68,7 @@ router.post('/submit', requireUser, async (req, res) => {
     const isCorrect = answer.user_answer === question.correct_answer;
     if (isCorrect) correct++;
 
-    await recordAttempt(req.userId, question.id, question.lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'timed', answer.time_taken_ms || null);
+    recordAttempt(req.userId, question.id, question.lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'timed', answer.time_taken_ms || null);
 
     results.push({
       question_id: question.id,
@@ -85,13 +85,13 @@ router.post('/submit', requireUser, async (req, res) => {
   const score = correct * 100 + speedBonus * 10;
 
   // Save high score
-  await db.prepare(`
+  db.prepare(`
     INSERT INTO high_scores (user_id, difficulty, score, correct_count, total_questions, time_remaining_ms)
     VALUES (?, ?, ?, ?, ?, ?)
   `).run(req.userId, difficulty, score, correct, answers.length, time_remaining_ms || 0);
 
   // Update XP
-  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const newXp = progress.total_xp + totalXpEarned;
   const newLevel = Math.floor(newXp / 100) + 1;
   const leveledUp = newLevel > progress.level;
@@ -105,12 +105,12 @@ router.post('/submit', requireUser, async (req, res) => {
     newAchievements.push({ key: 'speed_demon', title: 'Speed Demon', description: 'Perfect score on hard timed challenge' });
   }
 
-  await db.prepare(
+  db.prepare(
     'UPDATE user_progress SET total_xp = ?, level = ?, achievements = ?, last_activity_date = ? WHERE user_id = ?'
   ).run(newXp, newLevel, JSON.stringify(achievements), today, req.userId);
 
   // Get personal best
-  const personalBest = await db.prepare(
+  const personalBest = db.prepare(
     'SELECT MAX(score) as best_score FROM high_scores WHERE user_id = ? AND difficulty = ?'
   ).get(req.userId, difficulty);
 
@@ -133,10 +133,10 @@ router.post('/submit', requireUser, async (req, res) => {
 });
 
 // GET /api/timed/leaderboard?difficulty= - top scores
-router.get('/leaderboard', async (req, res) => {
+router.get('/leaderboard', (req, res) => {
   const difficulty = req.query.difficulty || 'medium';
 
-  const scores = await db.prepare(`
+  const scores = db.prepare(`
     SELECT hs.*, u.name, u.avatar_color
     FROM high_scores hs
     JOIN users u ON hs.user_id = u.id

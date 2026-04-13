@@ -29,13 +29,13 @@ router.get('/:id', (req, res) => {
 });
 
 // POST /api/conversations/:id/complete - award XP for completing a conversation
-router.post('/:id/complete', requireUser, async (req, res) => {
+router.post('/:id/complete', requireUser, (req, res) => {
   const convo = conversations.find(c => c.id === Number(req.params.id));
   if (!convo) {
     return res.status(404).json({ error: 'Conversation not found' });
   }
 
-  const result = await awardXP(req.userId, convo.xp_reward);
+  const result = awardXP(req.userId, convo.xp_reward);
   res.json({
     xp_earned: convo.xp_reward,
     ...result

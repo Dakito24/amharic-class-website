@@ -6,7 +6,7 @@ import { recordAttempt } from '../helpers/xp.js';
 const router = Router();
 
 // GET /api/review/weak-words - questions the user gets wrong most often
-router.get('/weak-words', requireUser, async (req, res) => {
+router.get('/weak-words', requireUser, (req, res) => {
   const lessonFilter = req.query.lesson_id ? Number(req.query.lesson_id) : null;
 
   let query = `
@@ -38,12 +38,12 @@ router.get('/weak-words', requireUser, async (req, res) => {
     LIMIT 30
   `;
 
-  const weakWords = await db.prepare(query).all(...params);
+  const weakWords = db.prepare(query).all(...params);
   res.json(weakWords);
 });
 
 // GET /api/review/vocab-mastery?lesson_id= - per-vocab mastery levels
-router.get('/vocab-mastery', requireUser, async (req, res) => {
+router.get('/vocab-mastery', requireUser, (req, res) => {
   const lessonId = req.query.lesson_id ? Number(req.query.lesson_id) : null;
 
   let vocabQuery = 'SELECT * FROM vocabulary';
@@ -53,9 +53,9 @@ router.get('/vocab-mastery', requireUser, async (req, res) => {
     params.push(lessonId);
   }
 
-  const vocab = await db.prepare(vocabQuery).all(...params);
+  const vocab = db.prepare(vocabQuery).all(...params);
 
-  const flashcardData = await db.prepare(
+  const flashcardData = db.prepare(
     'SELECT vocab_id, repetitions, ease_factor FROM flashcard_reviews WHERE user_id = ?'
   ).all(req.userId);
 
@@ -79,8 +79,8 @@ router.get('/vocab-mastery', requireUser, async (req, res) => {
 });
 
 // GET /api/review/quiz - generate quiz from missed questions
-router.get('/quiz', requireUser, async (req, res) => {
-  const questions = await db.prepare(`
+router.get('/quiz', requireUser, (req, res) => {
+  const questions = db.prepare(`
     SELECT qq.*, l.title as lesson_title,
       COUNT(qa.id) as total_attempts,
       SUM(CASE WHEN qa.is_correct = 0 THEN 1 ELSE 0 END) as wrong_count
@@ -103,7 +103,7 @@ router.get('/quiz', requireUser, async (req, res) => {
 });
 
 // POST /api/review/submit - grade review quiz
-router.post('/submit', requireUser, async (req, res) => {
+router.post('/submit', requireUser, (req, res) => {
   const { answers } = req.body;
   if (!answers || !Array.isArray(answers)) {
     return res.status(400).json({ error: 'answers array required' });
@@ -111,7 +111,7 @@ router.post('/submit', requireUser, async (req, res) => {
 
   const questionIds = answers.map(a => a.question_id);
   const placeholders = questionIds.map(() => '?').join(',');
-  const questions = await db.prepare(
+  const questions = db.prepare(
     `SELECT * FROM quiz_questions WHERE id IN (${placeholders})`
   ).all(...questionIds);
 
@@ -129,7 +129,7 @@ router.post('/submit', requireUser, async (req, res) => {
       totalXpEarned += 3; // Lower XP for review (3 instead of 5)
     }
 
-    await recordAttempt(req.userId, question.id, question.lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'review');
+    recordAttempt(req.userId, question.id, question.lesson_id, answer.user_answer, question.correct_answer, isCorrect, 'review');
 
     results.push({
       question_id: question.id,
@@ -144,13 +144,13 @@ router.post('/submit', requireUser, async (req, res) => {
   if (isPerfect) totalXpEarned += 10;
 
   // Update XP
-  const progress = await db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
+  const progress = db.prepare('SELECT * FROM user_progress WHERE user_id = ?').get(req.userId);
   const newXp = progress.total_xp + totalXpEarned;
   const newLevel = Math.floor(newXp / 100) + 1;
   const leveledUp = newLevel > progress.level;
   const today = new Date().toISOString().split('T')[0];
 
-  await db.prepare(
+  db.prepare(
     'UPDATE user_progress SET total_xp = ?, level = ?, last_activity_date = ? WHERE user_id = ?'
   ).run(newXp, newLevel, today, req.userId);
 

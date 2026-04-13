@@ -28,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
-await initDatabase();
+initDatabase();
 
 app.get('/health', (req, res) => res.sendStatus(200));
 
@@ -46,11 +46,6 @@ app.use('/api/games', gamesRouter);
 
 const HOST = process.env.HOST || '0.0.0.0';
 
-// Only start server if not running in serverless environment (Vercel)
-if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
-  app.listen(PORT, HOST, () => {
-    console.log(`Amharic API server running on http://${HOST}:${PORT}`);
-  });
-}
-
-export default app;
+app.listen(PORT, HOST, () => {
+  console.log(`Amharic API server running on http://${HOST}:${PORT}`);
+});
