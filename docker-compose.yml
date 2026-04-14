@@ -26,7 +26,9 @@ services:
       - "3000"
     environment:
       - NODE_ENV=production
-      - ORIGIN=http://localhost:9000
+      - ORIGIN=https://lememari.dashplus.cc
+      - PROTOCOL_HEADER=X-Forwarded-Proto
+      - HOST_HEADER=X-Forwarded-Host
       - HOST=0.0.0.0
       - PORT=3000
     depends_on:
