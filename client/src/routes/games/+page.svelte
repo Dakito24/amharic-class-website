@@ -197,4 +197,36 @@
       font-size: 2rem;
     }
   }
+
+  @media (max-width: 480px) {
+    .games-page {
+      padding: 1rem 0.75rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .header {
+      margin-bottom: 1.5rem;
+    }
+
+    .game-card {
+      padding: 1.25rem;
+    }
+
+    .game-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .game-card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .game-description {
+      margin-bottom: 1rem;
+    }
+  }
 </style>

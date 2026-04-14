@@ -128,4 +128,18 @@
     background: var(--color-accent-primary);
     color: #fff;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .quiz-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .quiz-card {
+      padding: 1rem;
+    }
+  }
 </style>

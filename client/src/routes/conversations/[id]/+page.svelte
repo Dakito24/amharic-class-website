@@ -345,4 +345,18 @@
 
   .btn-primary { background: var(--color-accent-primary); color: #fff; }
   .btn-secondary { background: var(--color-border); color: var(--color-text-heading); }
+
+  @media (max-width: 480px) {
+    .option-btn {
+      padding: 0.6rem 0.75rem;
+    }
+
+    .completion {
+      padding: 1.5rem;
+    }
+
+    .xp-earned {
+      font-size: 1.2rem;
+    }
+  }
 </style>

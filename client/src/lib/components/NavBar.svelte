@@ -9,9 +9,18 @@
   let allProfiles = $derived($profiles);
   let xpPercent = $derived(progress ? (progress.xp_in_current_level / 100) * 100 : 0);
   let dropdownOpen = $state(false);
+  let menuOpen = $state(false);
 
   function toggleDropdown() {
     dropdownOpen = !dropdownOpen;
+  }
+
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+  }
+
+  function closeMenu() {
+    menuOpen = false;
   }
 
   async function switchProfile(id) {
@@ -27,16 +36,28 @@
   }
 </script>
 
-<svelte:window onclick={() => dropdownOpen = false} />
+<svelte:window onclick={() => { dropdownOpen = false; }} />
 
 <nav class="navbar">
-  <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/lessons">Lessons</a>
-    <a href="/flashcards">Flashcards</a>
-    <a href="/quiz">Quiz</a>
-    <a href="/practice">Practice</a>
-    <a href="/games">Games</a>
+  <button class="menu-toggle" onclick={toggleMenu} aria-label="Toggle menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  {#if menuOpen}
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <!-- svelte-ignore a11y_click_events_have_key_events -->
+    <div class="menu-backdrop" onclick={closeMenu}></div>
+  {/if}
+
+  <div class="nav-links" class:open={menuOpen}>
+    <a href="/" onclick={closeMenu}>Home</a>
+    <a href="/lessons" onclick={closeMenu}>Lessons</a>
+    <a href="/flashcards" onclick={closeMenu}>Flashcards</a>
+    <a href="/quiz" onclick={closeMenu}>Quiz</a>
+    <a href="/practice" onclick={closeMenu}>Practice</a>
+    <a href="/games" onclick={closeMenu}>Games</a>
   </div>
 
   <div class="nav-right">
@@ -109,6 +130,32 @@
     position: sticky;
     top: 0;
     z-index: 100;
+  }
+
+  /* Hamburger button - hidden on desktop */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 10;
+  }
+
+  .hamburger-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--color-text-secondary);
+    border-radius: 1px;
+    transition: all 0.2s;
+  }
+
+  /* Backdrop - hidden on desktop */
+  .menu-backdrop {
+    display: none;
   }
 
   .nav-links {
@@ -304,6 +351,7 @@
     border-radius: 4px;
     font-size: 0.8rem;
     font-weight: 700;
+    white-space: nowrap;
   }
 
   .xp-bar-container {
@@ -326,16 +374,110 @@
     color: var(--color-text-secondary);
   }
 
+  /* ===== Mobile: Hamburger + Drawer ===== */
   @media (max-width: 768px) {
-    .nav-links {
-      gap: 0.75rem;
-      font-size: 0.85rem;
+    .navbar {
+      justify-content: space-between;
+      padding: 0.6rem 1rem;
     }
+
+    .menu-toggle {
+      display: flex;
+    }
+
+    .nav-links {
+      position: fixed;
+      top: 0;
+      left: -280px;
+      width: 280px;
+      height: 100vh;
+      height: 100dvh;
+      background: var(--color-bg-elevated);
+      flex-direction: column;
+      padding: 4rem 1.5rem 1.5rem;
+      gap: 0.25rem;
+      z-index: 250;
+      transition: left 0.3s ease;
+      border-right: 1px solid var(--color-border);
+      overflow-y: auto;
+    }
+
+    .nav-links.open {
+      left: 0;
+    }
+
+    .nav-links a {
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .nav-links a:hover {
+      background: var(--color-bg-surface);
+    }
+
+    .menu-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 200;
+    }
+
+    .nav-right {
+      position: static;
+      gap: 0.6rem;
+    }
+
+    .profile-name-nav {
+      display: none;
+    }
+
     .xp-bar-container {
       display: none;
     }
-    .profile-name-nav {
+
+    .xp-text {
       display: none;
+    }
+  }
+
+  /* ===== Small phones ===== */
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 0.5rem 0.75rem;
+    }
+
+    .nav-right {
+      gap: 0.4rem;
+    }
+
+    .streak-count {
+      display: none;
+    }
+
+    .dropdown-arrow {
+      display: none;
+    }
+
+    .profile-btn {
+      padding: 0.2rem;
+      border: none;
+    }
+
+    .theme-toggle {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+    }
+
+    .level-badge {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.4rem;
+    }
+
+    .streak-icon {
+      font-size: 1rem;
     }
   }
 </style>

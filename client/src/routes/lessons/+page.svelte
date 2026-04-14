@@ -92,4 +92,14 @@
     flex-direction: column;
     gap: 0.75rem;
   }
+
+  @media (max-width: 480px) {
+    .lessons-page h1 {
+      font-size: 1.4rem;
+    }
+
+    .unit-header {
+      font-size: 1rem;
+    }
+  }
 </style>

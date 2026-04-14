@@ -439,4 +439,37 @@
   .btn-primary { background: var(--color-accent-primary); color: #fff; }
   .btn-primary:hover:not(:disabled) { background: var(--color-accent-primary-hover); }
   .btn-secondary { background: var(--color-border); color: var(--color-text-heading); }
+
+  @media (max-width: 480px) {
+    .question-card {
+      padding: 1.25rem;
+    }
+
+    .question-text {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .option {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .result-card {
+      padding: 1.5rem;
+    }
+
+    .score {
+      font-size: 2rem;
+    }
+
+    .xp-earned {
+      font-size: 1.2rem;
+    }
+
+    .fill-blank input {
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  }
 </style>

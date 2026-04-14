@@ -238,4 +238,28 @@
     background: var(--color-accent-primary);
     color: #fff;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .filter-btn {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.7rem;
+    }
+
+    .weak-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .weak-stats {
+      text-align: left;
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+  }
 </style>

@@ -20,4 +20,8 @@ export function toggleTheme(userId) {
 
 function applyTheme(value) {
   document.documentElement.setAttribute('data-theme', value);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.setAttribute('content', value === 'light' ? '#f5f5f8' : '#0f0f23');
+  }
 }

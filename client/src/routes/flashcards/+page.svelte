@@ -417,4 +417,50 @@
     background: var(--color-border);
     color: var(--color-text-heading);
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .flashcard {
+      height: 240px;
+    }
+
+    .flashcard-front, .flashcard-back {
+      padding: 1.25rem;
+    }
+
+    .card-word {
+      font-size: 1.4rem;
+    }
+
+    .card-romanized {
+      font-size: 1.4rem;
+    }
+
+    .card-amharic {
+      font-size: 1.1rem;
+    }
+
+    .rating-buttons {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rate-btn {
+      padding: 0.6rem 0.4rem;
+    }
+
+    .rate-emoji {
+      font-size: 1.2rem;
+    }
+
+    .empty-state, .session-complete {
+      padding: 2rem 1.25rem;
+    }
+
+    .stat-num {
+      font-size: 1.5rem;
+    }
+  }
 </style>

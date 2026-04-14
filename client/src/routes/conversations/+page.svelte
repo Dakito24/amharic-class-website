@@ -128,4 +128,18 @@
     color: var(--color-accent-orange);
     font-weight: 600;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .convo-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .convo-card {
+      padding: 1rem;
+    }
+  }
 </style>

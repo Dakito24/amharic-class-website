@@ -127,4 +127,29 @@
     background: rgba(245, 166, 35, 0.15);
     color: var(--color-accent-orange);
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .article-card {
+      gap: 0.75rem;
+      padding: 1rem;
+    }
+
+    .article-emoji {
+      width: 48px;
+      height: 48px;
+      font-size: 1.8rem;
+    }
+
+    .article-info h3 {
+      font-size: 0.95rem;
+    }
+
+    .article-info p {
+      font-size: 0.8rem;
+    }
+  }
 </style>

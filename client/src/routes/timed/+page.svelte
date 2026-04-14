@@ -216,4 +216,32 @@
     min-width: 40px;
     text-align: right;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .difficulty-selector {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .diff-card {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-align: left;
+      padding: 0.75rem 1rem;
+    }
+
+    .diff-card h3 {
+      margin-bottom: 0;
+    }
+
+    .start-btn {
+      font-size: 1rem;
+      padding: 0.85rem;
+    }
+  }
 </style>

@@ -584,4 +584,51 @@
       grid-template-columns: 1fr;
     }
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .level-section {
+      padding: 1.25rem;
+      gap: 1rem;
+    }
+
+    .level-circle {
+      width: 80px;
+      height: 80px;
+    }
+
+    .level-num {
+      font-size: 1.5rem;
+    }
+
+    .xp-total {
+      font-size: 1.1rem;
+    }
+
+    .stat-box {
+      padding: 0.85rem;
+    }
+
+    .stat-num {
+      font-size: 1.5rem;
+    }
+
+    .achievements-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .achievement {
+      padding: 0.75rem;
+    }
+
+    .achievement-icon {
+      width: 36px;
+      height: 36px;
+      font-size: 1.1rem;
+    }
+  }
 </style>

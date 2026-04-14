@@ -127,4 +127,10 @@
     color: var(--color-text-secondary);
     font-size: 1.1rem;
   }
+
+  @media (max-width: 480px) {
+    main {
+      padding: 1rem 0.75rem;
+    }
+  }
 </style>

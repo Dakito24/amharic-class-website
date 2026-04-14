@@ -141,4 +141,14 @@
     font-size: 0.9rem;
     font-weight: 500;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .lesson-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

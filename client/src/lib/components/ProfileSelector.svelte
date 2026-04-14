@@ -551,4 +551,38 @@
     gap: 0.5rem;
     justify-content: center;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-container {
+      padding: 1rem;
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      font-size: 1.5rem;
+    }
+
+    .profiles-grid {
+      gap: 1rem;
+    }
+
+    .profile-card {
+      min-width: 100px;
+      padding: 0.75rem;
+    }
+
+    .profile-actions {
+      opacity: 1;
+    }
+
+    .color-options {
+      flex-wrap: wrap;
+    }
+  }
 </style>

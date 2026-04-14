@@ -323,4 +323,45 @@
     font-size: 0.75rem;
     font-weight: 700;
   }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+
+    .hero p {
+      font-size: 0.95rem;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+
+    .stat-card {
+      padding: 0.85rem;
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+    }
+
+    .actions {
+      grid-template-columns: 1fr;
+    }
+
+    .action-card {
+      padding: 1rem;
+    }
+
+    .action-icon {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  }
 </style>

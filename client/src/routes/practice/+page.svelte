@@ -307,4 +307,24 @@
     color: var(--color-accent-orange);
     font-style: italic;
   }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    .filter-btn {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75rem;
+    }
+
+    .search-bar input {
+      padding: 0.7rem 0.85rem;
+      font-size: 0.9rem;
+    }
+
+    .vocab-item {
+      padding: 0.65rem 0.75rem;
+    }
+  }
 </style>

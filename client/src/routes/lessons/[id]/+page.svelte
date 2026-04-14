@@ -887,4 +887,47 @@
     gap: 0.75rem;
     justify-content: center;
   }
+
+  @media (max-width: 480px) {
+    .step-card {
+      padding: 1.25rem;
+    }
+
+    .step-title {
+      font-size: 1.1rem;
+    }
+
+    .step-words {
+      grid-template-columns: 1fr;
+    }
+
+    .completion-card {
+      padding: 1.5rem;
+    }
+
+    .flashcard {
+      height: 200px;
+    }
+
+    .fc-word, .fc-romanized {
+      font-size: 1.3rem;
+    }
+
+    .step-nav {
+      gap: 0.5rem;
+    }
+
+    .btn {
+      padding: 0.65rem 1rem;
+      font-size: 0.85rem;
+    }
+
+    .lesson-info h1 {
+      font-size: 1.25rem;
+    }
+
+    .flashcard-done {
+      padding: 1.5rem;
+    }
+  }
 </style>

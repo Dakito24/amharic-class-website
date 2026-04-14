@@ -376,4 +376,36 @@
 
   .btn-primary { background: var(--color-accent-primary); color: #fff; }
   .btn-secondary { background: var(--color-border); color: var(--color-text-heading); }
+
+  @media (max-width: 480px) {
+    .question-card {
+      padding: 1.25rem;
+    }
+
+    .question-text {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .option {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .result-card {
+      padding: 1.5rem;
+    }
+
+    .score {
+      font-size: 2rem;
+    }
+
+    .xp-total {
+      font-size: 1.1rem;
+    }
+  }
 </style>
