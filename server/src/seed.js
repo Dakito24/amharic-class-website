@@ -69,6 +69,20 @@ const syncVocab = db.transaction(() => {
 syncVocab();
 console.log(`  Synced ${vocabulary.length} vocabulary entries`);
 
+// Remove stale vocab entries no longer in vocabulary.json
+const vocabIds = vocabulary.map(v => v.id);
+const placeholders = vocabIds.map(() => '?').join(',');
+const staleCount = db.prepare(
+  `SELECT COUNT(*) as c FROM vocabulary WHERE id NOT IN (${placeholders})`
+).get(...vocabIds).c;
+
+if (staleCount > 0) {
+  db.prepare(
+    `DELETE FROM vocabulary WHERE id NOT IN (${placeholders})`
+  ).run(...vocabIds);
+  console.log(`  Removed ${staleCount} stale vocabulary entries not in vocabulary.json`);
+}
+
 // Safety check: warn about orphaned flashcard reviews
 const existingReviewVocabIds = db.prepare(
   'SELECT DISTINCT vocab_id FROM flashcard_reviews'

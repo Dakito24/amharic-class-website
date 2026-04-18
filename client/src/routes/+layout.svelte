@@ -89,11 +89,59 @@
     box-sizing: border-box;
   }
 
+  :global(html) {
+    /* Prevent horizontal overflow and ensure smooth scrolling */
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
   :global(body) {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--color-bg-body);
     color: var(--color-text-primary);
     min-height: 100vh;
+    /* Ensure body doesn't prevent scrolling */
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Improve touch scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Global minimum touch target size for accessibility and mobile usability */
+  :global(button),
+  :global(a),
+  :global([role="button"]),
+  :global(input[type="button"]),
+  :global(input[type="submit"]) {
+    /* Ensure minimum 44x44px touch target on mobile */
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Improve tap responsiveness on mobile */
+  :global(button),
+  :global(a),
+  :global([role="button"]) {
+    -webkit-tap-highlight-color: rgba(233, 69, 96, 0.2);
+    touch-action: manipulation;
+  }
+
+  /* Prevent iOS zoom on input focus by ensuring minimum 16px font size */
+  :global(input),
+  :global(textarea),
+  :global(select) {
+    font-size: 16px;
+  }
+
+  /* Ensure proper spacing between interactive elements on mobile */
+  @media (max-width: 768px) {
+    :global(button + button),
+    :global(a + a),
+    :global(button + a),
+    :global(a + button) {
+      margin-top: 0.5rem;
+    }
   }
 
   .app {

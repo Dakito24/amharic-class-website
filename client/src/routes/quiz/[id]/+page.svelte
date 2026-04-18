@@ -304,6 +304,8 @@
     cursor: pointer;
     text-align: left;
     transition: all 0.2s;
+    /* Ensure minimum touch target */
+    min-height: 54px;
   }
 
   .option:hover:not(:disabled) {
@@ -451,8 +453,13 @@
     }
 
     .option {
-      padding: 0.75rem;
-      font-size: 0.9rem;
+      padding: 1rem;
+      font-size: 0.95rem;
+      min-height: 56px;
+    }
+
+    .options {
+      gap: 0.75rem;
     }
 
     .result-card {
@@ -470,6 +477,12 @@
     .fill-blank input {
       padding: 0.75rem;
       font-size: 1rem;
+      min-height: 52px;
+    }
+
+    .btn {
+      min-height: 50px;
+      padding: 0.875rem 1.5rem;
     }
   }
 </style>

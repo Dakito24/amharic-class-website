@@ -381,6 +381,9 @@
     cursor: pointer;
     transition: all 0.2s;
     font-size: 0.8rem;
+    /* Ensure minimum touch target */
+    min-height: 70px;
+    min-width: 70px;
   }
 
   .rate-btn:hover {
@@ -448,7 +451,10 @@
     }
 
     .rate-btn {
-      padding: 0.6rem 0.4rem;
+      padding: 0.75rem 0.5rem;
+      min-height: 72px;
+      min-width: 72px;
+      font-size: 0.85rem;
     }
 
     .rate-emoji {

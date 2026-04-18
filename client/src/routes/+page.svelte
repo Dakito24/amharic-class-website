@@ -254,6 +254,8 @@
     padding: 1.25rem;
     text-decoration: none;
     transition: all 0.2s;
+    /* Ensure minimum touch target */
+    min-height: 76px;
   }
 
   .action-card:hover {

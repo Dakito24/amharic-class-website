@@ -32,6 +32,7 @@
 
   // Match mode state
   let draggedWord = $state(null);
+  let selectedWordForTouch = $state(null); // For mobile tap-to-select
   let matchedItems = $state([]);
   let shuffledWords = $state([]);
 
@@ -165,6 +166,43 @@
     }
 
     draggedWord = null;
+  }
+
+  // Touch/click handlers for mobile
+  function handleWordChipClick(word) {
+    if (selectedWordForTouch?.id === word.id) {
+      selectedWordForTouch = null; // Deselect if clicking same word
+    } else {
+      selectedWordForTouch = word; // Select this word
+    }
+  }
+
+  function handleItemCardClick(targetItem) {
+    if (!selectedWordForTouch || matchedItems.includes(targetItem.id)) return;
+
+    if (selectedWordForTouch.id === targetItem.id) {
+      // Correct match
+      matchedItems = [...matchedItems, targetItem.id];
+      score += 100 + (streak * 10);
+      streak++;
+      bestStreak = Math.max(bestStreak, streak);
+      correctAnswers++;
+      playAudio(targetItem.audio_url);
+
+      // Remove matched word from shuffled words
+      shuffledWords = shuffledWords.filter(w => w.id !== selectedWordForTouch.id);
+
+      if (matchedItems.length === items.length) {
+        completeGame();
+      }
+    } else {
+      // Wrong match
+      score = Math.max(0, score - 20);
+      streak = 0;
+      wrongAnswers++;
+    }
+
+    selectedWordForTouch = null; // Clear selection after attempt
   }
 
   function playAudio(audioUrl) {
@@ -350,10 +388,10 @@
     </header>
 
     <section class="modes-grid" aria-label="Game modes">
-      <button class="mode-card" onclick={() => selectMode('match')} aria-label="Match Mode: Drag and drop Amharic words to match the pictures">
+      <button class="mode-card" onclick={() => selectMode('match')} aria-label="Match Mode: Tap or drag Amharic words to match the pictures">
         <div class="mode-icon" aria-hidden="true">🎯</div>
         <h2>Match Mode</h2>
-        <p>Drag and drop Amharic words to match the pictures</p>
+        <p>Tap or drag Amharic words to match the pictures</p>
         <div class="difficulty">Relaxed • No Timer Pressure</div>
       </button>
 
@@ -399,8 +437,10 @@
               <div
                 class="item-card"
                 class:matched={matchedItems.includes(item.id)}
+                class:clickable={selectedWordForTouch && !matchedItems.includes(item.id)}
                 ondragover={handleDragOver}
                 ondrop={(e) => handleDrop(e, item)}
+                onclick={() => handleItemCardClick(item)}
                 role="region"
                 aria-label={`Drop zone for ${item.romanized}${matchedItems.includes(item.id) ? ', matched' : ''}`}
               >
@@ -416,17 +456,19 @@
           </div>
 
           <div class="words-pool">
-            <h3>Drag words to match:</h3>
+            <h3>Tap or drag words to match:</h3>
             <div class="words-grid">
               {#each shuffledWords as word (word.id)}
                 {@const fullWord = items.find(item => item.id === word.id)}
                 <div
                   class="word-chip"
+                  class:selected={selectedWordForTouch?.id === word.id}
                   draggable="true"
                   ondragstart={(e) => handleDragStart(e, word)}
+                  onclick={() => handleWordChipClick(word)}
                   role="button"
                   tabindex="0"
-                  aria-label={`Drag ${word.romanized} to match with picture`}
+                  aria-label={`Drag or tap ${word.romanized} to match with picture`}
                 >
                   <div class="word-chip-content">
                     <div class="word-text">
@@ -836,6 +878,17 @@
     animation: match-pulse 0.5s ease;
   }
 
+  .item-card.clickable {
+    cursor: pointer;
+    border-color: var(--color-accent-orange);
+    border-style: solid;
+  }
+
+  .item-card.clickable:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(233, 69, 96, 0.3);
+  }
+
   @keyframes match-pulse {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.05); }
@@ -892,6 +945,13 @@
   .word-chip:active {
     cursor: grabbing;
     opacity: 0.7;
+  }
+
+  .word-chip.selected {
+    outline: 4px solid #FFD700;
+    outline-offset: 2px;
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(255, 215, 0, 0.5);
   }
 
   .word-chip-content {

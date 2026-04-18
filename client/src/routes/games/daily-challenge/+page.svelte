@@ -31,6 +31,7 @@
   // Flashcard state
   let flashcardFlipped = $state(false);
   let flashcardIndex = $state(0);
+  let error = $state(null);
 
   onMount(async () => {
     try {
@@ -109,7 +110,7 @@
   }
 
   // Calendar generation
-  let calendarDays = $derived(() => {
+  let calendarDays = $derived.by(() => {
     if (!challenge) return [];
     const now = new Date();
     const year = now.getFullYear();
@@ -131,7 +132,7 @@
     return days;
   });
 
-  let monthName = $derived(() => {
+  let monthName = $derived.by(() => {
     const months = ['January', 'February', 'March', 'April', 'May', 'June',
       'July', 'August', 'September', 'October', 'November', 'December'];
     return months[new Date().getMonth()];
@@ -258,17 +259,52 @@
     }
   }
 
-  function shareStreak() {
+  /**
+   * Share streak functionality using Web Share API
+   *
+   * What it does:
+   * - Uses the native Web Share API (navigator.share) to share the user's streak
+   * - Shares a text message with the current streak count and a link to the app
+   * - Opens the device's native share sheet (SMS, WhatsApp, Twitter, etc.)
+   * - Falls back to clipboard copy if Web Share API is not supported
+   *
+   * Supported platforms:
+   * - Mobile: iOS Safari, Android Chrome (native share sheet)
+   * - Desktop: Limited support, most browsers fall back to clipboard
+   *
+   * Error handling:
+   * - User canceling the share dialog is silently ignored (not an error)
+   * - Only logs actual errors (not AbortError from user cancellation)
+   */
+  async function shareStreak() {
     const text = `I've completed ${challenge.current_streak} days in a row on Amharic Class! Join me in learning Amharic!`;
+
+    // Web Share API is available (mobile browsers, some desktop)
     if (navigator.share) {
-      navigator.share({ text, url: window.location.origin });
+      try {
+        await navigator.share({ text, url: window.location.origin });
+        // Share successful (no UI feedback needed)
+      } catch (err) {
+        // User canceled the share dialog - this is normal behavior, not an error
+        // AbortError is thrown when user dismisses the share sheet
+        if (err.name !== 'AbortError') {
+          // Only log actual errors (not user cancellation)
+          console.error('Error sharing:', err);
+        }
+      }
     } else {
-      navigator.clipboard.writeText(text);
-      alert('Streak message copied to clipboard!');
+      // Fallback for browsers without Web Share API support
+      try {
+        await navigator.clipboard.writeText(text);
+        alert('Streak message copied to clipboard!');
+      } catch (err) {
+        console.error('Error copying to clipboard:', err);
+        alert('Unable to copy. Please try again.');
+      }
     }
   }
 
-  let challengeTitle = $derived(() => {
+  let challengeTitle = $derived.by(() => {
     if (!challenge) return '';
     const types = {
       quiz: 'Quiz Challenge',
@@ -284,7 +320,6 @@
   let currentFlashcard = $derived(challenge?.data?.[flashcardIndex]);
   let currentTypingWord = $derived(challenge?.data?.[currentWordIndex]);
   let isCorrect = $derived(selectedAnswer === currentQuizQuestion?.correct_answer);
-  let error = $state(null);
 </script>
 
 <div class="daily-challenge">
@@ -1402,6 +1437,32 @@
 
     .word-amharic-row {
       gap: 0.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .memory-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+
+    .memory-card {
+      font-size: 0.75rem;
+      min-height: 80px;
+    }
+
+    .memory-card-text {
+      font-size: 0.75rem;
+      padding: 0.25rem;
+    }
+
+    .question-options {
+      grid-template-columns: 1fr;
+    }
+
+    .answer-option {
+      padding: 1.25rem;
+      min-height: 60px;
     }
   }
 </style>

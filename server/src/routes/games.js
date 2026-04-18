@@ -58,7 +58,21 @@ router.get('/daily-challenge', requireUser, (req, res) => {
     'SELECT * FROM daily_challenges WHERE user_id = ? AND challenge_date = ?'
   ).get(req.userId, today);
 
-  let data = {};
+  // Get current streak
+  const progress = db.prepare('SELECT current_streak FROM user_progress WHERE user_id = ?').get(req.userId);
+  const currentStreak = progress?.current_streak || 0;
+
+  // Get calendar data (all completed challenges this month)
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const monthStart = `${year}-${month}-01`;
+  const calendar = db.prepare(`
+    SELECT challenge_date as date FROM daily_challenges
+    WHERE user_id = ? AND challenge_date LIKE ?
+  `).all(req.userId, `${year}-${month}%`);
+
+  let data = [];
 
   // Generate challenge data based on type
   switch (challengeType) {
@@ -69,9 +83,13 @@ router.get('/daily-challenge', requireUser, (req, res) => {
         ORDER BY RANDOM()
         LIMIT 10
       `).all();
-      data = {
-        questions: questions.map(q => ({ ...q, options: JSON.parse(q.options) }))
-      };
+      data = questions.map(q => ({
+        id: q.id,
+        question: q.question,
+        options: JSON.parse(q.options),
+        correct_answer: q.correct_answer,
+        audio_url: q.audio_url || null
+      }));
       break;
     }
     case 'flashcard': {
@@ -80,7 +98,7 @@ router.get('/daily-challenge', requireUser, (req, res) => {
         ORDER BY RANDOM()
         LIMIT 15
       `).all();
-      data = { vocabulary: vocab };
+      data = vocab;
       break;
     }
     case 'listening': {
@@ -90,7 +108,27 @@ router.get('/daily-challenge', requireUser, (req, res) => {
         ORDER BY RANDOM()
         LIMIT 10
       `).all();
-      data = { vocabulary: vocab };
+      // Create listening quiz with multiple choice options
+      data = vocab.map(v => {
+        // Get 3 random wrong answers
+        const wrongAnswers = db.prepare(`
+          SELECT DISTINCT english FROM vocabulary
+          WHERE id != ? AND english != ?
+          ORDER BY RANDOM()
+          LIMIT 3
+        `).all(v.id, v.english).map(w => w.english);
+
+        const options = [v.english, ...wrongAnswers].sort(() => Math.random() - 0.5);
+
+        return {
+          id: v.id,
+          audio_url: v.audio_url,
+          romanized: v.romanized,
+          amharic: v.amharic,
+          options,
+          correct_answer: v.english
+        };
+      });
       break;
     }
     case 'speed-typing': {
@@ -99,7 +137,7 @@ router.get('/daily-challenge', requireUser, (req, res) => {
         ORDER BY RANDOM()
         LIMIT 20
       `).all();
-      data = { vocabulary: vocab };
+      data = vocab;
       break;
     }
     case 'memory': {
@@ -108,7 +146,7 @@ router.get('/daily-challenge', requireUser, (req, res) => {
         ORDER BY RANDOM()
         LIMIT 12
       `).all();
-      data = { vocabulary: vocab };
+      data = vocab;
       break;
     }
   }
@@ -116,9 +154,11 @@ router.get('/daily-challenge', requireUser, (req, res) => {
   res.json({
     id: `${today}-${challengeType}`,
     date: today,
-    type: challengeType,
+    challenge_type: challengeType,
     data,
     completed: !!completed,
+    current_streak: currentStreak,
+    calendar,
     score: completed?.score || null,
     time_taken_ms: completed?.time_taken_ms || null
   });
@@ -144,8 +184,31 @@ router.post('/daily-challenge/complete', requireUser, (req, res) => {
     return res.status(400).json({ error: 'Daily challenge already completed' });
   }
 
-  // Calculate XP based on score (score is typically 0-100 or number of correct answers)
-  const xpEarned = Math.max(10, Math.floor(score / 2)); // At least 10 XP, up to 50 for perfect score
+  // Get challenge data to determine max score
+  let maxScore = 10;
+  switch (challengeType) {
+    case 'quiz':
+    case 'listening':
+      maxScore = 10;
+      break;
+    case 'flashcard':
+      maxScore = 15;
+      break;
+    case 'speed-typing':
+      maxScore = 20;
+      break;
+    case 'memory':
+      maxScore = 8; // 8 pairs
+      break;
+  }
+
+  const isPerfect = score >= maxScore;
+
+  // Calculate XP based on score
+  let xpEarned = Math.max(10, Math.floor((score / maxScore) * 50));
+  if (isPerfect) {
+    xpEarned += 10; // Bonus XP for perfect score
+  }
 
   // Save challenge completion
   db.prepare(`
@@ -171,11 +234,13 @@ router.post('/daily-challenge/complete', requireUser, (req, res) => {
   ).run(newStreak, newStreak, req.userId);
 
   res.json({
+    score,
     xp_earned: xpEarned,
     total_xp,
     level,
     leveled_up,
-    streak: newStreak
+    new_streak: newStreak,
+    perfect: isPerfect
   });
 });
 

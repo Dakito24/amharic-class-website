@@ -69,7 +69,7 @@
     try {
       const settings = DIFFICULTY_SETTINGS[difficulty];
       const data = await getVocabulary({ limit: settings.vocabCount });
-      vocabulary = data.vocabulary.filter(v => v.audio_url); // Only words with audio
+      vocabulary = data.filter(v => v.audio_url); // Only words with audio
 
       if (vocabulary.length < 10) {
         errorMessage = 'Not enough vocabulary with audio available!';
@@ -989,6 +989,46 @@
 
     .game-header {
       flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .game-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 0.75rem;
+      padding: 0.75rem;
+      min-height: 550px;
+    }
+
+    .word-tile {
+      padding: 1.25rem 0.75rem;
+      min-height: 70px;
+    }
+
+    .word-text {
+      font-size: 1rem;
+    }
+
+    .amharic-text {
+      font-size: 2rem;
+    }
+
+    .romanized-text {
+      font-size: 1.1rem;
+    }
+
+    .game-header {
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .score-value, .combo-value {
+      font-size: 2rem;
+    }
+
+    .timer-value {
+      font-size: 1.5rem;
     }
   }
 </style>

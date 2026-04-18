@@ -17,7 +17,7 @@
 
   // Physics constants
   const GRAVITY = 0.8;
-  const JUMP_FORCE = -16;
+  const JUMP_FORCE = 16; // Positive force for upward jump
   const GROUND_Y = 0;
   const PLAYER_X = 100;
   const OBSTACLE_SPAWN_X = 800;
@@ -47,6 +47,7 @@
   let currentQuestion = $state(null);
   let questionOptions = $state([]);
   let collidedObstacle = $state(null);
+  let answerFeedback = $state(null); // { correct: boolean, correctAnswer: string }
 
   // Animations
   let animationFrame = $state(null);
@@ -115,6 +116,7 @@
     nextObstacleDistance = 150;
     currentQuestion = null;
     collidedObstacle = null;
+    answerFeedback = null;
     backgroundOffset = 0;
     mountainOffset = 0;
     runCycle = 0;
@@ -173,11 +175,11 @@
 
     // Physics: Apply gravity and update player position
     if (isJumping) {
-      jumpVelocity += GRAVITY * normalizedDelta;
+      jumpVelocity -= GRAVITY * normalizedDelta; // Subtract gravity (decelerate upward velocity)
       playerY += jumpVelocity * normalizedDelta;
 
       // Check if landed
-      if (playerY >= GROUND_Y) {
+      if (playerY <= GROUND_Y) { // Changed >= to <= since playerY goes up (positive)
         playerY = GROUND_Y;
         jumpVelocity = 0;
         isJumping = false;
@@ -320,25 +322,44 @@
   }
 
   function answerQuestion(option) {
+    // Show feedback
+    answerFeedback = {
+      correct: option.correct,
+      correctAnswer: currentQuestion.correctAnswer
+    };
+
     if (option.correct) {
-      // Correct answer - resume game, no penalty
+      // Correct answer - resume game after showing feedback
       score += 50;
-      resumeAfterQuestion();
+      setTimeout(() => {
+        answerFeedback = null;
+        resumeAfterQuestion();
+      }, 1500);
     } else {
-      // Wrong answer - lose 1 life
+      // Wrong answer - lose 1 life, show feedback
       lives--;
 
-      if (lives <= 0) {
-        endGame();
-      } else {
-        resumeAfterQuestion();
-      }
+      setTimeout(() => {
+        answerFeedback = null;
+        if (lives <= 0) {
+          endGame();
+        } else {
+          resumeAfterQuestion();
+        }
+      }, 2000); // Longer delay for wrong answers to show correct answer
     }
   }
 
   function resumeAfterQuestion() {
     currentQuestion = null;
     collidedObstacle = null;
+
+    // Reset player to ground position
+    playerY = GROUND_Y;
+    jumpVelocity = 0;
+    isJumping = false;
+    canJump = true;
+
     gameState = GAME_STATE.PLAYING;
     lastTimestamp = performance.now();
     gameLoop(lastTimestamp);
@@ -430,6 +451,23 @@
     }
   }
 
+  // Touch event handlers for mobile
+  function handleTouchStart(e) {
+    // Only handle if in active gameplay
+    if (gameState === GAME_STATE.PLAYING || gameState === GAME_STATE.JUMPING) {
+      e.preventDefault();
+      e.stopPropagation();
+      jump();
+    }
+  }
+
+  // Mouse click handler (for laptop/desktop)
+  function handleCanvasClick() {
+    if (gameState === GAME_STATE.PLAYING || gameState === GAME_STATE.JUMPING) {
+      jump();
+    }
+  }
+
   // Derived values
   let distanceMeters = $derived(Math.floor(distance));
   let runFrame = $derived(Math.floor(runCycle));
@@ -459,7 +497,7 @@
       <div class="game-rules">
         <h3>How to Play:</h3>
         <ul>
-          <li>Press <kbd>SPACE</kbd> to jump over obstacles</li>
+          <li>Tap the screen or press <kbd>SPACE</kbd> to jump over obstacles</li>
           <li>If you hit an obstacle, answer a vocabulary question</li>
           <li>Correct answer: Continue running</li>
           <li>Wrong answer: Lose 1 life (❤️)</li>
@@ -511,7 +549,15 @@
     </div>
 
     <!-- Game Canvas -->
-    <div class="game-canvas">
+    <div
+      class="game-canvas"
+      role="button"
+      tabindex="0"
+      aria-label="Game canvas - tap or press space to jump"
+      on:touchstart|nonpassive={handleTouchStart}
+      onclick={handleCanvasClick}
+      onkeydown={(e) => e.key === ' ' && handleCanvasClick()}
+    >
       <!-- Parallax Background Layers -->
       <div class="sky-layer"></div>
 
@@ -542,7 +588,7 @@
 
       <!-- Jump Hint -->
       {#if gameState === GAME_STATE.PLAYING && canJump && distance < 100}
-        <div class="jump-hint">Press SPACE to jump</div>
+        <div class="jump-hint">Tap or press SPACE to jump</div>
       {/if}
 
       <!-- Obstacles -->
@@ -593,15 +639,33 @@
             {#each questionOptions as option, i}
               <button
                 class="option-btn"
-                onclick={() => answerQuestion(option)}
+                class:correct-answer={answerFeedback && option.correct}
+                class:wrong-answer={answerFeedback && !answerFeedback.correct && !option.correct}
+                onclick={() => !answerFeedback && answerQuestion(option)}
+                disabled={!!answerFeedback}
               >
                 <span class="option-num">{i + 1}</span>
                 <span class="option-text">{option.text}</span>
+                {#if answerFeedback && option.correct}
+                  <span class="feedback-icon">✓</span>
+                {/if}
               </button>
             {/each}
           </div>
 
-          <p class="hint">Press 1-4 or click to answer</p>
+          {#if answerFeedback}
+            <div class="feedback-message" class:correct={answerFeedback.correct} class:wrong={!answerFeedback.correct}>
+              {#if answerFeedback.correct}
+                <span class="feedback-icon-large">✓</span>
+                <span class="feedback-text">Correct! +50 points</span>
+              {:else}
+                <span class="feedback-icon-large">✗</span>
+                <span class="feedback-text">Wrong! The correct answer is: <strong>{answerFeedback.correctAnswer}</strong></span>
+              {/if}
+            </div>
+          {:else}
+            <p class="hint">Press 1-4 or click to answer</p>
+          {/if}
         </div>
       </div>
     {/if}
@@ -664,6 +728,7 @@
     background: var(--color-bg-body);
     position: relative;
     overflow: hidden;
+    touch-action: manipulation; /* Improve touch response */
   }
 
   .loading {
@@ -714,6 +779,8 @@
     margin: 0 auto;
     padding: 3rem 2rem;
     text-align: center;
+    overflow-y: auto;
+    max-height: 100%;
   }
 
   .start-screen h1 {
@@ -813,6 +880,10 @@
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 12px rgba(0, 150, 57, 0.3);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 60px; /* Touch target */
+    touch-action: manipulation;
   }
 
   .start-btn:hover:not(:disabled) {
@@ -912,6 +983,11 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   /* Background Layers - Parallax */
@@ -1203,14 +1279,47 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    /* Ensure minimum touch target */
+    min-height: 60px;
   }
 
-  .option-btn:hover {
+  .option-btn:hover:not(:disabled) {
     background: var(--color-accent-primary);
     color: #fff;
     border-color: var(--color-accent-primary);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 150, 57, 0.3);
+  }
+
+  .option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  .option-btn.correct-answer {
+    background: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+    animation: correctPulse 0.6s ease-out;
+  }
+
+  .option-btn.wrong-answer {
+    background: #f44336;
+    color: #fff;
+    border-color: #f44336;
+    animation: wrongShake 0.6s ease-out;
+  }
+
+  @keyframes correctPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes wrongShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
   }
 
   .option-num {
@@ -1230,11 +1339,78 @@
     text-align: left;
   }
 
+  .feedback-icon {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: auto;
+  }
+
   .hint {
     text-align: center;
     color: var(--color-text-secondary);
     font-size: 0.95rem;
     margin: 0;
+  }
+
+  .feedback-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+    animation: fadeIn 0.3s;
+  }
+
+  .feedback-message.correct {
+    background: rgba(76, 175, 80, 0.15);
+    border: 3px solid #4caf50;
+  }
+
+  .feedback-message.wrong {
+    background: rgba(244, 67, 54, 0.15);
+    border: 3px solid #f44336;
+  }
+
+  .feedback-icon-large {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .feedback-message.correct .feedback-icon-large {
+    color: #4caf50;
+    animation: correctBounce 0.6s ease-out;
+  }
+
+  .feedback-message.wrong .feedback-icon-large {
+    color: #f44336;
+    animation: wrongRotate 0.6s ease-out;
+  }
+
+  @keyframes correctBounce {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.3); }
+    50% { transform: scale(0.9); }
+    75% { transform: scale(1.1); }
+  }
+
+  @keyframes wrongRotate {
+    0% { transform: rotate(0deg) scale(0); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+  }
+
+  .feedback-text {
+    color: var(--color-text-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .feedback-text strong {
+    color: var(--color-accent-orange);
+    font-size: 1.15rem;
   }
 
   /* Pause Modal */
@@ -1434,35 +1610,243 @@
   }
 
   @media (max-width: 768px) {
+    .start-screen {
+      padding: 2rem 1rem;
+      max-height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .start-screen h1 {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .game-description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .game-rules {
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+
+    .game-rules h3 {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .game-rules li {
+      font-size: 0.9rem;
+      padding: 0.4rem 0;
+    }
+
+    .high-scores {
+      flex-direction: column;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .stat-box {
+      padding: 1rem 1.5rem;
+    }
+
+    .stat-box .value {
+      font-size: 1.5rem;
+    }
+
+    .start-btn {
+      font-size: 1.1rem;
+      padding: 1rem 2rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 100%;
+      max-width: 300px;
+      align-self: center;
+    }
+
     .game-hud {
-      flex-wrap: wrap;
-      gap: 0.75rem;
+      padding: 0.75rem;
+      gap: 0.5rem;
+    }
+
+    .lives {
+      padding: 0.5rem 0.75rem;
+    }
+
+    .heart {
+      font-size: 1.4rem;
     }
 
     .score-display {
-      gap: 1rem;
-      padding: 0.5rem 1.5rem;
+      gap: 0.75rem;
+      padding: 0.5rem 1rem;
     }
 
     .distance, .score {
+      font-size: 0.9rem;
+    }
+
+    .pause-btn {
+      padding: 0.5rem 0.75rem;
       font-size: 1.1rem;
     }
 
-    .answer-options {
-      grid-template-columns: 1fr;
-    }
-
-    .final-stats {
-      grid-template-columns: 1fr;
-    }
-
-    .gameover-buttons {
-      flex-direction: column;
+    .game-canvas {
+      height: calc(100vh - 60px);
+      touch-action: none; /* Prevent scrolling on mobile */
     }
 
     .player .character,
     .obstacle {
       font-size: 3rem;
+    }
+
+    .jump-hint {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+    }
+
+    .question-content {
+      padding: 1.5rem;
+      width: 95%;
+      max-width: 500px;
+    }
+
+    .collision-header h2 {
+      font-size: 1.1rem;
+    }
+
+    .collision-icon {
+      font-size: 2rem;
+    }
+
+    .word-display {
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .romanized {
+      font-size: 1.8rem;
+    }
+
+    .geez {
+      font-size: 1.5rem;
+    }
+
+    .answer-options {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .option-btn {
+      padding: 1.25rem;
+      min-height: 64px;
+      font-size: 1.05rem;
+      touch-action: manipulation;
+    }
+
+    .option-num {
+      width: 28px;
+      height: 28px;
+      font-size: 0.9rem;
+    }
+
+    .pause-content {
+      padding: 2rem;
+      width: 90%;
+      max-width: 350px;
+    }
+
+    .pause-content h2 {
+      font-size: 1.5rem;
+    }
+
+    .pause-stats {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-row {
+      font-size: 1rem;
+    }
+
+    .resume-btn, .quit-btn {
+      padding: 1rem;
+      font-size: 1rem;
+      min-height: 50px;
+      touch-action: manipulation;
+    }
+
+    .gameover-content {
+      padding: 2rem;
+      width: 95%;
+    }
+
+    .gameover-content h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .final-stats {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      padding: 1.5rem 1rem;
+    }
+
+    .stat-value {
+      font-size: 2rem;
+    }
+
+    .new-record {
+      font-size: 1.2rem;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .gameover-buttons {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .play-again-btn, .back-btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      width: 100%;
+      min-height: 56px;
+      touch-action: manipulation;
+    }
+  }
+
+  /* Additional mobile fixes for very small screens */
+  @media (max-width: 480px) {
+    .start-screen h1 {
+      font-size: 1.75rem;
+    }
+
+    .game-rules li {
+      font-size: 0.85rem;
+    }
+
+    .romanized {
+      font-size: 1.5rem;
+    }
+
+    .geez {
+      font-size: 1.3rem;
+    }
+
+    .collision-header h2 {
+      font-size: 1rem;
+    }
+
+    .feedback-text {
+      font-size: 1rem;
     }
   }
 </style>
