@@ -107,21 +107,25 @@ export function initDatabase() {
 
     // Set username = lowercase(name) and password = bcrypt('habesha10') for existing users
     const defaultHash = bcrypt.hashSync('habesha10', 10);
-    const existingUsers = db.prepare('SELECT id, name FROM users').all();
+    const existingUsers = db.prepare('SELECT id, name, username FROM users').all();
     const updateStmt = db.prepare('UPDATE users SET username = ?, password_hash = ? WHERE id = ?');
     const usedUsernames = new Set();
+
     for (const u of existingUsers) {
-      let base = u.name.toLowerCase().replace(/\s+/g, '');
-      let candidate = base;
-      let suffix = 2;
-      while (usedUsernames.has(candidate)) {
-        candidate = base + suffix;
-        suffix++;
+      let candidate = u.username;
+      if (!candidate) {
+        let base = u.name.toLowerCase().replace(/\s+/g, '');
+        candidate = base;
+        let suffix = 2;
+        while (usedUsernames.has(candidate)) {
+          candidate = base + suffix;
+          suffix++;
+        }
       }
       usedUsernames.add(candidate);
       updateStmt.run(candidate, defaultHash, u.id);
     }
-    console.log(`  Migrated ${existingUsers.length} existing users with default password`);
+    console.log(`  Migrated ${existingUsers.length} existing users with default password 'habesha10'`);
   }
 
   db.exec(`

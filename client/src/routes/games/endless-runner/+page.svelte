@@ -1,18 +1,18 @@
 <script>
-  import { getVocabulary, submitGameScore } from '$lib/api.js';
-  import { loadProgress } from '$lib/stores/progress.js';
-  import AudioButton from '$lib/components/AudioButton.svelte';
-  import { onMount, onDestroy } from 'svelte';
+  import { getVocabulary, submitGameScore } from "$lib/api.js";
+  import { loadProgress } from "$lib/stores/progress.js";
+  import AudioButton from "$lib/components/AudioButton.svelte";
+  import { onMount, onDestroy } from "svelte";
 
   // Game states
   const GAME_STATE = {
-    MENU: 'menu',
-    PLAYING: 'playing',
-    JUMPING: 'jumping',
-    COLLISION: 'collision',
-    QUESTION: 'question',
-    PAUSED: 'paused',
-    GAME_OVER: 'game_over'
+    MENU: "menu",
+    PLAYING: "playing",
+    JUMPING: "jumping",
+    COLLISION: "collision",
+    QUESTION: "question",
+    PAUSED: "paused",
+    GAME_OVER: "game_over",
   };
 
   // Physics constants
@@ -68,12 +68,12 @@
     // Load vocabulary
     try {
       const allVocab = await getVocabulary();
-      vocabulary = allVocab.filter(v => v.amharic && v.english);
+      vocabulary = allVocab.filter((v) => v.amharic && v.english);
       if (vocabulary.length === 0) {
         loadError = true;
       }
     } catch (error) {
-      console.error('Failed to load vocabulary:', error);
+      console.error("Failed to load vocabulary:", error);
       vocabulary = [];
       loadError = true;
     } finally {
@@ -81,14 +81,14 @@
     }
 
     // Load high scores
-    const saved = localStorage.getItem('endless-runner-high-score');
+    const saved = localStorage.getItem("endless-runner-high-score");
     if (saved) {
       try {
         const data = JSON.parse(saved);
         highScore = data.score || 0;
         bestDistance = data.distance || 0;
       } catch (error) {
-        console.error('Failed to load high scores:', error);
+        console.error("Failed to load high scores:", error);
       }
     }
   });
@@ -145,7 +145,7 @@
         y: 80,
         vx: -(2 + Math.random() * 2),
         vy: -(2 + Math.random() * 3),
-        life: 1.0
+        life: 1.0,
       });
     }
   }
@@ -179,7 +179,8 @@
       playerY += jumpVelocity * normalizedDelta;
 
       // Check if landed
-      if (playerY <= GROUND_Y) { // Changed >= to <= since playerY goes up (positive)
+      if (playerY <= GROUND_Y) {
+        // Changed >= to <= since playerY goes up (positive)
         playerY = GROUND_Y;
         jumpVelocity = 0;
         isJumping = false;
@@ -198,22 +199,26 @@
     }
 
     // Update obstacles
-    obstacles = obstacles.map(obs => ({
-      ...obs,
-      x: obs.x - speed * normalizedDelta
-    })).filter(obs => obs.x > -100);
+    obstacles = obstacles
+      .map((obs) => ({
+        ...obs,
+        x: obs.x - speed * normalizedDelta,
+      }))
+      .filter((obs) => obs.x > -100);
 
     // Check collisions
     checkCollisions();
 
     // Update dust particles
-    dustParticles = dustParticles.map(p => ({
-      ...p,
-      x: p.x + p.vx * normalizedDelta,
-      y: p.y + p.vy * normalizedDelta,
-      vy: p.vy + 0.2 * normalizedDelta,
-      life: p.life - 0.02 * normalizedDelta
-    })).filter(p => p.life > 0);
+    dustParticles = dustParticles
+      .map((p) => ({
+        ...p,
+        x: p.x + p.vx * normalizedDelta,
+        y: p.y + p.vy * normalizedDelta,
+        vy: p.vy + 0.2 * normalizedDelta,
+        life: p.life - 0.02 * normalizedDelta,
+      }))
+      .filter((p) => p.life > 0);
 
     // Random dust particles while running
     if (Math.random() < 0.1 && !isJumping) {
@@ -223,7 +228,7 @@
         y: 85,
         vx: -(1 + Math.random()),
         vy: -(0.5 + Math.random()),
-        life: 0.5
+        life: 0.5,
       });
     }
 
@@ -232,11 +237,11 @@
 
   function createObstacle() {
     const types = [
-      { emoji: '🌳', width: 40 },
-      { emoji: '🪨', width: 35 },
-      { emoji: '🌵', width: 40 },
-      { emoji: '🏔️', width: 45 },
-      { emoji: '🐪', width: 40 }
+      { emoji: "🌳", width: 40 },
+      { emoji: "🪨", width: 35 },
+      { emoji: "🌵", width: 40 },
+      { emoji: "🏔️", width: 45 },
+      { emoji: "🐪", width: 40 },
     ];
     const type = types[Math.floor(Math.random() * types.length)];
 
@@ -245,7 +250,7 @@
       x: OBSTACLE_SPAWN_X,
       type: type.emoji,
       width: type.width,
-      hit: false
+      hit: false,
     });
   }
 
@@ -261,7 +266,8 @@
       const obstacleTop = 80 + 50; // Obstacles are ~50px tall
 
       // Check if player overlaps with obstacle horizontally
-      const horizontalOverlap = playerRight > obstacleLeft && playerLeft < obstacleRight;
+      const horizontalOverlap =
+        playerRight > obstacleLeft && playerLeft < obstacleRight;
 
       // Check if player is low enough to collide (not jumping over)
       const verticalCollision = playerBottom < obstacleTop + 30;
@@ -301,7 +307,10 @@
     const wrongAnswers = [];
     while (wrongAnswers.length < 3) {
       const wrong = vocabulary[Math.floor(Math.random() * vocabulary.length)];
-      if (wrong.id !== word.id && !wrongAnswers.find(w => w.id === wrong.id)) {
+      if (
+        wrong.id !== word.id &&
+        !wrongAnswers.find((w) => w.id === wrong.id)
+      ) {
         wrongAnswers.push(wrong);
       }
     }
@@ -309,14 +318,14 @@
     // Shuffle options
     const allOptions = [
       { text: word.english, correct: true },
-      ...wrongAnswers.map(w => ({ text: w.english, correct: false }))
+      ...wrongAnswers.map((w) => ({ text: w.english, correct: false })),
     ].sort(() => Math.random() - 0.5);
 
     currentQuestion = {
-      romanized: word.amharic,
-      amharic: word.geez || word.amharic,
+      romanized: word.romanized,
+      amharic: word.amharic,
       audio_url: word.audio_url,
-      correctAnswer: word.english
+      correctAnswer: word.english,
     };
     questionOptions = allOptions;
   }
@@ -325,7 +334,7 @@
     // Show feedback
     answerFeedback = {
       correct: option.correct,
-      correctAnswer: currentQuestion.correctAnswer
+      correctAnswer: currentQuestion.correctAnswer,
     };
 
     if (option.correct) {
@@ -395,40 +404,49 @@
     if (score > highScore) {
       highScore = score;
       bestDistance = Math.floor(distance);
-      localStorage.setItem('endless-runner-high-score', JSON.stringify({
-        score: highScore,
-        distance: bestDistance
-      }));
+      localStorage.setItem(
+        "endless-runner-high-score",
+        JSON.stringify({
+          score: highScore,
+          distance: bestDistance,
+        }),
+      );
     }
 
     // Submit score to server
     try {
-      await submitGameScore('endless-runner', score, null, {
+      await submitGameScore("endless-runner", score, null, {
         distance: Math.floor(distance),
-        lives_remaining: lives
+        lives_remaining: lives,
       });
       await loadProgress();
     } catch (err) {
-      console.error('Failed to submit score:', err);
+      console.error("Failed to submit score:", err);
     }
   }
 
   function handleKeydown(e) {
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
 
     // Spacebar to jump
-    if (e.code === 'Space' && !spacePressed) {
+    if (e.code === "Space" && !spacePressed) {
       e.preventDefault();
       spacePressed = true;
-      if (gameState === GAME_STATE.PLAYING || gameState === GAME_STATE.JUMPING) {
+      if (
+        gameState === GAME_STATE.PLAYING ||
+        gameState === GAME_STATE.JUMPING
+      ) {
         jump();
       }
     }
 
     // P to pause
-    if (e.key === 'p' || e.key === 'P') {
+    if (e.key === "p" || e.key === "P") {
       e.preventDefault();
-      if (gameState === GAME_STATE.PLAYING || gameState === GAME_STATE.JUMPING) {
+      if (
+        gameState === GAME_STATE.PLAYING ||
+        gameState === GAME_STATE.JUMPING
+      ) {
         pauseGame();
       } else if (gameState === GAME_STATE.PAUSED) {
         resumeGame();
@@ -446,7 +464,7 @@
   }
 
   function handleKeyup(e) {
-    if (e.code === 'Space') {
+    if (e.code === "Space") {
       spacePressed = false;
     }
   }
@@ -497,7 +515,9 @@
       <div class="game-rules">
         <h3>How to Play:</h3>
         <ul>
-          <li>Tap the screen or press <kbd>SPACE</kbd> to jump over obstacles</li>
+          <li>
+            Tap the screen or press <kbd>SPACE</kbd> to jump over obstacles
+          </li>
           <li>If you hit an obstacle, answer a vocabulary question</li>
           <li>Correct answer: Continue running</li>
           <li>Wrong answer: Lose 1 life (❤️)</li>
@@ -519,8 +539,12 @@
         </div>
       {/if}
 
-      <button class="start-btn" onclick={startGame} disabled={vocabulary.length === 0}>
-        {vocabulary.length === 0 ? 'No Vocabulary Available' : 'Start Running'}
+      <button
+        class="start-btn"
+        onclick={startGame}
+        disabled={vocabulary.length === 0}
+      >
+        {vocabulary.length === 0 ? "No Vocabulary Available" : "Start Running"}
       </button>
     </div>
   {:else}
@@ -554,24 +578,33 @@
       role="button"
       tabindex="0"
       aria-label="Game canvas - tap or press space to jump"
-      on:touchstart|nonpassive={handleTouchStart}
+      ontouchstart={handleTouchStart}
       onclick={handleCanvasClick}
-      onkeydown={(e) => e.key === ' ' && handleCanvasClick()}
+      onkeydown={(e) => e.key === " " && handleCanvasClick()}
     >
       <!-- Parallax Background Layers -->
       <div class="sky-layer"></div>
 
-      <div class="mountains-layer" style="transform: translateX(-{mountainOffset}px)">
+      <div
+        class="mountains-layer"
+        style="transform: translateX(-{mountainOffset}px)"
+      >
         <div class="mountains-content"></div>
         <div class="mountains-content"></div>
       </div>
 
-      <div class="hills-layer" style="transform: translateX(-{backgroundOffset * 0.6}px)">
+      <div
+        class="hills-layer"
+        style="transform: translateX(-{backgroundOffset * 0.6}px)"
+      >
         <div class="hills-content"></div>
         <div class="hills-content"></div>
       </div>
 
-      <div class="ground-layer" style="transform: translateX(-{backgroundOffset}px)">
+      <div
+        class="ground-layer"
+        style="transform: translateX(-{backgroundOffset}px)"
+      >
         <div class="ground-content"></div>
         <div class="ground-content"></div>
       </div>
@@ -640,7 +673,9 @@
               <button
                 class="option-btn"
                 class:correct-answer={answerFeedback && option.correct}
-                class:wrong-answer={answerFeedback && !answerFeedback.correct && !option.correct}
+                class:wrong-answer={answerFeedback &&
+                  !answerFeedback.correct &&
+                  !option.correct}
                 onclick={() => !answerFeedback && answerQuestion(option)}
                 disabled={!!answerFeedback}
               >
@@ -654,13 +689,21 @@
           </div>
 
           {#if answerFeedback}
-            <div class="feedback-message" class:correct={answerFeedback.correct} class:wrong={!answerFeedback.correct}>
+            <div
+              class="feedback-message"
+              class:correct={answerFeedback.correct}
+              class:wrong={!answerFeedback.correct}
+            >
               {#if answerFeedback.correct}
                 <span class="feedback-icon-large">✓</span>
                 <span class="feedback-text">Correct! +50 points</span>
               {:else}
                 <span class="feedback-icon-large">✗</span>
-                <span class="feedback-text">Wrong! The correct answer is: <strong>{answerFeedback.correctAnswer}</strong></span>
+                <span class="feedback-text"
+                  >Wrong! The correct answer is: <strong
+                    >{answerFeedback.correctAnswer}</strong
+                  ></span
+                >
               {/if}
             </div>
           {:else}
@@ -682,7 +725,10 @@
           </div>
           <div class="pause-buttons">
             <button class="resume-btn" onclick={resumeGame}>Resume (P)</button>
-            <button class="quit-btn" onclick={() => gameState = GAME_STATE.MENU}>
+            <button
+              class="quit-btn"
+              onclick={() => (gameState = GAME_STATE.MENU)}
+            >
               Quit to Menu
             </button>
           </div>
@@ -712,7 +758,9 @@
           {/if}
 
           <div class="gameover-buttons">
-            <button class="play-again-btn" onclick={startGame}>Play Again</button>
+            <button class="play-again-btn" onclick={startGame}
+              >Play Again</button
+            >
             <a href="/games" class="back-btn">Back to Games</a>
           </div>
         </div>
@@ -751,7 +799,9 @@
   }
 
   @keyframes spin {
-    to { transform: rotate(360deg); }
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   /* Error Screen */
@@ -821,7 +871,7 @@
   }
 
   .game-rules li::before {
-    content: '→';
+    content: "→";
     position: absolute;
     left: 0;
     color: var(--color-accent-primary);
@@ -835,7 +885,7 @@
     font-family: monospace;
     font-weight: 600;
     font-size: 0.9em;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .high-scores {
@@ -870,7 +920,7 @@
   }
 
   .start-btn {
-    background: linear-gradient(135deg, #009639, #FEDD00);
+    background: linear-gradient(135deg, #009639, #fedd00);
     color: #000;
     font-size: 1.3rem;
     font-weight: 700;
@@ -910,7 +960,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 1.5rem;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
     z-index: 20;
     pointer-events: none;
   }
@@ -930,7 +980,7 @@
 
   .heart {
     font-size: 1.8rem;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -951,7 +1001,7 @@
   }
 
   .distance {
-    color: #FEDD00;
+    color: #fedd00;
     font-size: 1.3rem;
   }
 
@@ -997,10 +1047,11 @@
     left: 0;
     right: 0;
     height: 65%;
-    background: linear-gradient(to bottom,
-      #87CEEB 0%,
-      #B0E0E6 50%,
-      #FFE5B4 100%
+    background: linear-gradient(
+      to bottom,
+      #87ceeb 0%,
+      #b0e0e6 50%,
+      #ffe5b4 100%
     );
   }
 
@@ -1016,10 +1067,27 @@
   .mountains-content {
     min-width: 800px;
     height: 100%;
-    background-image:
-      linear-gradient(135deg, transparent 30%, rgba(101, 67, 33, 0.6) 30%, rgba(101, 67, 33, 0.6) 35%, transparent 35%),
-      linear-gradient(145deg, transparent 25%, rgba(139, 90, 43, 0.7) 25%, rgba(139, 90, 43, 0.7) 32%, transparent 32%),
-      linear-gradient(125deg, transparent 40%, rgba(160, 82, 45, 0.5) 40%, rgba(160, 82, 45, 0.5) 48%, transparent 48%);
+    background-image: linear-gradient(
+        135deg,
+        transparent 30%,
+        rgba(101, 67, 33, 0.6) 30%,
+        rgba(101, 67, 33, 0.6) 35%,
+        transparent 35%
+      ),
+      linear-gradient(
+        145deg,
+        transparent 25%,
+        rgba(139, 90, 43, 0.7) 25%,
+        rgba(139, 90, 43, 0.7) 32%,
+        transparent 32%
+      ),
+      linear-gradient(
+        125deg,
+        transparent 40%,
+        rgba(160, 82, 45, 0.5) 40%,
+        rgba(160, 82, 45, 0.5) 48%,
+        transparent 48%
+      );
     background-size: 600px 100%;
     background-repeat: repeat-x;
   }
@@ -1036,11 +1104,30 @@
   .hills-content {
     min-width: 800px;
     height: 100%;
-    background-image:
-      radial-gradient(ellipse at 10% 100%, rgba(34, 139, 34, 0.8) 0%, rgba(34, 139, 34, 0.8) 30%, transparent 30%),
-      radial-gradient(ellipse at 35% 100%, rgba(46, 125, 50, 0.7) 0%, rgba(46, 125, 50, 0.7) 35%, transparent 35%),
-      radial-gradient(ellipse at 60% 100%, rgba(56, 142, 60, 0.6) 0%, rgba(56, 142, 60, 0.6) 32%, transparent 32%),
-      radial-gradient(ellipse at 85% 100%, rgba(67, 160, 71, 0.7) 0%, rgba(67, 160, 71, 0.7) 28%, transparent 28%);
+    background-image: radial-gradient(
+        ellipse at 10% 100%,
+        rgba(34, 139, 34, 0.8) 0%,
+        rgba(34, 139, 34, 0.8) 30%,
+        transparent 30%
+      ),
+      radial-gradient(
+        ellipse at 35% 100%,
+        rgba(46, 125, 50, 0.7) 0%,
+        rgba(46, 125, 50, 0.7) 35%,
+        transparent 35%
+      ),
+      radial-gradient(
+        ellipse at 60% 100%,
+        rgba(56, 142, 60, 0.6) 0%,
+        rgba(56, 142, 60, 0.6) 32%,
+        transparent 32%
+      ),
+      radial-gradient(
+        ellipse at 85% 100%,
+        rgba(67, 160, 71, 0.7) 0%,
+        rgba(67, 160, 71, 0.7) 28%,
+        transparent 28%
+      );
     background-size: 400px 100%;
     background-repeat: repeat-x;
   }
@@ -1057,9 +1144,10 @@
   .ground-content {
     min-width: 800px;
     height: 100%;
-    background: linear-gradient(to bottom,
-      #8B7355 0%,
-      #6F5438 50%,
+    background: linear-gradient(
+      to bottom,
+      #8b7355 0%,
+      #6f5438 50%,
       #654321 100%
     );
     border-top: 4px solid #4a3214;
@@ -1067,7 +1155,7 @@
   }
 
   .ground-content::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 8px;
     left: 0;
@@ -1077,8 +1165,8 @@
       90deg,
       transparent,
       transparent 10px,
-      rgba(0,0,0,0.1) 10px,
-      rgba(0,0,0,0.1) 12px
+      rgba(0, 0, 0, 0.1) 10px,
+      rgba(0, 0, 0, 0.1) 12px
     );
   }
 
@@ -1102,7 +1190,7 @@
 
   .character {
     font-size: 4rem;
-    filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.4));
+    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.4));
     animation: run 0.4s steps(4) infinite;
   }
 
@@ -1111,16 +1199,31 @@
   }
 
   @keyframes run {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-4px); }
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-4px);
+    }
   }
 
   @keyframes jumpRotate {
-    0% { transform: rotate(0deg) scale(1); }
-    25% { transform: rotate(-10deg) scale(1.1); }
-    50% { transform: rotate(-5deg) scale(1.15); }
-    75% { transform: rotate(5deg) scale(1.1); }
-    100% { transform: rotate(0deg) scale(1); }
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(-10deg) scale(1.1);
+    }
+    50% {
+      transform: rotate(-5deg) scale(1.15);
+    }
+    75% {
+      transform: rotate(5deg) scale(1.1);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
   }
 
   /* Jump Hint */
@@ -1130,7 +1233,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.8);
-    color: #FEDD00;
+    color: #fedd00;
     padding: 1rem 2rem;
     border-radius: 12px;
     font-size: 1.3rem;
@@ -1141,8 +1244,15 @@
   }
 
   @keyframes pulse {
-    0%, 100% { opacity: 0.8; transform: translate(-50%, -50%) scale(1); }
-    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); }
+    0%,
+    100% {
+      opacity: 0.8;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1.05);
+    }
   }
 
   /* Obstacles */
@@ -1151,7 +1261,7 @@
     bottom: 80px;
     font-size: 3.5rem;
     z-index: 9;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
     transition: opacity 0.3s;
   }
 
@@ -1188,24 +1298,34 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .question-content {
     background: var(--color-bg-surface);
-    border: 4px solid #EF2118;
+    border: 4px solid #ef2118;
     border-radius: 20px;
     padding: 2.5rem;
     max-width: 650px;
     width: 90%;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
     animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   @keyframes slideIn {
-    from { transform: translateY(-50px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
   .collision-header {
@@ -1222,9 +1342,16 @@
   }
 
   @keyframes shake {
-    0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(-10deg); }
-    75% { transform: rotate(10deg); }
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    75% {
+      transform: rotate(10deg);
+    }
   }
 
   .collision-header h2 {
@@ -1251,7 +1378,7 @@
   .geez {
     font-size: 2rem;
     color: var(--color-text-secondary);
-    font-family: 'Noto Sans Ethiopic', serif;
+    font-family: "Noto Sans Ethiopic", serif;
     margin-bottom: 0.75rem;
   }
 
@@ -1311,15 +1438,28 @@
   }
 
   @keyframes correctPulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   @keyframes wrongShake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-10px); }
-    75% { transform: translateX(10px); }
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-10px);
+    }
+    75% {
+      transform: translateX(10px);
+    }
   }
 
   .option-num {
@@ -1389,16 +1529,31 @@
   }
 
   @keyframes correctBounce {
-    0%, 100% { transform: scale(1); }
-    25% { transform: scale(1.3); }
-    50% { transform: scale(0.9); }
-    75% { transform: scale(1.1); }
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.3);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    75% {
+      transform: scale(1.1);
+    }
   }
 
   @keyframes wrongRotate {
-    0% { transform: rotate(0deg) scale(0); }
-    50% { transform: rotate(180deg) scale(1.2); }
-    100% { transform: rotate(360deg) scale(1); }
+    0% {
+      transform: rotate(0deg) scale(0);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
   }
 
   .feedback-text {
@@ -1463,7 +1618,8 @@
     gap: 0.75rem;
   }
 
-  .resume-btn, .quit-btn {
+  .resume-btn,
+  .quit-btn {
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     font-size: 1rem;
@@ -1553,7 +1709,7 @@
   }
 
   .new-record {
-    background: linear-gradient(135deg, #FFD700, #FFA500);
+    background: linear-gradient(135deg, #ffd700, #ffa500);
     color: #000;
     padding: 1.25rem;
     border-radius: 12px;
@@ -1564,8 +1720,13 @@
   }
 
   @keyframes recordPulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.03); }
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.03);
+    }
   }
 
   .gameover-buttons {
@@ -1684,7 +1845,8 @@
       padding: 0.5rem 1rem;
     }
 
-    .distance, .score {
+    .distance,
+    .score {
       font-size: 0.9rem;
     }
 
@@ -1772,7 +1934,8 @@
       font-size: 1rem;
     }
 
-    .resume-btn, .quit-btn {
+    .resume-btn,
+    .quit-btn {
       padding: 1rem;
       font-size: 1rem;
       min-height: 50px;
@@ -1814,7 +1977,8 @@
       gap: 0.75rem;
     }
 
-    .play-again-btn, .back-btn {
+    .play-again-btn,
+    .back-btn {
       padding: 1rem 2rem;
       font-size: 1rem;
       width: 100%;
