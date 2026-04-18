@@ -2,7 +2,7 @@ import db from '../db.js';
 
 export function requireUser(req, res, next) {
   if (!req.userId) {
-    return res.status(400).json({ error: 'X-User-Id header required' });
+    return res.status(401).json({ error: 'Authentication required' });
   }
   const user = db.prepare('SELECT id FROM users WHERE id = ?').get(req.userId);
   if (!user) {

@@ -35,5 +35,3 @@ export const activeProfile = derived(
   }
 );
 
-// Whether to show the profile selector overlay
-export const showProfileSelector = writable(false);

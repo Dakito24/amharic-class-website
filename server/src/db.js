@@ -1,4 +1,5 @@
 import Database from 'better-sqlite3';
+import bcrypt from 'bcryptjs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -37,8 +38,10 @@ export function initDatabase() {
     db.exec(`
       CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
+        username TEXT UNIQUE,
         name TEXT NOT NULL,
         avatar_color TEXT DEFAULT '#e94560',
+        password_hash TEXT,
         created_at TEXT DEFAULT (datetime('now'))
       );
 
@@ -94,6 +97,33 @@ export function initDatabase() {
     }
   }
 
+  // --- Auth migration: add username + password_hash if missing ---
+  const userCols = db.prepare("PRAGMA table_info(users)").all().map(c => c.name);
+  if (!userCols.includes('username')) {
+    console.log('Migrating users table: adding username and password_hash columns...');
+    db.exec('ALTER TABLE users ADD COLUMN username TEXT');
+    db.exec('ALTER TABLE users ADD COLUMN password_hash TEXT');
+    db.exec('CREATE UNIQUE INDEX IF NOT EXISTS idx_users_username ON users(username)');
+
+    // Set username = lowercase(name) and password = bcrypt('habesha10') for existing users
+    const defaultHash = bcrypt.hashSync('habesha10', 10);
+    const existingUsers = db.prepare('SELECT id, name FROM users').all();
+    const updateStmt = db.prepare('UPDATE users SET username = ?, password_hash = ? WHERE id = ?');
+    const usedUsernames = new Set();
+    for (const u of existingUsers) {
+      let base = u.name.toLowerCase().replace(/\s+/g, '');
+      let candidate = base;
+      let suffix = 2;
+      while (usedUsernames.has(candidate)) {
+        candidate = base + suffix;
+        suffix++;
+      }
+      usedUsernames.add(candidate);
+      updateStmt.run(candidate, defaultHash, u.id);
+    }
+    console.log(`  Migrated ${existingUsers.length} existing users with default password`);
+  }
+
   db.exec(`
     CREATE TABLE IF NOT EXISTS lessons (
       id INTEGER PRIMARY KEY,
@@ -134,8 +164,10 @@ export function initDatabase() {
 
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
+      username TEXT UNIQUE,
       name TEXT NOT NULL,
       avatar_color TEXT DEFAULT '#e94560',
+      password_hash TEXT,
       created_at TEXT DEFAULT (datetime('now'))
     );
 

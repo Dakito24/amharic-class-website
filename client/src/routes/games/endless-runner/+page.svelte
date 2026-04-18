@@ -1,5 +1,5 @@
 <script>
-  import { getVocabulary } from '$lib/api.js';
+  import { getVocabulary, submitGameScore } from '$lib/api.js';
   import { loadProgress } from '$lib/stores/progress.js';
   import AudioButton from '$lib/components/AudioButton.svelte';
   import { onMount, onDestroy } from 'svelte';
@@ -382,25 +382,11 @@
 
     // Submit score to server
     try {
-      const response = await fetch('/api/games/score', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-User-Id': localStorage.getItem('activeProfileId') || '1'
-        },
-        body: JSON.stringify({
-          game_type: 'endless-runner',
-          score: score,
-          metadata: {
-            distance: Math.floor(distance),
-            lives_remaining: lives
-          }
-        })
+      await submitGameScore('endless-runner', score, null, {
+        distance: Math.floor(distance),
+        lives_remaining: lives
       });
-
-      if (response.ok) {
-        await loadProgress();
-      }
+      await loadProgress();
     } catch (err) {
       console.error('Failed to submit score:', err);
     }

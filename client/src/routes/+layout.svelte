@@ -2,35 +2,26 @@
   import NavBar from '$lib/components/NavBar.svelte';
   import LevelUpModal from '$lib/components/LevelUpModal.svelte';
   import AchievementToast from '$lib/components/AchievementToast.svelte';
-  import ProfileSelector from '$lib/components/ProfileSelector.svelte';
+  import AuthPage from '$lib/components/AuthPage.svelte';
   import KeyboardShortcuts from '$lib/components/KeyboardShortcuts.svelte';
   import { loadProgress, checkStreak } from '$lib/stores/progress.js';
-  import { profiles, activeProfileId, activeProfile, showProfileSelector } from '$lib/stores/profile.js';
+  import { activeProfileId } from '$lib/stores/profile.js';
+  import { currentUser, initAuth } from '$lib/stores/auth.js';
   import { loadTheme } from '$lib/stores/theme.js';
-  import { getUsers } from '$lib/api.js';
   import { onMount } from 'svelte';
 
   let { children } = $props();
   let initialized = $state(false);
 
-  let needsProfileSelection = $derived(
-    initialized && (!$activeProfileId || !$activeProfile)
-  );
-  let selectorVisible = $derived(needsProfileSelection || $showProfileSelector);
+  let isLoggedIn = $derived(!!$currentUser);
 
   onMount(async () => {
-    const allUsers = await getUsers();
-    profiles.set(allUsers);
+    const user = await initAuth();
 
-    const storedId = $activeProfileId;
-    const profileExists = allUsers.some(u => u.id === storedId);
-
-    if (storedId && profileExists) {
-      loadTheme(storedId);
+    if (user) {
+      loadTheme(user.id);
       await loadProgress();
       await checkStreak();
-    } else {
-      activeProfileId.set(null);
     }
 
     initialized = true;
@@ -42,8 +33,8 @@
     <div class="loading-screen">
       <p>Loading...</p>
     </div>
-  {:else if selectorVisible}
-    <ProfileSelector />
+  {:else if !isLoggedIn}
+    <AuthPage />
   {:else}
     <NavBar />
     <main>

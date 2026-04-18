@@ -1,7 +1,8 @@
 <script>
   import { userProgress } from '$lib/stores/progress.js';
-  import { activeProfile, activeProfileId, profiles, showProfileSelector } from '$lib/stores/profile.js';
-  import { updateUser, deleteUser, getUsers } from '$lib/api.js';
+  import { activeProfile, activeProfileId, profiles } from '$lib/stores/profile.js';
+  import { logout, changePassword } from '$lib/stores/auth.js';
+  import { updateUser, deleteUser } from '$lib/api.js';
 
   let progress = $derived($userProgress);
   let profile = $derived($activeProfile);
@@ -12,6 +13,53 @@
   let editNameValue = $state('');
   let showDeleteConfirm = $state(false);
 
+  // Change password state
+  let showChangePassword = $state(false);
+  let currentPw = $state('');
+  let newPw = $state('');
+  let confirmNewPw = $state('');
+  let pwError = $state('');
+  let pwSuccess = $state('');
+  let pwLoading = $state(false);
+
+  async function handleChangePassword() {
+    pwError = '';
+    pwSuccess = '';
+    if (!currentPw || !newPw || !confirmNewPw) {
+      pwError = 'All fields are required';
+      return;
+    }
+    if (newPw.length < 6) {
+      pwError = 'New password must be at least 6 characters';
+      return;
+    }
+    if (newPw !== confirmNewPw) {
+      pwError = 'New passwords do not match';
+      return;
+    }
+    pwLoading = true;
+    try {
+      await changePassword(currentPw, newPw, confirmNewPw);
+      pwSuccess = 'Password changed successfully';
+      currentPw = '';
+      newPw = '';
+      confirmNewPw = '';
+    } catch (err) {
+      pwError = err.message;
+    } finally {
+      pwLoading = false;
+    }
+  }
+
+  function cancelChangePassword() {
+    showChangePassword = false;
+    currentPw = '';
+    newPw = '';
+    confirmNewPw = '';
+    pwError = '';
+    pwSuccess = '';
+  }
+
   function startEditName() {
     editNameValue = profile?.name || '';
     editingName = true;
@@ -19,17 +67,16 @@
 
   async function saveName() {
     if (!editNameValue.trim() || !profile) return;
-    await updateUser(profile.id, { name: editNameValue.trim() });
-    const allUsers = await getUsers();
-    profiles.set(allUsers);
+    const updated = await updateUser(profile.id, { name: editNameValue.trim() });
+    profiles.set([updated]);
     editingName = false;
   }
 
   async function confirmDelete() {
     if (!profile) return;
     await deleteUser(profile.id);
-    activeProfileId.set(null);
     showDeleteConfirm = false;
+    logout();
   }
 
   function handleEditKeydown(e) {
@@ -42,37 +89,113 @@
   <h1>Your Progress</h1>
 
   {#if progress}
-    <!-- Profile Settings -->
-    <div class="profile-settings">
-      <div class="setting-row">
-        <span class="setting-label">Profile</span>
+    <!-- Account Settings -->
+    <div class="account-card">
+      <h2 class="account-title">Account</h2>
+
+      <!-- Display Name -->
+      <div class="account-field">
+        <div class="field-left">
+          <span class="field-icon">&#9998;</span>
+          <div class="field-info">
+            <span class="field-label">Display Name</span>
+            {#if !editingName}
+              <span class="field-value">{profile?.name}</span>
+            {/if}
+          </div>
+        </div>
         {#if editingName}
-          <div class="edit-row">
+          <div class="field-edit-area">
+            <!-- svelte-ignore a11y_autofocus -->
             <input
               type="text"
-              class="edit-input"
+              class="field-input"
               bind:value={editNameValue}
               onkeydown={handleEditKeydown}
               autofocus
               maxlength="20"
+              placeholder="Enter display name"
             />
-            <button class="btn-sm btn-save" onclick={saveName}>Save</button>
-            <button class="btn-sm btn-cancel" onclick={() => editingName = false}>Cancel</button>
+            <div class="field-edit-actions">
+              <button class="action-pill save" onclick={saveName}>Save</button>
+              <button class="action-pill cancel" onclick={() => editingName = false}>Cancel</button>
+            </div>
           </div>
         {:else}
-          <div class="edit-row">
-            {#if profile}
-              <div class="profile-display">
-                <div class="settings-avatar" style="background: {profile.avatar_color}">
-                  {profile.name[0].toUpperCase()}
-                </div>
-                <span class="current-name">{profile.name}</span>
-              </div>
-            {/if}
-            <button class="btn-sm btn-edit" onclick={startEditName}>Edit</button>
-          </div>
+          <button class="action-pill" onclick={startEditName}>Edit</button>
         {/if}
       </div>
+
+      <!-- Password -->
+      <div class="account-field">
+        <div class="field-left">
+          <span class="field-icon">&#128274;</span>
+          <div class="field-info">
+            <span class="field-label">Password</span>
+            {#if !showChangePassword}
+              <span class="field-value masked">&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</span>
+            {/if}
+          </div>
+        </div>
+        {#if showChangePassword}
+          <div class="field-edit-area">
+            <input
+              type="password"
+              class="field-input"
+              bind:value={currentPw}
+              placeholder="Current password"
+              autocomplete="current-password"
+            />
+            <input
+              type="password"
+              class="field-input"
+              bind:value={newPw}
+              placeholder="New password (min 6 chars)"
+              autocomplete="new-password"
+            />
+            <input
+              type="password"
+              class="field-input"
+              bind:value={confirmNewPw}
+              placeholder="Confirm new password"
+              autocomplete="new-password"
+            />
+            {#if pwError}
+              <p class="pw-msg error">{pwError}</p>
+            {/if}
+            {#if pwSuccess}
+              <p class="pw-msg success">{pwSuccess}</p>
+            {/if}
+            <div class="field-edit-actions">
+              <button
+                class="action-pill save"
+                onclick={handleChangePassword}
+                disabled={pwLoading || !currentPw || !newPw || !confirmNewPw}
+              >
+                {pwLoading ? 'Saving...' : 'Update'}
+              </button>
+              <button class="action-pill cancel" onclick={cancelChangePassword}>Cancel</button>
+            </div>
+          </div>
+        {:else}
+          <button class="action-pill" onclick={() => showChangePassword = true}>Change</button>
+        {/if}
+      </div>
+
+      <!-- Avatar -->
+      {#if profile}
+        <div class="account-field no-border">
+          <div class="field-left">
+            <span class="field-icon">&#127912;</span>
+            <div class="field-info">
+              <span class="field-label">Avatar</span>
+            </div>
+          </div>
+          <div class="settings-avatar" style="background: {profile.avatar_color}">
+            {profile.name[0].toUpperCase()}
+          </div>
+        </div>
+      {/if}
     </div>
 
     <div class="level-section">
@@ -176,96 +299,182 @@
     margin-bottom: 1.5rem;
   }
 
-  /* Profile Settings */
-  .profile-settings {
+  /* Account Card */
+  .account-card {
     background: var(--color-bg-surface);
     border: 1px solid var(--color-border);
-    border-radius: 12px;
-    padding: 1rem 1.25rem;
+    border-radius: 14px;
+    padding: 0.25rem 0;
     margin-bottom: 1.5rem;
+    overflow: hidden;
   }
 
-  .setting-row {
+  .account-title {
+    color: var(--color-text-heading);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 1rem 1.25rem 0.5rem;
+    margin: 0;
+  }
+
+  .account-field {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+    transition: background 0.15s;
   }
 
-  .setting-label {
-    color: var(--color-text-secondary);
-    font-size: 0.85rem;
+  .account-field:hover {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .account-field.no-border {
+    border-bottom: none;
+  }
+
+  .field-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+  }
+
+  .field-icon {
+    font-size: 1.1rem;
+    width: 28px;
+    text-align: center;
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .field-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+  }
+
+  .field-label {
+    color: var(--color-text-primary);
+    font-size: 0.9rem;
     font-weight: 500;
   }
 
-  .edit-row {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  .field-value {
+    color: var(--color-text-secondary);
+    font-size: 0.8rem;
   }
 
-  .profile-display {
+  .field-value.masked {
+    letter-spacing: 2px;
+    color: var(--color-text-muted);
+  }
+
+  .action-pill {
+    padding: 0.35rem 0.85rem;
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  .action-pill:hover {
+    border-color: var(--color-accent-primary);
+    color: var(--color-accent-primary);
+  }
+
+  .action-pill.save {
+    background: var(--color-accent-primary);
+    border-color: var(--color-accent-primary);
+    color: #fff;
+  }
+
+  .action-pill.save:hover:not(:disabled) {
+    background: var(--color-accent-primary-hover);
+    border-color: var(--color-accent-primary-hover);
+  }
+
+  .action-pill.cancel {
+    background: transparent;
+    border-color: var(--color-border);
+    color: var(--color-text-secondary);
+  }
+
+  .action-pill:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .field-edit-area {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 0.5rem;
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .field-input {
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-heading);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .field-input:focus {
+    border-color: var(--color-accent-primary);
+  }
+
+  .field-input::placeholder {
+    color: var(--color-text-muted);
+  }
+
+  .field-edit-actions {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .pw-msg {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .pw-msg.error {
+    color: var(--color-accent-red);
+  }
+
+  .pw-msg.success {
+    color: var(--color-accent-green);
   }
 
   .settings-avatar {
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: #fff;
-  }
-
-  .current-name {
-    color: var(--color-text-primary);
-    font-weight: 600;
-    font-size: 0.95rem;
-  }
-
-  .edit-input {
-    background: var(--color-bg-elevated);
-    border: 1px solid var(--color-accent-primary);
-    border-radius: 6px;
-    color: var(--color-text-primary);
-    padding: 0.35rem 0.6rem;
-    font-size: 0.9rem;
-    width: 140px;
-    outline: none;
-  }
-
-  .btn-sm {
-    padding: 0.3rem 0.6rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: opacity 0.2s;
-  }
-
-  .btn-save {
-    background: var(--color-accent-green);
-    color: #fff;
-  }
-
-  .btn-cancel {
-    background: var(--color-border);
-    color: var(--color-text-secondary);
-  }
-
-  .btn-edit {
-    background: var(--color-border);
-    color: var(--color-text-secondary);
-  }
-
-  .btn-edit:hover {
-    color: var(--color-text-heading);
+    flex-shrink: 0;
+    align-self: center;
   }
 
   /* Level section */
@@ -589,6 +798,20 @@
     h1 {
       font-size: 1.4rem;
       margin-bottom: 1rem;
+    }
+
+    .account-field {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .field-edit-area {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .action-pill {
+      align-self: flex-start;
     }
 
     .level-section {

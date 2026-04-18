@@ -1,12 +1,11 @@
 <script>
   import { userProgress } from '../stores/progress.js';
-  import { activeProfile, profiles, activeProfileId, showProfileSelector } from '../stores/profile.js';
-  import { loadProgress, checkStreak } from '../stores/progress.js';
+  import { activeProfile, activeProfileId } from '../stores/profile.js';
+  import { currentUser, logout } from '../stores/auth.js';
   import { theme, toggleTheme } from '../stores/theme.js';
 
   let progress = $derived($userProgress);
   let profile = $derived($activeProfile);
-  let allProfiles = $derived($profiles);
   let xpPercent = $derived(progress ? (progress.xp_in_current_level / 100) * 100 : 0);
   let dropdownOpen = $state(false);
   let menuOpen = $state(false);
@@ -23,16 +22,9 @@
     menuOpen = false;
   }
 
-  async function switchProfile(id) {
-    activeProfileId.set(id);
+  function handleLogout() {
     dropdownOpen = false;
-    await loadProgress();
-    await checkStreak();
-  }
-
-  function openProfileManager() {
-    dropdownOpen = false;
-    showProfileSelector.set(true);
+    logout();
   }
 </script>
 
@@ -79,24 +71,12 @@
           <!-- svelte-ignore a11y_no_static_element_interactions -->
           <!-- svelte-ignore a11y_click_events_have_key_events -->
           <div class="profile-dropdown" onclick={(e) => e.stopPropagation()}>
-            {#each allProfiles as p}
-              <button
-                class="dropdown-item"
-                class:active={p.id === profile.id}
-                onclick={() => switchProfile(p.id)}
-              >
-                <div class="dropdown-avatar" style="background: {p.avatar_color}">
-                  {p.name[0].toUpperCase()}
-                </div>
-                <span>{p.name}</span>
-                {#if p.id === profile.id}
-                  <span class="check-mark">&#10003;</span>
-                {/if}
-              </button>
-            {/each}
+            <a href="/profile" class="dropdown-item" onclick={() => dropdownOpen = false}>
+              <span>My Profile</span>
+            </a>
             <div class="dropdown-divider"></div>
-            <button class="dropdown-item manage" onclick={openProfileManager}>
-              Manage Profiles
+            <button class="dropdown-item logout" onclick={handleLogout}>
+              Log Out
             </button>
           </div>
         {/if}
@@ -260,7 +240,7 @@
     border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 0.4rem;
-    min-width: 180px;
+    min-width: 160px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     z-index: 200;
   }
@@ -278,34 +258,12 @@
     cursor: pointer;
     font-size: 0.85rem;
     transition: background 0.2s;
+    text-decoration: none;
   }
 
   .dropdown-item:hover {
     background: var(--color-bg-elevated);
     color: var(--color-text-heading);
-  }
-
-  .dropdown-item.active {
-    color: var(--color-accent-primary);
-    font-weight: 600;
-  }
-
-  .check-mark {
-    margin-left: auto;
-    font-size: 0.8rem;
-  }
-
-  .dropdown-avatar {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7rem;
-    font-weight: 700;
-    color: #fff;
-    flex-shrink: 0;
   }
 
   .dropdown-divider {
@@ -314,13 +272,14 @@
     margin: 0.25rem 0;
   }
 
-  .dropdown-item.manage {
-    color: var(--color-text-secondary);
-    font-size: 0.8rem;
+  .dropdown-item.logout {
+    color: var(--color-accent-red);
+    font-size: 0.85rem;
   }
 
-  .dropdown-item.manage:hover {
-    color: var(--color-accent-primary);
+  .dropdown-item.logout:hover {
+    color: var(--color-accent-red);
+    background: var(--color-bg-elevated);
   }
 
   /* Existing styles */

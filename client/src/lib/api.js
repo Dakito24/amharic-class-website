@@ -1,34 +1,27 @@
 import { get } from 'svelte/store';
-import { activeProfileId } from './stores/profile.js';
+import { authToken, logout } from './stores/auth.js';
 
 const BASE = '/api';
 
 async function request(path, options = {}) {
-  const userId = get(activeProfileId);
+  const token = get(authToken);
   const res = await fetch(`${BASE}${path}`, {
     ...options,
     headers: {
       'Content-Type': 'application/json',
-      ...(userId ? { 'X-User-Id': String(userId) } : {}),
+      ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
       ...(options.headers || {})
     }
   });
+  if (res.status === 401) {
+    logout();
+    throw new Error('Session expired');
+  }
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   return res.json();
 }
 
 // User/Profile endpoints
-export function getUsers() {
-  return request('/users');
-}
-
-export function createUser(name, avatar_color) {
-  return request('/users', {
-    method: 'POST',
-    body: JSON.stringify({ name, avatar_color })
-  });
-}
-
 export function updateUser(id, data) {
   return request(`/users/${id}`, {
     method: 'PATCH',
