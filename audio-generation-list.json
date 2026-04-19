@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1074,
+    "english": "tomato",
+    "romanized": "timatim",
+    "pronunciation_guide": "tee-mah-TEEM",
+    "filename": "vocab-1074.mp3"
+  },
+  {
+    "id": 1075,
+    "english": "onion",
+    "romanized": "shinkurt",
+    "pronunciation_guide": "shin-KOORT",
+    "filename": "vocab-1075.mp3"
+  },
+  {
+    "id": 1076,
+    "english": "potato",
+    "romanized": "dinich",
+    "pronunciation_guide": "dee-NEECH",
+    "filename": "vocab-1076.mp3"
+  },
+  {
+    "id": 1077,
+    "english": "carrot",
+    "romanized": "karot",
+    "pronunciation_guide": "kah-ROHT",
+    "filename": "vocab-1077.mp3"
+  },
+  {
+    "id": 1078,
+    "english": "cabbage",
+    "romanized": "gomen",
+    "pronunciation_guide": "goh-MEN",
+    "filename": "vocab-1078.mp3"
+  },
+  {
+    "id": 1079,
+    "english": "garlic",
+    "romanized": "nech shinkurt",
+    "pronunciation_guide": "nech shin-KOORT",
+    "filename": "vocab-1079.mp3"
+  },
+  {
+    "id": 1080,
+    "english": "pepper",
+    "romanized": "berbere",
+    "pronunciation_guide": "ber-beh-REH",
+    "filename": "vocab-1080.mp3"
+  },
+  {
+    "id": 1081,
+    "english": "lettuce",
+    "romanized": "selata",
+    "pronunciation_guide": "seh-LAH-tah",
+    "filename": "vocab-1081.mp3"
+  },
+  {
+    "id": 1082,
+    "english": "banana",
+    "romanized": "muz",
+    "pronunciation_guide": "MOOZ",
+    "filename": "vocab-1082.mp3"
+  },
+  {
+    "id": 1083,
+    "english": "orange",
+    "romanized": "birtukan",
+    "pronunciation_guide": "beer-too-KAHN",
+    "filename": "vocab-1083.mp3"
+  },
+  {
+    "id": 1084,
+    "english": "apple",
+    "romanized": "pom",
+    "pronunciation_guide": "POHM",
+    "filename": "vocab-1084.mp3"
+  },
+  {
+    "id": 1085,
+    "english": "mango",
+    "romanized": "mango",
+    "pronunciation_guide": "MAHN-goh",
+    "filename": "vocab-1085.mp3"
+  },
+  {
+    "id": 1086,
+    "english": "papaya",
+    "romanized": "papaya",
+    "pronunciation_guide": "pah-PAH-yah",
+    "filename": "vocab-1086.mp3"
+  },
+  {
+    "id": 1087,
+    "english": "avocado",
+    "romanized": "avokado",
+    "pronunciation_guide": "ah-voh-KAH-doh",
+    "filename": "vocab-1087.mp3"
+  },
+  {
+    "id": 1088,
+    "english": "lemon",
+    "romanized": "lomi",
+    "pronunciation_guide": "LOH-mee",
+    "filename": "vocab-1088.mp3"
+  },
+  {
+    "id": 1089,
+    "english": "grape",
+    "romanized": "weyn",
+    "pronunciation_guide": "WAYN",
+    "filename": "vocab-1089.mp3"
+  },
+  {
+    "id": 1090,
+    "english": "teff",
+    "romanized": "t'ef",
+    "pronunciation_guide": "TEFF",
+    "filename": "vocab-1090.mp3"
+  },
+  {
+    "id": 1091,
+    "english": "wheat",
+    "romanized": "sinde",
+    "pronunciation_guide": "SIN-deh",
+    "filename": "vocab-1091.mp3"
+  },
+  {
+    "id": 1092,
+    "english": "barley",
+    "romanized": "gebs",
+    "pronunciation_guide": "GEBS",
+    "filename": "vocab-1092.mp3"
+  },
+  {
+    "id": 1093,
+    "english": "rice",
+    "romanized": "ruz",
+    "pronunciation_guide": "ROOZ",
+    "filename": "vocab-1093.mp3"
+  },
+  {
+    "id": 1094,
+    "english": "cheese",
+    "romanized": "ayib",
+    "pronunciation_guide": "AH-yeeb",
+    "filename": "vocab-1094.mp3"
+  },
+  {
+    "id": 1095,
+    "english": "butter",
+    "romanized": "qibe",
+    "pronunciation_guide": "KEE-beh",
+    "filename": "vocab-1095.mp3"
+  },
+  {
+    "id": 1096,
+    "english": "yogurt",
+    "romanized": "irgo",
+    "pronunciation_guide": "EER-goh",
+    "filename": "vocab-1096.mp3"
+  },
+  {
+    "id": 1097,
+    "english": "tea",
+    "romanized": "shay",
+    "pronunciation_guide": "SHAY",
+    "filename": "vocab-1097.mp3"
+  },
+  {
+    "id": 1098,
+    "english": "juice",
+    "romanized": "chimaqi",
+    "pronunciation_guide": "chee-MAH-kee",
+    "filename": "vocab-1098.mp3"
+  },
+  {
+    "id": 1099,
+    "english": "beer",
+    "romanized": "bira",
+    "pronunciation_guide": "BEE-rah",
+    "filename": "vocab-1099.mp3"
+  },
+  {
+    "id": 1100,
+    "english": "wine",
+    "romanized": "weyn",
+    "pronunciation_guide": "WAYN",
+    "filename": "vocab-1100.mp3"
+  },
+  {
+    "id": 1101,
+    "english": "honey",
+    "romanized": "mar",
+    "pronunciation_guide": "MAHR",
+    "filename": "vocab-1101.mp3"
+  },
+  {
+    "id": 1102,
+    "english": "sugar",
+    "romanized": "sukwar",
+    "pronunciation_guide": "soo-KWAHR",
+    "filename": "vocab-1102.mp3"
+  },
+  {
+    "id": 1103,
+    "english": "salt",
+    "romanized": "chew",
+    "pronunciation_guide": "CHEW",
+    "filename": "vocab-1103.mp3"
+  },
+  {
+    "id": 1104,
+    "english": "oil",
+    "romanized": "zeyt",
+    "pronunciation_guide": "ZAYT",
+    "filename": "vocab-1104.mp3"
+  },
+  {
+    "id": 1105,
+    "english": "spice",
+    "romanized": "qimem",
+    "pronunciation_guide": "kee-MEM",
+    "filename": "vocab-1105.mp3"
+  },
+  {
+    "id": 1106,
+    "english": "breakfast",
+    "romanized": "qurs",
+    "pronunciation_guide": "KOORS",
+    "filename": "vocab-1106.mp3"
+  },
+  {
+    "id": 1107,
+    "english": "lunch",
+    "romanized": "misa",
+    "pronunciation_guide": "MEE-sah",
+    "filename": "vocab-1107.mp3"
+  },
+  {
+    "id": 1108,
+    "english": "dinner",
+    "romanized": "irat",
+    "pronunciation_guide": "ee-RAHT",
+    "filename": "vocab-1108.mp3"
+  },
+  {
+    "id": 1109,
+    "english": "snack",
+    "romanized": "mekses",
+    "pronunciation_guide": "mek-SES",
+    "filename": "vocab-1109.mp3"
+  },
+  {
+    "id": 1110,
+    "english": "hot (temperature)",
+    "romanized": "muq",
+    "pronunciation_guide": "MOOK",
+    "filename": "vocab-1110.mp3"
+  },
+  {
+    "id": 1111,
+    "english": "cold (temperature)",
+    "romanized": "qezqaza",
+    "pronunciation_guide": "kez-KAH-zah",
+    "filename": "vocab-1111.mp3"
+  },
+  {
+    "id": 1112,
+    "english": "spicy",
+    "romanized": "qari",
+    "pronunciation_guide": "KAH-ree",
+    "filename": "vocab-1112.mp3"
+  },
+  {
+    "id": 1113,
+    "english": "sweet",
+    "romanized": "t'afach",
+    "pronunciation_guide": "TAH-fatch",
+    "filename": "vocab-1113.mp3"
+  },
+  {
+    "id": 1114,
+    "english": "sour",
+    "romanized": "merara",
+    "pronunciation_guide": "meh-RAH-rah",
+    "filename": "vocab-1114.mp3"
+  },
+  {
+    "id": 1115,
+    "english": "fresh",
+    "romanized": "tikus",
+    "pronunciation_guide": "tee-KOOS",
+    "filename": "vocab-1115.mp3"
+  },
+  {
+    "id": 1116,
+    "english": "delicious",
+    "romanized": "t'afach",
+    "pronunciation_guide": "TAH-fatch",
+    "filename": "vocab-1116.mp3"
+  },
+  {
+    "id": 1117,
+    "english": "I am hungry",
+    "romanized": "rabɨñ",
+    "pronunciation_guide": "rah-BUN",
+    "filename": "vocab-1117.mp3"
+  },
+  {
+    "id": 1118,
+    "english": "I am very hungry",
+    "romanized": "betam rabɨñ",
+    "pronunciation_guide": "beh-TAHM rah-BUN",
+    "filename": "vocab-1118.mp3"
+  },
+  {
+    "id": 1119,
+    "english": "This is delicious",
+    "romanized": "yih t'afach new",
+    "pronunciation_guide": "YEE TAH-fatch NEW",
+    "filename": "vocab-1119.mp3"
+  },
+  {
+    "id": 1120,
+    "english": "Can I have water?",
+    "romanized": "wuha mageñet ichilalehu?",
+    "pronunciation_guide": "WOO-hah mah-GHEN-yet ee-chee-LAH-leh-hoo",
+    "filename": "vocab-1120.mp3"
+  },
+  {
+    "id": 1121,
+    "english": "I would like coffee",
+    "romanized": "buna ifelgalehu",
+    "pronunciation_guide": "BOO-nah ee-fel-GAH-leh-hoo",
+    "filename": "vocab-1121.mp3"
+  },
+  {
+    "id": 1122,
+    "english": "Please bring tea",
+    "romanized": "ibakwo shay yimitu",
+    "pronunciation_guide": "ee-BAH-kwoh SHAY yee-MEE-too",
+    "filename": "vocab-1122.mp3"
+  },
+  {
+    "id": 1123,
+    "english": "Do you have food?",
+    "romanized": "migib aleh?",
+    "pronunciation_guide": "mee-GEEB ah-LEH",
+    "filename": "vocab-1123.mp3"
+  },
+  {
+    "id": 1124,
+    "english": "What is this food called?",
+    "romanized": "yih migib min yibalal?",
+    "pronunciation_guide": "YEE mee-GEEB MEEN yee-bah-LAHL",
+    "filename": "vocab-1124.mp3"
+  },
+  {
+    "id": 1125,
+    "english": "It is too spicy",
+    "romanized": "betam qari new",
+    "pronunciation_guide": "beh-TAHM KAH-ree NEW",
+    "filename": "vocab-1125.mp3"
+  },
+  {
+    "id": 1126,
+    "english": "I don't eat meat",
+    "romanized": "siga albelam",
+    "pronunciation_guide": "SEE-gah ahl-beh-LAHM",
+    "filename": "vocab-1126.mp3"
+  },
+  {
+    "id": 1127,
+    "english": "I am vegetarian",
+    "romanized": "siga albelam",
+    "pronunciation_guide": "SEE-gah ahl-beh-LAHM",
+    "filename": "vocab-1127.mp3"
+  },
+  {
+    "id": 1128,
+    "english": "I am fasting",
+    "romanized": "tsom itsomalehu",
+    "pronunciation_guide": "TSOHM ee-tsoh-MAH-leh-hoo",
+    "filename": "vocab-1128.mp3"
+  },
+  {
+    "id": 1129,
+    "english": "The food is ready",
+    "romanized": "migibu zigiju new",
+    "pronunciation_guide": "mee-GEE-boo zee-GEE-joo NEW",
+    "filename": "vocab-1129.mp3"
+  },
+  {
+    "id": 1130,
+    "english": "Enjoy your meal",
+    "romanized": "yiblalu",
+    "pronunciation_guide": "yee-blah-LOO",
+    "filename": "vocab-1130.mp3"
+  },
+  {
+    "id": 1131,
+    "english": "I ate injera for breakfast",
+    "romanized": "leqirs injera belahu",
+    "pronunciation_guide": "leh-KOORS een-JEH-rah beh-LAH-hoo",
+    "filename": "vocab-1131.mp3"
+  },
+  {
+    "id": 1132,
+    "english": "My favorite food is kitfo",
+    "romanized": "yemiwedew migib kitfo new",
+    "pronunciation_guide": "yeh-mee-WEH-dew mee-GEEB KEET-foh NEW",
+    "filename": "vocab-1132.mp3"
+  },
+  {
+    "id": 1133,
+    "english": "I like Ethiopian food",
+    "romanized": "ye'itiyop'iya migib iwedalehu",
+    "pronunciation_guide": "yeh-ee-tyoh-PEE-yah mee-GEEB ee-weh-DAH-leh-hoo",
+    "filename": "vocab-1133.mp3"
+  },
+  {
+    "id": 1134,
+    "english": "Let's eat together",
+    "romanized": "abren inbila",
+    "pronunciation_guide": "ah-BREN een-BEE-lah",
+    "filename": "vocab-1134.mp3"
+  },
+  {
+    "id": 1135,
+    "english": "Pass me the salt please",
+    "romanized": "ibakh chewun awitaliñ",
+    "pronunciation_guide": "ee-BAHK chew-OON ah-wee-TAH-leen",
+    "filename": "vocab-1135.mp3"
+  },
+  {
+    "id": 1136,
+    "english": "More water please",
+    "romanized": "ibakh techemari wuha",
+    "pronunciation_guide": "ee-BAHK teh-cheh-MAH-ree WOO-hah",
+    "filename": "vocab-1136.mp3"
+  },
+  {
+    "id": 1137,
+    "english": "I am full",
+    "romanized": "tegebku",
+    "pronunciation_guide": "teh-GEB-koo",
+    "filename": "vocab-1137.mp3"
+  },
+  {
+    "id": 1138,
+    "english": "Thank you for the meal",
+    "romanized": "lemigibu amesegnalehu",
+    "pronunciation_guide": "leh-mee-GEE-boo ah-meh-seg-NAH-leh-hoo",
+    "filename": "vocab-1138.mp3"
+  },
+  {
+    "id": 1139,
+    "english": "Where is the restaurant?",
+    "romanized": "migib betu yet new?",
+    "pronunciation_guide": "mee-GEEB BEH-too YET NEW",
+    "filename": "vocab-1139.mp3"
+  },
+  {
+    "id": 1140,
+    "english": "How much is this?",
+    "romanized": "yih sint new?",
+    "pronunciation_guide": "YEE SINT NEW",
+    "filename": "vocab-1140.mp3"
+  },
+  {
+    "id": 1141,
+    "english": "I will have the same",
+    "romanized": "temesasay iwesdalehu",
+    "pronunciation_guide": "teh-meh-SAH-say ee-wes-DAH-leh-hoo",
+    "filename": "vocab-1141.mp3"
+  },
+  {
+    "id": 1142,
+    "english": "No sugar in my coffee",
+    "romanized": "bebunaye wisit sukwar ayasfelegegnm",
+    "pronunciation_guide": "beh-boo-NAH-yeh WEE-seet soo-KWAHR ah-yahs-feh-LEG-egnm",
+    "filename": "vocab-1142.mp3"
+  },
+  {
+    "id": 1143,
+    "english": "With milk please",
+    "romanized": "ibakh kewetet gar",
+    "pronunciation_guide": "ee-BAHK keh-weh-TET GAHR",
+    "filename": "vocab-1143.mp3"
+  },
+  {
+    "id": 1144,
+    "english": "I don't like onions",
+    "romanized": "shinkurt alwedm",
+    "pronunciation_guide": "shin-KOORT ahl-WEDM",
+    "filename": "vocab-1144.mp3"
+  },
+  {
+    "id": 1145,
+    "english": "Can you make it without pepper?",
+    "romanized": "yale berbere mazegajet tichihaleh?",
+    "pronunciation_guide": "YAH-leh ber-beh-REH mah-zeh-GAH-jet tee-chee-HAH-leh",
+    "filename": "vocab-1145.mp3"
+  },
+  {
+    "id": 1146,
+    "english": "This tastes good",
+    "romanized": "yih tam t'afach new",
+    "pronunciation_guide": "YEE TAHM TAH-fatch NEW",
+    "filename": "vocab-1146.mp3"
+  },
+  {
+    "id": 1147,
+    "english": "I am allergic to nuts",
+    "romanized": "lelewz alerji alebign",
+    "pronunciation_guide": "leh-leh-WOOZ ah-LER-jee ah-LEH-been",
+    "filename": "vocab-1147.mp3"
+  },
+  {
+    "id": 1148,
+    "english": "Do you want more?",
+    "romanized": "techemari tifelgaleh?",
+    "pronunciation_guide": "teh-cheh-MAH-ree tee-fel-GAH-leh",
+    "filename": "vocab-1148.mp3"
+  },
+  {
+    "id": 1149,
+    "english": "Yes, please give me more",
+    "romanized": "awo, ibakh techemari sitiñ",
+    "pronunciation_guide": "ah-WOH ee-BAHK teh-cheh-MAH-ree SEE-teen",
+    "filename": "vocab-1149.mp3"
+  },
+  {
+    "id": 1150,
+    "english": "No thank you, I am full",
+    "romanized": "ay amesegnalehu, tegebku",
+    "pronunciation_guide": "AY ah-meh-seg-NAH-leh-hoo teh-GEB-koo",
+    "filename": "vocab-1150.mp3"
+  },
+  {
+    "id": 1151,
+    "english": "Let's have coffee",
+    "romanized": "buna inte'ta",
+    "pronunciation_guide": "BOO-nah een-TEH-tah",
+    "filename": "vocab-1151.mp3"
+  },
+  {
+    "id": 1152,
+    "english": "I need a knife and fork",
+    "romanized": "bilawa ina shuka ifelgalehu",
+    "pronunciation_guide": "bee-LAH-wah EE-nah SHOO-kah ee-fel-GAH-leh-hoo",
+    "filename": "vocab-1152.mp3"
+  },
+  {
+    "id": 1153,
+    "english": "The bill please",
+    "romanized": "ibakh hisabun",
+    "pronunciation_guide": "ee-BAHK hee-SAH-boon",
+    "filename": "vocab-1153.mp3"
+  }
+]

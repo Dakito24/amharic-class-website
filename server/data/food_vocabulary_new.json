@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1000,
+    "english": "coffee",
+    "amharic": "ቡና",
+    "romanized": "buna",
+    "pronunciation_guide": "boo-nah",
+    "category": "food",
+    "audio_url": "/audio/food/1000.mp3"
+  },
+  {
+    "id": 1001,
+    "english": "bread",
+    "amharic": "ዳቦ",
+    "romanized": "dabo",
+    "pronunciation_guide": "dah-boh",
+    "category": "food",
+    "audio_url": "/audio/food/1001.mp3"
+  },
+  {
+    "id": 1002,
+    "english": "butter",
+    "amharic": "ቅቤ",
+    "romanized": "kəbe",
+    "pronunciation_guide": "kuh-beh",
+    "category": "food",
+    "audio_url": "/audio/food/1002.mp3"
+  },
+  {
+    "id": 1003,
+    "english": "honey",
+    "amharic": "ማር",
+    "romanized": "mar",
+    "pronunciation_guide": "mahr",
+    "category": "food",
+    "audio_url": "/audio/food/1003.mp3"
+  },
+  {
+    "id": 1004,
+    "english": "milk",
+    "amharic": "ወተት",
+    "romanized": "wətət",
+    "pronunciation_guide": "wuh-tuht",
+    "category": "food",
+    "audio_url": "/audio/food/1004.mp3"
+  },
+  {
+    "id": 1005,
+    "english": "egg",
+    "amharic": "እንቁላል",
+    "romanized": "inkʷəlal",
+    "pronunciation_guide": "in-kwuh-lahl",
+    "category": "food",
+    "audio_url": "/audio/food/1005.mp3"
+  },
+  {
+    "id": 1006,
+    "english": "chicken",
+    "amharic": "ዶሮ",
+    "romanized": "doro",
+    "pronunciation_guide": "doh-roh",
+    "category": "food",
+    "audio_url": "/audio/food/1006.mp3"
+  },
+  {
+    "id": 1007,
+    "english": "beef",
+    "amharic": "የበሬ ሥጋ",
+    "romanized": "yəbere səga",
+    "pronunciation_guide": "yuh-beh-reh suh-gah",
+    "category": "food",
+    "audio_url": "/audio/food/1007.mp3"
+  },
+  {
+    "id": 1008,
+    "english": "fish",
+    "amharic": "ዓሣ",
+    "romanized": "asa",
+    "pronunciation_guide": "ah-sah",
+    "category": "food",
+    "audio_url": "/audio/food/1008.mp3"
+  },
+  {
+    "id": 1009,
+    "english": "vegetable",
+    "amharic": "ውጤት",
+    "romanized": "wət'et",
+    "pronunciation_guide": "wuht-eht",
+    "category": "food",
+    "audio_url": "/audio/food/1009.mp3"
+  },
+  {
+    "id": 1010,
+    "english": "fruit",
+    "amharic": "ፍራፍሬ",
+    "romanized": "fərafəre",
+    "pronunciation_guide": "fuh-rah-fuh-reh",
+    "category": "food",
+    "audio_url": "/audio/food/1010.mp3"
+  },
+  {
+    "id": 1011,
+    "english": "banana",
+    "amharic": "ሙዝ",
+    "romanized": "muz",
+    "pronunciation_guide": "mooz",
+    "category": "food",
+    "audio_url": "/audio/food/1011.mp3"
+  },
+  {
+    "id": 1012,
+    "english": "orange",
+    "amharic": "ብርትኳን",
+    "romanized": "bərətəkʷan",
+    "pronunciation_guide": "buh-ruht-kwan",
+    "category": "food",
+    "audio_url": "/audio/food/1012.mp3"
+  },
+  {
+    "id": 1013,
+    "english": "mango",
+    "amharic": "ማንጎ",
+    "romanized": "mango",
+    "pronunciation_guide": "mahn-goh",
+    "category": "food",
+    "audio_url": "/audio/food/1013.mp3"
+  },
+  {
+    "id": 1014,
+    "english": "onion",
+    "amharic": "ሽንኩርት",
+    "romanized": "šənkurt",
+    "pronunciation_guide": "shun-koort",
+    "category": "food",
+    "audio_url": "/audio/food/1014.mp3"
+  },
+  {
+    "id": 1015,
+    "english": "tomato",
+    "amharic": "ቲማቲም",
+    "romanized": "timatim",
+    "pronunciation_guide": "tee-mah-teem",
+    "category": "food",
+    "audio_url": "/audio/food/1015.mp3"
+  },
+  {
+    "id": 1016,
+    "english": "potato",
+    "amharic": "ድንች",
+    "romanized": "dənəč",
+    "pronunciation_guide": "duh-nuhch",
+    "category": "food",
+    "audio_url": "/audio/food/1016.mp3"
+  },
+  {
+    "id": 1017,
+    "english": "rice",
+    "amharic": "ሩዝ",
+    "romanized": "ruz",
+    "pronunciation_guide": "rooz",
+    "category": "food",
+    "audio_url": "/audio/food/1017.mp3"
+  },
+  {
+    "id": 1018,
+    "english": "salt",
+    "amharic": "ጨው",
+    "romanized": "č'əw",
+    "pronunciation_guide": "ch'ew",
+    "category": "food",
+    "audio_url": "/audio/food/1018.mp3"
+  },
+  {
+    "id": 1019,
+    "english": "sugar",
+    "amharic": "ስኳር",
+    "romanized": "səkʷar",
+    "pronunciation_guide": "suh-kwar",
+    "category": "food",
+    "audio_url": "/audio/food/1019.mp3"
+  },
+  {
+    "id": 1020,
+    "english": "spice",
+    "amharic": "ቅመም",
+    "romanized": "kəməm",
+    "pronunciation_guide": "kuh-muhm",
+    "category": "food",
+    "audio_url": "/audio/food/1020.mp3"
+  },
+  {
+    "id": 1021,
+    "english": "berbere (spice blend)",
+    "amharic": "በርበሬ",
+    "romanized": "bərbəre",
+    "pronunciation_guide": "bur-buh-reh",
+    "category": "food",
+    "audio_url": "/audio/food/1021.mp3"
+  },
+  {
+    "id": 1022,
+    "english": "wat (stew)",
+    "amharic": "ወጥ",
+    "romanized": "wət'",
+    "pronunciation_guide": "wuht",
+    "category": "food",
+    "audio_url": "/audio/food/1022.mp3"
+  },
+  {
+    "id": 1023,
+    "english": "doro wat (chicken stew)",
+    "amharic": "ዶሮ ወጥ",
+    "romanized": "doro wət'",
+    "pronunciation_guide": "doh-roh wuht",
+    "category": "food",
+    "audio_url": "/audio/food/1023.mp3"
+  },
+  {
+    "id": 1024,
+    "english": "kitfo (raw minced beef)",
+    "amharic": "ክትፎ",
+    "romanized": "kətfo",
+    "pronunciation_guide": "kuht-foh",
+    "category": "food",
+    "audio_url": "/audio/food/1024.mp3"
+  },
+  {
+    "id": 1025,
+    "english": "shiro (chickpea stew)",
+    "amharic": "ሽሮ",
+    "romanized": "šəro",
+    "pronunciation_guide": "shuh-roh",
+    "category": "food",
+    "audio_url": "/audio/food/1025.mp3"
+  },
+  {
+    "id": 1026,
+    "english": "teff (grain)",
+    "amharic": "ጤፍ",
+    "romanized": "t'ef",
+    "pronunciation_guide": "t'ehf",
+    "category": "food",
+    "audio_url": "/audio/food/1026.mp3"
+  },
+  {
+    "id": 1027,
+    "english": "tej (honey wine)",
+    "amharic": "ጠጅ",
+    "romanized": "t'ej",
+    "pronunciation_guide": "t'ej",
+    "category": "food",
+    "audio_url": "/audio/food/1027.mp3"
+  },
+  {
+    "id": 1028,
+    "english": "tella (local beer)",
+    "amharic": "ጠላ",
+    "romanized": "t'əla",
+    "pronunciation_guide": "t'uh-lah",
+    "category": "food",
+    "audio_url": "/audio/food/1028.mp3"
+  },
+  {
+    "id": 1029,
+    "english": "tea",
+    "amharic": "ሻይ",
+    "romanized": "šay",
+    "pronunciation_guide": "shy",
+    "category": "food",
+    "audio_url": "/audio/food/1029.mp3"
+  },
+  {
+    "id": 1030,
+    "english": "juice",
+    "amharic": "ጭማቂ",
+    "romanized": "č'əmakʷi",
+    "pronunciation_guide": "ch'uh-mah-kwee",
+    "category": "food",
+    "audio_url": "/audio/food/1030.mp3"
+  },
+  {
+    "id": 1031,
+    "english": "soup",
+    "amharic": "ሾርባ",
+    "romanized": "šorba",
+    "pronunciation_guide": "shor-bah",
+    "category": "food",
+    "audio_url": "/audio/food/1031.mp3"
+  },
+  {
+    "id": 1032,
+    "english": "salad",
+    "amharic": "ሰላጣ",
+    "romanized": "səlat'a",
+    "pronunciation_guide": "suh-lah-tah",
+    "category": "food",
+    "audio_url": "/audio/food/1032.mp3"
+  },
+  {
+    "id": 1033,
+    "english": "cheese",
+    "amharic": "አይብ",
+    "romanized": "ayəb",
+    "pronunciation_guide": "ah-yuhb",
+    "category": "food",
+    "audio_url": "/audio/food/1033.mp3"
+  },
+  {
+    "id": 1034,
+    "english": "yogurt",
+    "amharic": "እርጎ",
+    "romanized": "ərgo",
+    "pronunciation_guide": "ur-goh",
+    "category": "food",
+    "audio_url": "/audio/food/1034.mp3"
+  },
+  {
+    "id": 1035,
+    "english": "lentils",
+    "amharic": "ምስር",
+    "romanized": "məsər",
+    "pronunciation_guide": "muh-suhr",
+    "category": "food",
+    "audio_url": "/audio/food/1035.mp3"
+  },
+  {
+    "id": 1036,
+    "english": "chickpeas",
+    "amharic": "ሽምብራ",
+    "romanized": "šəmbəra",
+    "pronunciation_guide": "shum-buh-rah",
+    "category": "food",
+    "audio_url": "/audio/food/1036.mp3"
+  },
+  {
+    "id": 1037,
+    "english": "cabbage",
+    "amharic": "ጎመን",
+    "romanized": "gomən",
+    "pronunciation_guide": "goh-muhn",
+    "category": "food",
+    "audio_url": "/audio/food/1037.mp3"
+  },
+  {
+    "id": 1038,
+    "english": "carrot",
+    "amharic": "ካሮት",
+    "romanized": "karot",
+    "pronunciation_guide": "kah-roht",
+    "category": "food",
+    "audio_url": "/audio/food/1038.mp3"
+  },
+  {
+    "id": 1039,
+    "english": "garlic",
+    "amharic": "ነጭ ሽንኩርት",
+    "romanized": "nəč' šənkurt",
+    "pronunciation_guide": "nuhch shun-koort",
+    "category": "food",
+    "audio_url": "/audio/food/1039.mp3"
+  },
+  {
+    "id": 1040,
+    "english": "I am thirsty",
+    "amharic": "ጠማኝ",
+    "romanized": "t'əmañ",
+    "pronunciation_guide": "t'uh-mahn",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1040.mp3"
+  },
+  {
+    "id": 1041,
+    "english": "This is delicious",
+    "amharic": "ይሄ ጣፋጭ ነው",
+    "romanized": "yəhe t'afač' nəw",
+    "pronunciation_guide": "yuh-heh t'ah-fahch new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1041.mp3"
+  },
+  {
+    "id": 1042,
+    "english": "Can I have water?",
+    "amharic": "ውሃ ማግኘት እችላለሁ?",
+    "romanized": "wəha magəñət əč'əlalehu?",
+    "pronunciation_guide": "wuh-hah mah-guh-nyuht uch-lah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1042.mp3"
+  },
+  {
+    "id": 1043,
+    "english": "I want coffee",
+    "amharic": "ቡና እፈልጋለሁ",
+    "romanized": "buna əfələgalehu",
+    "pronunciation_guide": "boo-nah uh-fuhl-gah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1043.mp3"
+  },
+  {
+    "id": 1044,
+    "english": "Please give me bread",
+    "amharic": "እባክህ ዳቦ ስጠኝ",
+    "romanized": "əbakəh dabo sət'əñ",
+    "pronunciation_guide": "uh-bah-kuh dah-boh suht-un",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1044.mp3"
+  },
+  {
+    "id": 1045,
+    "english": "I don't eat meat",
+    "amharic": "ሥጋ አልበላም",
+    "romanized": "səga albelam",
+    "pronunciation_guide": "suh-gah ahl-beh-lahm",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1045.mp3"
+  },
+  {
+    "id": 1046,
+    "english": "I like injera",
+    "amharic": "እንጀራ እወዳለሁ",
+    "romanized": "injera əwedalehu",
+    "pronunciation_guide": "in-jeh-rah uh-weh-dah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1046.mp3"
+  },
+  {
+    "id": 1047,
+    "english": "The food is hot",
+    "amharic": "ምግቡ ሞቅ ያለ ነው",
+    "romanized": "məgbu mokʷ yalə nəw",
+    "pronunciation_guide": "mug-boo mohk yah-luh new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1047.mp3"
+  },
+  {
+    "id": 1048,
+    "english": "The food is cold",
+    "amharic": "ምግቡ ቀዝቃዛ ነው",
+    "romanized": "məgbu kʷəzkʷaza nəw",
+    "pronunciation_guide": "mug-boo kwuhz-kwah-zah new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1048.mp3"
+  },
+  {
+    "id": 1049,
+    "english": "I need a spoon",
+    "amharic": "ማንኪያ እፈልጋለሁ",
+    "romanized": "mankəya əfələgalehu",
+    "pronunciation_guide": "mahn-kuh-yah uh-fuhl-gah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1049.mp3"
+  },
+  {
+    "id": 1050,
+    "english": "I need a fork",
+    "amharic": "ሹካ እፈልጋለሁ",
+    "romanized": "šuka əfələgalehu",
+    "pronunciation_guide": "shoo-kah uh-fuhl-gah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1050.mp3"
+  },
+  {
+    "id": 1051,
+    "english": "Bon appetit! (Enjoy your meal)",
+    "amharic": "በሰላም ብላ",
+    "romanized": "bəsəlam bəla",
+    "pronunciation_guide": "buh-suh-lahm buh-lah",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1051.mp3"
+  },
+  {
+    "id": 1052,
+    "english": "The coffee is strong",
+    "amharic": "ቡናው ጠንካራ ነው",
+    "romanized": "bunaw t'ənkara nəw",
+    "pronunciation_guide": "boo-naw t'uhn-kah-rah new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1052.mp3"
+  },
+  {
+    "id": 1053,
+    "english": "Is the food ready?",
+    "amharic": "ምግቡ ዝግጁ ነው?",
+    "romanized": "məgbu zəgju nəw?",
+    "pronunciation_guide": "mug-boo zug-joo new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1053.mp3"
+  },
+  {
+    "id": 1054,
+    "english": "I am full",
+    "amharic": "ጠገብኩ",
+    "romanized": "t'əgəbku",
+    "pronunciation_guide": "t'uh-guhb-koo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1054.mp3"
+  },
+  {
+    "id": 1055,
+    "english": "More please",
+    "amharic": "ተጨማሪ እባክህ",
+    "romanized": "təč'əmarə əbakəh",
+    "pronunciation_guide": "tuh-chuh-mah-ruh uh-bah-kuh",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1055.mp3"
+  },
+  {
+    "id": 1056,
+    "english": "No sugar please",
+    "amharic": "ስኳር አልፈልግም",
+    "romanized": "səkʷar alfələgəm",
+    "pronunciation_guide": "suh-kwar ahl-fuhl-guhm",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1056.mp3"
+  },
+  {
+    "id": 1057,
+    "english": "With milk please",
+    "amharic": "ከወተት ጋር እባክህ",
+    "romanized": "kəwətət gar əbakəh",
+    "pronunciation_guide": "kuh-wuh-tuht gahr uh-bah-kuh",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1057.mp3"
+  },
+  {
+    "id": 1058,
+    "english": "How much does this cost?",
+    "amharic": "ይሄ ስንት ነው?",
+    "romanized": "yəhe sənət nəw?",
+    "pronunciation_guide": "yuh-heh suhn-uht new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1058.mp3"
+  },
+  {
+    "id": 1059,
+    "english": "I want to try kitfo",
+    "amharic": "ክትፎ መሞከር እፈልጋለሁ",
+    "romanized": "kətfo məmokər əfələgalehu",
+    "pronunciation_guide": "kuht-foh muh-moh-kuhr uh-fuhl-gah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1059.mp3"
+  },
+  {
+    "id": 1060,
+    "english": "Is this spicy?",
+    "amharic": "ይሄ ቃሪ ነው?",
+    "romanized": "yəhe kʷarə nəw?",
+    "pronunciation_guide": "yuh-heh kwah-ruh new",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1060.mp3"
+  },
+  {
+    "id": 1061,
+    "english": "Not too spicy",
+    "amharic": "በጣም ቃሪ አይሁን",
+    "romanized": "bət'am kʷarə ayəhun",
+    "pronunciation_guide": "buh-tahm kwah-ruh ah-yuh-hoon",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1061.mp3"
+  },
+  {
+    "id": 1062,
+    "english": "Do you have vegetarian food?",
+    "amharic": "የቬጀቴሪያን ምግብ አለ?",
+    "romanized": "yəvejeterəyan məgb alə?",
+    "pronunciation_guide": "yuh-veh-jeh-teh-ree-yahn mug-ub ah-luh",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1062.mp3"
+  },
+  {
+    "id": 1063,
+    "english": "I want to eat breakfast",
+    "amharic": "ቁርስ መብላት እፈልጋለሁ",
+    "romanized": "kʷərs məblat əfələgalehu",
+    "pronunciation_guide": "kwurs muh-blaht uh-fuhl-gah-leh-hoo",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1063.mp3"
+  },
+  {
+    "id": 1064,
+    "english": "What is for dinner?",
+    "amharic": "ለእራት ምን አለ?",
+    "romanized": "ləərat mən alə?",
+    "pronunciation_guide": "luh-uh-raht muhn ah-luh",
+    "category": "food-phrase",
+    "audio_url": "/audio/food/1064.mp3"
+  },
+  {
+    "id": 1065,
+    "english": "I ate injera for breakfast",
+    "amharic": "ለቁርስ እንጀራ በላሁ",
+    "romanized": "ləkʷərs injera belahu",
+    "pronunciation_guide": "luh-kwurs in-jeh-rah beh-lah-hoo",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1065.mp3"
+  },
+  {
+    "id": 1066,
+    "english": "My favorite food is kitfo",
+    "amharic": "የምወደው ምግብ ክትፎ ነው",
+    "romanized": "yəməwədəw məgb kətfo nəw",
+    "pronunciation_guide": "yuh-muh-wuh-duhw mug-ub kuht-foh new",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1066.mp3"
+  },
+  {
+    "id": 1067,
+    "english": "We will eat dinner together",
+    "amharic": "አብረን እራት እንበላለን",
+    "romanized": "abrən ərat ənbəlalən",
+    "pronunciation_guide": "ah-bruhn uh-raht uhn-buh-lah-luhn",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1067.mp3"
+  },
+  {
+    "id": 1068,
+    "english": "She is cooking doro wat",
+    "amharic": "እሷ ዶሮ ወጥ ታበስላለች",
+    "romanized": "əswa doro wət' tabəslaleč",
+    "pronunciation_guide": "uh-swah doh-roh wuht tah-buhs-lah-luhch",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1068.mp3"
+  },
+  {
+    "id": 1069,
+    "english": "I drank coffee this morning",
+    "amharic": "ዛሬ ጠዋት ቡና ጠጣሁ",
+    "romanized": "zare t'əwat buna t'ət'ahu",
+    "pronunciation_guide": "zah-reh t'uh-waht boo-nah t'uh-t'ah-hoo",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1069.mp3"
+  },
+  {
+    "id": 1070,
+    "english": "They brought fresh bread",
+    "amharic": "ትኩስ ዳቦ አመጡ",
+    "romanized": "təkus dabo amət'u",
+    "pronunciation_guide": "tuh-koos dah-boh ah-muh-t'oo",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1070.mp3"
+  },
+  {
+    "id": 1071,
+    "english": "The restaurant serves Ethiopian food",
+    "amharic": "ሬስቶራንቱ የኢትዮጵያ ምግብ ያቀርባል",
+    "romanized": "restorantu yəitəyop'əya məgb yakʷərəbal",
+    "pronunciation_guide": "res-toh-rahn-too yuh-ee-tee-yoh-pyah mug-ub yah-kwuh-ruh-bahl",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1071.mp3"
+  },
+  {
+    "id": 1072,
+    "english": "I need to buy vegetables from the market",
+    "amharic": "ከገበያው ውጤት መግዛት አለብኝ",
+    "romanized": "kəgəbəyaw wət'et məgzat aləbəñ",
+    "pronunciation_guide": "kuh-guh-buh-yaw wuht-eht mug-zaht ah-luh-buhn",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1072.mp3"
+  },
+  {
+    "id": 1073,
+    "english": "The honey is very sweet",
+    "amharic": "ማሩ በጣም ጣፋጭ ነው",
+    "romanized": "maru bət'am t'afač' nəw",
+    "pronunciation_guide": "mah-roo buh-tahm t'ah-fahch new",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1073.mp3"
+  },
+  {
+    "id": 1074,
+    "english": "Can you pass me the salt?",
+    "amharic": "ጨውን ማስተላለፍ ትችላለህ?",
+    "romanized": "č'əwən mastəlaləf təč'əlaləh?",
+    "pronunciation_guide": "ch'ew-uhn mahs-tuh-lah-luhf tuh-chuh-lah-luh",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1074.mp3"
+  },
+  {
+    "id": 1075,
+    "english": "We are having a coffee ceremony",
+    "amharic": "የቡና ስነ ስርዓት እያደረግን ነው",
+    "romanized": "yəbuna sənə sərat əyadərəgən nəw",
+    "pronunciation_guide": "yuh-boo-nah suh-nuh suh-raht uh-yah-duh-ruh-guhn new",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1075.mp3"
+  },
+  {
+    "id": 1076,
+    "english": "My mother makes the best injera",
+    "amharic": "እናቴ በጣም ጥሩ እንጀራ ታዘጋጃለች",
+    "romanized": "ənate bət'am t'əru injera tazəgajaleč",
+    "pronunciation_guide": "uh-nah-teh buh-tahm t'uh-roo in-jeh-rah tah-zuh-gah-jah-luhch",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1076.mp3"
+  },
+  {
+    "id": 1077,
+    "english": "I learned how to cook shiro",
+    "amharic": "ሽሮ እንዴት እንደምታበስል ተማርኩ",
+    "romanized": "šəro əndət əndəmətabəsəl təmarku",
+    "pronunciation_guide": "shuh-roh uhn-deht uhn-duh-muh-tah-buh-suhl tuh-mahr-koo",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1077.mp3"
+  },
+  {
+    "id": 1078,
+    "english": "The fruit is ripe and ready to eat",
+    "amharic": "ፍራፍሬው ጎልተው ለመብላት ዝግጁ ነው",
+    "romanized": "fərafərew goltəw ləməblat zəgju nəw",
+    "pronunciation_guide": "fuh-rah-fuh-rew gohl-tew luh-muh-blaht zug-joo new",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1078.mp3"
+  },
+  {
+    "id": 1079,
+    "english": "He doesn't like spicy food",
+    "amharic": "እሱ ቃሪ ምግብ አይወድም",
+    "romanized": "əsu kʷarə məgb aywədəm",
+    "pronunciation_guide": "uh-soo kwah-ruh mug-ub ah-yuh-wuh-duhm",
+    "category": "food-sentence",
+    "audio_url": "/audio/food/1079.mp3"
+  }
+]

@@ -1,12 +1,12 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import { getVocabulary, submitGameScore, getGameHighScores } from '$lib/api.js';
   import AudioButton from '$lib/components/AudioButton.svelte';
 
   const GAME_DURATION = 60000; // 60 seconds
   const INITIAL_WORD_LIFETIME = 3000; // 3 seconds initially
   const MIN_WORD_LIFETIME = 1000; // Speed up to 1 second
-  const GRID_SIZE = 12; // 12 positions for words
+  const GRID_SIZE = 4; // 4 fixed positions for words
 
   // Game state
   let gameState = $state('start'); // 'start', 'playing', 'gameover'
@@ -28,6 +28,7 @@
   let spawnInterval = null;
   let wordLifetime = $state(INITIAL_WORD_LIFETIME);
   let errorMessage = $state('');
+  let feedbackAnimation = $state(null); // 'correct' or 'incorrect'
 
   // Difficulty settings
   const DIFFICULTY_SETTINGS = {
@@ -38,6 +39,25 @@
 
   onMount(async () => {
     await loadLeaderboard();
+  });
+
+  onDestroy(() => {
+    // Clean up intervals
+    if (gameInterval) {
+      clearInterval(gameInterval);
+      gameInterval = null;
+    }
+    if (spawnInterval) {
+      clearInterval(spawnInterval);
+      spawnInterval = null;
+    }
+
+    // Stop any playing audio
+    if (window.__amharicAudio) {
+      window.__amharicAudio.pause();
+      window.__amharicAudio.currentTime = 0;
+      window.__amharicAudio = null;
+    }
   });
 
   async function loadLeaderboard() {
@@ -79,7 +99,6 @@
 
       // Start game loop
       gameInterval = setInterval(updateGame, 100);
-      spawnInterval = setInterval(spawnWord, DIFFICULTY_SETTINGS[difficulty].initialSpawnRate);
 
       // Spawn first word immediately
       spawnWord();
@@ -102,23 +121,32 @@
     const speedFactor = Math.min(score / 500, 0.7); // Max 70% faster
     wordLifetime = INITIAL_WORD_LIFETIME - (INITIAL_WORD_LIFETIME - MIN_WORD_LIFETIME) * speedFactor;
 
-    // Remove expired words
-    const now = Date.now();
-    visibleWords = visibleWords.filter(w => {
-      if (now - w.spawnTime > wordLifetime) {
-        // Missed word - reset combo
+    // Check if current round has expired (check oldest word in the round)
+    if (visibleWords.length > 0) {
+      const oldestWord = visibleWords[0];
+      const now = Date.now();
+
+      if (now - oldestWord.spawnTime > wordLifetime) {
+        // Entire round expired - missed it, reset combo and clear all
         combo = 0;
-        return false;
+        visibleWords = [];
+
+        // Spawn new round immediately
+        if (gameState === 'playing') {
+          setTimeout(() => spawnWord(), 100);
+        }
       }
-      return true;
-    });
+    } else if (gameState === 'playing') {
+      // No words visible and game is playing - spawn new round
+      spawnWord();
+    }
   }
 
   function spawnWord() {
     if (gameState !== 'playing') return;
 
-    // Don't spawn if too many words already visible
-    if (visibleWords.length >= 4) return;
+    // Clear any existing words before spawning new round
+    visibleWords = [];
 
     // Pick a random target word
     const target = vocabulary[Math.floor(Math.random() * vocabulary.length)];
@@ -138,18 +166,10 @@
     // Shuffle all options
     const options = [target, ...distractors].sort(() => Math.random() - 0.5);
 
-    // Find available grid positions
-    const usedPositions = new Set(visibleWords.map(w => w.position));
-    const availablePositions = Array.from({ length: GRID_SIZE }, (_, i) => i)
-      .filter(pos => !usedPositions.has(pos));
-
-    if (availablePositions.length < 4) return; // Not enough space
-
-    // Assign positions to each option
-    const shuffledPositions = availablePositions.sort(() => Math.random() - 0.5);
+    // Assign fixed positions 0-3 (always use all 4 boxes)
     const newWords = options.map((word, i) => ({
       ...word,
-      position: shuffledPositions[i],
+      position: i, // Fixed positions 0, 1, 2, 3
       spawnTime: Date.now(),
       isTarget: word.id === target.id,
       roundId: Date.now() // Group words from same round
@@ -177,6 +197,9 @@
   function clickWord(word) {
     if (gameState !== 'playing') return;
 
+    // Show feedback animation
+    feedbackAnimation = word.isTarget ? 'correct' : 'incorrect';
+
     // Remove all words from this round
     const roundId = word.roundId;
     visibleWords = visibleWords.filter(w => w.roundId !== roundId);
@@ -198,12 +221,13 @@
       score = Math.max(0, score - 5); // Lose 5 points
     }
 
-    // Spawn next word after a short delay
+    // Clear feedback and spawn next word after delay
     setTimeout(() => {
+      feedbackAnimation = null;
       if (gameState === 'playing') {
         spawnWord();
       }
-    }, 300);
+    }, 600);
   }
 
   function endGame() {
@@ -221,6 +245,7 @@
     // Stop any playing audio
     if (window.__amharicAudio) {
       window.__amharicAudio.pause();
+      window.__amharicAudio.currentTime = 0;
     }
 
     // Submit score
@@ -251,15 +276,22 @@
 
   function resetGame() {
     gameState = 'start';
-    if (gameInterval) clearInterval(gameInterval);
-    if (spawnInterval) clearInterval(spawnInterval);
+    if (gameInterval) {
+      clearInterval(gameInterval);
+      gameInterval = null;
+    }
+    if (spawnInterval) {
+      clearInterval(spawnInterval);
+      spawnInterval = null;
+    }
     if (window.__amharicAudio) {
       window.__amharicAudio.pause();
+      window.__amharicAudio.currentTime = 0;
     }
   }
 
   function getGridPosition(position) {
-    const cols = 4;
+    const cols = 2; // Always 2x2 grid
     const row = Math.floor(position / cols);
     const col = position % cols;
     return { row, col };
@@ -402,6 +434,21 @@
         <span class="stat incorrect">✗ {incorrectCount}</span>
         <span class="stat">Max Combo: {maxCombo}x</span>
       </div>
+
+      <!-- Feedback Overlay -->
+      {#if feedbackAnimation}
+        <div class="feedback-overlay" class:correct={feedbackAnimation === 'correct'} class:incorrect={feedbackAnimation === 'incorrect'}>
+          <div class="feedback-content">
+            {#if feedbackAnimation === 'correct'}
+              <div class="feedback-icon">✓</div>
+              <div class="feedback-text">Correct!</div>
+            {:else}
+              <div class="feedback-icon">✗</div>
+              <div class="feedback-text">Wrong!</div>
+            {/if}
+          </div>
+        </div>
+      {/if}
     </div>
   {:else if gameState === 'gameover'}
     <div class="gameover-screen">
@@ -743,41 +790,39 @@
 
   .game-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 120px 120px;
     gap: 1rem;
-    min-height: 400px;
+    width: 592px;
+    height: 252px;
+    margin: 0 auto;
     padding: 1rem;
     background: var(--color-bg-surface);
     border-radius: 12px;
     border: 2px solid var(--color-border);
+    align-items: stretch;
+    justify-items: stretch;
   }
 
   .word-tile {
     position: relative;
-    padding: 1.5rem 1rem;
+    padding: 0;
+    margin: 0;
     border: 2px solid var(--color-border);
     border-radius: 12px;
     background: white;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s;
     overflow: hidden;
-    animation: pop-in 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-
-  @keyframes pop-in {
-    0% {
-      transform: scale(0);
-      opacity: 0;
-    }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
   }
 
   .word-tile:hover {
-    transform: scale(1.05);
     border-color: var(--color-accent-primary);
     box-shadow: 0 4px 12px rgba(233, 69, 96, 0.3);
   }
@@ -785,9 +830,15 @@
   .word-text {
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--color-text-heading);
+    color: #1a1a1a;
     position: relative;
     z-index: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 1rem;
   }
 
   .word-timer {
@@ -827,6 +878,94 @@
 
   .stat.incorrect {
     color: var(--color-accent-primary);
+  }
+
+  /* Feedback Overlay */
+  .feedback-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    animation: fadeInOut 0.6s ease-in-out;
+  }
+
+  .feedback-overlay.correct {
+    background: rgba(16, 185, 129, 0.2);
+  }
+
+  .feedback-overlay.incorrect {
+    background: rgba(233, 69, 96, 0.2);
+  }
+
+  .feedback-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    animation: scaleIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .feedback-icon {
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .feedback-overlay.correct .feedback-icon {
+    color: var(--color-accent-green);
+  }
+
+  .feedback-overlay.incorrect .feedback-icon {
+    color: var(--color-accent-primary);
+  }
+
+  .feedback-text {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .feedback-overlay.correct .feedback-text {
+    color: var(--color-accent-green);
+  }
+
+  .feedback-overlay.incorrect .feedback-text {
+    color: var(--color-accent-primary);
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes scaleIn {
+    0% {
+      transform: scale(0) rotate(-180deg);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2) rotate(10deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+    }
   }
 
   /* Game Over Screen */
@@ -978,9 +1117,18 @@
     }
 
     .game-grid {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(4, 1fr);
-      min-height: 500px;
+      grid-template-columns: 240px 240px;
+      grid-template-rows: 110px 110px;
+      width: 512px;
+      height: 232px;
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    .word-text {
+      font-size: 1rem;
+      line-height: 1.3;
+      padding: 1rem 0.75rem;
     }
 
     .stats-grid {
@@ -989,25 +1137,41 @@
 
     .game-header {
       flex-wrap: wrap;
+      gap: 1rem;
     }
   }
 
   @media (max-width: 480px) {
-    .game-grid {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      gap: 0.75rem;
-      padding: 0.75rem;
-      min-height: 550px;
+    .whack-a-word-page {
+      padding: 1rem 0.75rem;
     }
 
-    .word-tile {
-      padding: 1.25rem 0.75rem;
-      min-height: 70px;
+    .game-screen {
+      gap: 1rem;
+    }
+
+    .game-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px;
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      gap: 0.5rem;
+      padding: 0.5rem;
     }
 
     .word-text {
-      font-size: 1rem;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      padding: 0.75rem 0.5rem;
+    }
+
+    .feedback-icon {
+      font-size: 5rem;
+    }
+
+    .feedback-text {
+      font-size: 2rem;
     }
 
     .amharic-text {
@@ -1016,6 +1180,21 @@
 
     .romanized-text {
       font-size: 1.1rem;
+    }
+
+    .audio-prompt {
+      padding: 1rem 0.75rem;
+    }
+
+    .game-header {
+      padding: 0.75rem;
+      gap: 0.5rem;
+    }
+
+    .stats-bar {
+      padding: 0.75rem;
+      gap: 1rem;
+      flex-wrap: wrap;
     }
 
     .game-header {
@@ -1028,6 +1207,37 @@
     }
 
     .timer-value {
+      font-size: 1.5rem;
+    }
+  }
+
+  /* Extra small phones - for very long sentences */
+  @media (max-width: 360px) {
+    .whack-a-word-page {
+      padding: 0.75rem 0.5rem;
+    }
+
+    .game-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 90px 90px;
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      gap: 0.4rem;
+      padding: 0.4rem;
+    }
+
+    .word-text {
+      font-size: 0.75rem;
+      line-height: 1.2;
+      padding: 0.5rem 0.3rem;
+    }
+
+    .feedback-icon {
+      font-size: 4rem;
+    }
+
+    .feedback-text {
       font-size: 1.5rem;
     }
   }

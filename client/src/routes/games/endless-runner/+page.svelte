@@ -258,21 +258,26 @@
     for (const obstacle of obstacles) {
       if (obstacle.hit) continue;
 
+      // Define hitboxes with tighter bounds
       const obstacleLeft = obstacle.x;
       const obstacleRight = obstacle.x + obstacle.width;
-      const playerLeft = PLAYER_X;
-      const playerRight = PLAYER_X + 50;
-      const playerBottom = 80 + playerY;
+      const obstacleBottom = 80; // Ground level
       const obstacleTop = 80 + 50; // Obstacles are ~50px tall
+
+      const playerLeft = PLAYER_X + 10; // Inset by 10px for tighter collision
+      const playerRight = PLAYER_X + 40; // Player is ~50px wide, inset by 10px
+      const playerBottom = 80 + playerY;
+      const playerTop = playerBottom + 50; // Player is ~50px tall
 
       // Check if player overlaps with obstacle horizontally
       const horizontalOverlap =
         playerRight > obstacleLeft && playerLeft < obstacleRight;
 
-      // Check if player is low enough to collide (not jumping over)
-      const verticalCollision = playerBottom < obstacleTop + 30;
+      // Check if player overlaps with obstacle vertically (both must be true for collision)
+      const verticalOverlap =
+        playerBottom < obstacleTop && playerTop > obstacleBottom;
 
-      if (horizontalOverlap && verticalCollision) {
+      if (horizontalOverlap && verticalOverlap) {
         handleCollision(obstacle);
         break;
       }
@@ -362,6 +367,10 @@
   function resumeAfterQuestion() {
     currentQuestion = null;
     collidedObstacle = null;
+
+    // Clear all obstacles on screen to give player a fresh start
+    obstacles = [];
+    nextObstacleDistance = distance + 200; // Spawn next obstacle after a safe distance
 
     // Reset player to ground position
     playerY = GROUND_Y;
@@ -1192,6 +1201,7 @@
     font-size: 4rem;
     filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.4));
     animation: run 0.4s steps(4) infinite;
+    transform: scaleX(-1);
   }
 
   .player.jumping .character {
@@ -1201,28 +1211,28 @@
   @keyframes run {
     0%,
     100% {
-      transform: translateY(0);
+      transform: scaleX(-1) translateY(0);
     }
     50% {
-      transform: translateY(-4px);
+      transform: scaleX(-1) translateY(-4px);
     }
   }
 
   @keyframes jumpRotate {
     0% {
-      transform: rotate(0deg) scale(1);
+      transform: scaleX(-1) rotate(0deg) scale(1);
     }
     25% {
-      transform: rotate(-10deg) scale(1.1);
+      transform: scaleX(-1) rotate(-10deg) scale(1.1);
     }
     50% {
-      transform: rotate(-5deg) scale(1.15);
+      transform: scaleX(-1) rotate(-5deg) scale(1.15);
     }
     75% {
-      transform: rotate(5deg) scale(1.1);
+      transform: scaleX(-1) rotate(5deg) scale(1.1);
     }
     100% {
-      transform: rotate(0deg) scale(1);
+      transform: scaleX(-1) rotate(0deg) scale(1);
     }
   }
 

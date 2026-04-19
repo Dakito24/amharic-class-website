@@ -1,0 +1,83 @@
+Audio files needed for food vocabulary:
+
+Filename	English	Romanized	Pronunciation
+vocab-1074.mp3	tomato	timatim	tee-mah-TEEM
+vocab-1075.mp3	onion	shinkurt	shin-KOORT
+vocab-1076.mp3	potato	dinich	dee-NEECH
+vocab-1077.mp3	carrot	karot	kah-ROHT
+vocab-1078.mp3	cabbage	gomen	goh-MEN
+vocab-1079.mp3	garlic	nech shinkurt	nech shin-KOORT
+vocab-1080.mp3	pepper	berbere	ber-beh-REH
+vocab-1081.mp3	lettuce	selata	seh-LAH-tah
+vocab-1082.mp3	banana	muz	MOOZ
+vocab-1083.mp3	orange	birtukan	beer-too-KAHN
+vocab-1084.mp3	apple	pom	POHM
+vocab-1085.mp3	mango	mango	MAHN-goh
+vocab-1086.mp3	papaya	papaya	pah-PAH-yah
+vocab-1087.mp3	avocado	avokado	ah-voh-KAH-doh
+vocab-1088.mp3	lemon	lomi	LOH-mee
+vocab-1089.mp3	grape	weyn	WAYN
+vocab-1090.mp3	teff	t'ef	TEFF
+vocab-1091.mp3	wheat	sinde	SIN-deh
+vocab-1092.mp3	barley	gebs	GEBS
+vocab-1093.mp3	rice	ruz	ROOZ
+vocab-1094.mp3	cheese	ayib	AH-yeeb
+vocab-1095.mp3	butter	qibe	KEE-beh
+vocab-1096.mp3	yogurt	irgo	EER-goh
+vocab-1097.mp3	tea	shay	SHAY
+vocab-1098.mp3	juice	chimaqi	chee-MAH-kee
+vocab-1099.mp3	beer	bira	BEE-rah
+vocab-1100.mp3	wine	weyn	WAYN
+vocab-1101.mp3	honey	mar	MAHR
+vocab-1102.mp3	sugar	sukwar	soo-KWAHR
+vocab-1103.mp3	salt	chew	CHEW
+vocab-1104.mp3	oil	zeyt	ZAYT
+vocab-1105.mp3	spice	qimem	kee-MEM
+vocab-1106.mp3	breakfast	qurs	KOORS
+vocab-1107.mp3	lunch	misa	MEE-sah
+vocab-1108.mp3	dinner	irat	ee-RAHT
+vocab-1109.mp3	snack	mekses	mek-SES
+vocab-1110.mp3	hot (temperature)	muq	MOOK
+vocab-1111.mp3	cold (temperature)	qezqaza	kez-KAH-zah
+vocab-1112.mp3	spicy	qari	KAH-ree
+vocab-1113.mp3	sweet	t'afach	TAH-fatch
+vocab-1114.mp3	sour	merara	meh-RAH-rah
+vocab-1115.mp3	fresh	tikus	tee-KOOS
+vocab-1116.mp3	delicious	t'afach	TAH-fatch
+vocab-1117.mp3	I am hungry	rabɨñ	rah-BUN
+vocab-1118.mp3	I am very hungry	betam rabɨñ	beh-TAHM rah-BUN
+vocab-1119.mp3	This is delicious	yih t'afach new	YEE TAH-fatch NEW
+vocab-1120.mp3	Can I have water?	wuha mageñet ichilalehu?	WOO-hah mah-GHEN-yet ee-chee-LAH-leh-hoo
+vocab-1121.mp3	I would like coffee	buna ifelgalehu	BOO-nah ee-fel-GAH-leh-hoo
+vocab-1122.mp3	Please bring tea	ibakwo shay yimitu	ee-BAH-kwoh SHAY yee-MEE-too
+vocab-1123.mp3	Do you have food?	migib aleh?	mee-GEEB ah-LEH
+vocab-1124.mp3	What is this food called?	yih migib min yibalal?	YEE mee-GEEB MEEN yee-bah-LAHL
+vocab-1125.mp3	It is too spicy	betam qari new	beh-TAHM KAH-ree NEW
+vocab-1126.mp3	I don't eat meat	siga albelam	SEE-gah ahl-beh-LAHM
+vocab-1127.mp3	I am vegetarian	siga albelam	SEE-gah ahl-beh-LAHM
+vocab-1128.mp3	I am fasting	tsom itsomalehu	TSOHM ee-tsoh-MAH-leh-hoo
+vocab-1129.mp3	The food is ready	migibu zigiju new	mee-GEE-boo zee-GEE-joo NEW
+vocab-1130.mp3	Enjoy your meal	yiblalu	yee-blah-LOO
+vocab-1131.mp3	I ate injera for breakfast	leqirs injera belahu	leh-KOORS een-JEH-rah beh-LAH-hoo
+vocab-1132.mp3	My favorite food is kitfo	yemiwedew migib kitfo new	yeh-mee-WEH-dew mee-GEEB KEET-foh NEW
+vocab-1133.mp3	I like Ethiopian food	ye'itiyop'iya migib iwedalehu	yeh-ee-tyoh-PEE-yah mee-GEEB ee-weh-DAH-leh-hoo
+vocab-1134.mp3	Let's eat together	abren inbila	ah-BREN een-BEE-lah
+vocab-1135.mp3	Pass me the salt please	ibakh chewun awitaliñ	ee-BAHK chew-OON ah-wee-TAH-leen
+vocab-1136.mp3	More water please	ibakh techemari wuha	ee-BAHK teh-cheh-MAH-ree WOO-hah
+vocab-1137.mp3	I am full	tegebku	teh-GEB-koo
+vocab-1138.mp3	Thank you for the meal	lemigibu amesegnalehu	leh-mee-GEE-boo ah-meh-seg-NAH-leh-hoo
+vocab-1139.mp3	Where is the restaurant?	migib betu yet new?	mee-GEEB BEH-too YET NEW
+vocab-1140.mp3	How much is this?	yih sint new?	YEE SINT NEW
+vocab-1141.mp3	I will have the same	temesasay iwesdalehu	teh-meh-SAH-say ee-wes-DAH-leh-hoo
+vocab-1142.mp3	No sugar in my coffee	bebunaye wisit sukwar ayasfelegegnm	beh-boo-NAH-yeh WEE-seet soo-KWAHR ah-yahs-feh-LEG-egnm
+vocab-1143.mp3	With milk please	ibakh kewetet gar	ee-BAHK keh-weh-TET GAHR
+vocab-1144.mp3	I don't like onions	shinkurt alwedm	shin-KOORT ahl-WEDM
+vocab-1145.mp3	Can you make it without pepper?	yale berbere mazegajet tichihaleh?	YAH-leh ber-beh-REH mah-zeh-GAH-jet tee-chee-HAH-leh
+vocab-1146.mp3	This tastes good	yih tam t'afach new	YEE TAHM TAH-fatch NEW
+vocab-1147.mp3	I am allergic to nuts	lelewz alerji alebign	leh-leh-WOOZ ah-LER-jee ah-LEH-been
+vocab-1148.mp3	Do you want more?	techemari tifelgaleh?	teh-cheh-MAH-ree tee-fel-GAH-leh
+vocab-1149.mp3	Yes, please give me more	awo, ibakh techemari sitiñ	ah-WOH ee-BAHK teh-cheh-MAH-ree SEE-teen
+vocab-1150.mp3	No thank you, I am full	ay amesegnalehu, tegebku	AY ah-meh-seg-NAH-leh-hoo teh-GEB-koo
+vocab-1151.mp3	Let's have coffee	buna inte'ta	BOO-nah een-TEH-tah
+vocab-1152.mp3	I need a knife and fork	bilawa ina shuka ifelgalehu	bee-LAH-wah EE-nah SHOO-kah ee-fel-GAH-leh-hoo
+vocab-1153.mp3	The bill please	ibakh hisabun	ee-BAHK hee-SAH-boon
